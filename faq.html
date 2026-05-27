@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>FAQ — PainFree Philippines Investor Site</title>
+  <meta name="description" content="Every question a serious Philippine clinic investor asks about the PainFree PEMF opportunity — answered honestly."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); color: var(--ink); background: var(--white); line-height: 1.6; overflow-x: hidden; }
+    :root {
+      --navy:#06111F; --navy-2:#0B1C30; --navy-3:#122440;
+      --teal:#00B4D8; --teal-d:#0096B7; --gold:#F59E0B;
+      --white:#FFFFFF; --off-white:#F7F9FC; --light:#EEF3F8;
+      --ink:#0F1F30; --ink-2:#2D4257; --muted:#637083;
+      --border:#D4DDE8; --font:'Inter',system-ui,-apple-system,sans-serif; --r:10px;
+    }
+    h1,h2,h3 { line-height:1.2; }
+    em { font-style:italic; }
+    a { text-decoration:none; color:inherit; }
+    .container { width:100%; max-width:1160px; margin:0 auto; padding:0 24px; }
+
+    /* NAV */
+    #nav {
+      position:fixed; top:0; left:0; right:0; z-index:200;
+      padding:14px 0;
+      background:rgba(6,17,31,.95);
+      backdrop-filter:blur(14px);
+      box-shadow:0 1px 0 rgba(255,255,255,.06);
+      transition:padding .3s, background .3s;
+    }
+    #nav.sc { background:rgba(6,17,31,.99); padding:10px 0; }
+    .nav-row { display:flex; align-items:center; justify-content:space-between; }
+    .logo { display:flex; align-items:center; text-decoration:none; background:#fff; border-radius:8px; padding:5px 14px; flex-shrink:0; }
+    .logo-img { height:36px; width:auto; max-width:180px; object-fit:contain; display:block; }
+    .nav-links { display:flex; gap:8px; list-style:none; }
+    .nav-links a {
+      display:inline-flex; align-items:center;
+      padding:8px 18px; min-height:38px;
+      color:rgba(255,255,255,.85); text-decoration:none;
+      font-size:.875rem; font-weight:500;
+      border:1px solid rgba(255,255,255,.15); border-radius:100px;
+      transition:background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color:#fff; background:rgba(255,255,255,.1); border-color:rgba(255,255,255,.35); }
+    .nav-btn {
+      display:inline-flex; align-items:center; gap:7px;
+      padding:10px 22px; min-height:44px;
+      background:var(--teal); color:#fff; border:none; border-radius:var(--r);
+      font-size:.875rem; font-weight:700; text-decoration:none; cursor:pointer;
+      transition:background .2s, transform .2s;
+    }
+    .nav-btn:hover { background:var(--teal-d); transform:translateY(-1px); }
+
+    /* REVEAL */
+    .reveal { opacity:0; transform:translateY(24px); transition:opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity:1; transform:none; }
+    .d1 { transition-delay:.1s; } .d2 { transition-delay:.2s; } .d3 { transition-delay:.3s; }
+    @media (prefers-reduced-motion:reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* HERO */
+    .hero {
+      background:linear-gradient(160deg,var(--navy) 0%,var(--navy-3) 60%,#0d2a4a 100%);
+      padding:148px 0 88px; text-align:center; position:relative; overflow:hidden;
+    }
+    .hero::before {
+      content:''; position:absolute; top:-120px; right:-120px;
+      width:560px; height:560px;
+      background:radial-gradient(circle,rgba(0,180,216,.12) 0%,transparent 70%);
+      pointer-events:none;
+    }
+    .hero-badge {
+      display:inline-flex; align-items:center; gap:8px;
+      padding:6px 16px; background:rgba(0,180,216,.15);
+      border:1px solid rgba(0,180,216,.35); border-radius:100px;
+      font-size:12px; font-weight:600; color:var(--teal);
+      letter-spacing:.08em; text-transform:uppercase; margin-bottom:24px;
+    }
+    .hero h1 { font-size:clamp(36px,6vw,62px); font-weight:800; color:#fff; margin-bottom:22px; letter-spacing:-.02em; }
+    .hero h1 em { color:var(--teal); }
+    .hero-sub { font-size:clamp(16px,2.5vw,19px); color:rgba(255,255,255,.68); max-width:620px; margin:0 auto; line-height:1.65; }
+
+    /* FAQ SECTION */
+    .faq-section { background:var(--off-white); padding:80px 0 96px; }
+    .section-label { font-size:11.5px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--teal-d); margin-bottom:12px; text-align:center; }
+    .section-title { font-size:clamp(26px,4vw,38px); font-weight:800; color:var(--ink); text-align:center; margin-bottom:8px; letter-spacing:-.02em; }
+    .section-sub { text-align:center; color:var(--muted); font-size:16px; margin-bottom:56px; max-width:520px; margin-left:auto; margin-right:auto; }
+
+    /* ACCORDION GRID */
+    .faq-grid { display:grid; grid-template-columns:1fr 1fr; gap:0 32px; align-items:start; }
+
+    /* DETAILS/SUMMARY */
+    details.faq-item { border-bottom:1px solid var(--border); background:var(--white); transition:background .25s; }
+    details.faq-item[open] { background:rgba(0,180,216,.04); }
+    .faq-col > details.faq-item:first-child { border-top:1px solid var(--border); }
+
+    details.faq-item summary {
+      list-style:none; display:flex; align-items:center; justify-content:space-between;
+      gap:12px; padding:20px 20px 20px 0; cursor:pointer;
+      font-size:15.5px; font-weight:600; color:var(--ink);
+      min-height:48px; user-select:none; -webkit-user-select:none;
+    }
+    details.faq-item summary::-webkit-details-marker { display:none; }
+    details.faq-item summary::marker { display:none; }
+    .summary-q { flex:1; padding-right:8px; line-height:1.4; }
+    .summary-icon {
+      flex-shrink:0; width:28px; height:28px; border-radius:50%;
+      background:var(--light); display:flex; align-items:center; justify-content:center;
+      transition:background .25s, transform .3s;
+    }
+    .summary-icon svg { width:14px; height:14px; stroke:var(--teal-d); transition:transform .3s ease; }
+    details.faq-item[open] .summary-icon { background:rgba(0,180,216,.15); }
+    details.faq-item[open] .summary-icon svg { transform:rotate(180deg); }
+
+    .faq-answer {
+      padding:0 0 22px 16px; font-size:14.5px; color:var(--ink-2);
+      line-height:1.72; border-left:3px solid var(--teal);
+    }
+    .faq-answer p + p { margin-top:10px; }
+
+    /* CTA SECTION */
+    .cta-section {
+      background:linear-gradient(135deg,var(--navy) 0%,var(--navy-3) 100%);
+      padding:88px 0; text-align:center; position:relative; overflow:hidden;
+    }
+    .cta-badge {
+      display:inline-flex; align-items:center; gap:8px;
+      padding:6px 16px; background:rgba(0,180,216,.15);
+      border:1px solid rgba(0,180,216,.3); border-radius:100px;
+      font-size:11.5px; font-weight:700; color:var(--teal);
+      letter-spacing:.10em; text-transform:uppercase; margin-bottom:22px;
+    }
+    .cta-section h2 { font-size:clamp(28px,5vw,46px); font-weight:800; color:#fff; margin-bottom:14px; letter-spacing:-.02em; }
+    .cta-section p { font-size:17px; color:rgba(255,255,255,.65); max-width:480px; margin:0 auto 40px; line-height:1.6; }
+    .cta-btns { display:flex; align-items:center; justify-content:center; gap:16px; flex-wrap:wrap; }
+    .btn-wa {
+      display:inline-flex; align-items:center; gap:10px;
+      padding:14px 28px; background:#25D366; color:#fff;
+      font-size:15px; font-weight:700; border-radius:var(--r);
+      transition:background .2s, transform .15s, box-shadow .2s;
+      box-shadow:0 4px 20px rgba(37,211,102,.3);
+    }
+    .btn-wa:hover { background:#1ebe5d; transform:translateY(-2px); box-shadow:0 8px 28px rgba(37,211,102,.4); }
+    .btn-brief {
+      display:inline-flex; align-items:center; gap:8px;
+      padding:14px 28px; background:transparent; color:#fff;
+      font-size:15px; font-weight:600; border-radius:var(--r);
+      border:2px solid rgba(255,255,255,.3);
+      transition:background .2s, border-color .2s, transform .15s;
+    }
+    .btn-brief:hover { background:rgba(255,255,255,.08); border-color:rgba(255,255,255,.55); transform:translateY(-2px); }
+
+    /* FOOTER */
+    footer { background:var(--navy); border-top:1px solid rgba(255,255,255,.06); padding:44px 0 32px; }
+    .footer-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px; }
+    .footer-copy { font-size:.82rem; color:rgba(255,255,255,.3); }
+    .footer-certs { display:flex; gap:10px; }
+    .fcert { padding:5px 11px; background:rgba(0,180,216,.08); border:1px solid rgba(0,180,216,.15); border-radius:5px; font-size:.72rem; font-weight:700; color:var(--teal); letter-spacing:.06em; }
+    .footer-links { display:flex; gap:20px; }
+    .footer-links a { font-size:.82rem; color:rgba(255,255,255,.3); text-decoration:none; transition:color .2s; }
+    .footer-links a:hover { color:rgba(255,255,255,.7); }
+
+    /* WHATSAPP FLOAT */
+    .wa-float { position:fixed; bottom:28px; right:28px; z-index:300; width:56px; height:56px; background:#25D366; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 20px rgba(37,211,102,.5); text-decoration:none; transition:transform .2s, box-shadow .2s; }
+    .wa-float:hover { transform:scale(1.1); box-shadow:0 6px 28px rgba(37,211,102,.65); }
+
+    /* RESPONSIVE */
+    @media (max-width:820px) {
+      .faq-grid { grid-template-columns:1fr; gap:0; }
+      .nav-links { display:none; }
+      .hero { padding:120px 0 72px; }
+      .faq-section { padding:60px 0 72px; }
+      .cta-section { padding:64px 0; }
+      details.faq-item summary { font-size:15px; padding:18px 16px 18px 0; }
+      .faq-answer { font-size:14px; }
+    }
+    @media (max-width:480px) {
+      .nav-btn { display:none; }
+      .wa-float { bottom:20px; right:20px; }
+      .cta-btns { flex-direction:column; align-items:stretch; }
+      .btn-wa, .btn-brief { justify-content:center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" class="logo-img" alt="PainFree Philippines"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="faq.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">FAQ</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">Request Brief <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge reveal">Investor FAQ</div>
+    <h1 class="reveal d1">Every Question.<br/><em>Answered Honestly.</em></h1>
+    <p class="hero-sub reveal d2">We know you're skeptical. Good. Here are the questions every serious Philippine investor asks — and the honest answers.</p>
+  </div>
+</section>
+
+<section class="faq-section">
+  <div class="container">
+    <p class="section-label reveal">12 Questions</p>
+    <h2 class="section-title reveal d1">Straight Answers, No Spin</h2>
+    <p class="section-sub reveal d2">Click any question to expand the full answer.</p>
+
+    <div class="faq-grid">
+
+      <div class="faq-col">
+        <details class="faq-item reveal">
+          <summary><span class="summary-q">Is this approved by the Philippine FDA (FDA-PH)?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">The PainFree PEMF system holds FDA 510(k) clearance (United States), CE Mark (European Union), and approval from the Israeli Ministry of Health — three of the most rigorous medical device regulatory frameworks in the world. Philippine FDA registration is currently in process. In the meantime, the device is legally importable for use in licensed medical clinics under existing Philippine medical device regulations. We are transparent about where registration stands and will keep partners updated.</div>
+        </details>
+        <details class="faq-item reveal d1">
+          <summary><span class="summary-q">What exactly am I buying — a machine, a franchise, or a license?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">You are purchasing the medical device itself, along with a clinic partnership agreement that includes: complete clinical protocols, staff training, patient acquisition support, marketing materials, and ongoing technical support. You operate the equipment in your own clinic under your own business. This is not a franchise in the traditional sense — there are no ongoing royalty fees. You own the machine and the revenue it generates.</div>
+        </details>
+        <details class="faq-item reveal d2">
+          <summary><span class="summary-q">What is the minimum investment?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">The total investment includes the device, shipping, installation, staff training, and initial marketing materials. Investment ranges start from approximately ₱1.5M depending on configuration. We do not publish a fixed price publicly because the right configuration depends on your clinic's specific needs, volume, and setup. The full investment brief — which you can request through our form — includes a complete line-item breakdown.</div>
+        </details>
+        <details class="faq-item reveal d3">
+          <summary><span class="summary-q">What happens after I fill out the inquiry form?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">Three things, in order: (1) You receive a confirmation within 24 hours — a real person, not a bot. (2) We schedule a 30-minute introductory call to understand your clinic and answer your specific questions. (3) We send you the full investment brief: device specs, ROI model built around your actual numbers, setup timeline, support structure, and financing options. No commitment is required at any stage.</div>
+        </details>
+        <details class="faq-item reveal">
+          <summary><span class="summary-q">How long until the machine pays for itself?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">At 8 sessions/day at ₱2,500/session (conservative), monthly revenue is approximately ₱520,000. At that rate, a ₱1.5M investment has a payback period of roughly 3 months. Use the ROI calculator on our homepage to model your own assumptions. Even conservative scenarios (5 sessions/day at ₱1,800) show payback within 5–6 months.</div>
+        </details>
+        <details class="faq-item reveal d1">
+          <summary><span class="summary-q">Is there an ongoing royalty or fee after I buy the machine?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">No ongoing royalty fees. You own the machine outright. Revenue from every session is yours. We offer optional ongoing support packages for marketing and clinical protocol updates, but these are not mandatory and not a condition of the partnership.</div>
+        </details>
+      </div>
+
+      <div class="faq-col">
+        <details class="faq-item reveal">
+          <summary><span class="summary-q">Do I need a doctor or medical staff to operate it?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">PEMF sessions are non-invasive and do not require operator supervision during treatment. A trained clinic attendant can manage sessions once the device is set up. However, we recommend that a licensed physiotherapist or physician conduct the initial patient assessment and treatment protocol design. Our training covers all of this.</div>
+        </details>
+        <details class="faq-item reveal d1">
+          <summary><span class="summary-q">Has this been used in the Philippines before?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">PainFree PEMF has been operating in 70+ clinics in Israel for 25 years — serving a population of 9 million. We are now bringing this proven system to the Philippines for the first time. We understand that being first-to-market means we need to earn trust with evidence, not just claims — which is why we share published clinical data, medical authority letters, and a transparent investment structure. The first Philippine clinic partners will have our full operational support.</div>
+        </details>
+        <details class="faq-item reveal d2">
+          <summary><span class="summary-q">What if the device breaks or needs servicing?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">The PainFree PEMF system has an exceptional reliability record across 25+ years of clinic use. In the event of a technical issue: remote diagnostics are available immediately, on-site service is arranged within a defined SLA, and replacement parts are maintained in stock. Full warranty terms are included in the investment brief.</div>
+        </details>
+        <details class="faq-item reveal d3">
+          <summary><span class="summary-q">Can I see the device operating before I commit?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">Yes. We can arrange a remote demonstration (video call with live device operation) or, for serious investors, a site visit to an operating clinic. This is the right thing to do for a decision of this size. Request a demo through the inquiry form or WhatsApp us directly at +63 962-181-1360.</div>
+        </details>
+        <details class="faq-item reveal">
+          <summary><span class="summary-q">Will I be competing with other PEMF clinics in my area?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">We work with a limited number of partners per city. We discuss your specific location and market during the introductory call and are transparent about whether other clinics are operating or planned nearby. We are not interested in saturating any market — our clinic partners' success is our success.</div>
+        </details>
+        <details class="faq-item reveal d1">
+          <summary><span class="summary-q">Why is this 25-year-old Israeli technology only reaching the Philippines now?</span><span class="summary-icon" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l5 5 5-5"/></svg></span></summary>
+          <div class="faq-answer">The technology is not new — PEMF has been in clinical use worldwide since the 1970s, and PainFree's specific system has operated in Israel since 1999. The Philippines expansion is deliberate and timed to the growing private healthcare sector. Direct answer: we are expanding now because private clinic infrastructure, patient willingness to pay cash for non-surgical pain treatment, and the regulatory environment are all at an inflection point. First-mover advantage in your city is real.</div>
+        </details>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-badge reveal">Still Have Questions?</div>
+    <h2 class="reveal d1">Talk to a real person.</h2>
+    <p class="reveal d2">The investment brief goes deeper on every topic — ROI model, device specs, setup timeline, and full warranty. No commitment. No pressure.</p>
+    <div class="cta-btns reveal d3">
+      <a href="https://wa.me/639621811360?text=Hi%2C%20I%20have%20a%20question%20about%20the%20PainFree%20PEMF%20opportunity%20in%20the%20Philippines" class="btn-wa" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us Now
+      </a>
+      <a href="index.html#inquire" class="btn-brief">Request the Investment Brief <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="faq.html">FAQ</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

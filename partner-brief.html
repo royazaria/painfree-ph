@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="PainFree Philippines — Partner Brief. A simple, honest overview for your spouse or business partner."/>
+  <title>PainFree Philippines — Para sa Iyong Partner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: #F5F7FA; color: #1A2535; line-height: 1.6; min-height: 100vh; }
+
+    .page-shell { max-width: 480px; margin: 0 auto; background: #ffffff; box-shadow: 0 0 0 1px rgba(0,0,0,.06), 0 4px 24px rgba(0,0,0,.08); }
+
+    /* HEADER */
+    .site-header { background: #06111F; padding: 14px 20px; display: flex; align-items: center; justify-content: center; }
+    .logo-pill { background: #fff; border-radius: 8px; padding: 5px 14px; display: flex; align-items: center; justify-content: center; }
+    .logo-pill img { height: 36px; width: auto; display: block; }
+
+    /* BILINGUAL BADGE */
+    .bilingual-badge-wrap { background: #fff; padding: 20px 20px 0; }
+    .bilingual-badge { display: inline-flex; align-items: center; gap: 6px; background: #E0F7FC; color: #007A96; border-radius: 50px; padding: 6px 14px; font-size: 13px; font-weight: 600; border: 1px solid #B2EBF7; }
+    .bilingual-badge .dot { width: 7px; height: 7px; background: #00B4D8; border-radius: 50%; flex-shrink: 0; }
+
+    /* HERO */
+    .hero { background: #06111F; padding: 28px 24px 32px; }
+    .hero-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: #00B4D8; margin-bottom: 8px; }
+    .hero h1 { font-size: 28px; font-weight: 900; color: #fff; line-height: 1.15; margin-bottom: 6px; letter-spacing: -.02em; }
+    .hero h1 .fil { display: block; font-size: 18px; font-weight: 600; color: #8FB8D4; margin-bottom: 4px; }
+    .hero-body { font-size: 15.5px; color: #C8DAEA; line-height: 1.65; margin-top: 14px; }
+    .hero-body strong { color: #fff; font-weight: 700; }
+
+    /* SECTIONS */
+    .section { padding: 28px 20px; }
+    .section + .section { border-top: 1px solid #EDF0F4; }
+    .section.shaded { background: #F5F7FA; }
+    .section-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: #00B4D8; margin-bottom: 6px; }
+    .section-title { font-size: 21px; font-weight: 800; color: #1A2535; line-height: 1.2; letter-spacing: -.02em; margin-bottom: 4px; }
+    .section-title .fil { display: block; font-size: 14px; font-weight: 500; color: #637083; margin-top: 2px; letter-spacing: 0; text-transform: none; }
+
+    /* STAT CARDS */
+    .stat-cards { display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
+    .stat-card { background: #fff; border: 1px solid #E4E9EF; border-radius: 12px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); display: flex; align-items: flex-start; gap: 16px; }
+    .stat-card-number { font-size: 30px; font-weight: 900; color: #00B4D8; line-height: 1; letter-spacing: -.03em; white-space: nowrap; flex-shrink: 0; min-width: 100px; }
+    .stat-card-text { padding-top: 2px; }
+    .stat-card-title { font-size: 14px; font-weight: 700; color: #1A2535; line-height: 1.3; }
+    .stat-card-sub { font-size: 12.5px; color: #637083; margin-top: 3px; line-height: 1.4; }
+
+    /* CHECKLIST */
+    .check-list { list-style: none; margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+    .check-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 14.5px; color: #1A2535; line-height: 1.45; }
+    .check-list li .icon { width: 22px; height: 22px; background: #E0F7FC; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .check-list li .icon svg { width: 12px; height: 12px; }
+    .check-list li strong { font-weight: 700; color: #1A2535; }
+    .check-list li .sub { display: block; font-size: 12px; color: #637083; margin-top: 1px; }
+
+    /* HONEST NOTE */
+    .honest-note { margin-top: 18px; background: #FFF8E1; border: 1px solid #FFE082; border-radius: 10px; padding: 14px 16px; font-size: 13px; color: #5D4037; line-height: 1.55; }
+    .honest-note strong { font-weight: 700; color: #3E2723; }
+
+    /* BADGE ROW */
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; margin-bottom: 6px; }
+    .badge { background: #fff; border: 1px solid #E4E9EF; border-radius: 8px; padding: 8px 12px; font-size: 12.5px; font-weight: 600; color: #1A2535; box-shadow: 0 1px 3px rgba(0,0,0,.05); display: flex; align-items: center; gap: 6px; }
+    .badge .flag { font-size: 15px; }
+
+    /* STEPS */
+    .steps { margin-top: 18px; display: flex; flex-direction: column; gap: 14px; }
+    .step { display: flex; align-items: flex-start; gap: 14px; }
+    .step-num { width: 32px; height: 32px; background: #06111F; color: #fff; border-radius: 50%; font-size: 14px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .step-title { font-size: 14.5px; font-weight: 700; color: #1A2535; line-height: 1.3; }
+    .step-sub { font-size: 12.5px; color: #637083; margin-top: 2px; line-height: 1.4; }
+    .no-commitment { margin-top: 18px; text-align: center; font-size: 13.5px; font-weight: 600; color: #637083; }
+    .no-commitment .fil { display: block; font-size: 12.5px; font-weight: 500; color: #8FA0B4; margin-top: 2px; }
+
+    /* CTA */
+    .cta-section { background: #06111F; padding: 28px 24px 32px; }
+    .cta-eyebrow { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: #00B4D8; text-align: center; margin-bottom: 8px; }
+    .cta-heading { font-size: 19px; font-weight: 800; color: #fff; text-align: center; line-height: 1.25; margin-bottom: 4px; }
+    .cta-sub { font-size: 13px; color: #8FB8D4; text-align: center; margin-bottom: 22px; line-height: 1.5; }
+    .wa-button { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; background: #25D366; color: #fff; text-decoration: none; border-radius: 12px; padding: 16px 20px; font-size: 16px; font-weight: 700; line-height: 1.2; letter-spacing: -.01em; transition: background .15s ease; -webkit-tap-highlight-color: transparent; }
+    .wa-button:active { background: #1ebe5b; }
+    .wa-button svg { width: 24px; height: 24px; flex-shrink: 0; }
+    .wa-button-text { text-align: left; }
+    .wa-button-text .main { display: block; }
+    .wa-button-text .sub { display: block; font-size: 12.5px; font-weight: 500; opacity: .85; margin-top: 1px; }
+    .cta-or { text-align: center; color: #4A6480; font-size: 13px; margin: 14px 0; }
+    .site-link { display: block; text-align: center; color: #8FB8D4; font-size: 13.5px; font-weight: 500; text-decoration: none; word-break: break-all; }
+    .site-link:hover { color: #fff; }
+
+    /* DIVIDER */
+    .divider { height: 1px; background: #EDF0F4; margin: 0 20px; }
+
+    /* FOOTER */
+    .site-footer { background: #09172B; padding: 16px 20px; text-align: center; }
+    .site-footer p { font-size: 11.5px; color: #4A6480; line-height: 1.7; }
+    .site-footer a { color: #637083; text-decoration: none; }
+    .site-footer a:hover { color: #8FB8D4; }
+
+    @media print {
+      body { background: #fff; }
+      .page-shell { box-shadow: none; max-width: 100%; }
+      .cta-section { background: #06111F !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .hero { background: #06111F !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .wa-button { display: none !important; }
+      .cta-or { display: none !important; }
+      a[href]::after { content: none !important; }
+    }
+  </style>
+</head>
+<body>
+<div class="page-shell">
+
+  <header class="site-header">
+    <div class="logo-pill">
+      <img src="images/logo.jpg" alt="PainFree Philippines"/>
+    </div>
+  </header>
+
+  <div class="bilingual-badge-wrap">
+    <span class="bilingual-badge">
+      <span class="dot"></span>
+      Para sa iyong partner &nbsp;·&nbsp; For Your Partner
+    </span>
+  </div>
+
+  <section class="hero">
+    <p class="hero-label">The opportunity — in plain language</p>
+    <h1><span class="fil">Ano ito?</span>What Is This?</h1>
+    <p class="hero-body">
+      A <strong>FDA-cleared medical device</strong> that generates <strong>₱2,500 per patient session</strong> — with no medication, no surgery, and no consumables.<br/><br/>
+      It's already running in <strong>70+ clinics worldwide</strong>, with 25 years of clinical use behind it. Your partner is considering becoming one of the first licensed clinics in the Philippines.
+    </p>
+  </section>
+
+  <section class="section">
+    <p class="section-label">By the numbers</p>
+    <h2 class="section-title">Ang mga numero<span class="fil">The numbers that matter</span></h2>
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="stat-card-number">₱520K</div>
+        <div class="stat-card-text">
+          <p class="stat-card-title">Estimated monthly revenue</p>
+          <p class="stat-card-sub">At 8 sessions/day, ₱2,500/session × 26 working days. Conservative estimate.</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-number">3–6<br/><span style="font-size:16px;font-weight:700;color:#637083">months</span></div>
+        <div class="stat-card-text">
+          <p class="stat-card-title">Typical payback period</p>
+          <p class="stat-card-sub">Time to recover the full investment from clinic revenue, based on existing operator data.</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-number">25<br/><span style="font-size:16px;font-weight:700;color:#637083">years</span></div>
+        <div class="stat-card-text">
+          <p class="stat-card-title">In active clinic use worldwide</p>
+          <p class="stat-card-sub">Continuous clinical use since the late 1990s. Not new technology.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section shaded">
+    <p class="section-label">Safety &amp; approvals</p>
+    <h2 class="section-title">Ligtas ba ito?<span class="fil">Is This Safe?</span></h2>
+    <div class="badge-row">
+      <div class="badge"><span class="flag">🇺🇸</span> FDA 510(k) Cleared</div>
+      <div class="badge"><span class="flag">🇪🇺</span> CE Mark — EU</div>
+      <div class="badge"><span class="flag">🇮🇱</span> Ministry of Health — Israel</div>
+    </div>
+    <ul class="check-list" style="margin-top:14px">
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>20,000+ published medical studies</strong><span class="sub">One of the most studied physical therapy modalities in existence.</span></span></li>
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Mayo Clinic</strong> — Rochester, Minnesota, USA<span class="sub">Used for post-surgical recovery and pain management.</span></span></li>
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Columbia University</strong> — New York, USA<span class="sub">Clinical research and patient treatment programs.</span></span></li>
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>U.S. Military Medical Centers</strong><span class="sub">Used for rehabilitation of service members.</span></span></li>
+    </ul>
+    <div class="honest-note"><strong>Honest note about Philippine FDA:</strong> Registration with the Philippine FDA is currently in process. The device is legally importable under existing medical device regulations. Your partner can ask for documentation on this during their consultation call.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <p class="section-label">What's included</p>
+    <h2 class="section-title">Ano ang matatanggap natin?<span class="fil">What Do We Get?</span></h2>
+    <ul class="check-list" style="margin-top:18px">
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>The medical device — owned outright</strong><span class="sub">No royalties. No monthly fees. You own the asset.</span></span></li>
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Full staff training + clinical protocols</strong><span class="sub">Your team is trained before you open. Included in the investment.</span></span></li>
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Marketing support</strong><span class="sub">Materials, patient scripts, and guidance on positioning the service locally.</span></span></li>
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Technical support + warranty</strong><span class="sub">Ongoing support included. Full warranty terms provided in writing.</span></span></li>
+      <li><span class="icon"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6.5L4.5 9L10 3" stroke="#00B4D8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>No consumables, no ongoing supplies</strong><span class="sub">Nothing to restock. Pure recurring revenue after the machine is paid off.</span></span></li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section shaded">
+    <p class="section-label">The process</p>
+    <h2 class="section-title">Anong susunod?<span class="fil">What's Next?</span></h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div>
+          <p class="step-title">30-minute call with the PainFree Philippines team</p>
+          <p class="step-sub">No sales pressure. Ask every question. Both partners welcome on the call.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div>
+          <p class="step-title">Receive the full investment brief</p>
+          <p class="step-sub">Exact device cost, projected revenue model, timeline, and legal documentation — in writing.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div>
+          <p class="step-title">Visit an operating clinic — or arrange a video demo</p>
+          <p class="step-sub">See the device in use. Speak with a clinic operator who is already running it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="no-commitment">No commitment at this stage.<span class="fil">Walang commitment sa ngayon.</span></div>
+  </section>
+
+  <section class="cta-section">
+    <p class="cta-eyebrow">Ready to talk?</p>
+    <h2 class="cta-heading">Have questions? We're here.</h2>
+    <p class="cta-sub">Makipag-usap sa amin — no scripts, no pressure.<br/>Just a real conversation.</p>
+    <a href="https://wa.me/639621811360?text=Hi%2C%20I%20saw%20the%20PainFree%20Philippines%20partner%20brief%20and%20I%27d%20like%20to%20learn%20more." class="wa-button" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      <span class="wa-button-text"><span class="main">Makipag-usap sa amin</span><span class="sub">Chat with us on WhatsApp · +63 962-181-1360</span></span>
+    </a>
+    <p class="cta-or">or visit the full site</p>
+    <a href="https://royazaria.github.io/painfree-ph" class="site-link" target="_blank" rel="noopener noreferrer">royazaria.github.io/painfree-ph</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>PainFree Philippines &nbsp;·&nbsp; FDA 510(k) Cleared &nbsp;·&nbsp; CE Mark &nbsp;·&nbsp; Ministry of Health IL<br/>Questions? <a href="tel:+639621811360">+63 962-181-1360</a> &nbsp;·&nbsp; <a href="https://wa.me/639621811360">WhatsApp</a></p>
+  </footer>
+
+</div>
+</body>
+</html>

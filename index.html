@@ -7,6 +7,9 @@
   <meta name="description" content="FDA-cleared PEMF medical device trusted by 60+ clinics worldwide. 25 years proven. Now available for Philippine clinic investors."/>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics — replace GA_MEASUREMENT_ID with your real ID from analytics.google.com -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');</script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -499,6 +502,14 @@
       .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
       .clinic-logos { gap: 24px; }
     }
+    /* ── NEXT STEPS ── */
+    .next-steps { margin-bottom:32px; padding:20px; background:rgba(0,180,216,.06); border:1px solid rgba(0,180,216,.12); border-radius:12px; }
+    .next-steps-lbl { font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--teal); margin-bottom:16px; }
+    .next-step { display:flex; gap:14px; align-items:flex-start; margin-bottom:14px; }
+    .next-step:last-child { margin-bottom:0; }
+    .ns-num { width:28px; height:28px; flex-shrink:0; background:var(--teal); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:.8rem; font-weight:800; color:#fff; }
+    .next-step strong { display:block; color:#fff; font-size:.9rem; font-weight:700; margin-bottom:2px; }
+    .next-step span { font-size:.82rem; color:rgba(255,255,255,.5); line-height:1.5; }
   </style>
 </head>
 <body>
@@ -515,6 +526,7 @@
         <li><a href="letters.html">Medical Reviews</a></li>
         <li><a href="testimonials.html">Testimonials</a></li>
         <li><a href="articles.html">Articles</a></li>
+        <li><a href="faq.html">FAQ</a></li>
         <li><a href="#inquire">Contact</a></li>
       </ul>
       <a href="#inquire" class="nav-btn">
@@ -885,6 +897,13 @@
       <h2 class="dark" style="margin-bottom:10px">Request the<br/><em>Investment Brief</em></h2>
       <p style="font-size:.95rem;color:rgba(255,255,255,.5);line-height:1.7;margin-bottom:36px;">We'll send you the full brief: device specs, ROI model, setup requirements, clinical protocols, and support structure. No commitment required.</p>
 
+      <div class="next-steps">
+        <p class="next-steps-lbl">What happens after you submit</p>
+        <div class="next-step"><div class="ns-num">1</div><div><strong>Confirmation within 24 hours</strong><span>A real person (not a bot) reviews your inquiry and responds.</span></div></div>
+        <div class="next-step"><div class="ns-num">2</div><div><strong>30-minute introductory call</strong><span>We answer your specific questions about the device, setup, and investment.</span></div></div>
+        <div class="next-step"><div class="ns-num">3</div><div><strong>Full investment brief sent to you</strong><span>Detailed specs, exact pricing, ROI model, and support structure — all in writing.</span></div></div>
+      </div>
+
       <div id="form-wrap">
         <form id="iform" novalidate>
           <div class="form-row">
@@ -971,7 +990,8 @@
       <nav class="footer-links">
         <a href="technology.html">Technology</a>
         <a href="about.html">About</a>
-        <a href="#roi">ROI</a>
+        <a href="articles.html">Articles</a>
+        <a href="faq.html">FAQ</a>
         <a href="#inquire">Contact</a>
       </nav>
     </div>
@@ -1010,7 +1030,11 @@
   }
   sSl.addEventListener('input',calc); pSl.addEventListener('input',calc); calc();
 
-  // Form
+  // ── FORM CONFIG ──────────────────────────────────────────────────────────────
+  // SETUP: Go to formspree.io → sign up free → create form → paste endpoint below
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/PASTE_YOUR_FORM_ID_HERE';
+  // ─────────────────────────────────────────────────────────────────────────────
+
   const form=document.getElementById('iform'), sbtn=document.getElementById('sbtn'), fok=document.getElementById('f-ok');
   function ve(id,errId,ok){ const el=document.getElementById(id),em=document.getElementById(errId); el.classList.toggle('err',!ok); em.classList.toggle('show',!ok); return ok; }
   form.addEventListener('submit', async e=>{
@@ -1025,8 +1049,27 @@
     ].every(Boolean);
     if(!ok){ form.querySelector('.err')?.scrollIntoView({behavior:'smooth',block:'center'}); return; }
     sbtn.classList.add('loading'); sbtn.disabled=true;
-    await new Promise(r=>setTimeout(r,1800));
-    form.style.display='none'; fok.classList.add('show');
+    try {
+      const resp = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: n.value.trim(),
+          clinic: c.value.trim(),
+          location: l.value,
+          investment_range: document.getElementById('fb').value,
+          email: em.value.trim(),
+          phone: p.value.trim(),
+          message: document.getElementById('fm').value.trim(),
+          _subject: 'PainFree PH — New Investment Inquiry'
+        })
+      });
+      if (resp.ok) { form.style.display='none'; fok.classList.add('show'); }
+      else { throw new Error('Server error'); }
+    } catch(_) {
+      sbtn.classList.remove('loading'); sbtn.disabled=false;
+      alert('There was a problem submitting your request. Please WhatsApp us directly: +63 962-181-1360');
+    }
   });
   form.querySelectorAll('input,select,textarea').forEach(el=>el.addEventListener('blur',()=>{if(el.value.trim())el.classList.remove('err');}));
 </script>
