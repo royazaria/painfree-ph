@@ -132,6 +132,8 @@
     .article-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top: 48px; }
     .article-card { background:#fff; border:1px solid var(--border); border-radius:12px; overflow:hidden; transition:box-shadow .2s, transform .2s; display:flex; flex-direction:column; }
     .article-card:hover { box-shadow:0 8px 32px rgba(0,0,0,.1); transform:translateY(-3px); }
+    .article-img { width: 100%; height: 200px; object-fit: cover; display: block; background: var(--light); }
+    .article-card a.card-link { text-decoration: none; color: inherit; display: flex; flex-direction: column; height: 100%; }
     .article-card-body { padding:24px; flex:1; display:flex; flex-direction:column; }
     .article-card-tag { font-size:.7rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--teal-d); margin-bottom:10px; }
     .article-card h3 { font-size:1.05rem; font-weight:700; color:var(--ink); line-height:1.4; margin-bottom:10px; }
@@ -215,7 +217,7 @@
       </a>
       <ul class="nav-links">
         <li><a href="technology.html">Technology</a></li>
-        <li><a href="letters.html">Letters</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
         <li><a href="testimonials.html">Testimonials</a></li>
         <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
         <li><a href="index.html#inquire">Contact</a></li>
@@ -244,61 +246,85 @@
     <h2 class="light reveal d1">From the<br/><em>Research Desk.</em></h2>
     <div class="article-grid">
 
-      <div class="article-card reveal d1">
-        <div class="article-card-body">
-          <div class="article-card-tag">Clinical Evidence</div>
-          <h3>PEMF for Knee Osteoarthritis: What the 2020 Cochrane Review Actually Found</h3>
-          <p>16 randomized controlled trials. One conclusion: PEMF produces statistically significant pain reduction. We break down the methodology and what it means for clinic investors.</p>
-          <div class="article-card-meta">May 2026 · 6 min read</div>
-        </div>
+  <!-- REAL ARTICLE 1 -->
+  <article class="article-card reveal d1">
+    <a href="article-pemf-vs-ultrasound.html" class="card-link" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%">
+      <img src="https://images.pexels.com/photos/3993212/pexels-photo-3993212.jpeg?auto=compress&cs=tinysrgb&w=800" alt="PEMF device vs ultrasound medical equipment" class="article-img" loading="lazy"/>
+      <div class="article-card-body" style="flex:1;display:flex;flex-direction:column">
+        <div class="article-card-tag">Clinical Comparison</div>
+        <h3>PEMF vs. Ultrasound vs. Radio Waves: Which Technology Wins?</h3>
+        <p>A head-to-head clinical comparison of three pain treatment technologies. Penetration depth, pain reduction data, supervision requirements, and ROI — all in one table.</p>
+        <div class="article-card-meta">May 2026 · 7 min read</div>
       </div>
+    </a>
+  </article>
 
-      <div class="article-card reveal d2">
-        <div class="article-card-body">
-          <div class="article-card-tag">Investor Guide</div>
-          <h3>PEMF ROI in Philippine Private Clinics: A Financial Model</h3>
-          <p>Cash-pay pricing, session throughput, and payback period — modeled for Metro Manila, Cebu, and Davao markets at current private clinic rates.</p>
-          <div class="article-card-meta">May 2026 · 8 min read</div>
-        </div>
+  <!-- REAL ARTICLE 2 -->
+  <article class="article-card reveal d2">
+    <a href="article-pemf-physiotherapy-clinic.html" class="card-link" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%">
+      <img src="https://images.pexels.com/photos/7578808/pexels-photo-7578808.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Physiotherapy clinic PEMF treatment session" class="article-img" loading="lazy"/>
+      <div class="article-card-body" style="flex:1;display:flex;flex-direction:column">
+        <div class="article-card-tag">Clinic Integration</div>
+        <h3>Adding PEMF to Your Physiotherapy Clinic: 2026 Implementation Guide</h3>
+        <p>Step-by-step integration protocol for clinics. Approved indications, staff training, patient scheduling, contraindications, and the financial case — with real data from 60+ Israeli clinics.</p>
+        <div class="article-card-meta">May 2026 · 8 min read</div>
       </div>
+    </a>
+  </article>
 
-      <div class="article-card reveal d3">
-        <div class="article-card-body">
-          <div class="article-card-tag">Technology</div>
-          <h3>How PEMF Works at the Cellular Level: ATP, Ion Channels, and Inflammation</h3>
-          <p>Most explanations stop at "electromagnetic pulses." This one goes deeper — into mitochondrial activity, growth factor release, and why the mechanism is not magnetic therapy.</p>
-          <div class="article-card-meta">May 2026 · 10 min read</div>
-        </div>
+  <!-- REAL ARTICLE 3 -->
+  <article class="article-card reveal d3">
+    <a href="article-pemf-severe-back-pain.html" class="card-link" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;height:100%">
+      <img src="https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person with severe back pain seeking treatment" class="article-img" loading="lazy"/>
+      <div class="article-card-body" style="flex:1;display:flex;flex-direction:column">
+        <div class="article-card-tag">Clinical Protocol</div>
+        <h3>PEMF for Severe Low Back Pain: Evidence-Based Protocol (2025 RCT Data)</h3>
+        <p>36% pain reduction vs. 10% standard care. 55% medication reduction. A 2025 multicenter RCT with 91 patients shows what PEMF actually does for the hardest-to-treat back pain cases.</p>
+        <div class="article-card-meta">May 2026 · 9 min read</div>
       </div>
+    </a>
+  </article>
 
-      <div class="article-card reveal d1">
-        <div class="article-card-body">
-          <div class="article-card-tag">Market Analysis</div>
-          <h3>Why the Philippines Has No PEMF Clinic Network Yet — And Why That's an Opportunity</h3>
-          <p>Israel has 70+ PEMF clinics serving a population of 9 million. The Philippines has 110 million. The math is straightforward.</p>
-          <div class="article-card-meta">May 2026 · 5 min read</div>
-        </div>
-      </div>
-
-      <div class="article-card reveal d2">
-        <div class="article-card-body">
-          <div class="article-card-tag">Clinical Protocol</div>
-          <h3>PEMF for Diabetic Neuropathy: Protocol, Evidence, and Patient Selection</h3>
-          <p>Diabetic neuropathy affects 15–25% of diabetic patients in Southeast Asia. PEMF offers a non-pharmacological protocol with published evidence — and a large, motivated patient population.</p>
-          <div class="article-card-meta">May 2026 · 9 min read</div>
-        </div>
-      </div>
-
-      <div class="article-card reveal d3">
-        <div class="article-card-body">
-          <div class="article-card-tag">Regulatory</div>
-          <h3>FDA 510(k) vs. CE Mark vs. AMAR: What PEMF Clearances Actually Mean</h3>
-          <p>Not all medical device approvals are equal. Here is exactly what each clearance authorizes, what the clinical requirements were, and why FDA Class III status matters for investor due diligence.</p>
-          <div class="article-card-meta">May 2026 · 7 min read</div>
-        </div>
-      </div>
-
+  <!-- COMING SOON 4 -->
+  <article class="article-card reveal d1" style="opacity:.75">
+    <div style="width:100%;height:200px;background:var(--light);display:flex;align-items:center;justify-content:center;">
+      <span style="font-size:.75rem;font-weight:700;color:var(--muted);letter-spacing:.08em;text-transform:uppercase">Coming Soon</span>
     </div>
+    <div class="article-card-body">
+      <div class="article-card-tag">Market Analysis</div>
+      <h3>Why the Philippines Has No PEMF Clinic Network Yet — And Why That's an Opportunity</h3>
+      <p>Israel has 70+ PEMF clinics serving 9 million people. The Philippines has 110 million. The math is straightforward.</p>
+      <div class="article-card-meta">Publishing soon · 5 min read</div>
+    </div>
+  </article>
+
+  <!-- COMING SOON 5 -->
+  <article class="article-card reveal d2" style="opacity:.75">
+    <div style="width:100%;height:200px;background:var(--light);display:flex;align-items:center;justify-content:center;">
+      <span style="font-size:.75rem;font-weight:700;color:var(--muted);letter-spacing:.08em;text-transform:uppercase">Coming Soon</span>
+    </div>
+    <div class="article-card-body">
+      <div class="article-card-tag">Clinical Protocol</div>
+      <h3>PEMF for Diabetic Neuropathy: Protocol, Evidence, and Patient Selection</h3>
+      <p>Diabetic neuropathy affects 15–25% of diabetic patients in Southeast Asia. PEMF offers a non-pharmacological protocol with published evidence.</p>
+      <div class="article-card-meta">Publishing soon · 9 min read</div>
+    </div>
+  </article>
+
+  <!-- COMING SOON 6 -->
+  <article class="article-card reveal d3" style="opacity:.75">
+    <div style="width:100%;height:200px;background:var(--light);display:flex;align-items:center;justify-content:center;">
+      <span style="font-size:.75rem;font-weight:700;color:var(--muted);letter-spacing:.08em;text-transform:uppercase">Coming Soon</span>
+    </div>
+    <div class="article-card-body">
+      <div class="article-card-tag">Regulatory</div>
+      <h3>FDA 510(k) vs. CE Mark vs. AMAR: What PEMF Clearances Actually Mean</h3>
+      <p>Not all medical device approvals are equal. Here is exactly what each clearance authorizes and why FDA Class III status matters for investor due diligence.</p>
+      <div class="article-card-meta">Publishing soon · 7 min read</div>
+    </div>
+  </article>
+
+</div>
   </div>
 </section>
 
@@ -327,7 +353,7 @@
       </div>
       <nav class="footer-links">
         <a href="technology.html">Technology</a>
-        <a href="letters.html">Letters</a>
+        <a href="letters.html">Medical Reviews</a>
         <a href="testimonials.html">Testimonials</a>
         <a href="articles.html">Articles</a>
         <a href="index.html#inquire">Contact</a>
