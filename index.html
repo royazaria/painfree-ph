@@ -37,21 +37,21 @@
     @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
 
     /* ── NAV ── */
-    nav {
+    #nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 200;
       padding: 14px 0;
-      background: rgba(6,17,31,.92);
+      background: rgba(6,17,31,.95);
       backdrop-filter: blur(14px);
       box-shadow: 0 1px 0 rgba(255,255,255,.06);
       transition: padding .3s, background .3s;
     }
-    nav.sc {
-      background: rgba(6,17,31,.98);
+    #nav.sc {
+      background: rgba(6,17,31,.99);
       padding: 10px 0;
     }
     .nav-row { display: flex; align-items: center; justify-content: space-between; }
-    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; }
-    .logo-img { height: 36px; width: auto; display: block; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
     .nav-links { display: flex; gap: 8px; list-style: none; }
     .nav-links a {
       display: inline-flex; align-items: center;
