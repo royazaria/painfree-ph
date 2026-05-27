@@ -39,21 +39,30 @@
     /* ── NAV ── */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 200;
-      padding: 18px 0;
-      transition: background .3s, padding .3s, box-shadow .3s;
+      padding: 14px 0;
+      background: rgba(6,17,31,.92);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
     }
     nav.sc {
-      background: rgba(6,17,31,.97);
-      backdrop-filter: blur(12px);
-      padding: 12px 0;
-      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      background: rgba(6,17,31,.98);
+      padding: 10px 0;
     }
     .nav-row { display: flex; align-items: center; justify-content: space-between; }
     .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; }
     .logo-img { height: 36px; width: auto; display: block; }
-    .nav-links { display: flex; gap: 28px; list-style: none; }
-    .nav-links a { color: rgba(255,255,255,.75); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
-    .nav-links a:hover { color: #fff; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
     .nav-btn {
       display: inline-flex; align-items: center; gap: 7px;
       padding: 10px 22px; min-height: 44px;
