@@ -49,16 +49,8 @@
       box-shadow: 0 1px 0 rgba(255,255,255,.06);
     }
     .nav-row { display: flex; align-items: center; justify-content: space-between; }
-    .logo { display: flex; align-items: center; gap: 11px; text-decoration: none; }
-    .logo-mark {
-      width: 38px; height: 38px;
-      background: linear-gradient(135deg, var(--teal), #0070A8);
-      border-radius: 9px;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-    }
-    .logo-text { font-size: 1.05rem; font-weight: 800; color: #fff; letter-spacing: -.02em; }
-    .logo-text span { color: var(--teal); }
+    .logo { display: flex; align-items: center; text-decoration: none; }
+    .logo-img { height: 42px; width: auto; filter: brightness(0) invert(1); display: block; }
     .nav-links { display: flex; gap: 28px; list-style: none; }
     .nav-links a { color: rgba(255,255,255,.75); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
     .nav-links a:hover { color: #fff; }
@@ -488,12 +480,7 @@
   <div class="container">
     <div class="nav-row">
       <a href="#" class="logo">
-        <div class="logo-mark">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-            <path d="M2 11 C2 11 4 6 7 6 C10 6 10 16 13 16 C16 16 16 8 19 8" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <span class="logo-text">Pain<span>Free</span> Philippines</span>
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
       </a>
       <ul class="nav-links">
         <li><a href="#device">The Device</a></li>
