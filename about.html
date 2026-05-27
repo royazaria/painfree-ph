@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About PainFree — 25 Years Building the World's Most Proven PEMF Network</title>
+  <meta name="description" content="PainFree is the largest PEMF clinical network in the Middle East — 70+ active clinics, 25 years of operations, Italian manufacturer partnership. Now expanding to the Philippines."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* SECTION SHARED */
+    .sec { padding: 96px 0; }
+    .sec-lbl {
+      display: inline-flex; align-items: center; gap: 9px;
+      font-size: .7rem; font-weight: 800; letter-spacing: .14em;
+      text-transform: uppercase; margin-bottom: 14px;
+    }
+    .sec-lbl::before { content: ''; width: 22px; height: 2px; }
+    .sec-lbl.dark { color: var(--teal); }
+    .sec-lbl.dark::before { background: var(--teal); }
+    .sec-lbl.light { color: var(--teal-d); }
+    .sec-lbl.light::before { background: var(--teal-d); }
+    h2.dark { font-size: clamp(1.9rem,4vw,3rem); font-weight: 900; letter-spacing:-.03em; color:#fff; line-height:1.1; margin-bottom:14px; }
+    h2.dark em { color: var(--teal); font-style: normal; }
+    h2.light { font-size: clamp(1.9rem,4vw,3rem); font-weight: 900; letter-spacing:-.03em; color: var(--ink); line-height:1.1; margin-bottom:14px; }
+    h2.light em { color: var(--teal-d); font-style: normal; }
+
+    /* HERO */
+    .hero-about {
+      min-height: 100dvh;
+      background: var(--navy);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      padding: 140px 24px 80px;
+    }
+    .hero-about::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 70% 60% at 50% 40%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px; position: relative; z-index: 2;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero-about h1 {
+      font-size: clamp(2.2rem, 5.5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+      max-width: 820px;
+      position: relative; z-index: 2;
+    }
+    .hero-about h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 580px; line-height: 1.75; margin-bottom: 60px;
+      position: relative; z-index: 2;
+    }
+    .hero-stats-bar {
+      display: flex; gap: 0;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative; z-index: 2;
+    }
+    .hero-stat-item {
+      padding: 22px 36px;
+      text-align: center;
+      border-right: 1px solid rgba(255,255,255,.08);
+    }
+    .hero-stat-item:last-child { border-right: none; }
+    .hero-stat-num { font-size: 1.1rem; font-weight: 900; color: var(--teal); letter-spacing: -.02em; line-height: 1.2; }
+    .hero-stat-lbl { font-size: .72rem; color: rgba(255,255,255,.45); text-transform: uppercase; letter-spacing: .07em; margin-top: 4px; }
+
+    /* COMPANY SECTION */
+    .company-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+    .company-text p { font-size: .95rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; }
+    .company-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .company-stat-card {
+      background: var(--off-white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 20px;
+    }
+    .company-stat-num { font-size: 1.8rem; font-weight: 900; color: var(--teal-d); letter-spacing: -.04em; line-height: 1; margin-bottom: 6px; }
+    .company-stat-lbl { font-size: .8rem; color: var(--muted); line-height: 1.4; }
+
+    /* TECH PARTNER CARDS */
+    .mfg-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
+    .mfg-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .mfg-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,.07); transform: translateY(-3px); }
+    .mfg-card-icon {
+      width: 44px; height: 44px;
+      background: rgba(0,180,216,.1);
+      border: 1px solid rgba(0,180,216,.2);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--teal-d);
+      margin-bottom: 16px;
+    }
+    .mfg-card strong { display: block; font-size: .9rem; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+    .mfg-card p { font-size: .82rem; color: var(--muted); line-height: 1.6; }
+
+    /* MARKET OPPORTUNITY (DARK) */
+    .market-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
+    .market-card {
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 14px;
+      padding: 32px 24px;
+      transition: background .2s;
+    }
+    .market-card:hover { background: rgba(255,255,255,.07); }
+    .market-card-num { font-size: 1.6rem; font-weight: 900; color: var(--teal); letter-spacing: -.04em; line-height: 1; margin-bottom: 8px; }
+    .market-card strong { display: block; font-size: .9rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .market-card p { font-size: .82rem; color: rgba(255,255,255,.45); line-height: 1.6; }
+
+    /* INVESTOR PACKAGE */
+    .investor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .investor-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .investor-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,.08); transform: translateY(-3px); }
+    .investor-card-num {
+      width: 36px; height: 36px;
+      background: rgba(0,180,216,.1);
+      border: 1px solid rgba(0,180,216,.2);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .8rem; font-weight: 800; color: var(--teal-d);
+      margin-bottom: 14px;
+    }
+    .investor-card strong { display: block; font-size: .925rem; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+    .investor-card p { font-size: .82rem; color: var(--muted); line-height: 1.6; }
+
+    /* BUTTONS */
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+    .btn-outline-dark {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 15px 26px; min-height: 52px;
+      background: transparent; color: rgba(255,255,255,.8);
+      border: 1px solid rgba(255,255,255,.25); border-radius: var(--r);
+      font-size: 1rem; font-weight: 500; text-decoration: none; cursor: pointer;
+      transition: border-color .2s, color .2s, transform .2s;
+    }
+    .btn-outline-dark:hover { border-color: var(--teal); color: #fff; transform: translateY(-2px); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    /* RESPONSIVE */
+    @media (max-width: 960px) {
+      .company-grid { grid-template-columns: 1fr; gap: 48px; }
+      .mfg-cards, .market-cards { grid-template-columns: 1fr 1fr; }
+      .investor-grid { grid-template-columns: 1fr 1fr; }
+      .hero-stats-bar { flex-wrap: wrap; }
+      .hero-stat-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,.08); flex: 1 1 48%; }
+    }
+    @media (max-width: 620px) {
+      .sec { padding: 68px 0; }
+      .nav-links { display: none; }
+      .hero-about { padding: 120px 24px 60px; }
+      .hero-about h1 { font-size: 2.1rem; }
+      .company-stats { grid-template-columns: 1fr 1fr; }
+      .mfg-cards, .market-cards, .investor-grid { grid-template-columns: 1fr; }
+      .hero-stats-bar { flex-direction: column; }
+      .hero-stat-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,.08); }
+      .hero-stat-item:last-child { border-bottom: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="index.html#roi">ROI</a></li>
+        <li><a href="index.html#track">Track Record</a></li>
+        <li><a href="about.html" style="color:#fff;border-color:rgba(255,255,255,.4)">About</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-about">
+  <div class="hero-badge">The Company</div>
+  <h1>25 Years Building<br/>the World's Most<br/><em>Proven PEMF Network.</em></h1>
+  <p class="hero-sub">PainFree is not a startup. We are the largest PEMF clinical network in the Middle East — with 70+ active clinics, a 25-year operational track record, and a partnership with the world's leading Italian PEMF manufacturer.</p>
+  <div class="hero-stats-bar reveal">
+    <div class="hero-stat-item">
+      <div class="hero-stat-num">Founded 2000</div>
+      <div class="hero-stat-lbl">Year Established</div>
+    </div>
+    <div class="hero-stat-item">
+      <div class="hero-stat-num">70+</div>
+      <div class="hero-stat-lbl">Active Clinics</div>
+    </div>
+    <div class="hero-stat-item">
+      <div class="hero-stat-num">Italian</div>
+      <div class="hero-stat-lbl">Manufacturer</div>
+    </div>
+    <div class="hero-stat-item">
+      <div class="hero-stat-num">250M+</div>
+      <div class="hero-stat-lbl">Patients (Global PEMF)</div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 1: WHO WE ARE (WHITE) -->
+<section class="sec" style="background:var(--white)">
+  <div class="container">
+    <p class="sec-lbl light reveal">Who We Are</p>
+    <h2 class="light reveal d1">Israel's Largest<br/><em>PEMF Clinical Network.</em></h2>
+    <div class="company-grid" style="margin-top:48px">
+      <div class="company-text reveal d2">
+        <p>PainFree operates the largest PEMF therapy network in Israel — 70+ active clinics spanning the country, from Tel Aviv to Eilat. We are the official importer of medical-grade PEMF equipment from the world's leading Italian manufacturer, and we work exclusively with licensed medical professionals: physicians, physiotherapists, and osteopaths.</p>
+        <p>Our clinical model is built on results, not promises. Every protocol we use is backed by peer-reviewed research. Every clinic we partner with goes through a rigorous certification process. That's how you maintain 70+ active partners over 25 years.</p>
+      </div>
+      <div class="company-stats reveal d3">
+        <div class="company-stat-card">
+          <div class="company-stat-num">70<span style="color:var(--teal-d);font-size:1.2rem">+</span></div>
+          <div class="company-stat-lbl">Active Clinics Across Israel</div>
+        </div>
+        <div class="company-stat-card">
+          <div class="company-stat-num">25<span style="color:var(--teal-d);font-size:1.2rem">+</span></div>
+          <div class="company-stat-lbl">Years of Operations</div>
+        </div>
+        <div class="company-stat-card" style="grid-column:1/-1">
+          <div class="company-stat-num" style="font-size:1.15rem;letter-spacing:-.01em">Official</div>
+          <div class="company-stat-lbl" style="margin-top:4px">Italian Manufacturer Partnership — Exclusive Regional Importer</div>
+        </div>
+        <div class="company-stat-card" style="grid-column:1/-1">
+          <div class="company-stat-num" style="font-size:1.1rem;letter-spacing:-.01em">Licensed</div>
+          <div class="company-stat-lbl" style="margin-top:4px">All Partners Are Licensed Medical Professionals: Physicians, Physiotherapists, Osteopaths</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2: TECHNOLOGY PARTNER (OFF-WHITE) -->
+<section class="sec" style="background:var(--off-white)">
+  <div class="container">
+    <p class="sec-lbl light reveal">Our Technology Source</p>
+    <h2 class="light reveal d1">Built by the World's<br/><em>Leading PEMF Manufacturer.</em></h2>
+    <p style="font-size:.95rem;color:var(--muted);line-height:1.8;max-width:720px;margin:20px 0 0;" class="reveal d2">PainFree is the exclusive regional importer for a leading Italian PEMF device manufacturer — the same company supplying medical institutions across Europe, the United States, and the Middle East. Italian medical engineering standards are among the most stringent in the world, and our devices carry full FDA 510(k) clearance, CE Mark, and Israeli Ministry of Health approval.</p>
+    <div class="mfg-cards">
+      <div class="mfg-card reveal d1">
+        <div class="mfg-card-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2a8 8 0 100 16A8 8 0 0010 2z" stroke="currentColor" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <strong>Italian Clinical Engineering</strong>
+        <p>Designed and manufactured to European Class IIb medical device standards — among the most rigorous regulatory frameworks in the world.</p>
+      </div>
+      <div class="mfg-card reveal d2">
+        <div class="mfg-card-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 1v3M10 16v3M1 10h3M16 10h3M3.3 3.3l2.1 2.1M14.6 14.6l2.1 2.1M3.3 16.7l2.1-2.1M14.6 5.4l2.1-2.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <strong>Dual Frequency Technology</strong>
+        <p>Proprietary waveform delivery system for targeted tissue penetration up to 30cm — enabling effective treatment of deep musculoskeletal structures.</p>
+      </div>
+      <div class="mfg-card reveal d3">
+        <div class="mfg-card-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 10h16M10 2l8 8-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <strong>25+ Year Track Record</strong>
+        <p>The same device architecture trusted by Israeli clinics for a quarter century. Proven reliability, minimal maintenance, and consistent clinical results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: PHILIPPINES OPPORTUNITY (DARK NAVY) -->
+<section class="sec" style="background:var(--navy-2)">
+  <div class="container">
+    <p class="sec-lbl dark reveal">Why the Philippines</p>
+    <h2 class="dark reveal d1">A Market Ready<br/><em>for PEMF.</em></h2>
+    <p style="font-size:.95rem;color:rgba(255,255,255,.55);line-height:1.8;max-width:720px;margin:20px 0 0;" class="reveal d2">The Philippines has one of the fastest-growing middle classes in Southeast Asia. As disposable income rises, demand for advanced medical procedures — particularly non-surgical alternatives — is growing rapidly. Chronic pain is the country's leading cause of medical consultation, and the current treatment options are limited to painkillers, surgery, or physical therapy.</p>
+    <p style="font-size:.95rem;color:rgba(255,255,255,.55);line-height:1.8;max-width:720px;margin:16px 0 0;" class="reveal d2">PEMF fills a critical gap: a proven, FDA-cleared, non-invasive alternative that patients will pay premium prices for — and return to, repeatedly.</p>
+    <div class="market-cards">
+      <div class="market-card reveal d1">
+        <div class="market-card-num">40M+</div>
+        <strong>Chronic Pain Sufferers</strong>
+        <p>Philippines has one of the highest rates of musculoskeletal disease in Asia — a massive addressable patient base already searching for alternatives.</p>
+      </div>
+      <div class="market-card reveal d2">
+        <div class="market-card-num">Cash</div>
+        <strong>Cash-Pay Premium Market</strong>
+        <p>Patients self-select for results. No insurance complexity. No claim cycles. Pure cash-pay at premium pricing — with gross margins above 85%.</p>
+      </div>
+      <div class="market-card reveal d3">
+        <div class="market-card-num">Zero</div>
+        <strong>Underserved Technology Gap</strong>
+        <p>No established PEMF network exists in the Philippines today. First-mover advantage in a proven global market — backed by 45 years of FDA history.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: INVESTOR PACKAGE (WHITE) -->
+<section class="sec" style="background:var(--white)">
+  <div class="container">
+    <p class="sec-lbl light reveal">The Investment Package</p>
+    <h2 class="light reveal d1" style="margin-bottom:14px">Not Just a Device.<br/><em>A Complete System.</em></h2>
+    <p style="font-size:.95rem;color:var(--muted);line-height:1.75;max-width:560px;margin-bottom:48px;" class="reveal d2">Everything you need to open, operate, and grow a profitable PEMF clinic — from day one.</p>
+    <div class="investor-grid">
+      <div class="investor-card reveal d1">
+        <div class="investor-card-num">1</div>
+        <strong>Clinical-Grade PEMF Device</strong>
+        <p>Italian-manufactured, FDA 510(k) cleared, CE marked. The same device architecture operating in 70+ clinics worldwide.</p>
+      </div>
+      <div class="investor-card reveal d2">
+        <div class="investor-card-num">2</div>
+        <strong>Full Clinical Protocol Training</strong>
+        <p>Complete treatment protocols for all 16+ indications. Your team learns exactly what to do — and what not to do.</p>
+      </div>
+      <div class="investor-card reveal d3">
+        <div class="investor-card-num">3</div>
+        <strong>Marketing &amp; Patient Acquisition</strong>
+        <p>Proven patient acquisition templates drawn from 70+ active clinics. You're not starting from zero — you're starting from proven.</p>
+      </div>
+      <div class="investor-card reveal d1">
+        <div class="investor-card-num">4</div>
+        <strong>Ongoing Technical Support</strong>
+        <p>Remote and on-site support for device and clinical operations. Equipment issues are resolved — not left for you to figure out alone.</p>
+      </div>
+      <div class="investor-card reveal d2">
+        <div class="investor-card-num">5</div>
+        <strong>Revenue Optimization Guidance</strong>
+        <p>Pricing strategy, package design, and upsell protocols refined across 25 years of clinic operations in Israel.</p>
+      </div>
+      <div class="investor-card reveal d3">
+        <div class="investor-card-num">6</div>
+        <strong>Network &amp; Community Access</strong>
+        <p>Join the PainFree clinic network — share learnings, access new research, and benefit from collective purchasing and brand trust.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION (DARK NAVY) -->
+<section class="sec" style="background:var(--navy-2);text-align:center">
+  <div class="container">
+    <p class="sec-lbl dark reveal" style="justify-content:center">Next Step</p>
+    <h2 class="dark reveal d1" style="margin-bottom:16px">Start the Conversation.</h2>
+    <p style="font-size:1rem;color:rgba(255,255,255,.55);line-height:1.75;max-width:520px;margin:0 auto 40px;" class="reveal d2">Request the full investment brief — device specs, ROI model, support structure, and next steps.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;" class="reveal d3">
+      <a href="index.html#inquire" class="btn-primary">
+        Request Brief
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="https://wa.me/639621811360" class="btn-outline-dark" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 1C4.6 1 1 4.6 1 9c0 1.4.35 2.7.97 3.86L1 17l4.22-.94A7.97 7.97 0 009 17c4.4 0 8-3.6 8-8s-3.6-8-8-8z" fill="#25D366"/><path d="M12.3 10.4c-.2-.1-1.18-.58-1.36-.65-.18-.06-.32-.1-.45.1-.14.2-.52.65-.63.78-.11.13-.23.15-.43.05-.2-.1-.85-.31-1.62-.99-.6-.53-1-.1-1.1-.2-1.14.54-.34-.2-.46-.34-.26-.45-.15-.32-.01-.45.09-.13.2-.23.3-.35.1-.11.13-.2.2-.33.06-.14.03-.25-.02-.35-.05-.1-.45-1.09-.62-1.49-.16-.38-.33-.33-.45-.34h-.38c-.14 0-.35.05-.53.25-.18.2-.7.67-.7 1.65 0 .97.7 1.9.8 2.04.1.13 1.37 2.1 3.35 2.96.47.2.83.32 1.12.41.47.15.9.13 1.23.08.38-.06 1.18-.48 1.35-.95.17-.47.17-.87.12-.95-.05-.08-.18-.13-.38-.23z" fill="#fff"/></svg>
+        WhatsApp Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="about.html">About</a>
+        <a href="index.html#roi">ROI</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  // NAV scroll
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+
+  // Scroll reveal
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
