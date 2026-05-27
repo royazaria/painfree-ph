@@ -1,0 +1,37 @@
+{
+  "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
+  "translated": [
+    {
+      "il_url": "https://painfree.org.il/pemf-vs-ultrasound-vs-radiofrequency-tecar-comparison/",
+      "ph_file": "article-pemf-vs-ultrasound.html",
+      "title_en": "PEMF vs. Ultrasound vs. Radio Waves: Which Technology Wins?",
+      "date": "2026-05-27",
+      "tag": "Clinical Comparison"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-pulsed-electromagnetic-treatment-physiotherapy-clinic-onboarding/",
+      "ph_file": "article-pemf-physiotherapy-clinic.html",
+      "title_en": "Adding PEMF to Your Physiotherapy Clinic: 2026 Implementation Guide",
+      "date": "2026-05-27",
+      "tag": "Clinic Integration"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-severe-back-pain-protocol/",
+      "ph_file": "article-pemf-severe-back-pain.html",
+      "title_en": "PEMF for Severe Low Back Pain: Evidence-Based Protocol (2025 RCT Data)",
+      "date": "2026-05-27",
+      "tag": "Clinical Protocol"
+    }
+  ],
+  "untranslated_queue": [
+    "https://painfree.org.il/pemf-shin-splints-medial-tibial-stress-syndrome-protocol/",
+    "https://painfree.org.il/pemf-dysmenorrhea-menstrual-pain-protocol/",
+    "https://painfree.org.il/pemf-pulsed-electromagnetic-treatment-efficacy-safety-clinic-guide/",
+    "https://painfree.org.il/pemf-acupuncture-physiotherapy-integration-guide/",
+    "https://painfree.org.il/pemf-erectile-dysfunction-men-protocol/",
+    "https://painfree.org.il/pemf-osteopathy-physiotherapy-chiropractic-comparison/",
+    "https://painfree.org.il/pemf-foot-cartilage-osteoarthritis-protocol/",
+    "https://painfree.org.il/pemf-dysmenorrhea-menstrual-pain-protocol/"
+  ],
+  "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest."
+}
