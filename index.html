@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PainFree PEMF Philippines — FDA-Cleared Medical Technology for Clinic Investors</title>
+  <meta name="description" content="FDA-cleared PEMF technology trusted by 60+ clinics worldwide. 25 years of proven results. Now available for Philippine clinic owners and healthcare investors." />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy-950: #03070F;
+      --navy-900: #06101E;
+      --navy-800: #0A1628;
+      --navy-700: #0F2040;
+      --navy-600: #152B55;
+      --blue-500: #0EA5E9;
+      --blue-400: #38BDF8;
+      --blue-300: #7DD3FC;
+      --gold-500: #F59E0B;
+      --gold-400: #FCD34D;
+      --white: #FFFFFF;
+      --gray-100: #F1F5F9;
+      --gray-200: #E2E8F0;
+      --gray-300: #CBD5E1;
+      --gray-400: #94A3B8;
+      --gray-500: #64748B;
+      --gray-700: #334155;
+      --green-400: #4ADE80;
+      --red-400: #F87171;
+      --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+      --radius: 8px;
+      --radius-lg: 16px;
+      --transition: 200ms ease;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--navy-950);
+      color: var(--gray-100);
+      line-height: 1.6;
+      font-size: 16px;
+      overflow-x: hidden;
+    }
+
+    /* ── UTILITIES ── */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .container-narrow { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+
+    .text-blue { color: var(--blue-400); }
+    .text-gold { color: var(--gold-500); }
+    .text-muted { color: var(--gray-400); }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 20px 0;
+      transition: background 0.3s ease, padding 0.3s ease, border-color 0.3s ease;
+      border-bottom: 1px solid transparent;
+    }
+    nav.scrolled {
+      background: rgba(6, 16, 30, 0.95);
+      backdrop-filter: blur(12px);
+      padding: 14px 0;
+      border-color: rgba(14, 165, 233, 0.12);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .nav-logo-mark {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--blue-500), #0055AA);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .nav-logo-text {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: -0.02em;
+    }
+    .nav-logo-text span {
+      color: var(--blue-400);
+    }
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 22px;
+      background: var(--blue-500);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background var(--transition), transform var(--transition);
+      min-height: 44px;
+    }
+    .nav-cta:hover { background: var(--blue-400); transform: translateY(-1px); }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--gray-300);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--white); }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--navy-950);
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 50% at 50% 110%, rgba(14, 165, 233, 0.10) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 40% at 85% 15%, rgba(0, 85, 170, 0.14) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 30% at 10% 80%, rgba(14, 165, 233, 0.06) 0%, transparent 50%);
+      animation: hero-pulse 8s ease-in-out infinite alternate;
+    }
+    @keyframes hero-pulse {
+      0%   { opacity: 0.7; }
+      100% { opacity: 1; }
+    }
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(14, 165, 233, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(14, 165, 233, 0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 140px 0 100px;
+      width: 100%;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(14, 165, 233, 0.1);
+      border: 1px solid rgba(14, 165, 233, 0.25);
+      border-radius: 100px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--blue-300);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--blue-400);
+      border-radius: 50%;
+      animation: pulse-dot 2s infinite;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.7); }
+    }
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      color: var(--white);
+      max-width: 800px;
+      margin-bottom: 24px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      background: linear-gradient(135deg, var(--blue-400), var(--blue-300));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-sub {
+      font-size: 1.2rem;
+      color: var(--gray-300);
+      max-width: 580px;
+      margin-bottom: 44px;
+      line-height: 1.7;
+    }
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 32px;
+      background: var(--blue-500);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+      min-height: 52px;
+      box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.4);
+    }
+    .btn-primary:hover {
+      background: var(--blue-400);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(14, 165, 233, 0.35);
+    }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 16px 28px;
+      background: transparent;
+      color: var(--gray-200);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      transition: border-color var(--transition), color var(--transition), transform var(--transition);
+      min-height: 52px;
+    }
+    .btn-secondary:hover {
+      border-color: var(--blue-400);
+      color: var(--white);
+      transform: translateY(-2px);
+    }
+    .hero-scroll-hint {
+      position: absolute;
+      bottom: 36px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: var(--gray-500);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      animation: scroll-bounce 2s ease-in-out infinite;
+    }
+    @keyframes scroll-bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(6px); }
+    }
+    .scroll-line {
+      width: 1px;
+      height: 36px;
+      background: linear-gradient(to bottom, var(--gray-500), transparent);
+    }
+
+    /* ── TRUST STRIP ── */
+    .trust-strip {
+      background: var(--navy-800);
+      border-top: 1px solid rgba(14, 165, 233, 0.1);
+      border-bottom: 1px solid rgba(14, 165, 233, 0.1);
+      padding: 28px 0;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+      align-items: center;
+    }
+    .trust-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      padding: 0 24px;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .trust-item:last-child { border-right: none; }
+    .trust-number {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .trust-number .accent { color: var(--blue-400); }
+    .trust-label {
+      font-size: 0.75rem;
+      color: var(--gray-400);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    /* ── SECTIONS ── */
+    section { padding: 100px 0; }
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--blue-400);
+      margin-bottom: 16px;
+    }
+    .section-label::before {
+      content: '';
+      width: 20px;
+      height: 2px;
+      background: var(--blue-400);
+    }
+    h2 {
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    h2 em {
+      font-style: normal;
+      color: var(--blue-400);
+    }
+    .section-desc {
+      font-size: 1.1rem;
+      color: var(--gray-400);
+      max-width: 560px;
+      line-height: 1.75;
+      margin-bottom: 60px;
+    }
+
+    /* ── TECHNOLOGY ── */
+    .tech-section { background: var(--navy-900); }
+    .tech-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .tech-visual {
+      position: relative;
+      height: 420px;
+      background: var(--navy-800);
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(14, 165, 233, 0.12);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pemf-diagram {
+      position: relative;
+      width: 240px;
+      height: 240px;
+    }
+    .pemf-ring {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      border: 2px solid rgba(14, 165, 233, 0.3);
+      animation: ring-pulse 3s ease-in-out infinite;
+    }
+    .pemf-ring:nth-child(2) { inset: 20px; animation-delay: 0.5s; border-color: rgba(14, 165, 233, 0.5); }
+    .pemf-ring:nth-child(3) { inset: 40px; animation-delay: 1s; border-color: rgba(14, 165, 233, 0.7); }
+    .pemf-ring:nth-child(4) { inset: 60px; animation-delay: 1.5s; border-color: rgba(56, 189, 248, 0.9); }
+    .pemf-core {
+      position: absolute;
+      inset: 90px;
+      background: radial-gradient(circle, var(--blue-500), #0055AA);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @keyframes ring-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.04); opacity: 1; }
+    }
+    .tech-wave {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 100px;
+      opacity: 0.15;
+    }
+    .tech-points { list-style: none; display: flex; flex-direction: column; gap: 20px; }
+    .tech-point {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .tech-point-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(14, 165, 233, 0.1);
+      border: 1px solid rgba(14, 165, 233, 0.2);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--blue-400);
+    }
+    .tech-point-text strong {
+      display: block;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .tech-point-text p {
+      font-size: 0.9rem;
+      color: var(--gray-400);
+      line-height: 1.6;
+    }
+
+    /* ── ROI ── */
+    .roi-section { background: var(--navy-950); }
+    .roi-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+    .roi-calculator {
+      background: var(--navy-800);
+      border: 1px solid rgba(14, 165, 233, 0.15);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+    }
+    .roi-calculator h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .calc-field { margin-bottom: 28px; }
+    .calc-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .calc-label span:first-child {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--gray-300);
+    }
+    .calc-label .calc-val {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--blue-400);
+    }
+    input[type="range"] {
+      width: 100%;
+      height: 4px;
+      -webkit-appearance: none;
+      background: var(--navy-700);
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 20px;
+      height: 20px;
+      background: var(--blue-500);
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.2);
+      transition: box-shadow var(--transition);
+    }
+    input[type="range"]::-webkit-slider-thumb:hover {
+      box-shadow: 0 0 0 6px rgba(14, 165, 233, 0.35);
+    }
+    .roi-results {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 32px;
+      padding-top: 28px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .roi-result-card {
+      background: var(--navy-700);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    .roi-result-card.primary {
+      grid-column: 1 / -1;
+      background: rgba(14, 165, 233, 0.1);
+      border: 1px solid rgba(14, 165, 233, 0.25);
+    }
+    .roi-result-label {
+      font-size: 0.75rem;
+      color: var(--gray-400);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+    .roi-result-value {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -0.03em;
+    }
+    .roi-result-card.primary .roi-result-value { color: var(--blue-400); font-size: 2rem; }
+    .roi-result-sub {
+      font-size: 0.8rem;
+      color: var(--gray-400);
+      margin-top: 2px;
+    }
+    .roi-disclaimer {
+      font-size: 0.75rem;
+      color: var(--gray-500);
+      margin-top: 16px;
+      line-height: 1.5;
+    }
+    .roi-points { list-style: none; display: flex; flex-direction: column; gap: 24px; padding-top: 16px; }
+    .roi-point {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .roi-point-num {
+      width: 36px;
+      height: 36px;
+      background: rgba(14, 165, 233, 0.1);
+      border: 1px solid rgba(14, 165, 233, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--blue-400);
+      flex-shrink: 0;
+    }
+    .roi-point strong { display: block; color: var(--white); font-weight: 600; margin-bottom: 4px; }
+    .roi-point p { font-size: 0.9rem; color: var(--gray-400); line-height: 1.6; }
+
+    /* ── WHY PH ── */
+    .why-section { background: var(--navy-900); }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 0;
+    }
+    .stat-card {
+      background: var(--navy-800);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      transition: border-color var(--transition), transform var(--transition);
+    }
+    .stat-card:hover {
+      border-color: rgba(14, 165, 233, 0.25);
+      transform: translateY(-4px);
+    }
+    .stat-card-icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 20px;
+      color: var(--blue-400);
+    }
+    .stat-card-num {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: var(--white);
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-card-num .text-blue { color: var(--blue-400); }
+    .stat-card-label {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--gray-200);
+      margin-bottom: 8px;
+    }
+    .stat-card-desc { font-size: 0.875rem; color: var(--gray-400); line-height: 1.6; }
+
+    /* ── TRACK RECORD ── */
+    .track-section { background: var(--navy-950); }
+    .track-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+    .track-card {
+      background: var(--navy-800);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: var(--radius-lg);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .track-num {
+      font-size: 2.5rem;
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .track-label { font-size: 0.85rem; color: var(--gray-400); text-align: center; line-height: 1.5; }
+    .track-quote-block {
+      background: var(--navy-800);
+      border-left: 3px solid var(--blue-500);
+      border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+      padding: 36px 40px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 40px;
+      align-items: center;
+    }
+    .track-quote-text {
+      font-size: 1.15rem;
+      color: var(--gray-200);
+      line-height: 1.7;
+      font-style: italic;
+    }
+    .track-quote-text strong { font-style: normal; color: var(--white); }
+    .track-badges {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-width: 180px;
+    }
+    .track-badge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      background: var(--navy-700);
+      border-radius: var(--radius);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--gray-200);
+    }
+    .track-badge svg { color: var(--blue-400); flex-shrink: 0; }
+
+    /* ── CTA / FORM ── */
+    .cta-section {
+      background: linear-gradient(180deg, var(--navy-900) 0%, var(--navy-950) 100%);
+      padding: 120px 0;
+    }
+    .cta-box {
+      max-width: 700px;
+      margin: 0 auto;
+      background: var(--navy-800);
+      border: 1px solid rgba(14, 165, 233, 0.2);
+      border-radius: 20px;
+      padding: 60px;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(14, 165, 233, 0.05);
+    }
+    .cta-box h2 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+    .cta-box .section-desc { margin-bottom: 40px; }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .form-group { margin-bottom: 16px; }
+    .form-group.full { grid-column: 1 / -1; }
+    label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--gray-300);
+      margin-bottom: 8px;
+    }
+    label .required { color: var(--red-400); margin-left: 2px; }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 14px 16px;
+      background: var(--navy-700);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      color: var(--white);
+      font-family: var(--font);
+      font-size: 0.95rem;
+      transition: border-color var(--transition), box-shadow var(--transition);
+      outline: none;
+      min-height: 44px;
+    }
+    input::placeholder, textarea::placeholder { color: var(--gray-500); }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--blue-500);
+      box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+    }
+    input.error, select.error, textarea.error {
+      border-color: var(--red-400);
+      box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.12);
+    }
+    .field-error {
+      font-size: 0.8rem;
+      color: var(--red-400);
+      margin-top: 6px;
+      display: none;
+    }
+    .field-error.visible { display: block; }
+    select { cursor: pointer; }
+    select option { background: var(--navy-700); }
+    textarea { resize: vertical; min-height: 100px; line-height: 1.6; }
+    .form-submit { margin-top: 28px; }
+    .btn-submit {
+      width: 100%;
+      padding: 18px;
+      background: var(--blue-500);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font);
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      letter-spacing: 0.01em;
+    }
+    .btn-submit:hover:not(:disabled) {
+      background: var(--blue-400);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(14, 165, 233, 0.35);
+    }
+    .btn-submit:disabled { opacity: 0.65; cursor: not-allowed; transform: none; }
+    .btn-submit .spinner {
+      width: 18px;
+      height: 18px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: white;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      display: none;
+    }
+    .btn-submit.loading .spinner { display: block; }
+    .btn-submit.loading .btn-text { display: none; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .form-success {
+      display: none;
+      text-align: center;
+      padding: 32px 0;
+    }
+    .form-success.visible { display: block; }
+    .form-success-icon {
+      width: 64px;
+      height: 64px;
+      background: rgba(74, 222, 128, 0.1);
+      border: 2px solid rgba(74, 222, 128, 0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      color: var(--green-400);
+    }
+    .form-success h3 { font-size: 1.4rem; color: var(--white); margin-bottom: 8px; }
+    .form-success p { color: var(--gray-400); }
+    .form-note {
+      font-size: 0.8rem;
+      color: var(--gray-500);
+      text-align: center;
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy-950);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 48px 0 36px;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .footer-copy { font-size: 0.85rem; color: var(--gray-500); }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { font-size: 0.85rem; color: var(--gray-500); text-decoration: none; transition: color var(--transition); }
+    .footer-links a:hover { color: var(--gray-300); }
+    .footer-cert {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .cert-badge {
+      padding: 6px 12px;
+      background: rgba(14, 165, 233, 0.08);
+      border: 1px solid rgba(14, 165, 233, 0.15);
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--blue-300);
+      letter-spacing: 0.06em;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .tech-layout { grid-template-columns: 1fr; gap: 48px; }
+      .tech-visual { height: 300px; }
+      .roi-layout { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+      .track-grid { grid-template-columns: 1fr 1fr; }
+      .track-quote-block { grid-template-columns: 1fr; gap: 24px; }
+      .track-badges { flex-direction: row; flex-wrap: wrap; }
+      .trust-grid { grid-template-columns: repeat(3, 1fr); row-gap: 20px; }
+      .trust-item:nth-child(3) { border-right: none; }
+    }
+    @media (max-width: 640px) {
+      section { padding: 72px 0; }
+      .trust-grid { grid-template-columns: 1fr 1fr; }
+      .trust-item:nth-child(2) { border-right: none; }
+      .trust-item:nth-child(4) { border-right: none; }
+      .stats-grid { grid-template-columns: 1fr; }
+      .track-grid { grid-template-columns: 1fr 1fr; }
+      .cta-box { padding: 36px 24px; }
+      .form-row { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .hero h1 { font-size: 2.3rem; }
+      .hero-sub { font-size: 1rem; }
+      .hero-actions { flex-direction: column; align-items: flex-start; }
+      .btn-primary, .btn-secondary { width: 100%; justify-content: center; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .pemf-ring { animation: none; }
+      .hero-scroll-hint { animation: none; }
+      .hero-badge::before { animation: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="PainFree Philippines home">
+        <div class="nav-logo-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <circle cx="10" cy="10" r="3" fill="white"/>
+            <circle cx="10" cy="10" r="6" stroke="white" stroke-width="1.5" stroke-dasharray="3 2"/>
+            <circle cx="10" cy="10" r="9" stroke="white" stroke-width="1" opacity="0.5"/>
+          </svg>
+        </div>
+        <span class="nav-logo-text">Pain<span>Free</span> Philippines</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#roi">ROI</a></li>
+        <li><a href="#track-record">Track Record</a></li>
+      </ul>
+      <a href="#inquire" class="nav-cta">
+        Request Investment Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="container">
+      <div class="hero-badge" role="status">FDA 510(k) Cleared Medical Device</div>
+      <h1 id="hero-heading">
+        The Medical Technology<br/>
+        <em>Philippine Clinics</em><br/>
+        Are Investing In.
+      </h1>
+      <p class="hero-sub">
+        PEMF therapy is the fastest-growing non-invasive treatment technology in premium medical clinics worldwide. 25 years of clinical data. 60+ active clinics. Verified ROI.
+      </p>
+      <div class="hero-actions">
+        <a href="#inquire" class="btn-primary">
+          Request Investment Brief
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#technology" class="btn-secondary">
+          Learn the Technology
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint" aria-hidden="true">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip" role="region" aria-label="Credentials and track record">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-number"><span class="accent">FDA</span></div>
+        <div class="trust-label">510(k) Cleared<br/>Medical Device</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-number"><span class="accent">CE</span></div>
+        <div class="trust-label">European Medical<br/>Certification</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-number"><span id="count-years">0</span><span class="accent">+</span></div>
+        <div class="trust-label">Years of Clinical<br/>Experience</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-number"><span id="count-clinics">0</span><span class="accent">+</span></div>
+        <div class="trust-label">Active Clinics<br/>Worldwide</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-number"><span id="count-sessions">0</span><span class="accent">K</span></div>
+        <div class="trust-label">Treatments<br/>Administered</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TECHNOLOGY -->
+<section id="technology" class="tech-section" aria-labelledby="tech-heading">
+  <div class="container">
+    <div class="tech-layout">
+      <div>
+        <p class="section-label reveal">The Science</p>
+        <h2 id="tech-heading" class="reveal reveal-delay-1">Not a Gadget.<br/><em>A Medical Device.</em></h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Pulsed Electromagnetic Field (PEMF) therapy delivers precisely calibrated electromagnetic pulses to stimulate cellular repair at the biophysical level. This is peer-reviewed, FDA-cleared science — not wellness marketing.
+        </p>
+        <ul class="tech-points">
+          <li class="tech-point reveal reveal-delay-1">
+            <div class="tech-point-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <path d="M11 2v4M11 16v4M2 11h4M16 11h4M4.9 4.9l2.8 2.8M14.3 14.3l2.8 2.8M4.9 17.1l2.8-2.8M14.3 7.7l2.8-2.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="tech-point-text">
+              <strong>Electromagnetic Field Therapy</strong>
+              <p>Delivers targeted electromagnetic pulses that penetrate 20–30 cm into tissue, stimulating cellular ATP production and natural repair mechanisms.</p>
+            </div>
+          </li>
+          <li class="tech-point reveal reveal-delay-2">
+            <div class="tech-point-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <path d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 11l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="tech-point-text">
+              <strong>Non-Invasive. Zero Medication.</strong>
+              <p>Patients remain fully clothed. No needles, no drugs, no side effects. Treatment sessions last 30–60 minutes with no downtime required.</p>
+            </div>
+          </li>
+          <li class="tech-point reveal reveal-delay-3">
+            <div class="tech-point-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <rect x="1" y="3" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M6 10l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 10h3M14 14h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="tech-point-text">
+              <strong>Proven in Peer-Reviewed Research</strong>
+              <p>Published in indexed journals including PubMed and PMC. A 2025 multicenter RCT (n=91, 5 orthopedic clinics) demonstrated 36% pain reduction vs. 10% standard care (p&lt;0.0001).</p>
+            </div>
+          </li>
+          <li class="tech-point reveal reveal-delay-4">
+            <div class="tech-point-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="tech-point-text">
+              <strong>Clinic-Ready. Minimal Operator Training.</strong>
+              <p>Designed for clinical deployment. Standardized protocols. Full training and ongoing support included with every unit.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="tech-visual reveal" aria-hidden="true">
+        <div class="pemf-diagram">
+          <div class="pemf-ring"></div>
+          <div class="pemf-ring"></div>
+          <div class="pemf-ring"></div>
+          <div class="pemf-ring"></div>
+          <div class="pemf-core">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M16 4v4M16 24v4M4 16h4M24 16h4M7.5 7.5l2.8 2.8M21.7 21.7l2.8 2.8M7.5 24.5l2.8-2.8M21.7 10.3l2.8-2.8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="16" cy="16" r="4" fill="white" fill-opacity="0.9"/>
+            </svg>
+          </div>
+        </div>
+        <svg class="tech-wave" viewBox="0 0 400 100" preserveAspectRatio="none">
+          <path d="M0,50 C50,20 100,80 150,50 C200,20 250,80 300,50 C350,20 400,80 400,50 L400,100 L0,100 Z" fill="rgba(14,165,233,0.15)"/>
+          <path d="M0,65 C60,35 120,95 180,65 C240,35 300,95 360,65 L400,70 L400,100 L0,100 Z" fill="rgba(14,165,233,0.1)"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROI CALCULATOR -->
+<section id="roi" class="roi-section" aria-labelledby="roi-heading">
+  <div class="container">
+    <div class="roi-layout">
+      <div>
+        <p class="section-label reveal">Return on Investment</p>
+        <h2 id="roi-heading" class="reveal reveal-delay-1">This Machine<br/><em>Pays For Itself.</em></h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Calculate your projected monthly revenue and estimated payback period based on your clinic's realistic session volume.
+        </p>
+        <ul class="roi-points reveal reveal-delay-3">
+          <li class="roi-point">
+            <div class="roi-point-num">1</div>
+            <div>
+              <strong>Cash-Pay Treatment Model</strong>
+              <p>PEMF sessions are premium, cash-pay procedures. No insurance dependency. High per-session margins with patients who self-select for results.</p>
+            </div>
+          </li>
+          <li class="roi-point">
+            <div class="roi-point-num">2</div>
+            <div>
+              <strong>High Treatment Throughput</strong>
+              <p>The device can run multiple sessions per day with no physician on-site required. A single unit can serve 8–14 patients daily with standard staffing.</p>
+            </div>
+          </li>
+          <li class="roi-point">
+            <div class="roi-point-num">3</div>
+            <div>
+              <strong>Recurring Patient Base</strong>
+              <p>Chronic pain patients return for 10–20 session treatment courses. Once your first cohort is in, revenue becomes predictable and compounding.</p>
+            </div>
+          </li>
+          <li class="roi-point">
+            <div class="roi-point-num">4</div>
+            <div>
+              <strong>Minimal Operating Cost</strong>
+              <p>No consumables. No replacement parts under standard use. Near-zero per-session cost beyond staff time. Gross margins exceed 85% per treatment.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="roi-calculator">
+          <h3>Revenue Estimator</h3>
+          <div class="calc-field">
+            <div class="calc-label">
+              <span>Sessions per day</span>
+              <span class="calc-val" id="sessions-val">8</span>
+            </div>
+            <input type="range" id="sessions-slider" min="3" max="16" value="8" aria-label="Sessions per day" aria-valuemin="3" aria-valuemax="16" aria-valuenow="8"/>
+          </div>
+          <div class="calc-field">
+            <div class="calc-label">
+              <span>Price per session</span>
+              <span class="calc-val" id="price-val">₱2,500</span>
+            </div>
+            <input type="range" id="price-slider" min="1500" max="5000" step="250" value="2500" aria-label="Price per session in Philippine Peso" aria-valuemin="1500" aria-valuemax="5000" aria-valuenow="2500"/>
+          </div>
+          <div class="roi-results">
+            <div class="roi-result-card primary">
+              <div class="roi-result-label">Estimated Monthly Revenue</div>
+              <div class="roi-result-value" id="monthly-rev">₱0</div>
+              <div class="roi-result-sub">Based on 26 operating days</div>
+            </div>
+            <div class="roi-result-card">
+              <div class="roi-result-label">Annual Revenue</div>
+              <div class="roi-result-value" id="annual-rev">₱0</div>
+            </div>
+            <div class="roi-result-card">
+              <div class="roi-result-label">Est. Payback Period</div>
+              <div class="roi-result-value" id="payback">—</div>
+            </div>
+          </div>
+          <p class="roi-disclaimer">
+            Estimates are illustrative. Actual results depend on pricing, utilization, and market conditions. Contact us for detailed financial projections specific to your location.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY PHILIPPINES -->
+<section class="why-section" aria-labelledby="why-heading">
+  <div class="container">
+    <p class="section-label reveal">Market Opportunity</p>
+    <h2 id="why-heading" class="reveal reveal-delay-1">Why the Philippines.<br/><em>Why Now.</em></h2>
+    <p class="section-desc reveal reveal-delay-2">The Philippine private healthcare market is one of the fastest-growing in Southeast Asia. Premium non-invasive treatments are entering a market chronically underserved by advanced pain management options.</p>
+    <div class="stats-grid">
+      <div class="stat-card reveal reveal-delay-1">
+        <div class="stat-card-icon" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <path d="M24 6C14.06 6 6 14.06 6 24s8.06 18 18 18 18-8.06 18-18S33.94 6 24 6z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M24 14v10l6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="stat-card-num">$12<span class="text-blue">B</span></div>
+        <div class="stat-card-label">Private Healthcare Market</div>
+        <p class="stat-card-desc">Philippines private health expenditure projected to reach $12B by 2027. Premium outpatient services are the fastest-growing segment.</p>
+      </div>
+      <div class="stat-card reveal reveal-delay-2">
+        <div class="stat-card-icon" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <path d="M16 34V20M24 34V12M32 34V26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M8 40h32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="stat-card-num">34<span class="text-blue">M</span></div>
+        <div class="stat-card-label">Adults with Chronic Pain</div>
+        <p class="stat-card-desc">Estimated Filipinos living with chronic musculoskeletal conditions — an underserved population with no effective non-surgical options currently available.</p>
+      </div>
+      <div class="stat-card reveal reveal-delay-3">
+        <div class="stat-card-icon" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <path d="M6 24l8-8 8 8 8-10 8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 38h36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="stat-card-num">First<span class="text-blue">.</span></div>
+        <div class="stat-card-label">No Established PEMF Market</div>
+        <p class="stat-card-desc">PEMF therapy has no organized distribution or clinical presence in the Philippines. The first clinic to establish it owns the category and the patient base.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRACK RECORD -->
+<section id="track-record" class="track-section" aria-labelledby="track-heading">
+  <div class="container">
+    <p class="section-label reveal">Proven Track Record</p>
+    <h2 id="track-heading" class="reveal reveal-delay-1">25 Years.<br/><em>60+ Clinics.</em><br/>One Technology.</h2>
+    <p class="section-desc reveal reveal-delay-2">PainFree PEMF has been operating in Israel's competitive private healthcare market since the late 1990s. The results are institutional, not anecdotal.</p>
+    <div class="track-grid">
+      <div class="track-card reveal reveal-delay-1">
+        <div class="track-num" style="color:var(--blue-400)">25<span style="font-size:1.5rem">+</span></div>
+        <div class="track-label">Years operating<br/>in private clinics</div>
+      </div>
+      <div class="track-card reveal reveal-delay-2">
+        <div class="track-num" style="color:var(--blue-400)">60<span style="font-size:1.5rem">+</span></div>
+        <div class="track-label">Active clinic<br/>partners worldwide</div>
+      </div>
+      <div class="track-card reveal reveal-delay-3">
+        <div class="track-num" style="color:var(--gold-500)">36<span style="font-size:1.5rem">%</span></div>
+        <div class="track-label">Pain reduction in<br/>2025 multicenter RCT</div>
+      </div>
+      <div class="track-card reveal reveal-delay-4">
+        <div class="track-num" style="color:var(--green-400)">510<span style="font-size:1.2rem">k</span></div>
+        <div class="track-label">FDA clearance<br/>classification</div>
+      </div>
+    </div>
+    <div class="track-quote-block reveal">
+      <div>
+        <p class="track-quote-text">
+          "The 2025 multicenter randomized controlled trial across <strong>5 orthopedic clinics, n=91 patients</strong>, demonstrated statistically significant pain reduction of <strong>36% vs. 10% in standard care</strong> (p&lt;0.0001). This is not pilot data — this is institutional-grade clinical evidence."
+        </p>
+        <p style="margin-top:16px;font-size:0.85rem;color:var(--gray-500);">
+          Source: PMC11914662, PubMed Central — Peer-reviewed, indexed journal publication
+        </p>
+      </div>
+      <div class="track-badges">
+        <div class="track-badge">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M9 1l2 6h6l-5 3.6L14 17 9 13l-5 4 1.7-6.4L1 7h6z" stroke="currentColor" stroke-width="1.3" fill="none" stroke-linejoin="round"/>
+          </svg>
+          FDA 510(k)
+        </div>
+        <div class="track-badge">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M9 1l2 6h6l-5 3.6L14 17 9 13l-5 4 1.7-6.4L1 7h6z" stroke="currentColor" stroke-width="1.3" fill="none" stroke-linejoin="round"/>
+          </svg>
+          CE Certified
+        </div>
+        <div class="track-badge">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M9 1l2 6h6l-5 3.6L14 17 9 13l-5 4 1.7-6.4L1 7h6z" stroke="currentColor" stroke-width="1.3" fill="none" stroke-linejoin="round"/>
+          </svg>
+          PubMed Indexed
+        </div>
+        <div class="track-badge">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M9 1l2 6h6l-5 3.6L14 17 9 13l-5 4 1.7-6.4L1 7h6z" stroke="currentColor" stroke-width="1.3" fill="none" stroke-linejoin="round"/>
+          </svg>
+          RCT Evidence
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / FORM -->
+<section id="inquire" class="cta-section" aria-labelledby="form-heading">
+  <div class="container">
+    <div class="cta-box reveal">
+      <p class="section-label" style="margin-bottom:12px;">Investment Inquiry</p>
+      <h2 id="form-heading">Request the<br/><em>Investment Brief</em></h2>
+      <p class="section-desc">
+        We'll send you a detailed brief covering technology specs, ROI projections, setup requirements, and support structure. No commitment required.
+      </p>
+      <div id="inquiry-form-wrap">
+        <form id="inquiry-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="f-name">Full Name <span class="required" aria-label="required">*</span></label>
+              <input type="text" id="f-name" name="name" placeholder="Dr. Maria Santos" autocomplete="name" required />
+              <div class="field-error" id="err-name">Please enter your name.</div>
+            </div>
+            <div class="form-group">
+              <label for="f-clinic">Clinic / Business Name <span class="required" aria-label="required">*</span></label>
+              <input type="text" id="f-clinic" name="clinic" placeholder="Santos Medical Center" required />
+              <div class="field-error" id="err-clinic">Please enter your clinic name.</div>
+            </div>
+            <div class="form-group">
+              <label for="f-location">City / Region <span class="required" aria-label="required">*</span></label>
+              <select id="f-location" name="location" required>
+                <option value="" disabled selected>Select your region</option>
+                <option>Metro Manila (NCR)</option>
+                <option>Cebu & Visayas</option>
+                <option>Davao & Mindanao</option>
+                <option>Pampanga / Central Luzon</option>
+                <option>Laguna / CALABARZON</option>
+                <option>Other Region</option>
+              </select>
+              <div class="field-error" id="err-location">Please select your location.</div>
+            </div>
+            <div class="form-group">
+              <label for="f-budget">Investment Range</label>
+              <select id="f-budget" name="budget">
+                <option value="" disabled selected>Select range</option>
+                <option>Under ₱1M</option>
+                <option>₱1M – ₱3M</option>
+                <option>₱3M – ₱5M</option>
+                <option>Above ₱5M</option>
+                <option>Prefer not to say</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="f-email">Email Address <span class="required" aria-label="required">*</span></label>
+              <input type="email" id="f-email" name="email" placeholder="maria@santosmedical.ph" autocomplete="email" required />
+              <div class="field-error" id="err-email">Please enter a valid email address.</div>
+            </div>
+            <div class="form-group">
+              <label for="f-phone">WhatsApp / Mobile <span class="required" aria-label="required">*</span></label>
+              <input type="tel" id="f-phone" name="phone" placeholder="+63 917 123 4567" autocomplete="tel" required />
+              <div class="field-error" id="err-phone">Please enter your contact number.</div>
+            </div>
+            <div class="form-group full">
+              <label for="f-message">Questions or Context <span style="color:var(--gray-500);font-weight:400;">(optional)</span></label>
+              <textarea id="f-message" name="message" placeholder="Tell us about your clinic, your current setup, or any specific questions about the technology..."></textarea>
+            </div>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn-submit" id="submit-btn">
+              <span class="btn-text">Send My Request</span>
+              <div class="spinner" aria-hidden="true"></div>
+            </button>
+          </div>
+          <p class="form-note">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <rect x="2" y="6" width="10" height="7" rx="1" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M5 6V4.5a2 2 0 0 1 4 0V6" stroke="currentColor" stroke-width="1.2"/>
+            </svg>
+            Your information is private. We will contact you within 24 hours.
+          </p>
+        </form>
+        <div class="form-success" id="form-success" role="status" aria-live="polite">
+          <div class="form-success-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M6 14l5 5 11-11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Request Received</h3>
+          <p>We'll send the investment brief to your email within 24 hours.<br/>For faster response, message us on WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-cert" aria-label="Certifications">
+        <span class="cert-badge">FDA 510(k)</span>
+        <span class="cert-badge">CE Mark</span>
+        <span class="cert-badge">PubMed Indexed</span>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#technology">Technology</a>
+        <a href="#roi">ROI</a>
+        <a href="#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ── NAV SCROLL ──────────────────────────────────────────────
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  // Canvas removed — using CSS animation for hero background
+
+  // ── SCROLL REVEAL ────────────────────────────────────────────
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); } });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(el => revealObs.observe(el));
+
+  // ── COUNTER ANIMATION ─────────────────────────────────────────
+  function animateCount(el, target, suffix = '') {
+    let current = 0;
+    const step = target / 40;
+    const interval = setInterval(() => {
+      current = Math.min(current + step, target);
+      el.textContent = Math.round(current);
+      if (current >= target) clearInterval(interval);
+    }, 30);
+  }
+
+  const trustStrip = document.querySelector('.trust-strip');
+  let counted = false;
+  const countObs = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && !counted) {
+      counted = true;
+      animateCount(document.getElementById('count-years'), 25);
+      animateCount(document.getElementById('count-clinics'), 60);
+      animateCount(document.getElementById('count-sessions'), 500);
+    }
+  }, { threshold: 0.4 });
+  countObs.observe(trustStrip);
+
+  // ── ROI CALCULATOR ────────────────────────────────────────────
+  const sessSlider = document.getElementById('sessions-slider');
+  const priceSlider = document.getElementById('price-slider');
+  const sessVal = document.getElementById('sessions-val');
+  const priceVal = document.getElementById('price-val');
+  const monthlyRevEl = document.getElementById('monthly-rev');
+  const annualRevEl = document.getElementById('annual-rev');
+  const paybackEl = document.getElementById('payback');
+
+  const MACHINE_COST_PHP = 1500000; // ₱1.5M representative investment
+
+  function formatPHP(n) {
+    if (n >= 1000000) return '₱' + (n / 1000000).toFixed(1) + 'M';
+    return '₱' + n.toLocaleString('en-PH');
+  }
+
+  function calcROI() {
+    const sessions = parseInt(sessSlider.value);
+    const price = parseInt(priceSlider.value);
+    sessVal.textContent = sessions;
+    priceVal.textContent = '₱' + price.toLocaleString('en-PH');
+    const monthly = sessions * price * 26;
+    const annual = monthly * 12;
+    const paybackMonths = Math.ceil(MACHINE_COST_PHP / monthly);
+    monthlyRevEl.textContent = formatPHP(monthly);
+    annualRevEl.textContent = formatPHP(annual);
+    paybackEl.textContent = paybackMonths <= 24 ? paybackMonths + ' mo.' : '>24 mo.';
+    sessSlider.setAttribute('aria-valuenow', sessions);
+    priceSlider.setAttribute('aria-valuenow', price);
+  }
+
+  sessSlider.addEventListener('input', calcROI);
+  priceSlider.addEventListener('input', calcROI);
+  calcROI();
+
+  // ── FORM VALIDATION & SUBMIT ──────────────────────────────────
+  const form = document.getElementById('inquiry-form');
+  const submitBtn = document.getElementById('submit-btn');
+  const formSuccess = document.getElementById('form-success');
+
+  function showError(id, show) {
+    const el = document.getElementById(id);
+    const input = el.previousElementSibling;
+    if (!input) return;
+    el.classList.toggle('visible', show);
+    input.classList.toggle('error', show);
+    input.setAttribute('aria-invalid', show ? 'true' : 'false');
+  }
+
+  function validateForm() {
+    let valid = true;
+    const name = document.getElementById('f-name');
+    const clinic = document.getElementById('f-clinic');
+    const location = document.getElementById('f-location');
+    const email = document.getElementById('f-email');
+    const phone = document.getElementById('f-phone');
+
+    if (!name.value.trim()) { showError('err-name', true); valid = false; } else showError('err-name', false);
+    if (!clinic.value.trim()) { showError('err-clinic', true); valid = false; } else showError('err-clinic', false);
+    if (!location.value) { showError('err-location', true); valid = false; } else showError('err-location', false);
+    if (!email.value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) { showError('err-email', true); valid = false; } else showError('err-email', false);
+    if (!phone.value.trim()) { showError('err-phone', true); valid = false; } else showError('err-phone', false);
+
+    return valid;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!validateForm()) {
+      form.querySelector('.error')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    submitBtn.classList.add('loading');
+    submitBtn.disabled = true;
+    // Simulate network request — wire to Formspree/EmailJS/backend as needed
+    await new Promise(r => setTimeout(r, 1800));
+    form.style.display = 'none';
+    formSuccess.classList.add('visible');
+  });
+
+  // Clear errors on input
+  form.querySelectorAll('input, select, textarea').forEach(el => {
+    el.addEventListener('blur', () => {
+      if (el.value.trim()) el.classList.remove('error');
+    });
+  });
+</script>
+</body>
+</html>
