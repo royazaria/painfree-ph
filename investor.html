@@ -35,7 +35,9 @@
     .nav-row { display:flex; align-items:center; justify-content:space-between; }
     .logo { display:flex; align-items:center; text-decoration:none; background:#fff; border-radius:8px; padding:5px 14px; }
     .logo-img { height:34px; width:auto; max-width:170px; object-fit:contain; display:block; }
-    .nav-tag { font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.5); }
+    .nav-links { display:flex; gap:8px; list-style:none; }
+    .nav-links a { display:inline-flex; align-items:center; padding:8px 16px; min-height:38px; color:rgba(255,255,255,.85); text-decoration:none; font-size:.875rem; font-weight:500; border:1px solid rgba(255,255,255,.15); border-radius:100px; transition:background .2s, border-color .2s, color .2s; }
+    .nav-links a:hover { color:#fff; background:rgba(255,255,255,.1); border-color:rgba(255,255,255,.35); }
     .nav-btn { display:inline-flex; align-items:center; gap:7px; padding:10px 22px; min-height:44px; background:var(--teal); color:#fff; border:none; border-radius:var(--r); font-size:.875rem; font-weight:700; text-decoration:none; cursor:pointer; transition:background .2s, transform .2s; }
     .nav-btn:hover { background:var(--teal-d); transform:translateY(-1px); }
 
@@ -185,7 +187,7 @@
     }
     @media (max-width:620px) {
       .sec { padding:64px 0; }
-      .nav-tag { display:none; }
+      .nav-links { display:none; }
       .hero h1 { font-size:1.95rem; }
       .hero-left > * { max-width:none; }
       .hero-actions { flex-direction:column; }
@@ -206,7 +208,13 @@
   <div class="container">
     <div class="nav-row">
       <a href="#" class="logo"><img src="images/logo.jpg" alt="PainFree PEMF" class="logo-img"/></a>
-      <span class="nav-tag">Founding Partner · Philippines</span>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
       <a href="#connect" class="nav-btn">
         Discuss Partnership
         <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
