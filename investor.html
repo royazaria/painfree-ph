@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PainFree PEMF — Founding Partner Opportunity, Philippines</title>
+  <meta name="description" content="Seeking one founding partner to bring an FDA-cleared, 25-year-proven PEMF pain therapy to the Philippines. Ground-floor terms, exclusive territory, full clinical backing."/>
+  <meta name="robots" content="noindex"/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WTJD6CF5ZC');</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:#06111F; --navy-2:#0B1C30; --navy-3:#122440;
+      --teal:#00B4D8; --teal-d:#0096B7; --gold:#F59E0B;
+      --white:#FFFFFF; --off-white:#F7F9FC; --light:#EEF3F8;
+      --ink:#0F1F30; --ink-2:#2D4257; --muted:#637083; --border:#D4DDE8;
+      --font:'Inter',system-ui,-apple-system,sans-serif; --r:10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}
+    @media (prefers-reduced-motion: reduce){ .reveal{opacity:1;transform:none;transition:none} }
+
+    /* NAV */
+    #nav { position: fixed; top:0; left:0; right:0; z-index:200; padding:14px 0; background:rgba(6,17,31,.95); backdrop-filter:blur(14px); box-shadow:0 1px 0 rgba(255,255,255,.06); transition:padding .3s, background .3s; }
+    #nav.sc { background:rgba(6,17,31,.99); padding:10px 0; }
+    .nav-row { display:flex; align-items:center; justify-content:space-between; }
+    .logo { display:flex; align-items:center; text-decoration:none; background:#fff; border-radius:8px; padding:5px 14px; }
+    .logo-img { height:34px; width:auto; max-width:170px; object-fit:contain; display:block; }
+    .nav-tag { font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.5); }
+    .nav-btn { display:inline-flex; align-items:center; gap:7px; padding:10px 22px; min-height:44px; background:var(--teal); color:#fff; border:none; border-radius:var(--r); font-size:.875rem; font-weight:700; text-decoration:none; cursor:pointer; transition:background .2s, transform .2s; }
+    .nav-btn:hover { background:var(--teal-d); transform:translateY(-1px); }
+
+    /* HERO */
+    .hero { min-height:100dvh; background:var(--navy); display:grid; grid-template-columns:1.05fr 1fr; align-items:center; overflow:hidden; position:relative; }
+    .hero::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse 60% 70% at 18% 50%, rgba(0,180,216,.12) 0%, transparent 65%); pointer-events:none; }
+    .hero-left { position:relative; z-index:2; padding:150px 0 80px 0; }
+    .hero-badge { display:inline-flex; align-items:center; gap:8px; padding:6px 14px; background:rgba(245,158,11,.12); border:1px solid rgba(245,158,11,.35); border-radius:100px; font-size:.72rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--gold); margin-bottom:28px; }
+    .hero-badge::before { content:''; width:6px; height:6px; background:var(--gold); border-radius:50%; animation:blink 2s infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 { font-size:clamp(2.3rem,4.6vw,3.7rem); font-weight:900; letter-spacing:-.035em; line-height:1.1; color:#fff; margin-bottom:22px; }
+    .hero h1 em { font-style:normal; color:var(--teal); }
+    .hero-sub { font-size:1.08rem; color:rgba(255,255,255,.68); max-width:520px; line-height:1.75; margin-bottom:38px; }
+    .hero-actions { display:flex; gap:14px; flex-wrap:wrap; }
+    .btn-primary { display:inline-flex; align-items:center; gap:9px; padding:15px 30px; min-height:52px; background:var(--teal); color:#fff; border:none; border-radius:var(--r); font-size:1rem; font-weight:700; text-decoration:none; cursor:pointer; transition:background .2s, transform .2s, box-shadow .2s; }
+    .btn-primary:hover { background:var(--teal-d); transform:translateY(-2px); box-shadow:0 8px 22px rgba(0,180,216,.35); }
+    .btn-outline { display:inline-flex; align-items:center; gap:8px; padding:15px 26px; min-height:52px; background:transparent; color:rgba(255,255,255,.8); border:1px solid rgba(255,255,255,.25); border-radius:var(--r); font-size:1rem; font-weight:500; text-decoration:none; cursor:pointer; transition:border-color .2s, color .2s, transform .2s; }
+    .btn-outline:hover { border-color:var(--teal); color:#fff; transform:translateY(-2px); }
+    .hero-stats { display:flex; gap:30px; margin-top:46px; padding-top:30px; border-top:1px solid rgba(255,255,255,.1); }
+    .hero-stat-num { font-size:1.7rem; font-weight:900; color:#fff; letter-spacing:-.04em; line-height:1; }
+    .hero-stat-num span { color:var(--teal); }
+    .hero-stat-lbl { font-size:.72rem; color:rgba(255,255,255,.45); text-transform:uppercase; letter-spacing:.07em; margin-top:5px; }
+    .hero-right { position:relative; height:100%; min-height:100dvh; overflow:hidden; }
+    .hero-right img { width:100%; height:100%; object-fit:cover; object-position:55% center; display:block; }
+    .hero-right-overlay { position:absolute; inset:0; background:linear-gradient(90deg, var(--navy) 0%, rgba(6,17,31,.2) 22%, transparent 45%); }
+
+    /* SECTIONS */
+    .sec { padding:96px 0; }
+    .sec-lbl { display:inline-flex; align-items:center; gap:9px; font-size:.7rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; margin-bottom:14px; }
+    .sec-lbl::before { content:''; width:22px; height:2px; }
+    .sec-lbl.dark { color:var(--teal); } .sec-lbl.dark::before { background:var(--teal); }
+    .sec-lbl.light { color:var(--teal-d); } .sec-lbl.light::before { background:var(--teal-d); }
+    h2.dark { font-size:clamp(1.9rem,4vw,2.9rem); font-weight:900; letter-spacing:-.03em; color:#fff; line-height:1.12; margin-bottom:14px; }
+    h2.dark em { color:var(--teal); font-style:normal; }
+    h2.light { font-size:clamp(1.9rem,4vw,2.9rem); font-weight:900; letter-spacing:-.03em; color:var(--ink); line-height:1.12; margin-bottom:14px; }
+    h2.light em { color:var(--teal-d); font-style:normal; }
+    .sec-desc { font-size:1.05rem; line-height:1.8; max-width:680px; }
+    .sec-desc.dark { color:rgba(255,255,255,.6); }
+    .sec-desc.light { color:var(--muted); }
+
+    /* OPPORTUNITY */
+    .opp-sec { background:var(--off-white); }
+    .opp-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; }
+    .opp-photo { border-radius:16px; overflow:hidden; box-shadow:0 30px 60px rgba(0,0,0,.12); }
+    .opp-photo img { width:100%; display:block; }
+
+    /* PROOF / credentials */
+    .proof-sec { background:var(--navy-2); }
+    .creds-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:48px; }
+    .cred-card { background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.09); border-radius:14px; padding:28px 22px; text-align:center; }
+    .cred-img-wrap { height:54px; display:flex; align-items:center; justify-content:center; margin-bottom:14px; }
+    .cred-img-wrap img { max-height:54px; max-width:110px; object-fit:contain; }
+    .cred-mark { font-size:2rem; font-weight:900; color:#fff; letter-spacing:-.04em; }
+    .cred-title { font-size:.88rem; font-weight:700; color:#fff; margin-bottom:4px; }
+    .cred-desc { font-size:.78rem; color:rgba(255,255,255,.5); line-height:1.5; }
+    .expert-card { background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); border-radius:16px; padding:36px; max-width:860px; margin:48px auto 0; }
+    .expert-card p { font-size:1.02rem; color:rgba(255,255,255,.8); line-height:1.8; font-style:italic; }
+    .expert-card p strong { color:var(--teal); font-style:normal; }
+    .expert-attr { display:flex; align-items:center; gap:16px; margin-top:26px; padding-top:22px; border-top:1px solid rgba(255,255,255,.1); }
+    .expert-avatar { width:46px; height:46px; background:var(--teal); border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; color:#fff; font-size:.9rem; flex-shrink:0; }
+    .expert-attr strong { color:#fff; display:block; margin-bottom:3px; font-size:.95rem; }
+    .expert-attr span { font-size:.78rem; color:rgba(255,255,255,.45); line-height:1.5; }
+
+    /* STATUS / milestone */
+    .status-sec { background:var(--white); }
+    .status-box { background:var(--off-white); border:1px solid var(--border); border-radius:18px; padding:44px; max-width:880px; margin:0 auto; }
+    .status-row { display:flex; gap:18px; align-items:flex-start; padding:18px 0; border-bottom:1px solid var(--border); }
+    .status-row:last-child { border-bottom:none; }
+    .status-ico { width:30px; height:30px; flex-shrink:0; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-top:2px; }
+    .status-ico.done { background:rgba(34,197,94,.12); color:#16A34A; }
+    .status-ico.next { background:rgba(245,158,11,.14); color:var(--gold); }
+    .status-row strong { display:block; color:var(--ink); font-weight:700; margin-bottom:3px; }
+    .status-row p { font-size:.9rem; color:var(--muted); line-height:1.6; }
+    .status-tag { font-size:.68rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; padding:3px 9px; border-radius:5px; margin-left:auto; flex-shrink:0; }
+    .status-tag.done { background:rgba(34,197,94,.1); color:#16A34A; }
+    .status-tag.next { background:rgba(245,158,11,.12); color:#B45309; }
+
+    /* OFFER */
+    .offer-sec { background:var(--navy); }
+    .offer-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; margin-top:48px; }
+    .offer-card { background:var(--navy-3); border:1px solid rgba(0,180,216,.16); border-radius:16px; padding:32px; }
+    .offer-card .num { width:38px; height:38px; background:rgba(0,180,216,.12); border:1px solid rgba(0,180,216,.3); border-radius:10px; display:flex; align-items:center; justify-content:center; color:var(--teal); font-weight:800; margin-bottom:18px; }
+    .offer-card h3 { font-size:1.12rem; font-weight:800; color:#fff; margin-bottom:8px; }
+    .offer-card p { font-size:.9rem; color:rgba(255,255,255,.55); line-height:1.65; }
+    .offer-note { text-align:center; font-size:.92rem; color:rgba(255,255,255,.5); margin-top:36px; line-height:1.7; max-width:640px; margin-left:auto; margin-right:auto; }
+    .offer-note strong { color:#fff; }
+
+    /* MARKET CASE */
+    .market-sec { background:var(--off-white); }
+    .market-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:48px; }
+    .market-stat { text-align:center; background:var(--white); border:1px solid var(--border); border-radius:14px; padding:30px 18px; }
+    .market-stat-num { font-size:2.1rem; font-weight:900; color:var(--ink); letter-spacing:-.04em; line-height:1; }
+    .market-stat-num em { font-style:normal; color:var(--teal-d); }
+    .market-stat-lbl { font-size:.8rem; color:var(--muted); margin-top:8px; line-height:1.4; }
+    .market-note { text-align:center; font-size:.82rem; color:var(--muted); margin-top:28px; }
+
+    /* CTA / FORM */
+    .cta-sec { background:var(--navy-2); padding:108px 0; }
+    .cta-box { max-width:640px; margin:0 auto; background:var(--navy-3); border:1px solid rgba(0,180,216,.18); border-radius:20px; padding:52px; box-shadow:0 40px 80px rgba(0,0,0,.4); }
+    .fg { margin-bottom:14px; }
+    .form-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    .fg.full { grid-column:1/-1; }
+    label { display:block; font-size:.82rem; font-weight:600; color:rgba(255,255,255,.65); margin-bottom:7px; }
+    label .req { color:#F87171; }
+    input[type="text"],input[type="email"],input[type="tel"],textarea { width:100%; padding:13px 15px; min-height:44px; background:var(--navy-2); border:1px solid rgba(255,255,255,.12); border-radius:8px; color:#fff; font-family:var(--font); font-size:.92rem; outline:none; transition:border-color .2s, box-shadow .2s; }
+    input::placeholder, textarea::placeholder { color:rgba(255,255,255,.25); }
+    input:focus, textarea:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(0,180,216,.15); }
+    input.err { border-color:#F87171; }
+    .err-msg { font-size:.78rem; color:#F87171; margin-top:5px; display:none; }
+    .err-msg.show { display:block; }
+    textarea { resize:vertical; min-height:90px; line-height:1.6; }
+    .submit-btn { width:100%; padding:17px; min-height:54px; background:var(--teal); color:#fff; border:none; border-radius:9px; font-family:var(--font); font-size:1rem; font-weight:800; cursor:pointer; margin-top:22px; display:flex; align-items:center; justify-content:center; gap:10px; transition:background .2s, transform .2s, box-shadow .2s; }
+    .submit-btn:hover:not(:disabled) { background:var(--teal-d); transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,180,216,.35); }
+    .submit-btn:disabled { opacity:.55; cursor:not-allowed; }
+    .spin { width:18px; height:18px; border:2px solid rgba(255,255,255,.3); border-top-color:#fff; border-radius:50%; animation:spin .7s linear infinite; display:none; }
+    .submit-btn.loading .spin { display:block; } .submit-btn.loading .btn-lbl { display:none; }
+    @keyframes spin { to{transform:rotate(360deg)} }
+    .form-note { font-size:.78rem; color:rgba(255,255,255,.3); text-align:center; margin-top:14px; }
+    .form-ok { display:none; text-align:center; padding:30px 0; }
+    .form-ok.show { display:block; }
+    .ok-icon { width:60px; height:60px; background:rgba(74,222,128,.1); border:2px solid rgba(74,222,128,.3); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 18px; color:#4ADE80; }
+    .form-ok h3 { font-size:1.35rem; color:#fff; margin-bottom:8px; }
+    .form-ok p { color:rgba(255,255,255,.45); line-height:1.7; }
+    .contact-direct { text-align:center; margin-top:30px; padding-top:26px; border-top:1px solid rgba(255,255,255,.1); }
+    .contact-direct p { font-size:.85rem; color:rgba(255,255,255,.5); line-height:1.7; }
+    .contact-direct a { color:var(--teal); text-decoration:none; font-weight:600; }
+
+    /* WhatsApp float */
+    .wa-float { position:fixed; bottom:28px; right:28px; z-index:300; width:56px; height:56px; background:#25D366; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 20px rgba(37,211,102,.5); text-decoration:none; transition:transform .2s, box-shadow .2s; }
+    .wa-float:hover { transform:scale(1.1); box-shadow:0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer { background:var(--navy); border-top:1px solid rgba(255,255,255,.06); padding:40px 0 30px; }
+    .footer-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px; }
+    .footer-copy { font-size:.82rem; color:rgba(255,255,255,.3); }
+    .footer-certs { display:flex; gap:10px; }
+    .fcert { padding:5px 11px; background:rgba(0,180,216,.08); border:1px solid rgba(0,180,216,.15); border-radius:5px; font-size:.72rem; font-weight:700; color:var(--teal); letter-spacing:.06em; }
+
+    @media (max-width:960px) {
+      .hero { grid-template-columns:1fr; }
+      .hero-right { min-height:340px; height:340px; }
+      .hero-left { padding:120px 0 60px; }
+      .opp-grid { grid-template-columns:1fr; gap:40px; }
+      .creds-grid, .market-stats { grid-template-columns:1fr 1fr; }
+      .offer-grid { grid-template-columns:1fr; }
+    }
+    @media (max-width:620px) {
+      .sec { padding:64px 0; }
+      .hero h1 { font-size:2.1rem; }
+      .hero-actions { flex-direction:column; }
+      .btn-primary, .btn-outline { width:100%; justify-content:center; }
+      .hero-stats { flex-direction:column; gap:16px; }
+      .creds-grid, .market-stats { grid-template-columns:1fr 1fr; }
+      .cta-box { padding:30px 20px; }
+      .form-row { grid-template-columns:1fr; }
+      .status-box { padding:28px 20px; }
+      .footer-row { flex-direction:column; align-items:flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="#" class="logo"><img src="images/logo.jpg" alt="PainFree PEMF" class="logo-img"/></a>
+      <span class="nav-tag">Founding Partner · Philippines</span>
+      <a href="#connect" class="nav-btn">
+        Discuss Partnership
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-left">
+    <div class="hero-badge">Founding Partner Opportunity</div>
+    <h1>Bring a Proven Pain Therapy to the <em>Philippines</em> — From the Ground Floor.</h1>
+    <p class="hero-sub">PainFree is an FDA-cleared PEMF medical technology with 25 years and 70+ clinics behind it — established in the US, Europe and Israel, but not yet in the Philippines. We're seeking <strong>one founding partner</strong> to launch it here, starting with local FDA registration.</p>
+    <div class="hero-actions">
+      <a href="#connect" class="btn-primary">
+        Start the Conversation
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#proof" class="btn-outline">See the Track Record</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="hero-stat-num">25<span>+</span></div><div class="hero-stat-lbl">Years in<br/>Active Clinics</div></div>
+      <div><div class="hero-stat-num">70<span>+</span></div><div class="hero-stat-lbl">Clinic Partners<br/>Worldwide</div></div>
+      <div><div class="hero-stat-num">1<span>st</span></div><div class="hero-stat-lbl">Mover in the<br/>PH Market</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="images/device.jpg" alt="PainFree PEMF medical device"/>
+    <div class="hero-right-overlay"></div>
+  </div>
+</section>
+
+<!-- OPPORTUNITY -->
+<section class="sec opp-sec">
+  <div class="container">
+    <div class="opp-grid">
+      <div>
+        <p class="sec-lbl light reveal">The Opportunity</p>
+        <h2 class="light reveal d1">A 25-Year-Proven Device.<br/><em>A Market That Doesn't Have It Yet.</em></h2>
+        <p class="sec-desc light reveal d2" style="margin-bottom:24px;">PEMF (Pulsed Electromagnetic Field) therapy is established medicine in the United States, Europe and Israel — FDA-cleared, in routine clinical use, backed by decades of data. In the Philippines, it is virtually untapped.</p>
+        <p class="sec-desc light reveal d3">We already have the device, the clinical protocols, and 25 years of real-world deployment. What the Philippine launch needs is the right local founding partner to open the door — and own the first-mover position in an entire country.</p>
+      </div>
+      <div class="opp-photo reveal d2">
+        <img src="images/patient.jpg" alt="Patient receiving PEMF treatment in a clinical setting"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF / CREDENTIALS -->
+<section id="proof" class="sec proof-sec">
+  <div class="container">
+    <p class="sec-lbl dark reveal" style="justify-content:center">The Asset You're Backing</p>
+    <h2 class="dark reveal d1" style="text-align:center;max-width:760px;margin:0 auto 8px;">This Is Not a Startup Pitch.<br/><em>It's a Proven Asset Entering a New Market.</em></h2>
+    <p class="sec-desc dark reveal d2" style="text-align:center;margin:0 auto;">The technology, the clearances, and the clinical results already exist. The only thing new here is the Philippines.</p>
+    <div class="creds-grid">
+      <div class="cred-card reveal d1">
+        <div class="cred-img-wrap"><img src="images/fda.png" alt="FDA cleared"/></div>
+        <div class="cred-title">FDA 510(k) Cleared</div>
+        <div class="cred-desc">U.S. Food & Drug Administration — the highest international standard for medical-device clearance.</div>
+      </div>
+      <div class="cred-card reveal d2">
+        <div class="cred-img-wrap"><div class="cred-mark">CE</div></div>
+        <div class="cred-title">CE Mark — Europe</div>
+        <div class="cred-desc">Certified to European medical-device standards for clinical electromagnetic therapy equipment.</div>
+      </div>
+      <div class="cred-card reveal d3">
+        <div class="cred-img-wrap"><img src="images/ministry.jpg" alt="Israeli Ministry of Health"/></div>
+        <div class="cred-title">Ministry of Health (IL)</div>
+        <div class="cred-desc">Authorized for clinical use in Israel — 25 years of continuous regulatory compliance.</div>
+      </div>
+      <div class="cred-card reveal d4">
+        <div class="cred-img-wrap"><div class="cred-mark" style="font-size:1.5rem;line-height:1.1;">36%</div></div>
+        <div class="cred-title">2025 Multicenter RCT</div>
+        <div class="cred-desc">36% pain reduction vs. 10% standard care (n=91, p&lt;0.0001). Indexed on PubMed Central.</div>
+      </div>
+    </div>
+    <div class="expert-card reveal">
+      <p>"The scientific evidence, regulatory approvals, and clear economic advantages point to <strong>high potential for integrating PEMF as an integral part of clinical rehabilitation programs.</strong> The technology has been FDA-approved since 1979 and is in routine use at leading centers worldwide."</p>
+      <div class="expert-attr">
+        <div class="expert-avatar">IG</div>
+        <div>
+          <strong>Prof. Itamar Grotto, MD</strong>
+          <span>Former Deputy Director-General, Israeli Ministry of Health · Former WHO Executive Board Representative</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATUS / TRANSPARENCY -->
+<section class="sec status-sec">
+  <div class="container">
+    <p class="sec-lbl light reveal" style="justify-content:center">Where We Stand — Transparently</p>
+    <h2 class="light reveal d1" style="text-align:center;margin-bottom:14px;">Exactly What This<br/><em>Partnership Unlocks.</em></h2>
+    <p class="sec-desc light reveal d2" style="text-align:center;margin:0 auto 44px;">No hidden ball. Here is precisely where the device is today and what the founding partnership is built to accomplish.</p>
+    <div class="status-box reveal d2">
+      <div class="status-row">
+        <div class="status-ico done"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div><strong>Internationally cleared & clinically proven</strong><p>FDA 510(k), CE Mark, Israeli MoH. 25 years, 70+ clinics, peer-reviewed RCT results.</p></div>
+        <span class="status-tag done">Done</span>
+      </div>
+      <div class="status-row">
+        <div class="status-ico done"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div><strong>Device, protocols & training ready</strong><p>Complete clinical protocols, operator training, and ongoing technical support already in place.</p></div>
+        <span class="status-tag done">Done</span>
+      </div>
+      <div class="status-row">
+        <div class="status-ico next"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 4v4l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="8" r="6.2" stroke="currentColor" stroke-width="1.5"/></svg></div>
+        <div><strong>Philippine FDA registration</strong><p>The next milestone — and the core of this partnership. Local registration is what unlocks legal clinical operation and the entire Philippine market.</p></div>
+        <span class="status-tag next">In Progress</span>
+      </div>
+      <div class="status-row">
+        <div class="status-ico next"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l2 4 4.5.5-3.3 3 .9 4.5L8 11l-4 2 .9-4.5L1.6 5.5 6 5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></div>
+        <div><strong>First clinics launched in the Philippines</strong><p>With registration complete, the founding partner anchors the first deployments — and the market opens.</p></div>
+        <span class="status-tag next">Together</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE PARTNERSHIP / OFFER -->
+<section class="sec offer-sec">
+  <div class="container">
+    <p class="sec-lbl dark reveal" style="justify-content:center">The Partnership</p>
+    <h2 class="dark reveal d1" style="text-align:center;max-width:720px;margin:0 auto 8px;">What We're Looking For —<br/><em>and What You Get.</em></h2>
+    <p class="sec-desc dark reveal d2" style="text-align:center;margin:0 auto;">We're seeking one founding partner to help establish PainFree in the Philippines — bringing the capital and local insight to complete FDA registration and launch the first clinics. In return, you come in ahead of everyone else.</p>
+    <div class="offer-grid">
+      <div class="offer-card reveal d1">
+        <div class="num">1</div>
+        <h3>Founding Device Pricing</h3>
+        <p>Preferential equipment rates reserved for the founding partner — terms no later entrant to the market will ever see.</p>
+      </div>
+      <div class="offer-card reveal d2">
+        <div class="num">2</div>
+        <h3>Exclusive Philippine Territory</h3>
+        <p>Distribution and market rights for the Philippines, by agreement. You hold the first-mover position in an untapped country.</p>
+      </div>
+      <div class="offer-card reveal d3">
+        <div class="num">3</div>
+        <h3>Ground-Floor Position</h3>
+        <p>Enter before the category exists locally. As PEMF grows in the Philippines, the founding partner grows with it from the inside.</p>
+      </div>
+      <div class="offer-card reveal d4">
+        <div class="num">4</div>
+        <h3>Full Clinical & Operational Backing</h3>
+        <p>25 years of protocols, training, marketing support and technical assistance behind you — you are not building from zero.</p>
+      </div>
+    </div>
+    <p class="offer-note reveal">The exact structure — <strong>equity, distribution scope, exclusivity, and terms</strong> — is open to discussion. We're looking for the <strong>right partner</strong>, not a fixed template. Let's talk and shape it together.</p>
+  </div>
+</section>
+
+<!-- MARKET CASE -->
+<section class="sec market-sec">
+  <div class="container">
+    <p class="sec-lbl light reveal" style="justify-content:center">Why the Economics Work</p>
+    <h2 class="light reveal d1" style="text-align:center;max-width:720px;margin:0 auto 14px;">A Cash-Pay Clinical Model —<br/><em>Built to Scale.</em></h2>
+    <p class="sec-desc light reveal d2" style="text-align:center;margin:0 auto;">PEMF sessions are cash-pay procedures with no insurance dependency and no consumables. This is the unit economics of the business your partnership scales across the Philippines.</p>
+    <div class="market-stats">
+      <div class="market-stat reveal d1"><div class="market-stat-num">85<em>%+</em></div><div class="market-stat-lbl">Gross margin<br/>per session</div></div>
+      <div class="market-stat reveal d2"><div class="market-stat-num">8–14</div><div class="market-stat-lbl">Sessions per day<br/>per single unit</div></div>
+      <div class="market-stat reveal d3"><div class="market-stat-num">0</div><div class="market-stat-lbl">Consumables or<br/>replacement parts</div></div>
+      <div class="market-stat reveal d4"><div class="market-stat-num">10–20</div><div class="market-stat-lbl">Recurring sessions<br/>per patient course</div></div>
+    </div>
+    <p class="market-note reveal">Illustrative of the model's per-clinic economics. Full market-level projections shared with serious partners under discussion.</p>
+  </div>
+</section>
+
+<!-- CTA / FORM -->
+<section id="connect" class="cta-sec">
+  <div class="container">
+    <div class="cta-box reveal">
+      <p class="sec-lbl dark" style="margin-bottom:12px">Founding Partner Inquiry</p>
+      <h2 class="dark" style="margin-bottom:10px;font-size:1.9rem;">Let's Build the<br/><em>Philippine Launch</em> Together</h2>
+      <p style="font-size:.95rem;color:rgba(255,255,255,.5);line-height:1.7;margin-bottom:34px;">Tell us a little about yourself. This goes directly to the founder — not a sales team. We respond personally within 24 hours.</p>
+
+      <div id="form-wrap">
+        <form id="iform" novalidate>
+          <div class="form-row">
+            <div class="fg">
+              <label for="fn">Full Name <span class="req">*</span></label>
+              <input type="text" id="fn" placeholder="Your name" autocomplete="name" required/>
+              <div class="err-msg" id="e-fn">Please enter your name.</div>
+            </div>
+            <div class="fg">
+              <label for="fc">Company / Background</label>
+              <input type="text" id="fc" placeholder="Your company or field" autocomplete="organization"/>
+            </div>
+            <div class="fg">
+              <label for="fe">Email <span class="req">*</span></label>
+              <input type="email" id="fe" placeholder="you@email.com" autocomplete="email" required/>
+              <div class="err-msg" id="e-fe">Please enter a valid email.</div>
+            </div>
+            <div class="fg">
+              <label for="fp">WhatsApp / Mobile <span class="req">*</span></label>
+              <input type="tel" id="fp" placeholder="+63 / +972 / ..." autocomplete="tel" required/>
+              <div class="err-msg" id="e-fp">Please enter your contact number.</div>
+            </div>
+            <div class="fg full">
+              <label for="fm">What interests you about this partnership?</label>
+              <textarea id="fm" placeholder="A few words about your background, your interest in the Philippine market, or any questions..."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="submit-btn" id="sbtn">
+            <span class="btn-lbl">Start the Conversation →</span>
+            <div class="spin"></div>
+          </button>
+          <p class="form-note">Private & confidential. Goes straight to the founder.</p>
+        </form>
+        <div class="form-ok" id="f-ok">
+          <div class="ok-icon"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M5 14l6 6L23 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Message Received</h3>
+          <p>We'll be in touch personally within 24 hours.<br/>Prefer to talk now? WhatsApp us: <a href="https://wa.me/639621811360" style="color:var(--teal)">+63 962-181-1360</a></p>
+        </div>
+
+        <div class="contact-direct">
+          <p>Prefer to reach out directly?<br/>WhatsApp <a href="https://wa.me/639621811360?text=Hi%2C%20I%27m%20interested%20in%20the%20PainFree%20founding%20partner%20opportunity%20in%20the%20Philippines.">+63 962-181-1360</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree. Founding-partner opportunity · Philippines.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360?text=Hi%2C%20I%27m%20interested%20in%20the%20PainFree%20founding%20partner%20opportunity%20in%20the%20Philippines." class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+  // FORM — same Formspree endpoint, distinct subject so investor leads are easy to filter
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mbdbqbga';
+  const form=document.getElementById('iform'), sbtn=document.getElementById('sbtn'), fok=document.getElementById('f-ok');
+  function ve(id,errId,ok){ const el=document.getElementById(id),em=document.getElementById(errId); el.classList.toggle('err',!ok); if(em) em.classList.toggle('show',!ok); return ok; }
+  form.addEventListener('submit', async e=>{
+    e.preventDefault();
+    const n=document.getElementById('fn'),em=document.getElementById('fe'),p=document.getElementById('fp');
+    const ok = [
+      ve('fn','e-fn',n.value.trim()!==''),
+      ve('fe','e-fe',/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value)),
+      ve('fp','e-fp',p.value.trim()!=='')
+    ].every(Boolean);
+    if(!ok){ form.querySelector('.err')?.scrollIntoView({behavior:'smooth',block:'center'}); return; }
+    sbtn.classList.add('loading'); sbtn.disabled=true;
+    try {
+      const resp = await fetch(FORMSPREE_ENDPOINT, {
+        method:'POST',
+        headers:{ 'Accept':'application/json','Content-Type':'application/json' },
+        body: JSON.stringify({
+          name: n.value.trim(),
+          company: document.getElementById('fc').value.trim(),
+          email: em.value.trim(),
+          phone: p.value.trim(),
+          message: document.getElementById('fm').value.trim(),
+          _subject: 'PainFree PH — FOUNDING INVESTOR Inquiry'
+        })
+      });
+      if (resp.ok) { form.style.display='none'; document.querySelector('.contact-direct').style.display='none'; fok.classList.add('show'); }
+      else { throw new Error('Server error'); }
+    } catch(_) {
+      sbtn.classList.remove('loading'); sbtn.disabled=false;
+      alert('There was a problem submitting. Please WhatsApp us directly: +63 962-181-1360');
+    }
+  });
+  form.querySelectorAll('input,textarea').forEach(el=>el.addEventListener('blur',()=>{if(el.value.trim())el.classList.remove('err');}));
+</script>
+</body>
+</html>
