@@ -187,9 +187,9 @@
 
     @media (max-width:960px) {
       .hero { grid-template-columns:1fr; }
-      .hero-right { min-height:340px; height:340px; }
-      .hero-right-overlay { display:none; }
-      .hero-left { padding:104px clamp(24px,6vw,48px) 56px; }
+      .hero-right { order:-1; min-height:360px; height:360px; }
+      .hero-right-overlay { background:linear-gradient(0deg, var(--navy) 0%, transparent 60%); }
+      .hero-left { padding:32px clamp(24px,6vw,48px) 56px; }
       .opp-grid { grid-template-columns:1fr; gap:40px; }
       .creds-grid, .market-stats { grid-template-columns:1fr 1fr; }
       .offer-grid { grid-template-columns:1fr; }
