@@ -21,17 +21,34 @@
       "title_en": "PEMF for Severe Low Back Pain: Evidence-Based Protocol (2025 RCT Data)",
       "date": "2026-05-27",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-shin-splints-medial-tibial-stress-syndrome-protocol/",
+      "ph_file": "article-pemf-shin-splints.html",
+      "title_en": "PEMF for Shin Splints & Medial Tibial Stress Syndrome: Clinical Protocol",
+      "date": "2026-05-28",
+      "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-dysmenorrhea-menstrual-pain-protocol/",
+      "ph_file": "article-pemf-dysmenorrhea.html",
+      "title_en": "PEMF for Primary Dysmenorrhea: Non-Pharmacological Pain Control Protocol",
+      "date": "2026-05-28",
+      "tag": "Women's Health"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-pulsed-electromagnetic-treatment-efficacy-safety-clinic-guide/",
+      "ph_file": "article-pemf-efficacy-safety-guide.html",
+      "title_en": "PEMF Clinical Efficacy & Safety: The Complete Guide for Clinic Operators",
+      "date": "2026-05-28",
+      "tag": "Clinical Evidence"
     }
   ],
   "untranslated_queue": [
-    "https://painfree.org.il/pemf-shin-splints-medial-tibial-stress-syndrome-protocol/",
-    "https://painfree.org.il/pemf-dysmenorrhea-menstrual-pain-protocol/",
-    "https://painfree.org.il/pemf-pulsed-electromagnetic-treatment-efficacy-safety-clinic-guide/",
     "https://painfree.org.il/pemf-acupuncture-physiotherapy-integration-guide/",
     "https://painfree.org.il/pemf-erectile-dysfunction-men-protocol/",
     "https://painfree.org.il/pemf-osteopathy-physiotherapy-chiropractic-comparison/",
-    "https://painfree.org.il/pemf-foot-cartilage-osteoarthritis-protocol/",
-    "https://painfree.org.il/pemf-dysmenorrhea-menstrual-pain-protocol/"
+    "https://painfree.org.il/pemf-foot-cartilage-osteoarthritis-protocol/"
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest."
 }
