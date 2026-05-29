@@ -42,12 +42,30 @@
       "title_en": "PEMF Clinical Efficacy & Safety: The Complete Guide for Clinic Operators",
       "date": "2026-05-28",
       "tag": "Clinical Evidence"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-acupuncture-physiotherapy-integration-guide/",
+      "ph_file": "article-pemf-acupuncture-integration.html",
+      "title_en": "PEMF & Acupuncture Integration: Evidence-Based Combination Protocol",
+      "date": "2026-05-29",
+      "tag": "Integrative Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-erectile-dysfunction-men-protocol/",
+      "ph_file": "article-pemf-erectile-dysfunction.html",
+      "title_en": "PEMF for Erectile Dysfunction: Clinical Protocol for Men's Health Clinics",
+      "date": "2026-05-29",
+      "tag": "Men's Health Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-osteopathy-physiotherapy-chiropractic-comparison/",
+      "ph_file": "article-pemf-osteopathy-comparison.html",
+      "title_en": "PEMF vs. Osteopathy vs. Physiotherapy vs. Chiropractic: The Evidence Compared",
+      "date": "2026-05-29",
+      "tag": "Clinical Comparison"
     }
   ],
   "untranslated_queue": [
-    "https://painfree.org.il/pemf-acupuncture-physiotherapy-integration-guide/",
-    "https://painfree.org.il/pemf-erectile-dysfunction-men-protocol/",
-    "https://painfree.org.il/pemf-osteopathy-physiotherapy-chiropractic-comparison/",
     "https://painfree.org.il/pemf-foot-cartilage-osteoarthritis-protocol/"
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest."
