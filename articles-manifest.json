@@ -63,10 +63,15 @@
       "title_en": "PEMF vs. Osteopathy vs. Physiotherapy vs. Chiropractic: The Evidence Compared",
       "date": "2026-05-29",
       "tag": "Clinical Comparison"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-foot-cartilage-osteoarthritis-protocol/",
+      "ph_file": "article-pemf-foot-osteoarthritis.html",
+      "title_en": "PEMF for Foot & Ankle Osteoarthritis: Cartilage Protocol for Philippine Clinics",
+      "date": "2026-05-30",
+      "tag": "Clinical Protocol"
     }
   ],
-  "untranslated_queue": [
-    "https://painfree.org.il/pemf-foot-cartilage-osteoarthritis-protocol/"
-  ],
+  "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest."
 }
