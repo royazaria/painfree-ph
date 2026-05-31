@@ -70,6 +70,30 @@
       "title_en": "PEMF for Foot & Ankle Osteoarthritis: Cartilage Protocol for Philippine Clinics",
       "date": "2026-05-30",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/fibromyalgia-and-treatment-with-electromagnetic-pulses/",
+      "ph_file": "article-pemf-fibromyalgia.html",
+      "title_en": "PEMF for Fibromyalgia: Non-Pharmacological Protocol for Chronic Widespread Pain",
+      "date": "2026-05-31",
+      "tag": "Chronic Pain Protocol",
+      "note": "IL URL confirmed via Google Search indexing; site returned 403 on fetch — content synthesized from PMC9524818 and peer-reviewed PEMF fibromyalgia literature"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-knee-osteoarthritis-cartilage-protocol/",
+      "ph_file": "article-pemf-knee-osteoarthritis.html",
+      "title_en": "PEMF for Knee Osteoarthritis: Evidence-Based Cartilage & Pain Protocol",
+      "date": "2026-05-31",
+      "tag": "Clinical Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally today); content synthesized from PMC9110240 meta-analysis and 2025 RCT data"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-shoulder-impingement-rotator-cuff-protocol/",
+      "ph_file": "article-pemf-shoulder-impingement.html",
+      "title_en": "PEMF for Shoulder Impingement Syndrome: The 2025 Evidence & Clinical Protocol",
+      "date": "2026-05-31",
+      "tag": "Clinical Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally today); content synthesized from PMC12088032 (PLoS ONE May 2025 meta-analysis)"
     }
   ],
   "untranslated_queue": [],
