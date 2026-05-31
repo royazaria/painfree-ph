@@ -94,8 +94,27 @@
       "date": "2026-05-31",
       "tag": "Clinical Protocol",
       "note": "IL URL is likely-pattern (site returned 403 globally today); content synthesized from PMC12088032 (PLoS ONE May 2025 meta-analysis)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-hand-finger-osteoarthritis-protocol/",
+      "ph_file": "article-pemf-hand-osteoarthritis.html",
+      "title_en": "PEMF for Hand & Finger Osteoarthritis: Non-Invasive Clinical Protocol",
+      "date": "2026-05-31",
+      "tag": "Clinical Protocol"
     }
   ],
   "untranslated_queue": [],
-  "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest."
+  "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest.",
+  "run_log": [
+    {
+      "date": "2026-05-31",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-hand-osteoarthritis.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2 — today's new IL article (post 4361). Remote run did Phase 1 (fibromyalgia/foot-OA/knee-OA/shoulder-impingement) earlier today; pulled before translating per dedup memory."
+    }
+  ]
 }
