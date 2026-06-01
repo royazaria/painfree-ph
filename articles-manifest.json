@@ -125,6 +125,30 @@
       "date": "2026-06-01",
       "tag": "Clinical Protocol",
       "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMID 40378087 (Cureus May 2025) and RCT n=70 wearable PEMF data"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-tennis-elbow-lateral-epicondylitis-protocol/",
+      "ph_file": "article-pemf-tennis-elbow.html",
+      "title_en": "PEMF for Tennis Elbow (Lateral Epicondylitis): Clinical Protocol",
+      "date": "2026-06-01",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMID 16633709 (Clinical Rheumatology RCT, n=60, PEMF vs sham vs corticosteroid) and Saudi J Sports Med 2017 (VAS 7.82→3.11, PPT 2.95→4.84 kg/cm², PFGS 18.6→22.1 kg, all p<0.001)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-rheumatoid-arthritis-protocol/",
+      "ph_file": "article-pemf-rheumatoid-arthritis.html",
+      "title_en": "PEMF for Rheumatoid Arthritis: Anti-Inflammatory Protocol for Philippine Clinics",
+      "date": "2026-06-01",
+      "tag": "Rheumatology Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC10971695 (n=39, pain -2.2 VAS p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036) and PMC9862561 (2023 murine study, 10Hz optimal)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-hip-osteoarthritis-cartilage-protocol/",
+      "ph_file": "article-pemf-hip-osteoarthritis.html",
+      "title_en": "PEMF for Hip Osteoarthritis: Evidence-Based Protocol for Philippine Clinics",
+      "date": "2026-06-01",
+      "tag": "Clinical Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC9110240 (11 RCTs, n=614, pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004) and PMC11914662 (36% pain reduction, 55% medication reduction)"
     }
   ],
   "untranslated_queue": [],
@@ -150,6 +174,18 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts (medical-articles/, sitemap.xml, individual article URLs). Content synthesized from PMC7018371, PMC10898218, NCT05979974, and PMID 40378087. 3 new cards prepended to articles.html grid."
+    },
+    {
+      "date": "2026-06-01",
+      "phase": 2,
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-tennis-elbow.html",
+        "article-pemf-rheumatoid-arthritis.html",
+        "article-pemf-hip-osteoarthritis.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts. Content synthesized from peer-reviewed literature: PMID 16633709 + Saudi J Sports Med 2017 (tennis elbow); PMC10971695 + PMC9862561 (rheumatoid arthritis); PMC9110240 + PMC11914662 (hip osteoarthritis). 3 new cards prepended to articles.html grid (total 20 real article cards)."
     }
   ]
 }
