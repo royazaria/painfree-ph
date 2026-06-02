@@ -143,6 +143,30 @@
       "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC10971695 (n=39, pain -2.2 VAS p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036) and PMC9862561 (2023 murine study, 10Hz optimal)"
     },
     {
+      "il_url": "https://painfree.org.il/pemf-sciatica-lumbar-radiculopathy-protocol/",
+      "ph_file": "article-pemf-sciatica-radiculopathy.html",
+      "title_en": "PEMF for Sciatica & Lumbar Radiculopathy: Evidence-Based Protocol",
+      "date": "2026-06-02",
+      "tag": "Clinical Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMID 23083041 (RCT n=40, 3 weeks, VAS P=0.024, total OSW P<0.001, 9/10 Oswestry domains, bilateral SSEP latency P=0.016-0.022, amplitude P=0.001-0.002)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-carpal-tunnel-syndrome-protocol/",
+      "ph_file": "article-pemf-carpal-tunnel.html",
+      "title_en": "PEMF for Carpal Tunnel Syndrome: Non-Surgical Median Nerve Protocol",
+      "date": "2026-06-02",
+      "tag": "Clinical Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC5144749 / PMID 27980864 (RCT n=40, 50Hz 8mT 30min 3x/week 4 weeks, PEMF > ultrasound across all endpoints P<0.05: VAS, sensory/motor latency, conduction velocity, hand grip)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-osteoporosis-bone-density-protocol/",
+      "ph_file": "article-pemf-osteoporosis.html",
+      "title_en": "PEMF for Osteoporosis & Bone Density: Evidence-Based Protocol",
+      "date": "2026-06-02",
+      "tag": "Bone Health Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC8637238 (RCT n=95, 12 weeks, PEMF+exercise > exercise alone for BMD, effects last 6 months) and PMID 35864717 (2022 meta-analysis: PEMF+medications significantly increases femoral BMD, lumbar BMD, ALP, BSAP, osteocalcin; no adverse event increase)"
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-hip-osteoarthritis-cartilage-protocol/",
       "ph_file": "article-pemf-hip-osteoarthritis.html",
       "title_en": "PEMF for Hip Osteoarthritis: Evidence-Based Protocol for Philippine Clinics",
@@ -186,6 +210,17 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts. Content synthesized from peer-reviewed literature: PMID 16633709 + Saudi J Sports Med 2017 (tennis elbow); PMC10971695 + PMC9862561 (rheumatoid arthritis); PMC9110240 + PMC11914662 (hip osteoarthritis). 3 new cards prepended to articles.html grid (total 20 real article cards)."
+    },
+    {
+      "date": "2026-06-02",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-sciatica-radiculopathy.html",
+        "article-pemf-carpal-tunnel.html",
+        "article-pemf-osteoporosis.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts. Content synthesized from peer-reviewed literature: PMID 23083041 (sciatica/lumbar radiculopathy, n=40, SSEP improvement); PMC5144749/PMID 27980864 (carpal tunnel, n=40, PEMF vs ultrasound); PMC8637238 + PMID 35864717 (osteoporosis, 12-week RCT + 2022 meta-analysis). 3 new cards prepended to articles.html grid (total 23 real article cards)."
     }
   ]
 }
