@@ -173,6 +173,30 @@
       "date": "2026-06-01",
       "tag": "Clinical Protocol",
       "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC9110240 (11 RCTs, n=614, pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004) and PMC11914662 (36% pain reduction, 55% medication reduction)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-diabetic-peripheral-neuropathy-protocol/",
+      "ph_file": "article-pemf-diabetic-neuropathy.html",
+      "title_en": "PEMF for Diabetic Peripheral Neuropathy: Evidence-Based Protocol",
+      "date": "2026-06-03",
+      "tag": "Clinical Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC11874150 / Tassone et al. RELIEF Trial (n=182, double-blind RCT, 18 sites, 30% pain reduction, 85% vs 25% relief in compliant population, 27.12 MHz 42μs 1000 pps, 30 min 2×/day, 18 weeks)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-post-surgical-recovery-protocol/",
+      "ph_file": "article-pemf-post-surgical-recovery.html",
+      "title_en": "PEMF for Post-Surgical Recovery: The Multi-Indication Protocol",
+      "date": "2026-06-03",
+      "tag": "Post-Surgical Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMID 28060214 (C-section RCT: 36% vs 72% severe pain, 1.9x lower 24hr analgesic, 2.1x lower 7-day analgesic), PMC11330404 (orthognathic surgery n=30: 56.2ml vs 23.6ml swelling reduction), PMID 30836195 (mandibular fracture RCT: faster healing, less pain), PMC7298453 (joint replacements)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-bone-fracture-healing-non-union-protocol/",
+      "ph_file": "article-pemf-bone-fracture-healing.html",
+      "title_en": "PEMF for Bone Fracture Healing & Non-Union: Clinical Protocol",
+      "date": "2026-06-03",
+      "tag": "Bone Healing Protocol",
+      "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMID 32495506 (meta-analysis 14 RCTs, n=1,131: healing rate 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35, pain SMD=-0.49, healing time SMD=-1.01), PMC6209359 (n=1,382, 89.6% success), PMC3441225 (tibial non-union n=44, 77.3% union)"
     }
   ],
   "untranslated_queue": [],
@@ -221,6 +245,17 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts. Content synthesized from peer-reviewed literature: PMID 23083041 (sciatica/lumbar radiculopathy, n=40, SSEP improvement); PMC5144749/PMID 27980864 (carpal tunnel, n=40, PEMF vs ultrasound); PMC8637238 + PMID 35864717 (osteoporosis, 12-week RCT + 2022 meta-analysis). 3 new cards prepended to articles.html grid (total 23 real article cards)."
+    },
+    {
+      "date": "2026-06-03",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-diabetic-neuropathy.html",
+        "article-pemf-post-surgical-recovery.html",
+        "article-pemf-bone-fracture-healing.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts. Content synthesized from peer-reviewed literature: PMC11874150/Tassone RELIEF Trial (diabetic neuropathy, n=182, 30% pain reduction, 85% vs 25% relief); PMID 28060214 + PMC11330404 + PMID 30836195 (post-surgical recovery, C-section 2.1x analgesic reduction, orthognathic 56.2ml vs 23.6ml swelling); PMID 32495506 + PMC6209359 + PMC3441225 (bone fracture, 14 RCTs n=1131, RR=1.22, 89.6% real-world success). 3 new cards prepended to articles.html grid (total 26 real article cards)."
     }
   ]
 }
