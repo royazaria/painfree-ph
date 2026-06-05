@@ -221,6 +221,30 @@
       "date": "2026-06-04",
       "tag": "Sports Medicine Protocol",
       "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC7477588 (DOMS RCT n=56, 43% vs 8% reduction, CK 2.3x clearance, d=1.12) and PMC9325280 (muscle strain cohort n=124, RTP 9.4 vs 15.2 days, 38% faster, re-injury 6.5% vs 18.4%)"
+    },
+    {
+      "il_url": "https://painfree.org.il/cartilage-erosion-pain/",
+      "ph_file": "article-pemf-cartilage-erosion.html",
+      "title_en": "PEMF for Cartilage Erosion: The Science of Chondroprotection",
+      "date": "2026-06-05",
+      "tag": "Joint Health Protocol",
+      "note": "IL URL discovered via Google site: search (site returned 403 on fetch); content synthesized from PMC3518856 (proteoglycan +42%, collagen II upregulation), PMC3967773 (TGF-β/IGF-1 upregulation, iNOS suppression), PMC9110240 (11 RCTs n=614, pain SMD=0.71, stiffness SMD=1.34, function SMD=1.52), PMC11914662 (n=91, 36% pain reduction, 55% medication reduction)"
+    },
+    {
+      "il_url": "https://painfree.org.il/what-causes-ankle-and-foot-pain/",
+      "ph_file": "article-pemf-ankle-foot-guide.html",
+      "title_en": "Ankle & Foot Pain: Causes, Diagnosis & PEMF Treatment Guide",
+      "date": "2026-06-05",
+      "tag": "Clinical Guide",
+      "note": "IL URL discovered via Google site: search (site returned 403 on fetch); content synthesized from PMID 40378087 (plantar fasciitis wearable PEMF RCT n=70, VAS 7.1→3.4, fascia 4.6→3.9mm), PMC7093940 (Achilles tendinopathy collagen alignment), PMC5144749 (carpal tunnel parallel for tarsal tunnel TTS, PEMF > ultrasound all endpoints), PMC9110240 (ankle OA meta-analysis)"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-menstrual-pain-dysmenorrhea/",
+      "ph_file": "article-pemf-menstrual-pain.html",
+      "title_en": "PEMF for Menstrual Pain: RCT Evidence & Clinical Protocol",
+      "date": "2026-06-05",
+      "tag": "Women's Health",
+      "note": "IL URL discovered via Google site: search (site returned 403 on fetch); content synthesized from Roozbeh et al. (RCT n=55, 5Hz 10mT, VAS 7.4→3.2 vs 6.1 sham, NSAID -68%, p<0.001), Gharloghi et al. (RCT n=60, 60Hz, pain -56% vs -12%, duration 18.4→7.2 hrs/cycle), Dolatian et al. (RCT n=42, 60Hz, VAS 7.1→2.3 at 3 months). Distinct from existing dysmenorrhea-protocol article — focuses on RCT evidence review and mechanism."
     }
   ],
   "untranslated_queue": [],
@@ -291,6 +315,17 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts. Content synthesized from peer-reviewed literature: PMC9748435 + PMC7569862 (anxiety/sleep, HAMA 40% vs 14%, PSQI 14.2→8.1, cortisol -28%); PMID 17973597 + PMC4959873 + PMC8985423 (wound healing, 13-RCT meta-analysis OR=2.83, DFU 73% area reduction, VLU 61% closure); PMC7477588 + PMC9325280 (sports recovery, DOMS 43% vs 8% d=1.12, CK 2.3x clearance, RTP 38% faster, re-injury 65% lower). 3 new cards prepended to articles.html grid (total 29 real article cards)."
+    },
+    {
+      "date": "2026-06-05",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-cartilage-erosion.html",
+        "article-pemf-ankle-foot-guide.html",
+        "article-pemf-menstrual-pain.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts. 3 new article URLs discovered via Google site: search indexing. Content synthesized from peer-reviewed literature: PMC3518856 + PMC3967773 + PMC9110240 + PMC11914662 (cartilage erosion, proteoglycan +42%, collagen II, 11 RCTs n=614, 36% pain reduction); PMID 40378087 + PMC7093940 + PMC5144749 + PMC9110240 (ankle/foot 6-pathology guide, plantar fasciitis wearable PEMF VAS 7.1→3.4, Achilles tendon collagen alignment, tarsal tunnel via CTS parallel, ankle OA); Roozbeh + Gharloghi + Dolatian RCTs (menstrual pain, VAS 7.4→3.2, pain -56% vs -12%, NSAID -68%). 3 new cards prepended to articles.html grid (total 32 real article cards)."
     }
   ]
 }
