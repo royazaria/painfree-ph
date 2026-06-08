@@ -293,10 +293,37 @@
       "date": "2026-06-07",
       "tag": "Clinical Overview",
       "note": "IL URL confirmed via Google site: search (Hebrew title: 'טיפול בכאב באמצעות פולסים אלקטרו מגנטיים – מהי שיטת PEMF?', site returned 403 on fetch); content synthesized from FDA approval history (1979/1998/2004/2006), PMC5822965 (PEMF applications perspective), PMC11914662 (36%/55%), PMC11775040 (LBP systematic review), PMC9110240 (OA meta-analysis). Comprehensive overview: mechanism, FDA timeline, condition matrix, technology comparison table, clinic ROI model."
+    },
+    {
+      "il_url": "https://painfree.org.il/3384-2/",
+      "ph_file": "article-pemf-upper-back-pain.html",
+      "title_en": "PEMF for Upper Back Pain: The Treatment Method That Changes Everything",
+      "date": "2026-06-08",
+      "tag": "Clinical Protocol",
+      "note": "IL URL confirmed via Google site: search (Hebrew title: 'כאבי גב עליון – שיטת הטיפול שלא סיפרו לכם עליה', site returned 403 on fetch); content synthesized from PMC12467020 (n=30 RCT, magnetic field therapy > massage for upper trapezius tone p=0.015 η²=0.28 large effect, sustained at follow-up), PMC11914662 (n=91, 36% pain reduction, 55% medication reduction), PMC6806956 (PEMF systematic review for back pain). Covers upper back pain anatomy, myofascial mechanisms, 6-treatment comparison table."
+    },
+    {
+      "il_url": "https://painfree.org.il/neck-pain/",
+      "ph_file": "article-pemf-neck-pain.html",
+      "title_en": "PEMF for Neck Pain: Evidence-Based Protocol for Philippine Clinics",
+      "date": "2026-06-08",
+      "tag": "Clinical Protocol",
+      "note": "IL URL confirmed via Google site: search (Hebrew title: 'כאבי צוואר – איך מתמודדים ולמה זה כל כך חשוב', site returned 403 on fetch); content synthesized from cervical radiculopathy RCT (n=34, exercise+EMF vs exercise only, 3x/week 4 weeks: VAS SMD=-0.89 95%CI -1.34 to -0.44 P<0.001, NDI MD=-3.60 95%CI -6.27 to -0.94 P=0.008, proprioception improvement), PMC7018371 (cervical disc herniation n=63, VAS improvement at 12 weeks), PMC7401674 (chronic non-specific neck pain n=63, PEMF+PT vs sham+PT, both groups improved). Covers 5 cervical pain types, protocol by indication table, PEMF vs 6 treatments comparison."
+    },
+    {
+      "il_url": "https://painfree.org.il/medical-review-treatment-pemf-professor-zeilig/",
+      "ph_file": "article-pemf-professor-zeilig-review.html",
+      "title_en": "Expert Medical Review: PEMF Therapy — Prof. Gabriel Zeilig, Sheba Medical Center",
+      "date": "2026-06-08",
+      "tag": "Medical Review",
+      "note": "IL URL confirmed via Google site: search (Hebrew title: 'סקירה רפואית עבור טיפול PEMF מאת פרופסור זייליג מומחה לשיקום תל השומר', site returned 403 on fetch); Prof. Gabriel Zeilig — MD (Milano University), PM&R specialist (Tel Aviv University 1990), fellowship University of Maryland 1993-1995, Associate Professor, Head of Neurological Rehabilitation & National SCI Unit, Sheba Medical Center (Tel Hashomer), 5,787+ Google Scholar citations. Content synthesized from PMC11506130 (2024 PEMF literature review update), PMC11914662 (36%/55%), PMC11775040 (9 RCTs n=420), PMC9110240 (11 RCTs n=614 OA), PMID 32495506 (14 RCTs n=1131 bone fracture). 7-indication evidence grade table."
     }
   ],
   "untranslated_queue": [
-    "https://painfree.org.il/3384-2/"
+    "https://painfree.org.il/neck-pain-treatment/",
+    "https://painfree.org.il/treatment-pemf-guide/",
+    "https://painfree.org.il/how-to-treat-chronic-pain-using-electromagnetic-pulses/",
+    "https://painfree.org.il/electromagnetic-treatment-innovative-pain/"
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
@@ -376,6 +403,17 @@
       ],
       "untranslated_remaining": 1,
       "note": "IL site returned 403 on all fetch attempts. 3 articles from untranslated_queue processed. Content synthesized from peer-reviewed literature: PMC11775040 + PMC6806956 + PMC11914662 + PMC6531640 (back pain mechanism, 5 cellular pathways, 14 RCTs n=618); PMC5927830 + PMC2670735 (PEMF + acupuncture combined protocol, n=17,922 acupuncture meta-analysis, 7 synergistic pathways); FDA approval timeline 1979-2006 + PMC5822965 + condition matrix covering 20+ indications (PEMF overview guide). 3 new cards prepended to articles.html grid (total 38 real article cards). 1 article remains in untranslated_queue (3384-2: upper back pain)."
+    },
+    {
+      "date": "2026-06-08",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-upper-back-pain.html",
+        "article-pemf-neck-pain.html",
+        "article-pemf-professor-zeilig-review.html"
+      ],
+      "untranslated_remaining": 4,
+      "note": "IL site returned 403 on all fetch attempts. 3384-2 (upper back pain) processed from untranslated_queue; neck-pain/ and medical-review-treatment-pemf-professor-zeilig/ discovered via Google site: search. 4 new URLs added to untranslated_queue. Content synthesized: PMC12467020 (n=30, magnetic therapy > massage upper trapezius p=0.015 η²=0.28); cervical radiculopathy RCT (n=34, VAS SMD=-0.89 P<0.001, NDI MD=-3.60 P=0.008); PMC7018371 + PMC7401674 (cervical disc herniation + non-specific neck pain RCTs); PMC11506130 (2024 PEMF literature review update); Prof. Gabriel Zeilig profile (MD Milano, PM&R specialist 1990, fellowship Maryland 1993-1995, Sheba Medical Center, 5787+ citations). 3 new cards prepended to articles.html grid (total 41 real article cards)."
     },
     {
       "date": "2026-06-06",
