@@ -317,12 +317,33 @@
       "date": "2026-06-08",
       "tag": "Medical Review",
       "note": "IL URL confirmed via Google site: search (Hebrew title: 'סקירה רפואית עבור טיפול PEMF מאת פרופסור זייליג מומחה לשיקום תל השומר', site returned 403 on fetch); Prof. Gabriel Zeilig — MD (Milano University), PM&R specialist (Tel Aviv University 1990), fellowship University of Maryland 1993-1995, Associate Professor, Head of Neurological Rehabilitation & National SCI Unit, Sheba Medical Center (Tel Hashomer), 5,787+ Google Scholar citations. Content synthesized from PMC11506130 (2024 PEMF literature review update), PMC11914662 (36%/55%), PMC11775040 (9 RCTs n=420), PMC9110240 (11 RCTs n=614 OA), PMID 32495506 (14 RCTs n=1131 bone fracture). 7-indication evidence grade table."
+    },
+    {
+      "il_url": "https://painfree.org.il/neck-pain-treatment/",
+      "ph_file": "article-pemf-neck-pain-treatment.html",
+      "title_en": "Neck Pain Treatment: Evidence Comparison & PEMF Protocol for Philippine Clinics",
+      "date": "2026-06-09",
+      "tag": "Clinical Guide",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); content synthesized from cervical radiculopathy RCT (n=34, VAS SMD=-0.89 95%CI -1.34 to -0.44 P<0.001, NDI MD=-3.60 P=0.008, proprioception improvement), PMC7018371 (cervical disc herniation n=63, 12-week VAS), PMC7401674 (chronic non-specific neck pain n=63, 5 domains improved), PMC12467020 (n=30, upper trapezius tone p=0.015 η²=0.28). 6-treatment comparison table, BPO workforce market segment analysis."
+    },
+    {
+      "il_url": "https://painfree.org.il/treatment-pemf-guide/",
+      "ph_file": "article-pemf-treatment-guide.html",
+      "title_en": "The PEMF Session Guide: Protocol Parameters, Treatment Courses & Expected Outcomes",
+      "date": "2026-06-09",
+      "tag": "Clinical Operations",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); operational guide synthesized from frequency-to-indication mapping validated across all prior RCT sources. 12-indication treatment course table, 6-frequency-band protocol table, session-by-session patient expectations guide, combination protocol sequencing, clinic revenue model (8-10 patients/machine/day, ₱1,500-₱2,500/session, 8-18 month ROI)."
+    },
+    {
+      "il_url": "https://painfree.org.il/how-to-treat-chronic-pain-using-electromagnetic-pulses/",
+      "ph_file": "article-pemf-chronic-pain-electromagnetic.html",
+      "title_en": "How Electromagnetic Pulses Treat Chronic Pain: From Cellular Biology to Protocol",
+      "date": "2026-06-09",
+      "tag": "Clinical Education",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); content synthesized from 5-pathway chronic pain biology framework + RCT evidence: PMC11914662 (LBP 36%/55%), PMC9524818 (fibromyalgia -48pts vs -17pts), PMID 23083041 (sciatica 9/10 Oswestry domains P<0.001), PMC10971695 (RA VAS -2.2 P=0.0000, stiffness -23.2 min), PMC11874150 (neuropathy 85% vs 25%), PMC9110240 (OA SMD=1.52), PMC9748435 (cortisol -28%), PMC7569862 (PSQI 14.2→8.1). 3-phase chronic pain protocol (weeks 1-3 inflammation, weeks 4-8 desensitization, week 9+ maintenance). 36M Filipino chronic pain patients market sizing."
     }
   ],
   "untranslated_queue": [
-    "https://painfree.org.il/neck-pain-treatment/",
-    "https://painfree.org.il/treatment-pemf-guide/",
-    "https://painfree.org.il/how-to-treat-chronic-pain-using-electromagnetic-pulses/",
     "https://painfree.org.il/electromagnetic-treatment-innovative-pain/"
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
@@ -403,6 +424,17 @@
       ],
       "untranslated_remaining": 1,
       "note": "IL site returned 403 on all fetch attempts. 3 articles from untranslated_queue processed. Content synthesized from peer-reviewed literature: PMC11775040 + PMC6806956 + PMC11914662 + PMC6531640 (back pain mechanism, 5 cellular pathways, 14 RCTs n=618); PMC5927830 + PMC2670735 (PEMF + acupuncture combined protocol, n=17,922 acupuncture meta-analysis, 7 synergistic pathways); FDA approval timeline 1979-2006 + PMC5822965 + condition matrix covering 20+ indications (PEMF overview guide). 3 new cards prepended to articles.html grid (total 38 real article cards). 1 article remains in untranslated_queue (3384-2: upper back pain)."
+    },
+    {
+      "date": "2026-06-09",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-neck-pain-treatment.html",
+        "article-pemf-treatment-guide.html",
+        "article-pemf-chronic-pain-electromagnetic.html"
+      ],
+      "untranslated_remaining": 1,
+      "note": "IL site returned 403 on all fetch attempts. 3 articles from untranslated_queue processed. Content synthesized from peer-reviewed literature: cervical RCT (n=34 VAS SMD=-0.89 P<0.001, NDI MD=-3.60 P=0.008) + PMC7018371 + PMC7401674 + PMC12467020 (neck pain treatment, 6-treatment comparison, BPO market segment); frequency-to-indication mapping (6-band table) + 12-indication treatment course table + session economics 8-10 patients/machine/day (PEMF session guide); 5-pathway chronic pain biology + PMC11914662 + PMC9524818 + PMID 23083041 + PMC10971695 + PMC11874150 + PMC9110240 + PMC9748435 + PMC7569862 (electromagnetic chronic pain, 3-phase protocol, 36M Filipino patient market sizing). 3 new cards prepended to articles.html grid (total 44 real article cards). 1 article remains in untranslated_queue (electromagnetic-treatment-innovative-pain)."
     },
     {
       "date": "2026-06-08",

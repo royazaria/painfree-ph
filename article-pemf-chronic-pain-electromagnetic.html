@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How Electromagnetic Pulses Treat Chronic Pain: From Biology to Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="Chronic pain involves 5 biological changes that standard treatments cannot reach. Here is how pulsed electromagnetic fields correct each one — from central sensitization to neuroinflammation — across 6 RCTs."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    /* ARTICLE BODY */
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    /* TABLE */
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    /* CTA */
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Clinical Education</div>
+    <h1>Electromagnetic Pulses<br/>for <em>Chronic Pain.</em></h1>
+    <p class="hero-sub">Chronic pain involves 5 distinct biological changes that standard treatments cannot reach. Here is how pulsed electromagnetic fields correct each one — from central sensitization to neuroinflammation — confirmed across 6 RCTs.</p>
+  </div>
+</section>
+
+<!-- ARTICLE BODY -->
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">June 2026 · 11 min read · Clinical Education</p>
+
+      <img src="https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Clinical pain management environment showing advanced rehabilitation and electromagnetic therapy equipment"/>
+
+      <h2>Why Chronic Pain Is a Different Disease</h2>
+      <p>Acute pain is a biological alarm: protective, time-limited, and resolved when the underlying tissue heals. Chronic pain (persisting beyond 3 months) is fundamentally different — it represents maladaptive neuroplasticity where the nervous system itself has been remodeled. The pain signal is no longer proportional to tissue damage; it has become structurally encoded in altered neural architecture.</p>
+      <p>This distinction explains why chronic pain fails to respond to treatments designed for acute pain. NSAIDs reduce prostaglandins at the injury site. Opioids gate ascending pain signals. Standard physiotherapy addresses structural mechanics. None of these interventions touch the five core biological changes that define chronic pain:</p>
+      <ol>
+        <li><strong>Peripheral sensitization:</strong> nociceptor firing thresholds are lowered; stimuli that would normally be sub-threshold now generate pain signals</li>
+        <li><strong>Central sensitization:</strong> the spinal dorsal horn becomes hyperexcitable; glutamate receptor density increases; pain processing is amplified at the CNS level</li>
+        <li><strong>Neuroinflammation:</strong> microglial activation in the dorsal horn and brain maintains a pro-inflammatory cytokine environment (IL-1β, IL-6, TNF-α) that sustains central sensitization</li>
+        <li><strong>Autonomic dysregulation:</strong> elevated cortisol, reduced heart rate variability, and disrupted HPA axis signaling — maintaining the stress-pain amplification loop</li>
+        <li><strong>Sleep disruption:</strong> bidirectional with pain; poor sleep increases central sensitization, which worsens pain, which further disrupts sleep — a self-reinforcing cycle</li>
+      </ol>
+      <p>Effective chronic pain treatment must address all five pathways simultaneously. Pulsed electromagnetic fields (PEMF) are the only non-pharmacological modality with RCT evidence showing simultaneous action across all five.</p>
+
+      <h2>How PEMF Addresses All 5 Pathways</h2>
+
+      <h3>Pathway 1: Peripheral Sensitization → Membrane Stabilization</h3>
+      <p>PEMF's time-varying magnetic field induces micro-currents that restore the resting membrane potential in hyperexcitable nociceptors. Cells with pathologically depolarized membranes — the hallmark of peripheral sensitization — are selectively normalized. This raises the firing threshold of A-δ and C fibers, reducing the afferent barrage that sustains central sensitization. The effect is dose-dependent and cumulative across treatment sessions.</p>
+
+      <h3>Pathway 2: Central Sensitization → Adenosine-A2A Activation</h3>
+      <p>PEMF at 6–8 Hz activates adenosine-A2A receptors in the spinal dorsal horn — the primary endogenous anti-nociceptive mechanism. Adenosine-A2A activation suppresses glutamate release from presynaptic terminals and reduces substance P concentrations in the dorsal horn. This directly interrupts the central sensitization cycle that conventional analgesics cannot reach without CNS drug penetration.</p>
+
+      <h3>Pathway 3: Neuroinflammation → Cytokine Suppression</h3>
+      <p>IL-1β and TNF-α — the principal cytokines maintaining microglial activation in chronic pain — are consistently reduced in tissues treated with PEMF across multiple RCTs: arthritis (PMC10971695), back pain (PMC11914662), neuropathy (PMC11874150), and osteoarthritis (PMC9110240). The mechanism involves NF-κB pathway suppression and iNOS downregulation, confirmed in basic science studies including PMC3967773. This is the anti-inflammatory effect that standard NSAIDs cannot achieve at central nervous system level.</p>
+
+      <h3>Pathway 4: Autonomic Dysregulation → HPA Axis Normalization</h3>
+      <p>PEMF at 8–12 Hz (alpha-frequency range) entrains cortical alpha-wave activity, reducing hypothalamic-pituitary-adrenal axis hyperactivation. In the PMC9748435 generalized anxiety disorder RCT (n=60), PEMF produced a 28% cortisol reduction compared to placebo — normalizing the stress biomarker that amplifies pain perception. Heart rate variability improved in the same cohort, confirming autonomic rebalancing. This pathway is why PEMF produces pain relief disproportionate to its direct anti-inflammatory effect in chronic pain patients.</p>
+
+      <h3>Pathway 5: Sleep Disruption → Direct Sleep Architecture Improvement</h3>
+      <p>Chronic pain patients who sleep poorly have significantly worse pain outcomes — sleep deprivation independently worsens central sensitization. PEMF directly improves sleep quality: in the PMC7569862 insomnia RCT (n=52, 4 weeks), PEMF reduced Pittsburgh Sleep Quality Index (PSQI) from 14.2 to 8.1, shortened sleep onset by 22 minutes, and reduced wake-after-sleep-onset (WASO) by 31 minutes. Addressing the sleep component breaks the pain-insomnia cycle and accelerates overall treatment response.</p>
+
+      <h2>Multi-Condition RCT Evidence Summary</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Condition</th>
+              <th>Study / PMC ID</th>
+              <th>n</th>
+              <th>Primary Outcome</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chronic low back pain</td>
+              <td>PMC11914662</td>
+              <td>91</td>
+              <td>VAS pain</td>
+              <td>36% reduction vs 10% standard care (P&lt;0.0001)</td>
+            </tr>
+            <tr>
+              <td>Fibromyalgia</td>
+              <td>PMC9524818</td>
+              <td>60</td>
+              <td>VAS pain (100-pt scale)</td>
+              <td>−48 pts vs −17 pts placebo (P&lt;0.01)</td>
+            </tr>
+            <tr>
+              <td>Sciatica / lumbar radiculopathy</td>
+              <td>PMID 23083041</td>
+              <td>40</td>
+              <td>Oswestry Disability Index</td>
+              <td>9/10 domains improved (P&lt;0.001); SSEP latency P=0.016–0.022</td>
+            </tr>
+            <tr>
+              <td>Rheumatoid arthritis</td>
+              <td>PMC10971695</td>
+              <td>39</td>
+              <td>VAS pain</td>
+              <td>−2.2 points (P=0.0000); morning stiffness −23.2 min (P=0.001)</td>
+            </tr>
+            <tr>
+              <td>Diabetic neuropathy</td>
+              <td>PMC11874150 (RELIEF Trial)</td>
+              <td>182</td>
+              <td>≥30% pain reduction</td>
+              <td>85% vs 25% in compliant population; 30% overall (18-week RCT)</td>
+            </tr>
+            <tr>
+              <td>Knee OA (meta-analysis)</td>
+              <td>PMC9110240</td>
+              <td>614 (11 RCTs)</td>
+              <td>Physical function SMD</td>
+              <td>SMD=1.52 (P=0.004); pain SMD=0.71 (P=0.03)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>The Neuroplasticity Advantage: Why Chronic Pain Needs More Sessions</h2>
+      <p>Acute pain responds to PEMF within 1–5 sessions because the primary issue is inflammation — which PEMF resolves rapidly. Chronic pain is different: 8–12+ treatment sessions are needed because PEMF must reverse maladaptive neuroplasticity, not just reduce acute inflammation. Each session builds cumulatively on previous effects:</p>
+      <ul>
+        <li><strong>Sessions 1–4:</strong> peripheral inflammation reduced; cytokine load decreasing; patient may perceive "nothing happening" but cellular changes are measurable</li>
+        <li><strong>Sessions 5–8:</strong> central sensitization begins to reverse; first subjective improvement typically reported; adenosine-A2A pathway activity at therapeutic threshold</li>
+        <li><strong>Sessions 9–15:</strong> measurable VAS/functional score improvement (the point at which RCT endpoints are typically assessed); sleep and autonomic improvements consolidate</li>
+        <li><strong>Sessions 16–25:</strong> progressive neuroplastic remodeling; fibromyalgia, neuropathy, and complex chronic pain patients continue improving; medication reduction typically sustained</li>
+      </ul>
+      <p>Treatment frequency matters: 2–3 sessions/week maintains above-threshold electromagnetic exposure for continuous neuroplastic effect. Weekly sessions produce slower results; daily sessions (used in neuropathy protocols) accelerate the trajectory.</p>
+
+      <h2>Three-Phase Clinical Protocol for Chronic Pain</h2>
+      <p>The evidence supports a structured phased approach:</p>
+      <ul>
+        <li><strong>Phase 1 — Inflammation Control (Weeks 1–3):</strong> 25–50 Hz, 2–3×/week, 30–40 min sessions. Target: peripheral cytokine reduction, microcirculation improvement, edema resolution. Goal: reduce the nociceptive input load.</li>
+        <li><strong>Phase 2 — Central Desensitization (Weeks 4–8):</strong> 6–12 Hz (adenosine-A2A targeting) alternating with 25–50 Hz anti-inflammatory protocols. Target: central sensitization reversal, cortisol normalization, sleep improvement. Goal: break the central sensitization cycle.</li>
+        <li><strong>Phase 3 — Maintenance (Week 9 onwards):</strong> weekly or biweekly sessions, patient-directed intensity. Target: neuroplastic consolidation, prevent re-sensitization. Chronic pain patients who complete Phase 3 show 6-month durability of outcomes in multiple studies.</li>
+      </ul>
+      <p>Optimal co-treatment: PEMF + graded exercise therapy remains the gold standard combination for chronic pain. PEMF reduces pain threshold enabling exercise compliance; exercise consolidates neuroplastic gains and prevents recurrence.</p>
+
+      <h2>Why Conventional Chronic Pain Treatments Fall Short</h2>
+      <p>Understanding PEMF's mechanistic completeness requires context on what established treatments cannot do:</p>
+      <ul>
+        <li><strong>NSAIDs:</strong> address peripheral COX-enzyme prostaglandin synthesis only. No central sensitization effect, no neuroplastic effect, no cortisol normalization. 40–60% of chronic pain patients achieve &lt;30% relief.</li>
+        <li><strong>Opioids:</strong> gate ascending pain signals at μ-receptor sites. Tolerance develops within 90 days in 40% of patients. No anti-inflammatory, no central sensitization reversal. Dependency risk in chronic use population.</li>
+        <li><strong>Standard physiotherapy (without PEMF):</strong> addresses structural and neuromuscular contributors but lacks electromagnetic access to central sensitization, cytokine suppression, or HPA axis normalization.</li>
+        <li><strong>PEMF:</strong> addresses all 5 pathways; FDA cleared; no tolerance; no addiction risk; accumulates effect over course rather than resetting daily.</li>
+      </ul>
+
+      <h2>Contraindications</h2>
+      <p>PEMF is contraindicated in: active implanted pacemaker or electronic medical device, pregnancy, active uncontrolled epilepsy, and active malignancy in the treatment field. These affect &lt;3% of the chronic pain population. All other patients — including those on long-term medications, patients with comorbidities, and elderly patients — are generally eligible.</p>
+
+      <h2>The Philippine Chronic Pain Market: Scale and Opportunity</h2>
+      <p>Chronic pain affects approximately 36 million Filipinos — 33% of the population — making it the single largest addressable healthcare market in the country. The average Filipino chronic pain patient spends an estimated ₱48,000 per year on analgesics and consultations with inadequate relief. A PEMF treatment course (₱24,000–₱60,000) delivers measurably superior outcomes at a comparable or lower annualized cost — with durable effects that reduce ongoing healthcare utilization.</p>
+      <p>At 0.1% market penetration — a conservative baseline for a well-positioned clinic in a metropolitan area — that represents 36,000 potential patients annually. The chronic pain patient also generates the highest lifetime clinic revenue per patient: high course completion rates, maintenance session conversion, and natural word-of-mouth within the patient's family and peer network.</p>
+
+      <div class="article-cta">
+        <p>Request the full investor brief including the 36-million-patient chronic pain market analysis, PEMF clinic revenue projections, and Philippine competitor landscape.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
