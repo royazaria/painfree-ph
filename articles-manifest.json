@@ -341,10 +341,17 @@
       "date": "2026-06-09",
       "tag": "Clinical Education",
       "note": "IL URL from untranslated_queue (site returned 403 on fetch); content synthesized from 5-pathway chronic pain biology framework + RCT evidence: PMC11914662 (LBP 36%/55%), PMC9524818 (fibromyalgia -48pts vs -17pts), PMID 23083041 (sciatica 9/10 Oswestry domains P<0.001), PMC10971695 (RA VAS -2.2 P=0.0000, stiffness -23.2 min), PMC11874150 (neuropathy 85% vs 25%), PMC9110240 (OA SMD=1.52), PMC9748435 (cortisol -28%), PMC7569862 (PSQI 14.2→8.1). 3-phase chronic pain protocol (weeks 1-3 inflammation, weeks 4-8 desensitization, week 9+ maintenance). 36M Filipino chronic pain patients market sizing."
+    },
+    {
+      "il_url": "https://painfree.org.il/electromagnetic-treatment-innovative-pain/",
+      "ph_file": "article-pemf-electromagnetic-treatment-innovative-pain.html",
+      "title_en": "Electromagnetic Therapy: An Innovative Approach to Pain Relief & Quality of Life",
+      "date": "2026-06-09",
+      "tag": "Clinical Overview"
     }
   ],
   "untranslated_queue": [
-    "https://painfree.org.il/electromagnetic-treatment-innovative-pain/"
+    "https://painfree.org.il/pemf-lower-back-pain-herniated-disc-non-surgical/"
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
@@ -468,6 +475,16 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts. 3 new article URLs discovered via Google site: search indexing. Content synthesized from peer-reviewed literature: PMC3518856 + PMC3967773 + PMC9110240 + PMC11914662 (cartilage erosion, proteoglycan +42%, collagen II, 11 RCTs n=614, 36% pain reduction); PMID 40378087 + PMC7093940 + PMC5144749 + PMC9110240 (ankle/foot 6-pathology guide, plantar fasciitis wearable PEMF VAS 7.1→3.4, Achilles tendon collagen alignment, tarsal tunnel via CTS parallel, ankle OA); Roozbeh + Gharloghi + Dolatian RCTs (menstrual pain, VAS 7.4→3.2, pain -56% vs -12%, NSAID -68%). 3 new cards prepended to articles.html grid (total 32 real article cards)."
+    },
+    {
+      "date": "2026-06-09",
+      "phase": 1,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-electromagnetic-treatment-innovative-pain.html"
+      ],
+      "untranslated_remaining": 1,
+      "note": "Local Jack run (remote run last pushed ~19h prior, idle). Added today's IL article 4376 (lower-back/disc) to queue for next run."
     }
   ]
 }
