@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEMF for Middle Back Pain: Thoracic Spine Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="PEMF for middle back pain: thoracic spine facet joints, disc pathology, and myofascial pain. Large-effect RCT data (η²=0.28) and clinical protocol for Philippine clinics."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    /* ARTICLE BODY */
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    /* TABLE */
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    /* CTA */
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Clinical Protocol</div>
+    <h1>PEMF for<br/><em>Middle Back Pain.</em></h1>
+    <p class="hero-sub">Large-effect RCT evidence (η²=0.28, p=0.015) for thoracic paraspinal muscle tone reduction. The natural and evidence-based protocol for mid-back pain — the most anatomically overlooked segment of the spine.</p>
+  </div>
+</section>
+
+<!-- ARTICLE BODY -->
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">June 2026 · 9 min read · Clinical Protocol</p>
+
+      <img src="https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Clinician assessing middle back pain in thoracic spine"/>
+
+      <h2>The Overlooked Segment: Understanding Middle Back Pain</h2>
+      <p>Middle back pain — pain in the thoracic spine (T1–T12) — is far more common than clinical attention suggests. While lumbar and cervical pain dominate research headlines, the thoracic region is the postural backbone of desk workers, drivers, and manual laborers. In the Philippines, where BPO desk workers number over 1.3 million and daily commuting is physically demanding, mid-back pain represents a substantial and underclinically-served patient segment.</p>
+      <p>Clinically, middle back pain is defined as pain located between the base of the neck and the lower rib margin, lasting more than 6 weeks or recurring frequently. It is distinct from lower back pain in its causes, biomechanics, and optimal treatment approach.</p>
+
+      <h2>Causes of Middle Back Pain</h2>
+      <p>The thoracic spine is inherently more stable than the lumbar or cervical regions due to its rib cage attachment, which limits range of motion but concentrates stress at specific levels. Common causes include:</p>
+      <ul>
+        <li><strong>Postural overload</strong> — prolonged forward flexion, desk work, smartphone use, driving; causes progressive paraspinal muscle fatigue and myofascial trigger points at T4–T8</li>
+        <li><strong>Thoracic facet joint syndrome</strong> — the most common structural cause; facet joints at T4–T8 are most vulnerable and generate a characteristic band-like aching pain that wraps around the ribcage</li>
+        <li><strong>Thoracic disc herniation</strong> — less common than lumbar disc herniation but more serious; T6–T10 levels are most affected; can produce intercostal neuralgia or myelopathy</li>
+        <li><strong>Intercostal neuralgia</strong> — inflammation or entrapment of intercostal nerves causing sharp, shooting pain along the rib line</li>
+        <li><strong>Osteoporosis-related vertebral compression fractures</strong> — affect T7–T12 predominantly; a major cause of mid-back pain in postmenopausal women and elderly Filipinos</li>
+        <li><strong>Scoliosis</strong> — structural thoracic curvature causing asymmetric paraspinal loading and chronic muscle fatigue</li>
+        <li><strong>Referred visceral pain</strong> — from gallbladder, kidneys, or aorta; must be ruled out before initiating musculoskeletal treatment</li>
+      </ul>
+
+      <h2>Why PEMF Is Particularly Well-Suited for the Thoracic Spine</h2>
+      <p>The thoracic spine presents two characteristics that make PEMF especially effective. First, the thoracic paraspinal muscles — the erector spinae, multifidus, and rhomboids — are predominantly slow-twitch, endurance-type muscles that respond well to the low-frequency electromagnetic fields PEMF delivers. Second, thoracic disc nutrition is entirely diffusion-dependent (no direct blood supply), and PEMF's well-documented ability to improve local microcirculation and cellular metabolism directly addresses the disc's primary nutritional mechanism.</p>
+      <p>PEMF exerts four simultaneous mechanisms on thoracic pain generators:</p>
+      <ol>
+        <li><strong>Paraspinal muscle tone normalization</strong> — PEMF modulates intracellular calcium flux and Na/K-ATPase activity, reducing pathological muscle hypertonicity. A 2025 RCT (PMC12467020, n=30) demonstrated that magnetic field therapy reduced upper trapezius and thoracic paraspinal muscle tone with a large effect size (η²=0.28, p=0.015), with results sustained at follow-up.</li>
+        <li><strong>Facet joint anti-inflammatory action</strong> — pulsed fields suppress IL-1β and TNF-α production in synovial tissue, reducing facet joint capsule irritation and referred pain patterns.</li>
+        <li><strong>Disc nutrition enhancement</strong> — improved microcirculation at vertebral endplates increases nutrient diffusion into avascular thoracic discs, reducing discogenic pain and slowing degeneration.</li>
+        <li><strong>Central sensitization reversal</strong> — chronic thoracic pain involves dorsal horn sensitization; PEMF's adenosine-A2A receptor activation reduces synaptic gain at T1–T12 spinal levels, dampening the central pain component.</li>
+      </ol>
+
+      <h2>The Clinical Evidence</h2>
+      <p>While dedicated thoracic PEMF trials are limited, the evidence base transfers robustly from adjacent segments. A 2025 RCT (PMC12467020, n=30) found that active magnetic field therapy produced significantly greater reductions in thoracic paraspinal muscle tone compared to therapeutic massage alone — with a large effect size (η²=0.28) maintained at follow-up assessment. This is particularly relevant for postural and myofascial middle back pain, which constitutes the majority of thoracic presentations.</p>
+      <p>For the structural and inflammatory components of middle back pain, the broader PEMF literature provides strong support. A 2025 systematic review (PMC11775040, 9 RCTs, n=420) confirmed PEMF's efficacy for non-specific back pain, and a multicenter RCT (PMC11914662, n=91) demonstrated 36% pain reduction and 55% medication reduction across back pain patients — including those with thoracic involvement.</p>
+      <p>For osteoporosis-related vertebral compression fractures — a major cause of mid-back pain in elderly Filipinos — PEMF's osteogenic mechanisms are independently validated: a 2022 meta-analysis (PMID 35864717) found PEMF combined with medications significantly improves femoral and lumbar BMD, ALP, and osteocalcin compared to medications alone, with no increase in adverse events.</p>
+
+      <h2>Clinical Protocol: Middle Back Pain</h2>
+
+      <h3>Assessment Criteria</h3>
+      <p>Before initiating PEMF for middle back pain, visceral referral sources must be excluded (gallbladder, kidneys, aortic pathology). Structural imaging (X-ray for compression fractures, MRI for disc herniation) is recommended for new presentations with neurological symptoms or suspected oncological cause.</p>
+
+      <h3>Session Parameters</h3>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Myofascial/Postural</th>
+              <th>Facet Joint Syndrome</th>
+              <th>Thoracic Disc / Nerve</th>
+              <th>Compression Fracture</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Frequency</td>
+              <td>10–25 Hz</td>
+              <td>8–15 Hz</td>
+              <td>5–10 Hz</td>
+              <td>25–75 Hz</td>
+            </tr>
+            <tr>
+              <td>Intensity</td>
+              <td>20–40 gauss</td>
+              <td>30–60 gauss</td>
+              <td>20–50 gauss</td>
+              <td>50–100 gauss</td>
+            </tr>
+            <tr>
+              <td>Session duration</td>
+              <td>20–30 min</td>
+              <td>30 min</td>
+              <td>30–40 min</td>
+              <td>30–40 min</td>
+            </tr>
+            <tr>
+              <td>Coil placement</td>
+              <td>Thoracic paraspinals</td>
+              <td>Affected facet levels</td>
+              <td>Bilateral thoracic + intercostal</td>
+              <td>Vertebral body level</td>
+            </tr>
+            <tr>
+              <td>Recommended course</td>
+              <td>6–8 sessions</td>
+              <td>8–12 sessions</td>
+              <td>10–15 sessions</td>
+              <td>12–20 sessions</td>
+            </tr>
+            <tr>
+              <td>Sessions per week</td>
+              <td>2–3×</td>
+              <td>2×</td>
+              <td>2–3×</td>
+              <td>2–3×</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Optimal Combination Protocol</h3>
+      <p>Middle back pain responds best to a three-modality approach:</p>
+      <ol>
+        <li><strong>PEMF (30 min)</strong> — reduces paraspinal muscle hypertonicity and facet joint inflammation, preparing tissue for manual intervention</li>
+        <li><strong>Osteopathic or chiropractic manipulation</strong> — addresses structural restrictions (T-spine hypomobility, rib dysfunction) more effectively after PEMF has reduced local guarding</li>
+        <li><strong>Postural rehabilitation</strong> — targeted exercise for deep thoracic extensors and scapular stabilizers to prevent recurrence</li>
+      </ol>
+      <p>This sequence is used in 70+ Israeli clinics (population: 9M) — now expanding to the Philippines — and consistently outperforms any single-modality approach for thoracic pain resolution and maintenance.</p>
+
+      <h2>Middle Back Pain vs. Other Treatments</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Treatment</th>
+              <th>Mechanism</th>
+              <th>Best Indication</th>
+              <th>Limitations</th>
+              <th>PEMF Advantage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PEMF</td>
+              <td>Electromagnetic cellular repair, anti-inflammatory, neurological</td>
+              <td>All thoracic pain subtypes</td>
+              <td>Requires clinic visit; contraindicated with pacemakers</td>
+              <td>Addresses all four pain generators simultaneously</td>
+            </tr>
+            <tr>
+              <td>NSAIDs</td>
+              <td>Systemic COX inhibition</td>
+              <td>Acute inflammation, facet irritation</td>
+              <td>GI and renal side effects, does not address biomechanical cause</td>
+              <td>PEMF: local anti-inflammatory, no systemic toxicity</td>
+            </tr>
+            <tr>
+              <td>Physiotherapy</td>
+              <td>Exercise, manual therapy, modalities</td>
+              <td>Postural dysfunction, general deconditioning</td>
+              <td>Slow onset for acute pain; manual techniques limited by guarding</td>
+              <td>PEMF reduces guarding, enabling deeper manual therapy</td>
+            </tr>
+            <tr>
+              <td>Corticosteroid injection</td>
+              <td>Epidural/facet anti-inflammatory</td>
+              <td>Severe facet joint syndrome, nerve root irritation</td>
+              <td>Invasive, limited to 3–4/year, no structural repair</td>
+              <td>PEMF: non-invasive, repeatable, no dosage ceiling</td>
+            </tr>
+            <tr>
+              <td>Massage therapy</td>
+              <td>Mechanical soft-tissue release</td>
+              <td>Myofascial pain, muscle spasm</td>
+              <td>Does not address structural or disc pathology; short-lived results</td>
+              <td>PEMF produces larger muscle tone reduction (RCT η²=0.28 vs massage)</td>
+            </tr>
+            <tr>
+              <td>Surgery</td>
+              <td>Structural decompression/fixation</td>
+              <td>Myelopathy, severe compression fracture</td>
+              <td>Highly invasive, reserved for severe cases</td>
+              <td>PEMF: pre-surgical conservative option; reduces need for surgery</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Special Considerations: Philippine Population</h2>
+      <p>Several Philippines-specific factors amplify the middle back pain burden and market opportunity:</p>
+      <ul>
+        <li><strong>BPO workforce</strong> — 1.3 million desk workers in Metro Manila, Cebu, and Davao, spending 8–12 hours daily in seated postures. Thoracic postural pain is a primary cause of productivity loss and sick leave in this demographic.</li>
+        <li><strong>Transportation burden</strong> — average Metro Manila commute exceeds 90 minutes each way; prolonged sitting on jeepneys and buses creates chronic thoracic loading.</li>
+        <li><strong>Osteoporosis prevalence</strong> — the Philippines has one of the highest osteoporosis rates in Southeast Asia due to dietary calcium deficiency; thoracic compression fractures are significantly underdiagnosed.</li>
+        <li><strong>Agricultural and construction labor</strong> — repetitive lifting and bending creates thoracic muscle fatigue patterns distinct from desk-work posture pathology.</li>
+      </ul>
+
+      <h2>Contraindications</h2>
+      <p>PEMF is contraindicated in: active cardiac pacemaker or implanted electronic device, pregnancy, active epilepsy with seizure history, and active malignancy within the treatment field. Patients with spinal implants (rods, cages) may receive treatment with modified protocols; metal implants per se are not a contraindication provided they are non-electronic. Visceral causes of mid-back pain must be excluded before commencing PEMF treatment.</p>
+
+      <h2>What This Means for Clinic Investors</h2>
+      <p>Middle back pain is a systematically underclinical segment — most pain clinic portfolios focus on lumbar and cervical presentations, leaving thoracic patients underserved. Positioning a PEMF-equipped clinic as the thoracic spine specialist in a Philippine urban market captures this overlooked cohort. Combined with postural assessment and targeted rehabilitation, middle back pain patients generate high-value, multi-session treatment courses (8–15 sessions) with strong word-of-mouth referrals from BPO employers.</p>
+      <p>A single PEMF device treating 8–10 patients per day at ₱1,500–₱2,500 per session generates ₱12,000–₱25,000 daily revenue — with thoracic protocol patients among the most consistent in completing full treatment courses.</p>
+
+      <div class="article-cta">
+        <p>Ready to position your clinic in the underserved thoracic pain market? Request the full investor package for PainFree Philippines.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
