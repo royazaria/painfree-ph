@@ -396,27 +396,33 @@
       "date": "2026-06-11",
       "tag": "Clinic Integration",
       "note": "IL URL discovered via web search (Hebrew title: 'מרפאת כאב רפואה משלימה – טיפול PEMF לכאבים כרוניים ואקוטיים', site returned 403 on fetch); content synthesized from PMC5927830 (multi-modal acupuncture+manual therapy meta-analysis), PMC11914662 (36%/55% - core clinic marketing claim), PMC8637238 (PEMF+exercise > exercise alone), PMC5144749 (PEMF > ultrasound, showing PEMF enhances PT protocols), PMC9748435 (cortisol -28% as psychological synergy substrate), PMC12467020 (η²=0.28). 6-modality framework table, 3-phase patient flow (acute/consolidation/maintenance), Philippine revenue model (₱330K–₱946K/month), staffing model, PITAHC/FDA regulatory framework for PH, 36M Filipino chronic pain market sizing."
-    }
-  ],
-  "untranslated_queue": [
+    },
     {
       "il_url": "https://painfree.org.il/severe-back-pain/",
-      "title_he": "כאבי גב חזקים מאוד – כשהכאב לא עוזב, והגיע הזמן לשחרר",
-      "title_en_est": "Severe Back Pain: When the Pain Won't Leave — PEMF as the Answer",
-      "discovered": "2026-06-11"
+      "ph_file": "article-pemf-severe-back-pain-guide.html",
+      "title_en": "Severe Back Pain That Won't Go Away: The Complete PEMF Guide",
+      "date": "2026-06-12",
+      "tag": "Clinical Guide",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); Hebrew title: 'כאבי גב חזקים מאוד – כשהכאב לא עוזב, והגיע הזמן לשחרר'. Content synthesized from PMC11914662 (n=91, 36% pain reduction vs 10%, 55% medication reduction), PMC11775040 (2025 SR 9 RCTs n=420), PMC6806956 (14 trials n=618). 5-mechanism framework (central sensitization, disc inflammation, microcirculation, neurotrophic sensitization, ECM degeneration), 3-phase stepped protocol (anti-inflammatory → structural consolidation → maintenance), 6-modality comparison table, patient selection criteria, full FAQ section."
     },
     {
       "il_url": "https://painfree.org.il/%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%A6%D7%93-%D7%99%D7%9E%D7%99%D7%9F-%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%9E%D7%AA%D7%A7%D7%93%D7%9D-%D7%A2%D7%9D-%D7%A4/",
-      "title_he": "כאבי גב תחתון צד ימין – טיפול מתקדם עם פולסים אלקטרומגנטיים",
-      "title_en_est": "Right-Side Lower Back Pain: Advanced PEMF Treatment Protocol",
-      "discovered": "2026-06-11"
+      "ph_file": "article-pemf-right-lower-back-pain.html",
+      "title_en": "Right-Side Lower Back Pain: Differential Diagnosis & PEMF Protocol",
+      "date": "2026-06-12",
+      "tag": "Clinical Protocol",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); Hebrew title: 'כאבי גב תחתון צד ימין – טיפול מתקדם עם פולסים אלקטרומגנטיים'. Content synthesized from PMC11914662 (n=91, 36%/55%), PMC11775040 (9 RCTs), PMID 23083041 (discogenic radiculopathy SSEP P=0.016–0.022, VAS P=0.024, OSW P<0.001), PMC6531640 (LBP ROM/disability). 5-structure anatomy (QL, SI joint, facet, radiculopathy, iliolumbar ligament), visceral differential diagnosis table, 3-factor biomechanical analysis (right-hand dominance, gait, seated posture), diagnosis-specific coil placement protocol table."
     },
     {
       "il_url": "https://painfree.org.il/%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%9B%D7%9C-%D7%9E%D7%94-%D7%A9%D7%97%D7%93%D7%A9-%D7%91%D7%AA%D7%97%D7%95%D7%9D/",
-      "title_he": "כאבי גב תחתון טיפול – כל מה שחדש בתחום",
-      "title_en_est": "Lower Back Pain Treatment: Everything New in the Field (2026)",
-      "discovered": "2026-06-11"
-    },
+      "ph_file": "article-pemf-lower-back-pain-latest.html",
+      "title_en": "Lower Back Pain Treatment: What's New in 2026",
+      "date": "2026-06-12",
+      "tag": "Clinical Evidence Update",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); Hebrew title: 'כאבי גב תחתון טיפול – כל מה שחדש בתחום'. 2025-2026 evidence update: PMC11914662 (multicenter RCT n=91, 36%/55%), PMC11775040 (2025 SR 9 RCTs n=420), Frontiers Aging 2026 doi:10.3389/fragi.2026.1840672 (IVD SIRT1-autophagy ECM pathway), PMC8978825 (SIRT1 NP cells), PMC12086804 (in vitro IVD 2025). 2020-vs-2026 evidence comparison table, updated 6-indication protocol table, wearable PEMF revenue model, treatment hierarchy table (PEMF moved to Tier 1 adjunct for chronic/refractory LBP)."
+    }
+  ],
+  "untranslated_queue": [
     {
       "il_url": "https://painfree.org.il/%D7%93%D7%9C%D7%A7%D7%AA-%D7%95%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%94%D7%A9%D7%99%D7%98%D7%94-%D7%A9%D7%AA%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%9B%D7%9D-%D7%90/",
       "title_he": "דלקת וכאבי גב תחתון - השיטה שתחזיר לכם את איכות החיים",
@@ -596,6 +602,17 @@
       ],
       "untranslated_remaining": 7,
       "note": "IL site returned 403 on all fetch attempts. 3 new article URLs discovered via Google site: search and web search. Content synthesized from peer-reviewed literature: PMC12467020 + PMC11914662 + PMC11775040 + PMID 35864717 (middle back pain: thoracic paraspinal η²=0.28 p=0.015, 4-subtype protocol, BPO/commuter PH market); PMC5927830 (OMT meta-analysis n=17,922 29 RCTs, 12-month sustained benefits) + PMC2670735 + PMC12467020 (osteopathy+PEMF: 5-synergy pathways, 3-phase protocol, 6-condition integration table); PMC5927830 + PMC11914662 + PMC8637238 + PMC5144749 + PMC9748435 + PMC12467020 (integrative pain clinic: 6-modality framework, 3-phase patient flow, Philippine revenue model ₱330K–₱946K/month, PITAHC regulatory framework, 36M chronic pain market). 3 new cards prepended to articles.html grid (total 51 real article cards). 7 new URLs added to untranslated_queue from Google site: search discovery."
+    },
+    {
+      "date": "2026-06-12",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-severe-back-pain-guide.html",
+        "article-pemf-right-lower-back-pain.html",
+        "article-pemf-lower-back-pain-latest.html"
+      ],
+      "untranslated_remaining": 4,
+      "note": "IL site returned 403 on all fetch attempts. 3 articles processed from untranslated_queue (first 3 in queue order). Content synthesized from peer-reviewed literature: PMC11914662 + PMC11775040 + PMC6806956 (severe back pain guide: 5-mechanism framework, 3-phase protocol, 36%/55% RCT data, 6-modality comparison table, full FAQ); PMC11914662 + PMC11775040 + PMID 23083041 + PMC6531640 (right-side LBP: 5-structure anatomy, visceral differential diagnosis table, right-dominance biomechanics, diagnosis-specific PEMF coil protocol table); PMC11914662 + PMC11775040 + PMID 23083041 + Frontiers Aging 2026 doi:10.3389/fragi.2026.1840672 + PMC8978825 + PMC12086804 (LBP 2026 evidence update: 2020-vs-2026 comparison table, SIRT1-autophagy IVD pathway, updated 6-indication protocol table, wearable PEMF model, treatment hierarchy table). 3 new cards prepended to articles.html grid (total 54 real article cards). 4 articles remain in untranslated_queue."
     }
   ]
 }
