@@ -1,5 +1,6 @@
 {
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
+  "active_seo_tasks": "2026-06-13 (Roy-approved): Head-term cannibalization fix for 'טיפול בפולסים אלקטרומגנטיים' on painfree.org.il — see seo-consolidation-pemf-head-term.md. Canonical winner = post 4334 (efficacy-safety-clinic-guide). Posts 4308 & 4345 to be differentiated + linked up (NO new article on this phrase, NO redirect, NO rel=canonical). Execution requires WP/cPanel deploy access. Re-check GSC ~2026-W27.",
   "translated": [
     {
       "il_url": "https://painfree.org.il/%D7%93%D7%9C%D7%A7%D7%AA-%D7%95%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%94%D7%A9%D7%99%D7%98%D7%94-%D7%A9%D7%AA%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%9B%D7%9D-%D7%90/",
