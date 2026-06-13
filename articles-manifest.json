@@ -2,6 +2,30 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/%D7%93%D7%9C%D7%A7%D7%AA-%D7%95%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%94%D7%A9%D7%99%D7%98%D7%94-%D7%A9%D7%AA%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%9B%D7%9D-%D7%90/",
+      "ph_file": "article-pemf-lower-back-inflammation.html",
+      "title_en": "Lower Back Inflammation & Pain: The Method That Restores Quality of Life",
+      "date": "2026-06-13",
+      "tag": "Clinical Protocol",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); Hebrew title: 'דלקת וכאבי גב תחתון - השיטה שתחזיר לכם את איכות החיים'. Content synthesized from PMC11914662 (n=91, 36% pain reduction vs 10%, 55% medication reduction), PMC11775040 (2025 SR 9 RCTs n=420), PMC6806956 (14 trials n=618). Inflammatory-LBP angle: cytokine-cascade (IL-1β/TNF-α/IL-6) mechanism, 4-pathway anti-inflammatory action, PEMF-vs-NSAIDs/steroid-injection/PT comparison table, staged combination model."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%9B%D7%A8%D7%95%D7%A0%D7%99%D7%99%D7%9D-%D7%94%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%94%D7%9E%D7%A4%D7%AA%D7%99%D7%A2-%D7%9E%D7%94%D7%A2%D7%AA%D7%99%D7%93-%D7%9B/",
+      "ph_file": "article-pemf-chronic-back-pain-future.html",
+      "title_en": "Chronic Back Pain: The Surprising Future Treatment Is Already Here",
+      "date": "2026-06-13",
+      "tag": "Clinical Evidence",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); Hebrew title: 'כאבי גב כרוניים – הטיפול המפתיע מהעתיד כבר כאן'. Content synthesized from PMC11914662 (36%/55%), PMC11775040 (9 RCTs n=420), PMC6806956 (14 trials n=618). Future-treatment framing: central-sensitization rationale, 5 cellular pathways (membrane stabilization, adenosine-A2A, microcirculation, cytokine suppression, ATP), PEMF-vs-medication/injection/surgery table, combination-first positioning."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%99%D7%A2%D7%99%D7%9C%D7%95%D7%AA-%D7%A9%D7%9C-%D7%A9%D7%93%D7%95%D7%AA-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%99%D7%9D-%D7%A4%D7%95%D7%A2%D7%9E%D7%99%D7%9D/",
+      "ph_file": "article-pemf-efficacy-pulsed-fields.html",
+      "title_en": "The Efficacy of Pulsed Electromagnetic Fields: The Evidence Summary",
+      "date": "2026-06-13",
+      "tag": "Clinical Evidence",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); Hebrew title: 'יעילות של שדות אלקטרומגנטיים פועמים'. Condition-by-condition evidence summary synthesized from PMC11914662 (joint/soft-tissue n=91), PMC11775040 (LBP SR), PMC9110240 (knee OA 11 RCTs n=614), PMID 32495506 (fracture 14 RCTs n=1131), PMC11874150 (neuropathy RELIEF n=182), PMC9524818 (fibromyalgia). 7-row evidence-strength table, strong-vs-emerging framing (heel/plantar = emerging), honest adjunct positioning."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-vs-ultrasound-vs-radiofrequency-tecar-comparison/",
       "ph_file": "article-pemf-vs-ultrasound.html",
       "title_en": "PEMF vs. Ultrasound vs. Radio Waves: Which Technology Wins?",
@@ -424,24 +448,6 @@
   ],
   "untranslated_queue": [
     {
-      "il_url": "https://painfree.org.il/%D7%93%D7%9C%D7%A7%D7%AA-%D7%95%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%94%D7%A9%D7%99%D7%98%D7%94-%D7%A9%D7%AA%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%9B%D7%9D-%D7%90/",
-      "title_he": "דלקת וכאבי גב תחתון - השיטה שתחזיר לכם את איכות החיים",
-      "title_en_est": "Lower Back Inflammation & Pain: The Method That Restores Quality of Life",
-      "discovered": "2026-06-11"
-    },
-    {
-      "il_url": "https://painfree.org.il/%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%9B%D7%A8%D7%95%D7%A0%D7%99%D7%99%D7%9D-%D7%94%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%94%D7%9E%D7%A4%D7%AA%D7%99%D7%A2-%D7%9E%D7%94%D7%A2%D7%AA%D7%99%D7%93-%D7%9B/",
-      "title_he": "כאבי גב כרוניים – הטיפול המפתיע מהעתיד כבר כאן",
-      "title_en_est": "Chronic Back Pain: The Surprising Future Treatment Is Already Here",
-      "discovered": "2026-06-11"
-    },
-    {
-      "il_url": "https://painfree.org.il/%D7%99%D7%A2%D7%99%D7%9C%D7%95%D7%AA-%D7%A9%D7%9C-%D7%A9%D7%93%D7%95%D7%AA-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%99%D7%9D-%D7%A4%D7%95%D7%A2%D7%9E%D7%99%D7%9D/",
-      "title_he": "יעילות של שדות אלקטרומגנטיים פועמים",
-      "title_en_est": "Efficacy of Pulsed Electromagnetic Fields: The Evidence Summary",
-      "discovered": "2026-06-11"
-    },
-    {
       "il_url": "https://painfree.org.il/chronic-pain/",
       "title_he": "Chronic pain (dedicated article page)",
       "title_en_est": "Chronic Pain and PEMF: The Patient & Clinician Guide",
@@ -450,6 +456,19 @@
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-13",
+      "phase": 1,
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-lower-back-inflammation.html",
+        "article-pemf-chronic-back-pain-future.html",
+        "article-pemf-efficacy-pulsed-fields.html"
+      ],
+      "untranslated_remaining": 1,
+      "note": "Phase 1 — 3 articles from untranslated_queue (first 3 in order). IL site returned 403 on all fetch attempts. Content synthesized from peer-reviewed literature: PMC11914662 + PMC11775040 + PMC6806956 (inflammatory LBP — cytokine cascade, anti-inflammatory mechanism, PEMF-vs-NSAIDs/steroid/PT table); PMC11914662 + PMC11775040 + PMC6806956 (chronic back pain future-treatment — central sensitization, 5 cellular pathways, combination-first); PMC11914662 + PMC11775040 + PMC9110240 + PMID 32495506 + PMC11874150 + PMC9524818 (PEMF efficacy summary — 7-row condition-by-condition evidence-strength table, strong-vs-emerging framing). 3 new cards prepended to articles.html grid (total 57 real article cards). 1 article remains in untranslated_queue (chronic-pain/). Today Jack also published IL post 4393 (heel spur / דורבן) — queued for a future PH run.",
+      "remote_dedup": "git fetch origin before run — local HEAD == origin/main (8b00e87); no parallel run had pushed ahead."
+    },
     {
       "date": "2026-05-31",
       "phase": 2,
