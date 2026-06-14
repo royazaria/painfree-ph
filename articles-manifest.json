@@ -468,6 +468,14 @@
       "date": "2026-06-14",
       "tag": "Clinical Protocol",
       "note": "IL URL likely-pattern (site returned 403 on fetch); content synthesized from PMC12467020 (RCT n=30, PEMF > therapeutic massage for upper trapezius muscle tone p=0.015 η²=0.28 large effect, sustained at follow-up), PMC7136237 (rPMS for myofascial trigger points in migraine: MIDAS 29→13 and 31→15 in two cohorts), PMC7477588 (DOMS RCT n=56: 43% vs 8% reduction, CK 2.3x clearance d=1.12 — supports ATP-restoration mechanism), PMC2670735 (PEMF for chronic musculoskeletal pain). Simons & Travell SEA pathophysiology framework, 3-mechanism model (motor endplate normalization, ATP restoration, cytokine/microcirculation), 5-region protocol table with frequency/intensity/duration/course, 6-treatment comparison table (vs. massage, dry needling, injection, TENS, ultrasound), Philippine BPO/commuter market analysis."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-clinical-system-vs-consumer-device-guide/",
+      "ph_file": "article-pemf-clinical-system-vs-consumer-device.html",
+      "title_en": "Clinical-Grade vs. Consumer PEMF Devices: What Clinics Need to Know",
+      "date": "2026-06-14",
+      "tag": "Clinical Guide",
+      "note": "Phase 2 — today's new IL article (post 4396, slug pemf-clinical-system-vs-consumer-device-guide). Hebrew title: 'טיפול בפולסים אלקטרומגנטיים: מערכת רפואית-קלינית מול מכשיר ביתי 2026'. English translation written from the Hebrew source authored this session. Citations verbatim: PMC11914662 (n=91, 36% vs 10%, 55% medication drop), Cochrane CD003523.pub2 (OA, ~15pt/100), PMC5822965 (FDA-cleared devices, 83% cervical fusion / 80% long-bone), PubMed 31394939 (NO/microcirculation mechanism), PubMed 19371845 (anti-inflammatory review). Angle: medical-grade clinical system vs consumer wellness mat — the category-confusion that makes AI cite consumer brands for clinic queries. Hero image Pexels 7088834 (same as IL featured)."
     }
   ],
   "untranslated_queue": [],
@@ -660,6 +668,16 @@
       ],
       "untranslated_remaining": 4,
       "note": "IL site returned 403 on all fetch attempts. 3 articles processed from untranslated_queue (first 3 in queue order). Content synthesized from peer-reviewed literature: PMC11914662 + PMC11775040 + PMC6806956 (severe back pain guide: 5-mechanism framework, 3-phase protocol, 36%/55% RCT data, 6-modality comparison table, full FAQ); PMC11914662 + PMC11775040 + PMID 23083041 + PMC6531640 (right-side LBP: 5-structure anatomy, visceral differential diagnosis table, right-dominance biomechanics, diagnosis-specific PEMF coil protocol table); PMC11914662 + PMC11775040 + PMID 23083041 + Frontiers Aging 2026 doi:10.3389/fragi.2026.1840672 + PMC8978825 + PMC12086804 (LBP 2026 evidence update: 2020-vs-2026 comparison table, SIRT1-autophagy IVD pathway, updated 6-indication protocol table, wearable PEMF model, treatment hierarchy table). 3 new cards prepended to articles.html grid (total 54 real article cards). 4 articles remain in untranslated_queue."
+    },
+    {
+      "date": "2026-06-14",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-clinical-system-vs-consumer-device.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2 — untranslated_queue was empty after the remote run (commit 718b3aa) cleared it earlier today (chronic-pain, heel-spur, myofascial-trigger-points). Pulled origin/main (ff) before translating per dedup memory. Translated today's NEW IL article (post 4396, clinical-grade vs consumer PEMF) which the remote run predated. 1 card prepended to articles.html grid. IL site still 403 on fetch; translation written directly from the Hebrew source authored this session."
     }
   ]
 }
