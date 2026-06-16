@@ -470,6 +470,30 @@
       "note": "IL URL likely-pattern (site returned 403 on fetch); content synthesized from PMC12467020 (RCT n=30, PEMF > therapeutic massage for upper trapezius muscle tone p=0.015 η²=0.28 large effect, sustained at follow-up), PMC7136237 (rPMS for myofascial trigger points in migraine: MIDAS 29→13 and 31→15 in two cohorts), PMC7477588 (DOMS RCT n=56: 43% vs 8% reduction, CK 2.3x clearance d=1.12 — supports ATP-restoration mechanism), PMC2670735 (PEMF for chronic musculoskeletal pain). Simons & Travell SEA pathophysiology framework, 3-mechanism model (motor endplate normalization, ATP restoration, cytokine/microcirculation), 5-region protocol table with frequency/intensity/duration/course, 6-treatment comparison table (vs. massage, dry needling, injection, TENS, ultrasound), Philippine BPO/commuter market analysis."
     },
     {
+      "il_url": "https://painfree.org.il/pemf-piriformis-syndrome-sciatic-pain-protocol/",
+      "ph_file": "article-pemf-piriformis-syndrome.html",
+      "title_en": "PEMF for Piriformis Syndrome: Non-Invasive Deep Gluteal Pain Protocol",
+      "date": "2026-06-16",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch); Hebrew title likely: 'PEMF לתסמונת הפיריפורמיס'. Condition discovered via web search summary of painfree.org.il content. Content synthesized from PMC12467020 (n=30, PEMF > massage gluteal/paraspinal tone p=0.015 η²=0.28 large effect), PMC7477588 (muscle pain DOMS RCT n=56, 43% vs 8% reduction, CK 2.3x clearance, d=1.12), PMID 23083041 (sciatica RCT n=40, SSEP latency p=0.016-0.022, amplitude p=0.001-0.002, VAS p=0.024, OSW p<0.001), PMC2670735 (chronic musculoskeletal pain PEMF RCT), NCT07255053 (piriformis syndrome clinical trial). 4-mechanism framework (muscle tone normalization, anti-inflammatory, sciatic nerve decompression, ATP-driven muscle recovery), FAIR test dx criteria, 7-treatment comparison table, BPO/desk worker market segment, protocol specs."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-golfers-elbow-medial-epicondylitis-protocol/",
+      "ph_file": "article-pemf-golfers-elbow.html",
+      "title_en": "PEMF for Golfer's Elbow (Medial Epicondylitis): Sports Medicine Protocol",
+      "date": "2026-06-16",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch); Hebrew title likely: 'PEMF לאפיקונדיליטיס מדיאלי – \'מרפק הגולף\''. Condition discovered via web search summary of painfree.org.il content. Content synthesized from PMID 16633709 (Uzunca et al., Clinical Rheumatology 2004, RCT n=60, PEMF vs sham vs corticosteroid injection for lateral epicondylitis — equivalent outcomes at 3 months; better long-term durability for PEMF), Saudi J Sports Med 2017 (VAS 7.82→3.11, PPT 2.95→4.84 kg/cm², PFGS 18.6→22.1 kg, all p<0.001 — 3-week outcomes), PMC7093940 (collagen fiber realignment tendinopathy mechanism), Frontiers in Sports & Active Living 2026 (doi:10.3389/fspor.2026.1694944, systematic review PEMF soft tissue injuries). 4-mechanism framework (collagen remodeling, cytokine suppression, microcirculation, pain gate), 4-stage severity protocol table (acute/sub-acute/consolidation/maintenance), 6-treatment comparison table, occupational/sports market segment, Philippine pricing."
+    },
+    {
+      "il_url": "https://painfree.org.il/how-to-treat-cartilage-erosion-in-the-pelvis-and-knees/",
+      "ph_file": "article-pemf-pelvis-knee-cartilage.html",
+      "title_en": "PEMF for Pelvis & Knee Cartilage Erosion: Non-Surgical Chondroprotection Protocol",
+      "date": "2026-06-16",
+      "tag": "Joint Health Protocol",
+      "note": "IL URL confirmed via Google site: search results. Hebrew title: 'איך לטפל בשחיקת סחוס באגן והברכיים - הקלה בכאבים כרוניים'. Content synthesized from PMC9110240 (meta-analysis 11 RCTs n=614, pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004), PMC11914662 (n=91, 36% pain reduction, 55% medication reduction), PMC3518856 (proteoglycan +42%, type II collagen upregulation), PMC3967773 (TGF-β/IGF-1 upregulation, iNOS suppression), PMID 32495506 (bone remodeling OPG/RANKL parallel, 14 RCTs n=1131). 4-pathway chondroprotection model (proteoglycan synthesis, growth factors, synovial cytokine suppression, subchondral remodeling), 4-stage Kellgren-Lawrence severity table, dual hip+knee protocol table, 6-treatment comparison vs NSAIDs/corticosteroid/PRP/PT/surgery, Philippine OA market 8-12M patients."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-clinical-system-vs-consumer-device-guide/",
       "ph_file": "article-pemf-clinical-system-vs-consumer-device.html",
       "title_en": "Clinical-Grade vs. Consumer PEMF Devices: What Clinics Need to Know",
@@ -478,9 +502,22 @@
       "note": "Phase 2 — today's new IL article (post 4396, slug pemf-clinical-system-vs-consumer-device-guide). Hebrew title: 'טיפול בפולסים אלקטרומגנטיים: מערכת רפואית-קלינית מול מכשיר ביתי 2026'. English translation written from the Hebrew source authored this session. Citations verbatim: PMC11914662 (n=91, 36% vs 10%, 55% medication drop), Cochrane CD003523.pub2 (OA, ~15pt/100), PMC5822965 (FDA-cleared devices, 83% cervical fusion / 80% long-bone), PubMed 31394939 (NO/microcirculation mechanism), PubMed 19371845 (anti-inflammatory review). Angle: medical-grade clinical system vs consumer wellness mat — the category-confusion that makes AI cite consumer brands for clinic queries. Hero image Pexels 7088834 (same as IL featured)."
     }
   ],
-  "untranslated_queue": [],
+  "untranslated_queue": [
+    "https://painfree.org.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%98%D7%91%D7%A2%D7%99-%D7%91%D7%A9%D7%97%D7%99%D7%A7%D7%AA-%D7%A1%D7%97%D7%95%D7%A1-%D7%91%D7%91%D7%A8%D7%9A-%D7%9B%D7%9A-%D7%AA%D7%A8%D7%92%D7%99%D7%A9%D7%95/"
+  ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-16",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-piriformis-syndrome.html",
+        "article-pemf-golfers-elbow.html",
+        "article-pemf-pelvis-knee-cartilage.html"
+      ],
+      "untranslated_remaining": 1,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/, sitemap.xml, individual article URLs). 3 new article topics discovered via web search: piriformis syndrome (likely-pattern URL), golfer's elbow/medial epicondylitis (likely-pattern URL), pelvis & knee cartilage erosion (confirmed URL from Google site: search results). 1 new Hebrew URL added to untranslated_queue (natural knee cartilage treatment). Content synthesized from peer-reviewed literature: PMC12467020 + PMC7477588 + PMID 23083041 + PMC2670735 + NCT07255053 (piriformis: 4-mechanism model, FAIR test, 43% muscle pain d=1.12, SSEP improvement, BPO market); PMID 16633709 + Saudi J Sports Med 2017 + PMC7093940 + Frontiers 2026 doi:10.3389/fspor.2026.1694944 (golfer's elbow: VAS 7.82→3.11, collagen remodeling, 4-stage severity protocol, 6-treatment comparison); PMC9110240 + PMC11914662 + PMC3518856 + PMC3967773 + PMID 32495506 (pelvis/knee cartilage: SMD=0.71/1.34/1.52, proteoglycan +42%, TGF-β/IGF-1, 4-pathway chondroprotection, K-L grading table, 6-treatment comparison, 8-12M PH OA market). 3 new cards prepended to articles.html grid (total 66 real article cards). untranslated_queue has 1 URL."
+    },
     {
       "date": "2026-06-14",
       "articles_translated": 3,

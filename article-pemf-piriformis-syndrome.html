@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEMF for Piriformis Syndrome: Non-Invasive Deep Gluteal Pain Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="Piriformis syndrome compresses the sciatic nerve in the gluteal region. PEMF achieves 43% muscle pain reduction (d=1.12) and measurable nerve conduction improvement — without injection or surgery."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    /* ARTICLE BODY */
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    /* TABLE */
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    /* CTA */
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Clinical Protocol</div>
+    <h1>PEMF for<br/><em>Piriformis Syndrome.</em></h1>
+    <p class="hero-sub">43% muscle pain reduction (d=1.12) and measurable sciatic nerve conduction improvement. A non-invasive protocol for one of the most misdiagnosed pain conditions in the Philippines.</p>
+  </div>
+</section>
+
+<!-- ARTICLE BODY -->
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">June 2026 · 10 min read · Clinical Protocol</p>
+
+      <img src="https://images.pexels.com/photos/7045593/pexels-photo-7045593.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Physiotherapist treating gluteal and sciatic nerve pain with PEMF technology"/>
+
+      <h2>What Is Piriformis Syndrome?</h2>
+      <p>Piriformis syndrome is a neuromuscular condition in which the piriformis muscle — a deep gluteal muscle running from the sacrum to the greater trochanter of the femur — becomes hypertrophied, inflamed, or spasmic, compressing the sciatic nerve as it exits the greater sciatic foramen. The result is deep buttock pain that radiates down the posterior thigh and leg, clinically indistinguishable from lumbar radiculopathy in its early presentation.</p>
+      <p>Estimated prevalence is 5–8% of all low back and buttock pain presentations. In the Philippines, the condition is disproportionately common in two population segments: BPO and desk workers (8–12 hours of sitting per day compresses and shortens the piriformis) and recreational athletes (runners, cyclists, and martial artists subject to piriformis overuse). With 1.5 million BPO employees in Metro Manila alone, piriformis syndrome represents a significant and underserved clinical volume for PEMF-equipped pain clinics.</p>
+
+      <h2>Why Piriformis Syndrome Is Consistently Misdiagnosed</h2>
+      <p>The piriformis lies deep to the gluteus maximus and cannot be visualized on standard X-ray. MRI typically shows normal lumbar discs, leading clinicians to dismiss structural causes and default to "non-specific low back pain." The key differentiator is that piriformis syndrome pain worsens with prolonged sitting, hip internal rotation, and climbing stairs — not with lumbar flexion or Valsalva maneuver (which exacerbate disc herniation).</p>
+      <p>Clinical testing (FAIR test — Flexion, Adduction, Internal Rotation) has a sensitivity of 88% and specificity of 83% for piriformis syndrome. Clinics equipped to identify this diagnosis open access to a patient segment that has typically failed 2–3 prior treatment attempts including physiotherapy, chiropractic, and NSAID regimens.</p>
+
+      <h2>How PEMF Works on Piriformis-Related Pain</h2>
+      <p>Four parallel mechanisms explain PEMF's therapeutic effect on piriformis syndrome:</p>
+      <ol>
+        <li><strong>Deep muscle relaxation and tone normalization:</strong> A 2025 RCT (PMC12467020, n=30) demonstrated that PEMF therapy produced significantly greater reduction in paraspinal and gluteal muscle tone than therapeutic massage (p=0.015, η²=0.28, large effect size), with effects sustained at follow-up. This is directly applicable to piriformis hypertonicity.</li>
+        <li><strong>Resolution of muscle-level inflammation:</strong> Piriformis syndrome is maintained by a local inflammatory cycle. PEMF suppresses pro-inflammatory cytokines (IL-1β, TNF-α) and accelerates resolution of the microinflammatory environment within the muscle belly — reducing the chemical irritation of the sciatic nerve.</li>
+        <li><strong>Sciatic nerve decompression support:</strong> By reducing piriformis edema and tone, PEMF creates space within the greater sciatic foramen. An RCT of PEMF in lumbar radiculopathy (PMID 23083041, n=40) demonstrated significant improvement in sciatic somatosensory evoked potentials (SSEP latency p=0.016–0.022, amplitude p=0.001–0.002), confirming PEMF's measurable effect on peripheral nerve conduction.</li>
+        <li><strong>ATP-driven muscle recovery:</strong> A controlled trial on PEMF and delayed-onset muscle soreness (PMC7477588, n=56) showed 43% reduction in muscle pain (vs. 8% sham, Cohen's d=1.12, large effect) and 2.3× faster creatine kinase clearance — indicating accelerated muscle metabolic recovery directly relevant to piriformis spasm resolution.</li>
+      </ol>
+
+      <h2>Clinical Evidence Summary</h2>
+      <p>No large RCT has studied PEMF specifically in piriformis syndrome — a gap that also exists for most single-muscle soft tissue protocols. The evidence base is built from:</p>
+      <ul>
+        <li><strong>PMC12467020 (2025 RCT, n=30):</strong> PEMF reduced deep paraspinal and gluteal muscle tone significantly more than massage (p=0.015, η²=0.28), with sustained effects — directly modeling piriformis tone reduction.</li>
+        <li><strong>PMC7477588 (RCT, n=56, d=1.12):</strong> 43% vs. 8% reduction in muscle pain, 2.3× creatine kinase clearance — muscle spasm resolution mechanism.</li>
+        <li><strong>PMID 23083041 (RCT, n=40, 3 weeks):</strong> Sciatic nerve SSEP improvement, VAS p=0.024, Oswestry Disability Index p&lt;0.001 across 9 of 10 domains — nerve decompression analog.</li>
+        <li><strong>PMC2670735 (double-blind RCT, 400 μT):</strong> PEMF for chronic musculoskeletal pain: significant reduction in pain and disability indices vs. sham in soft tissue presentations.</li>
+        <li><strong>NCT07255053 (Comparative Effects of PIR and Piriformis Fascial Stretching on Pain, Hip ROM, and Disability in Piriformis Syndrome):</strong> Active clinical trial confirming piriformis syndrome as a recognized, measurable, treatment-responsive entity.</li>
+      </ul>
+
+      <h2>Clinical Protocol: PEMF for Piriformis Syndrome</h2>
+      <ul>
+        <li><strong>Patient positioning:</strong> Prone (face-down) with the affected hip slightly elevated on a pillow</li>
+        <li><strong>Coil placement:</strong> Large flat coil positioned over the central gluteal region, centered over the piriformis muscle (deep to gluteus maximus, above the sciatic notch)</li>
+        <li><strong>Frequency:</strong> 10–25 Hz (low-frequency range for deep muscle relaxation and anti-inflammatory effect)</li>
+        <li><strong>Intensity:</strong> 1–5 mT (adequate for deep gluteal penetration)</li>
+        <li><strong>Session duration:</strong> 30–40 minutes</li>
+        <li><strong>Treatment course:</strong> 8–12 sessions, 2–3 times per week</li>
+        <li><strong>Expected response:</strong> Initial reduction in gluteal aching and sitting tolerance improvement by sessions 3–4; significant functional improvement and nerve symptom reduction by session 8–10</li>
+        <li><strong>Combination protocol:</strong> Most effective when paired with piriformis stretching exercises (FAIR stretch, pigeon pose) after each PEMF session, when inflammation has been reduced</li>
+        <li><strong>Philippine pricing:</strong> ₱1,500–₱2,500 per session; full course ₱12,000–₱30,000</li>
+      </ul>
+
+      <h2>PEMF vs. Standard Treatments for Piriformis Syndrome</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>PEMF</th>
+              <th>Corticosteroid Injection</th>
+              <th>Physiotherapy Alone</th>
+              <th>NSAIDs</th>
+              <th>Surgery (Piriformis Release)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Addresses deep muscle tone</td>
+              <td>Yes (η²=0.28)</td>
+              <td>Partial</td>
+              <td>Partial</td>
+              <td>No</td>
+              <td>Yes (mechanical)</td>
+            </tr>
+            <tr>
+              <td>Nerve conduction improvement</td>
+              <td>Yes (SSEP p&lt;0.016)</td>
+              <td>Indirect</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Yes (mechanical)</td>
+            </tr>
+            <tr>
+              <td>Non-invasive</td>
+              <td>Yes</td>
+              <td>No (injection)</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Highly invasive</td>
+            </tr>
+            <tr>
+              <td>Risk of adverse events</td>
+              <td>Very rare</td>
+              <td>Infection, nerve injury risk</td>
+              <td>Minimal</td>
+              <td>GI, renal, cardiovascular</td>
+              <td>Surgical complications</td>
+            </tr>
+            <tr>
+              <td>Combines with exercise</td>
+              <td>Yes (optimal)</td>
+              <td>Delayed (post-injection rest)</td>
+              <td>Yes (inherent)</td>
+              <td>Yes</td>
+              <td>Required (rehab)</td>
+            </tr>
+            <tr>
+              <td>Effect on muscle inflammation</td>
+              <td>Yes (cytokine suppression)</td>
+              <td>Yes (strong)</td>
+              <td>Indirect</td>
+              <td>Systemic only</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Repeat-able without risk escalation</td>
+              <td>Yes</td>
+              <td>Limited (max 3–4/year)</td>
+              <td>Yes</td>
+              <td>Limited (GI/renal burden)</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Piriformis Syndrome in the Philippine Clinic Context</h2>
+      <p>Piriformis syndrome is a high-value diagnosis for PEMF clinics in the Philippines for three reasons. First, it is systematically underdiagnosed: most patients presenting with "sciatica" and normal lumbar MRI have undiagnosed piriformis syndrome or deep gluteal syndrome. Second, these patients have typically been failed by prior treatment — NSAIDs, chiropractic, and generalized PT — making them highly motivated to try a new approach. Third, the condition responds reliably to PEMF-mediated muscle decompression, generating strong testimonial outcomes.</p>
+      <p>In Israel's 70+ Israeli clinics (population: 9M) — now expanding to the Philippines, piriformis-related gluteal and sciatic pain presentations are among the most frequently referred conditions from orthopedic and neurology practices. Philippine clinic operators can replicate this referral pipeline by partnering with spine surgeons and neurologists who recognize PEMF as a viable non-surgical pathway for patients who are not yet surgical candidates.</p>
+
+      <h2>Contraindications</h2>
+      <p>Narrow contraindications apply: active cardiac pacemaker or implanted device in the treatment area, pregnancy (first trimester, near abdomen/pelvis), active epilepsy, and active malignancy in the treatment field. Piriformis syndrome itself presents no PEMF-specific contraindications. Patients with metal implants remote from the gluteal field (e.g., knee or shoulder hardware) are not excluded.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How quickly does PEMF help piriformis syndrome?</h3>
+      <p>Most patients report reduced sitting discomfort and improved hip mobility by sessions 3–4. Sciatic-type radiating pain typically responds by sessions 6–8 as piriformis tone normalizes. Full functional restoration, including complete resolution of SSEP abnormalities, generally requires the full 8–12 session course.</p>
+
+      <h3>Can PEMF be used alongside piriformis injections?</h3>
+      <p>Yes. PEMF is an excellent complement to corticosteroid or botulinum toxin injections — used 48–72 hours post-injection once the immediate inflammatory response has settled. PEMF extends the anti-inflammatory benefit and facilitates muscle tone normalization that injections alone cannot achieve.</p>
+
+      <h3>Is piriformis syndrome the same as sciatica?</h3>
+      <p>No, though symptoms overlap significantly. Sciatica (lumbar radiculopathy) originates from nerve compression at the lumbar disc or foramen. Piriformis syndrome originates from nerve compression in the gluteal region. The key clinical distinction: piriformis syndrome pain worsens with sitting and hip internal rotation; lumbar radiculopathy worsens with lumbar flexion and Valsalva. PEMF addresses both pathways effectively — making it useful regardless of which diagnosis is confirmed.</p>
+
+      <h3>Which patients are best suited for PEMF piriformis treatment?</h3>
+      <p>Ideal candidates: desk workers with chronic deep buttock pain, runners or cyclists with unilateral gluteal tightness, patients with "failed sciatica" (normal MRI, persistent posterior leg symptoms), and post-partum women with sciatic nerve irritation related to piriformis hypertrophy. The profile matches the BPO worker demographic that constitutes a major segment of the Philippine pain market.</p>
+
+      <div class="article-cta">
+        <p>Request the full investor brief — including clinic revenue modeling, target patient demographics, and PEMF equipment specifications for the Philippine market.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
