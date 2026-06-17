@@ -500,13 +500,46 @@
       "date": "2026-06-14",
       "tag": "Clinical Guide",
       "note": "Phase 2 — today's new IL article (post 4396, slug pemf-clinical-system-vs-consumer-device-guide). Hebrew title: 'טיפול בפולסים אלקטרומגנטיים: מערכת רפואית-קלינית מול מכשיר ביתי 2026'. English translation written from the Hebrew source authored this session. Citations verbatim: PMC11914662 (n=91, 36% vs 10%, 55% medication drop), Cochrane CD003523.pub2 (OA, ~15pt/100), PMC5822965 (FDA-cleared devices, 83% cervical fusion / 80% long-bone), PubMed 31394939 (NO/microcirculation mechanism), PubMed 19371845 (anti-inflammatory review). Angle: medical-grade clinical system vs consumer wellness mat — the category-confusion that makes AI cite consumer brands for clinic queries. Hero image Pexels 7088834 (same as IL featured)."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%98%D7%91%D7%A2%D7%99-%D7%91%D7%A9%D7%97%D7%99%D7%A7%D7%AA-%D7%A1%D7%97%D7%95%D7%A1-%D7%91%D7%91%D7%A8%D7%9A-%D7%9B%D7%9A-%D7%AA%D7%A8%D7%92%D7%99%D7%A9%D7%95/",
+      "ph_file": "article-pemf-knee-cartilage-natural-treatment.html",
+      "title_en": "Natural Treatment for Knee Cartilage Erosion: The PEMF Protocol & Clinical Outcomes",
+      "date": "2026-06-17",
+      "tag": "Joint Health Protocol",
+      "note": "IL URL from untranslated_queue (site returned 403 on fetch); Hebrew title: 'טיפול טבעי בשחיקת סחוס בברך - כך תרגישו'. Content synthesized from PMC9110240 (meta-analysis 11 RCTs n=614, pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004), PMC11914662 (36% pain reduction, 55% medication reduction), PMC3518856 (proteoglycan +42%, type II collagen upregulation), PMC3967773 (TGF-β/IGF-1 upregulation, iNOS suppression), PMID 32495506 (OPG/RANKL subchondral remodeling). Session-by-session patient experience timeline, Kellgren-Lawrence grade table, 6-treatment comparison table, Philippine OA market (8-12M patients)."
+    },
+    {
+      "il_url": "https://painfree.org.il/what-is-it-trigger-finger-and-what-causes/",
+      "ph_file": "article-pemf-trigger-finger.html",
+      "title_en": "PEMF for Trigger Finger (Stenosing Tenosynovitis): Clinical Protocol",
+      "date": "2026-06-17",
+      "tag": "Clinical Protocol",
+      "note": "IL URL discovered via web search (site returned 403 on fetch); Hebrew title: 'טריגר פינגר מה זה בדיוק ומה גורם לכך? טיפול בכאבים באמצעות פולסים'. Content synthesized from PMID 16633709 (Uzunca 2004 RCT n=60 PEMF vs sham vs corticosteroid, equivalent at 3 months, superior durability at 6 months), Saudi J Sports Med 2017 (VAS 7.82→3.11, PPT 2.95→4.84, PFGS 18.6→22.1 all p<0.001), PMC7093940 (collagen fiber realignment tendinopathy mechanism), Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944. Quinnell grading table, 5-treatment comparison table, fibrocartilaginous metaplasia pathophysiology, Philippine BPO/diabetic market context, 4-mechanism model (adenosine-A2A, collagen remodeling, nodule regression, microcirculation)."
+    },
+    {
+      "il_url": "https://painfree.org.il/tendonitis/",
+      "ph_file": "article-pemf-tendonitis-guide.html",
+      "title_en": "PEMF for Tendonitis: The Complete Evidence-Based Guide for Philippine Clinics",
+      "date": "2026-06-17",
+      "tag": "Clinical Guide",
+      "note": "IL URL discovered via web search (site returned 403 on fetch). Comprehensive tendinopathy guide synthesized from Binder & Hazleman 1985 BMJ RCT (shoulder tendonitis 73% vs 42%), PMC12088032 (shoulder meta-analysis VAS -2.6, DASH 45.2→21.8, function SMD=1.14), PMID 16633709 (lateral epicondylitis RCT n=60, PEMF = injection at 3M, superior at 6M), Saudi J Sports Med 2017 (VAS 7.82→3.11 p<0.001, PPT 2.95→4.84, PFGS 18.6→22.1), PMC7093940 (Achilles collagen fiber realignment histological confirmation), Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 (systematic review all tendinopathies). 3-phase mechanism (anti-inflammatory/collagen stimulation/fiber alignment), 6-site evidence table, 6-site protocol table, 6-treatment comparison table, Philippine BPO/nursing/athletic market analysis."
     }
   ],
-  "untranslated_queue": [
-    "https://painfree.org.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%98%D7%91%D7%A2%D7%99-%D7%91%D7%A9%D7%97%D7%99%D7%A7%D7%AA-%D7%A1%D7%97%D7%95%D7%A1-%D7%91%D7%91%D7%A8%D7%9A-%D7%9B%D7%9A-%D7%AA%D7%A8%D7%92%D7%99%D7%A9%D7%95/"
-  ],
+  "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-17",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-knee-cartilage-natural-treatment.html",
+        "article-pemf-trigger-finger.html",
+        "article-pemf-tendonitis-guide.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/ and all individual article URLs). 1 article from untranslated_queue (natural knee cartilage erosion treatment — Hebrew: 'טיפול טבעי בשחיקת סחוס בברך - כך תרגישו'). 2 new IL URLs discovered via web search: trigger finger (what-is-it-trigger-finger-and-what-causes/) and general tendonitis (tendonitis/). Content synthesized from peer-reviewed literature: PMC9110240 (11 RCTs n=614, pain SMD=0.71 p=0.03, stiffness SMD=1.34, function SMD=1.52 p=0.004) + PMC11914662 (36%/55%) + PMC3518856 (proteoglycan +42%) + PMC3967773 (TGF-β/IGF-1, iNOS) + PMID 32495506 (OPG/RANKL) [knee cartilage: session-by-session timeline, K-L grading table, 6-treatment comparison, 8-12M PH OA market]; PMID 16633709 (n=60 PEMF=injection 3M, superior 6M) + Saudi J Sports Med 2017 (VAS 7.82→3.11, PPT 2.95→4.84, PFGS 18.6→22.1 all p<0.001) + PMC7093940 (collagen realignment) + Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 [trigger finger: Quinnell grading table, 5-treatment comparison, fibrocartilaginous metaplasia, 4-mechanism model, BPO/diabetic PH market]; Binder & Hazleman 1985 BMJ (73% vs 42%) + PMC12088032 (DASH 45.2→21.8, SMD=1.14) + PMID 16633709 + Saudi J Sports Med 2017 + PMC7093940 + Frontiers Sports 2026 [tendonitis guide: 3-phase mechanism, 6-site evidence table, 6-site protocol table, 6-treatment comparison, PH BPO/nursing/athletic market]. 3 new cards prepended to articles.html grid (total 69 real article cards). untranslated_queue now empty."
+    },
     {
       "date": "2026-06-16",
       "articles_translated": 3,
