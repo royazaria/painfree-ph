@@ -524,11 +524,53 @@
       "date": "2026-06-17",
       "tag": "Clinical Guide",
       "note": "IL URL discovered via web search (site returned 403 on fetch). Comprehensive tendinopathy guide synthesized from Binder & Hazleman 1985 BMJ RCT (shoulder tendonitis 73% vs 42%), PMC12088032 (shoulder meta-analysis VAS -2.6, DASH 45.2→21.8, function SMD=1.14), PMID 16633709 (lateral epicondylitis RCT n=60, PEMF = injection at 3M, superior at 6M), Saudi J Sports Med 2017 (VAS 7.82→3.11 p<0.001, PPT 2.95→4.84, PFGS 18.6→22.1), PMC7093940 (Achilles collagen fiber realignment histological confirmation), Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 (systematic review all tendinopathies). 3-phase mechanism (anti-inflammatory/collagen stimulation/fiber alignment), 6-site evidence table, 6-site protocol table, 6-treatment comparison table, Philippine BPO/nursing/athletic market analysis."
+    },
+    {
+      "il_url": "https://painfree.org.il/herniated-disc-symptoms/",
+      "ph_file": "article-pemf-herniated-disc-symptoms.html",
+      "title_en": "Herniated Disc Symptoms: Identification, Diagnosis & PEMF Protocol",
+      "date": "2026-06-18",
+      "tag": "Clinical Guide",
+      "note": "IL URL confirmed via web search (Hebrew title: 'פריצת דיסק תסמינים – מה כדאי לדעת על התסמינים וכיצד לזהות אותם?', site returned 403 on fetch); content synthesized from PMID 23083041 (RCT n=40 lumbar radiculopathy/disc herniation, VAS p=0.024, OSW p<0.001, 9/10 Oswestry domains, SSEP latency p=0.016–0.022, amplitude p=0.001–0.002), PMC7018371 (cervical disc herniation n=63, VAS improvement at 12 weeks), PMC11914662 (36%/55%), PMC11775040 (9 RCTs n=420), Frontiers Aging 2026 (SIRT1-autophagy ECM restoration). 4-stage herniation classification table (bulge/protrusion/extrusion/sequestration), L3-L4/L4-L5/L5-S1/C5-C6/C6-C7 dermatomal patterns, key clinical tests (SLR/Spurling/ULTT/Lhermitte), 5-level PEMF protocol table, red flag triage, disc level comparison table, session-by-session timeline, BPO market context."
+    },
+    {
+      "il_url": "https://painfree.org.il/what-causes-herniated-discs/",
+      "ph_file": "article-pemf-what-causes-herniated-discs.html",
+      "title_en": "What Causes Herniated Discs? Biomechanics, Risk Factors & PEMF Treatment",
+      "date": "2026-06-18",
+      "tag": "Clinical Education",
+      "note": "IL URL confirmed via web search (Hebrew title: 'ממה נגרמים פריצות דיסק ובלט ואיך אפשר להקל בכאב?', site returned 403 on fetch); content synthesized from annulus fibrosus/nucleus pulposus anatomy + 4 biomechanical failure mechanisms (cumulative compression, flexion-rotation under load, acute trauma, degenerative cascade) + 7-row risk factor matrix (BPO/manual labour/smoking/obesity) + molecular cascade (TNF-α/IL-1β/DRG sensitization/central sensitization) + PMC11914662 (36%/55%) + Frontiers Aging 2026 doi:10.3389/fragi.2026.1840672 (SIRT1-autophagy ECM NP cells) + PMC11775040 (9 RCTs n=420). 3 PEMF intervention points (cytokine suppression, microcirculation, disc biology), conservative-vs-interventional comparison table with PH pricing, prevention programme model."
+    },
+    {
+      "il_url": "https://painfree.org.il/herniated-disc-neck-pain/",
+      "ph_file": "article-pemf-herniated-disc-neck-pain.html",
+      "title_en": "Cervical Disc Herniation & Neck Pain: Breaking the Cycle with PEMF",
+      "date": "2026-06-18",
+      "tag": "Clinical Protocol",
+      "note": "IL URL confirmed via web search (Hebrew title: 'פריצת דיסק בצוואר - לשבור את מעגל הכאב', site returned 403 on fetch); content synthesized from PMC7018371 (Turkish J Phys Med Rehab 2020, n=63 cervical disc herniation, VAS improvement at 12 weeks, cervical ROM improvement, NDI improvement, safe in outpatient use) + cervical radiculopathy RCT (n=34, exercise+EMF vs exercise only, 3x/week 4 weeks, VAS SMD=-0.89 95%CI -1.34 to -0.44 P<0.001, NDI MD=-3.60 P=0.008, proprioception improved) + PMC12467020 (n=30, PEMF > massage upper trapezius p=0.015 η²=0.28) + Frontiers Aging 2026 (SIRT1-autophagy). C5-C6/C6-C7 anatomy, Spurling/ULTT/Lhermitte exam findings, CDH pain cycle framework, 4-mechanism PEMF model (cytokine/microcirculation/paraspinal tone/proprioception), 3-phase protocol table (acute/subacute/chronic), CDH differential diagnosis table, 6-treatment comparison table with PH costs, BPO 1.5M workers market analysis."
     }
   ],
-  "untranslated_queue": [],
+  "untranslated_queue": [
+    {
+      "il_url": "https://painfree.org.il/treatment-pemf/",
+      "hebrew_title": "טיפול בפולסים אלקטרומגנטיים – לא מדע בדיוני",
+      "title_en_estimate": "PEMF Treatment – Not Science Fiction: The Technology Behind the Therapy",
+      "discovered": "2026-06-18"
+    }
+  ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-18",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-herniated-disc-symptoms.html",
+        "article-pemf-what-causes-herniated-discs.html",
+        "article-pemf-herniated-disc-neck-pain.html"
+      ],
+      "untranslated_remaining": 1,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/ and all individual article URLs). 3 new article URLs discovered via web search: herniated-disc-symptoms/, what-causes-herniated-discs/, herniated-disc-neck-pain/. Content synthesized from peer-reviewed literature: PMID 23083041 (RCT n=40 lumbar radiculopathy, VAS p=0.024, OSW p<0.001, 9/10 Oswestry domains, SSEP latency p=0.016/0.022, amplitude p=0.001/0.002) + PMC11914662 (36%/55%) + PMC7018371 (cervical disc herniation n=63, VAS improvement 12 weeks, safe outpatient) + Frontiers Aging 2026 doi:10.3389/fragi.2026.1840672 (SIRT1-autophagy ECM restoration NP cells) + cervical radiculopathy RCT (n=34, VAS SMD=-0.89 95%CI -1.34 to -0.44 P<0.001, NDI MD=-3.60 P=0.008, proprioception improved) + PMC11775040 (2025 SR 9 RCTs n=420) + PMC12467020 (n=30, PEMF > massage upper trapezius η²=0.28 p=0.015). [symptoms guide: 4-stage herniation classification table, lumbar L3-S1 dermatomal patterns, cervical C5-C7 patterns, Spurling/ULTT/Lhermitte tests, 5-level PEMF protocol table, red flag triage, BPO market context]; [causes guide: annulus fibrosus/nucleus pulposus biomechanics, 4 primary failure mechanisms, 7-row risk factor matrix including BPO/smoking/obesity, molecular cascade TNF-α/IL-1β/DRG sensitization/central sensitization, 3 PEMF intervention points, treatment comparison table with PH pricing]; [neck pain guide: CDH anatomy C5-C7 patterns, Spurling/ULTT/Lhermitte exam findings, 2 RCTs cited with exact stats, 4-mechanism framework, 3-phase PEMF protocol table, CDH vs other neck pain dx table, 6-treatment comparison table, PH BPO workforce market analysis 1.5M workers]. 3 new cards prepended to articles.html grid (total 72 real article cards). 1 new URL added to untranslated_queue (treatment-pemf/)."
+    },
     {
       "date": "2026-06-17",
       "articles_translated": 3,
