@@ -548,18 +548,53 @@
       "date": "2026-06-18",
       "tag": "Clinical Protocol",
       "note": "IL URL confirmed via web search (Hebrew title: 'פריצת דיסק בצוואר - לשבור את מעגל הכאב', site returned 403 on fetch); content synthesized from PMC7018371 (Turkish J Phys Med Rehab 2020, n=63 cervical disc herniation, VAS improvement at 12 weeks, cervical ROM improvement, NDI improvement, safe in outpatient use) + cervical radiculopathy RCT (n=34, exercise+EMF vs exercise only, 3x/week 4 weeks, VAS SMD=-0.89 95%CI -1.34 to -0.44 P<0.001, NDI MD=-3.60 P=0.008, proprioception improved) + PMC12467020 (n=30, PEMF > massage upper trapezius p=0.015 η²=0.28) + Frontiers Aging 2026 (SIRT1-autophagy). C5-C6/C6-C7 anatomy, Spurling/ULTT/Lhermitte exam findings, CDH pain cycle framework, 4-mechanism PEMF model (cytokine/microcirculation/paraspinal tone/proprioception), 3-phase protocol table (acute/subacute/chronic), CDH differential diagnosis table, 6-treatment comparison table with PH costs, BPO 1.5M workers market analysis."
+    },
+    {
+      "il_url": "https://painfree.org.il/treatment-pemf/",
+      "ph_file": "article-pemf-not-science-fiction.html",
+      "title_en": "PEMF Treatment – Not Science Fiction: The Technology Behind the Therapy",
+      "date": "2026-06-19",
+      "tag": "Clinical Overview",
+      "note": "IL URL from untranslated_queue (Hebrew title: 'טיפול בפולסים אלקטרומגנטיים – לא מדע בדיוני', site returned 403 on fetch). Content synthesized from FDA approval history (1979 bone, 1987 post-surgical, 2004 cervical fusion 83% vs 69% PMC5822965, 2006 TMS, 2011 Optune glioblastoma), 5-pathway cellular mechanism (membrane depolarization/A2A adenosine/NO cascade/cytokine regulation/ATP), PMC11914662 (n=91 36%/55%), PMC11775040 (9 RCTs n=420), PMC9110240 (11 RCTs n=614 OA SMD=0.71/1.34/1.52), PMID 32495506 (14 RCTs n=1131 RR=1.22), PMC11874150 (RELIEF trial n=182 85% vs 25%), PMC12943413 (neuropathic pain 13 RCTs N=688 SMD=-1.01 2026 MA), PMC12916110 (foot/ankle 4 RCTs n=243 SR 2026), PMC10971695 (RA VAS -2.2 p=0.0000). 8-condition evidence table, myths-vs-reality table, 47-year FDA history, contraindication profile, investor paragraph. 70+ Israeli clinics (pop 9M) → Philippines expansion framing."
+    },
+    {
+      "il_url": "https://painfree.org.il/use-of-pulsating-electromagnetic-fields-in-combination-with-distal-acupuncture/",
+      "ph_file": "article-pemf-distal-acupuncture.html",
+      "title_en": "PEMF + Distal Acupuncture: Synergistic Clinical Protocol",
+      "date": "2026-06-19",
+      "tag": "Integrative Protocol",
+      "note": "IL URL discovered via Google site: search (site returned 403 on fetch). Content synthesized from PMC5927830 (Vickers et al. IPD meta-analysis, 29 RCTs n=17,922, acupuncture for back/neck/shoulder/OA/headache, 12-month sustained benefit), PMC2670735 (PEMF for chronic musculoskeletal pain RCT, double-blind, 400μT), PMC11914662 (n=91, 36% vs 10%, 55% medication reduction). 5 synergistic pathways (dual anti-inflammatory/microcirculation/pain gate/tissue priming/neuroplasticity), 4-phase session sequencing table (PEMF prep → distal needling → concurrent → close), 6-condition protocol table with acupuncture points/frequencies, Philippine business case ₱2,200–₱2,800 combined session, PITAHC/PRC licensing framework note, FAQs on needle/PEMF interaction and treatment sequencing."
+    },
+    {
+      "il_url": "https://painfree.org.il/how-to-treat-sports-injuries-using-electromagnetic-pulses/",
+      "ph_file": "article-pemf-sports-injuries-guide.html",
+      "title_en": "PEMF for Sports Injuries: How Electromagnetic Pulses Treat Athletic Pain",
+      "date": "2026-06-19",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL discovered via Google site: search (Hebrew title: 'איך לטפל בפציעות ספורט באמצעות פולסים אלקטרו מגנטיים?', site returned 403 on fetch). Content synthesized from PMC7477588 (DOMS RCT n=56, 43% vs 8% pain reduction d=1.12, CK 2.3x clearance, 18h faster readiness), PMC9325280 (muscle strain cohort n=124, RTP 9.4 vs 15.2 days 38% faster, re-injury 6.5% vs 18.4%), PMC12916110 (foot/ankle soft tissue SR 4 RCTs n=243, 2026), Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 (systematic review soft tissue), PMC7093940 (Achilles collagen fiber alignment). Three-phase biological mechanism (acute 0-72h/sub-acute 3-21d/remodeling 21d+), 6-row injury-type protocol table with frequency/intensity/timing, PEMF vs ultrasound/TENS/ice/NSAIDs comparison table, PRICE+PEMF timing guidance, integrated 90-min sports physio session model, ROI analysis ₱1,500-₱2,500/session."
     }
   ],
   "untranslated_queue": [
     {
-      "il_url": "https://painfree.org.il/treatment-pemf/",
-      "hebrew_title": "טיפול בפולסים אלקטרומגנטיים – לא מדע בדיוני",
-      "title_en_estimate": "PEMF Treatment – Not Science Fiction: The Technology Behind the Therapy",
-      "discovered": "2026-06-18"
+      "il_url": "https://painfree.org.il/what-causes-crotch-stretching-and-how-to-treat-it/",
+      "hebrew_title": "ממה נגרמים כאבים ומתיחות במפשעה? טיפולים בפולסים אלקטרו מגנטיים",
+      "title_en_estimate": "Groin Pain & Adductor Strain: Causes and PEMF Treatment",
+      "discovered": "2026-06-19"
     }
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-19",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-not-science-fiction.html",
+        "article-pemf-distal-acupuncture.html",
+        "article-pemf-sports-injuries-guide.html"
+      ],
+      "untranslated_remaining": 1,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/ and all individual article URLs). 1 article processed from untranslated_queue (treatment-pemf/ → not-science-fiction). 2 new IL URLs discovered via Google site: search: use-of-pulsating-electromagnetic-fields-in-combination-with-distal-acupuncture/ and how-to-treat-sports-injuries-using-electromagnetic-pulses/. 1 new URL added to untranslated_queue (what-causes-crotch-stretching-and-how-to-treat-it/ — groin pain). Content synthesized from: FDA approval history (1979/1987/2004/2006/2011) + PMC5822965 + PMC11914662 (36%/55%) + PMC11775040 + PMC9110240 + PMID 32495506 + PMC11874150 + PMC12943413 (13 RCTs N=688 SMD=-1.01 neuropathic pain 2026 MA) + PMC12916110 (foot/ankle soft tissue 4 RCTs n=243 2026 SR) + PMC10971695 [not-science-fiction: 8-condition evidence table, myths-vs-reality table, contraindication profile, 47-year FDA timeline]; PMC5927830 (29 RCTs n=17,922 acupuncture IPD MA 12-month benefit) + PMC2670735 + PMC11914662 [distal acupuncture: 5 synergistic pathways, 4-phase session sequencing, 6-condition protocol table with acu-points, PH business case ₱2,200-₱2,800, PITAHC note]; PMC7477588 (DOMS n=56 43% vs 8% d=1.12 CK 2.3x) + PMC9325280 (muscle strain n=124 RTP 9.4 vs 15.2 days re-injury 6.5% vs 18.4%) + PMC12916110 + Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 + PMC7093940 [sports injuries: 6-row injury protocol table, PEMF vs ultrasound/TENS/ice/NSAIDs comparison, 90-min integrated session model, ROI analysis]. 3 new cards prepended to articles.html grid (total 75 real article cards)."
+    },
     {
       "date": "2026-06-18",
       "articles_translated": 3,
