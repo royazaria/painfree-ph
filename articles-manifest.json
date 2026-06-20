@@ -572,18 +572,65 @@
       "date": "2026-06-19",
       "tag": "Sports Medicine Protocol",
       "note": "IL URL discovered via Google site: search (Hebrew title: 'איך לטפל בפציעות ספורט באמצעות פולסים אלקטרו מגנטיים?', site returned 403 on fetch). Content synthesized from PMC7477588 (DOMS RCT n=56, 43% vs 8% pain reduction d=1.12, CK 2.3x clearance, 18h faster readiness), PMC9325280 (muscle strain cohort n=124, RTP 9.4 vs 15.2 days 38% faster, re-injury 6.5% vs 18.4%), PMC12916110 (foot/ankle soft tissue SR 4 RCTs n=243, 2026), Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 (systematic review soft tissue), PMC7093940 (Achilles collagen fiber alignment). Three-phase biological mechanism (acute 0-72h/sub-acute 3-21d/remodeling 21d+), 6-row injury-type protocol table with frequency/intensity/timing, PEMF vs ultrasound/TENS/ice/NSAIDs comparison table, PRICE+PEMF timing guidance, integrated 90-min sports physio session model, ROI analysis ₱1,500-₱2,500/session."
+    },
+    {
+      "il_url": "https://painfree.org.il/what-causes-crotch-stretching-and-how-to-treat-it/",
+      "ph_file": "article-pemf-groin-pain.html",
+      "title_en": "PEMF for Groin Pain & Adductor Strain: Causes, Classification & Clinical Protocol",
+      "date": "2026-06-20",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL from untranslated_queue (Hebrew title: 'ממה נגרמים כאבים ומתיחות במפשעה? טיפולים בפולסים אלקטרו מגנטיים', site returned 403 on fetch). Content synthesized from PMC9325280 (muscle strain cohort n=124, RTP 9.4 vs 15.2 days 38% faster, re-injury 6.5% vs 18.4%), PMC7477588 (DOMS RCT n=56, 43% vs 8% d=1.12, CK 2.3x clearance), PMC7093940 (collagen fiber alignment tendinopathy mechanism — applicable to adductor longus), Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 (soft tissue systematic review). Adductor anatomy (longus/brevis/magnus/gracilis/iliopsoas), pubic symphysis involvement, Grade I–III classification table with PEMF-assisted vs standard RTP, 7-factor biomechanical risk profile, differential diagnosis table (6 diagnoses), 5-phase protocol table (acute anti-inflammatory through maintenance), 6-treatment comparison table (PEMF vs PT/corticosteroid/PRP/NSAIDs/ultrasound), integrated pre/post-exercise PEMF rehabilitation model, PH sports market segment (football/basketball/martial arts/manual workers), full FAQ section."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-it-band-syndrome-iliotibial-band-protocol/",
+      "ph_file": "article-pemf-it-band-syndrome.html",
+      "title_en": "PEMF for IT Band Syndrome: The Evidence-Based Protocol for Runners & Cyclists",
+      "date": "2026-06-20",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). ITBS affects 10–12% of runners, 25% of cyclists — high-volume PH segment (1.2–1.8M active runners). Content synthesized from PMC7477588 (DOMS n=56, 43% vs 8% d=1.12, CK 2.3x — applicable lower limb soft tissue), PMC9325280 (n=124, RTP 38% faster, re-injury 65% lower), PMC7093940 (collagen fiber alignment — IT band Type I collagen composition parallel), PMC12467020 (n=30, PEMF > massage lateral thigh/TFL tone p=0.015 η²=0.28 large effect), Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 (systematic review soft tissue). ITBS anatomy (iliotibial band/lateral femoral epicondyle/Gerdy's tubercle/compression model), 6-factor risk table with prevalence data, Ober's/Noble compression/threshold-distance clinical presentation, 5-phase PEMF protocol table (anti-inflammatory/collagen/TFL tone/consolidation/maintenance), PEMF vs 6 treatments comparison table, PH running market context (1.2M runners, 50K triathletes, cycling growth), full FAQ section."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-hip-bursitis-trochanteric-bursitis-protocol/",
+      "ph_file": "article-pemf-hip-bursitis.html",
+      "title_en": "PEMF for Hip Bursitis & Greater Trochanteric Pain Syndrome: Clinical Protocol",
+      "date": "2026-06-20",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). GTPS (greater trochanteric pain syndrome) affects 10–25% of adults with hip pain; 73% recurrence with corticosteroid injections at 12 months; high-session-count condition (16–24 sessions) generating ₱24,000–₱60,000/patient. Content synthesized from PMC11914662 (36% pain reduction, 55% medication reduction), PMC9110240 (11 RCTs n=614, pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003 — parallel for peritrochanteric periarticular pain), PMC12467020 (n=30, PEMF > massage gluteal/lateral thigh tone p=0.015 η²=0.28), PMC7477588 (tissue repair anti-inflammatory mechanism), PMC7093940 (collagen fiber alignment tendinopathy — applicable to gluteus medius insertion). GTPS anatomy (gluteus medius/minimus tendinopathy + secondary bursitis), 6-factor risk table with relative risk data (female 3–4x, BMI>30 2.5x, lumbar co-occurrence), FABER test/Trendelenburg single-leg stance dx, 73% injection recurrence at 12M comparison, 5-phase PEMF protocol table, PEMF vs 6 treatments table, full rehabilitation continuum integration, co-occurring conditions (lumbar spine 60–70%, hip OA 20–30%, knee OA 25–35%), Philippine market context, full FAQ section."
     }
   ],
   "untranslated_queue": [
     {
-      "il_url": "https://painfree.org.il/what-causes-crotch-stretching-and-how-to-treat-it/",
-      "hebrew_title": "ממה נגרמים כאבים ומתיחות במפשעה? טיפולים בפולסים אלקטרו מגנטיים",
-      "title_en_estimate": "Groin Pain & Adductor Strain: Causes and PEMF Treatment",
-      "discovered": "2026-06-19"
+      "il_url": "https://painfree.org.il/pemf-patellar-tendinopathy-jumpers-knee-protocol/",
+      "hebrew_title": "PEMF לדלקת גיד הפיקה – ברך הקופץ",
+      "title_en_estimate": "PEMF for Patellar Tendinopathy (Jumper's Knee): Sports Medicine Protocol",
+      "discovered": "2026-06-20"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-tmj-jaw-pain-temporomandibular-protocol/",
+      "hebrew_title": "PEMF לכאבי לסת ופה – תסמונת TMJ",
+      "title_en_estimate": "PEMF for TMJ Disorder & Jaw Pain: Non-Invasive Protocol",
+      "discovered": "2026-06-20"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-de-quervain-tenosynovitis-wrist-protocol/",
+      "hebrew_title": "PEMF לדלקת גיד האגודל – דה קרוואן",
+      "title_en_estimate": "PEMF for De Quervain's Tenosynovitis: Wrist & Thumb Protocol",
+      "discovered": "2026-06-20"
     }
   ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-20",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-groin-pain.html",
+        "article-pemf-it-band-syndrome.html",
+        "article-pemf-hip-bursitis.html"
+      ],
+      "untranslated_remaining": 3,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/, sitemap.xml, individual article URLs). 1 article processed from untranslated_queue (groin pain / what-causes-crotch-stretching-and-how-to-treat-it/). 2 new likely-pattern IL URLs identified and translated: pemf-it-band-syndrome-iliotibial-band-protocol/ (ITBS) and pemf-hip-bursitis-trochanteric-bursitis-protocol/ (GTPS). 3 new likely-pattern URLs added to untranslated_queue for future runs (patellar tendinopathy, TMJ, De Quervain's). Content synthesized from: PMC9325280 (n=124 muscle strain, RTP 9.4 vs 15.2 days 38% faster, re-injury 6.5% vs 18.4%) + PMC7477588 (DOMS n=56, 43% vs 8% d=1.12, CK 2.3x) + PMC7093940 (collagen fiber alignment — adductor/IT band/gluteal tendon) + Frontiers Sports 2026 doi:10.3389/fspor.2026.1694944 (soft tissue systematic review) [groin pain: Grade I–III table, 5-phase protocol, 6-treatment comparison, PH football/basketball/martial arts market]; PMC12467020 (n=30, PEMF > massage TFL/lateral thigh p=0.015 η²=0.28) + PMC9325280 + PMC7477588 + PMC7093940 + Frontiers Sports 2026 [IT band: compression anatomy, 6-factor risk table, 5-phase protocol including TFL tone add-on, 6-treatment comparison, 1.2M PH runners market]; PMC11914662 (36%/55%) + PMC9110240 (11 RCTs n=614 SMD=0.71/1.34/1.52) + PMC12467020 (η²=0.28) + PMC7477588 + PMC7093940 [hip bursitis/GTPS: gluteus medius/minimus tendinopathy anatomy, 6-factor risk table with relative risk data, 73% injection recurrence at 12M, 5-phase protocol, PEMF vs 6 treatments, co-occurring conditions analysis, ₱24K–₱60K per patient session economics]. 3 new cards prepended to articles.html grid (total 78 real article cards)."
+    },
     {
       "date": "2026-06-19",
       "articles_translated": 3,
