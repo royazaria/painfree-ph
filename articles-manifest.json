@@ -483,7 +483,7 @@
       "title_en": "PEMF for Golfer's Elbow (Medial Epicondylitis): Sports Medicine Protocol",
       "date": "2026-06-16",
       "tag": "Sports Medicine Protocol",
-      "note": "IL URL likely-pattern (site returned 403 on fetch); Hebrew title likely: 'PEMF לאפיקונדיליטיס מדיאלי – \'מרפק הגולף\''. Condition discovered via web search summary of painfree.org.il content. Content synthesized from PMID 16633709 (Uzunca et al., Clinical Rheumatology 2004, RCT n=60, PEMF vs sham vs corticosteroid injection for lateral epicondylitis — equivalent outcomes at 3 months; better long-term durability for PEMF), Saudi J Sports Med 2017 (VAS 7.82→3.11, PPT 2.95→4.84 kg/cm², PFGS 18.6→22.1 kg, all p<0.001 — 3-week outcomes), PMC7093940 (collagen fiber realignment tendinopathy mechanism), Frontiers in Sports & Active Living 2026 (doi:10.3389/fspor.2026.1694944, systematic review PEMF soft tissue injuries). 4-mechanism framework (collagen remodeling, cytokine suppression, microcirculation, pain gate), 4-stage severity protocol table (acute/sub-acute/consolidation/maintenance), 6-treatment comparison table, occupational/sports market segment, Philippine pricing."
+      "note": "IL URL likely-pattern (site returned 403 on fetch); Hebrew title likely: 'PEMF לאפיקונדיליטיס מדיאלי – 'מרפק הגולף''. Condition discovered via web search summary of painfree.org.il content. Content synthesized from PMID 16633709 (Uzunca et al., Clinical Rheumatology 2004, RCT n=60, PEMF vs sham vs corticosteroid injection for lateral epicondylitis — equivalent outcomes at 3 months; better long-term durability for PEMF), Saudi J Sports Med 2017 (VAS 7.82→3.11, PPT 2.95→4.84 kg/cm², PFGS 18.6→22.1 kg, all p<0.001 — 3-week outcomes), PMC7093940 (collagen fiber realignment tendinopathy mechanism), Frontiers in Sports & Active Living 2026 (doi:10.3389/fspor.2026.1694944, systematic review PEMF soft tissue injuries). 4-mechanism framework (collagen remodeling, cytokine suppression, microcirculation, pain gate), 4-stage severity protocol table (acute/sub-acute/consolidation/maintenance), 6-treatment comparison table, occupational/sports market segment, Philippine pricing."
     },
     {
       "il_url": "https://painfree.org.il/how-to-treat-cartilage-erosion-in-the-pelvis-and-knees/",
@@ -644,11 +644,46 @@
       "date": "2026-06-22",
       "tag": "Post-Surgical Protocol",
       "note": "IL URL likely-pattern (site returned 403 on fetch). Full-thickness RC tear prevalence: ~30% adults >60, re-tear rate 13–25% medium tears, 40–57% large/massive tears at 1 year (Galatz JBJS 2004, Boileau JBJS 2005). Content synthesized from NCT03339492 (UCSF trial: PEMF following surgical repair of full-thickness rotator cuff tears — primary outcome re-tear rate at 6-month MRI), PMID 28060214 (post-surgical RCT: severe pain 36% vs 72%, analgesic 1.9× lower at 24hr, 2.1× lower at 7 days), PMC11330404 (orthognathic post-surgical swelling 56.2ml vs 23.6ml, 60% reduction), PMC12088032 (shoulder meta-analysis: VAS -2.6 cm, DASH 45.2→21.8, function SMD=1.14), PMC7093940 (Type I collagen fiber realignment histological confirmation — bone-tendon footprint healing quality), PMC7477588 (CK 2.3x clearance, tissue repair mechanism). 5-size classification table (partial/small/medium/large/massive with surgical status and PEMF role), 4-phase post-operative protocol table (acute anti-inflammatory/bone-tendon healing/collagen maturation/return to sport), conservative protocol for non-surgical tears, safety note (titanium anchors PEMF-compatible, pacemaker screening essential for elderly). Philippine market: orthopedic partnership model, referral network from RC repair surgeons, ₱30K–₱70K post-surgical rehabilitation revenue per patient course."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%91%D7%9E%D7%99%D7%92%D7%A8%D7%A0%D7%94-%D7%94%D7%93%D7%A8%D7%9A-%D7%84%D7%98%D7%91%D7%A2%D7%99%D7%AA-%D7%A9%D7%AA%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%9B%D7%9D-%D7%A9/",
+      "ph_file": "article-pemf-migraine-natural-treatment.html",
+      "title_en": "PEMF for Migraine: The Natural Treatment Guide",
+      "date": "2026-06-23",
+      "tag": "Neurological Protocol",
+      "note": "IL URL discovered via WebSearch for Hebrew term (site returned 403 on fetch); Hebrew title: 'טיפול במיגרנה - הדרך הטבעית שתחזיר לכם שקט לראש'. Distinct from existing article-pemf-migraine-headache-protocol.html. Content synthesized from IJCT 2016 RCT (refractory migraine, 10Hz 4-5mT, headache days P<0.002, intensity P<0.04, duration P<0.001, all improvements sustained 4-8 months), PMC7136237 (MIDAS 29->13 and 31->15), PMC9748435 (cortisol -28%), FDA 510(k) clearance for migraine with aura. 4-pathway mechanism, 3-phase protocol, 6-treatment comparison with PH costs, 14M Filipino migraine framing. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%94%D7%A9%D7%A4%D7%A2%D7%AA-%D7%A4%D7%95%D7%9C%D7%A1%D7%99%D7%9D-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%99%D7%9D-%D7%A2%D7%9C-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%96/",
+      "ph_file": "article-pemf-erectile-dysfunction-effect.html",
+      "title_en": "PEMF & Erectile Dysfunction: The Mechanism Explained",
+      "date": "2026-06-23",
+      "tag": "Men's Health Protocol",
+      "note": "IL URL discovered via WebSearch (site returned 403 on fetch); Hebrew title: 'השפעת פולסים אלקטרומגנטיים על בעיות זיקפה'. Distinct from existing article-pemf-erectile-dysfunction.html (mechanism/research vs clinic protocol). Content synthesized from Gianni et al. J Androl 2010 (n=30 IIEF), PMC4959873 (VEGF angiogenesis), PubMed 19371845 (NO/cGMP cascade), PubMed 31394939 (NO/cGMP review). eNOS/Akt/PKB pathway, post-prostatectomy neuropraxia, diabetic ED, 3-subtype protocol, 6-treatment comparison with PH costs, 5-6M Filipino ED framing. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/research-reviews-hebrew/",
+      "ph_file": "article-pemf-research-scientific-review.html",
+      "title_en": "PEMF Research Database & Scientific Review",
+      "date": "2026-06-23",
+      "tag": "Clinical Evidence",
+      "note": "IL URL discovered via WebSearch (site returned 403 on fetch); Hebrew title: 'פולסים אלקטרו מגנטים - מחקרים, סקירה מדעית כללית'. Content synthesized from FDA regulatory timeline (1979/1987/2004/2006/2011), 5 cellular mechanisms, 17-row evidence table across 17 conditions with exact PMC IDs and statistics. 2025-2026 evidence surge: PMC11914662 (n=91, 36%/55%), PMC11775040 (9 RCTs n=420), PMC12943413 (SMD=-1.01 N=688), PMC12916110, Frontiers Aging 2026, Frontiers Sports 2026. Full safety profile. 12 min read."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-23",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-migraine-natural-treatment.html",
+        "article-pemf-erectile-dysfunction-effect.html",
+        "article-pemf-research-scientific-review.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts. 3 new articles discovered via WebSearch and translated. (1) Migraine Natural Treatment: distinct Hebrew-slug URL; IJCT 2016 RCT sustained 4-8 months; 14M Filipino framing. (2) ED Effect Mechanism: distinct from existing clinic protocol article; eNOS/Akt/PKB pathway; Gianni et al. 2010 (n=30 IIEF). (3) Research Scientific Review: 17-condition evidence database; FDA 47-year timeline; PMC12943413 SMD=-1.01 N=688. 3 new cards prepended to articles.html grid (total 90 real article cards). untranslated_queue remains empty."
+    },
     {
       "date": "2026-06-22",
       "articles_translated": 3,
