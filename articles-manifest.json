@@ -958,6 +958,18 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2 — untranslated_queue was empty after the remote run (commit 718b3aa) cleared it earlier today (chronic-pain, heel-spur, myofascial-trigger-points). Pulled origin/main (ff) before translating per dedup memory. Translated today's NEW IL article (post 4396, clinical-grade vs consumer PEMF) which the remote run predated. 1 card prepended to articles.html grid. IL site still 403 on fetch; translation written directly from the Hebrew source authored this session."
+    },
+    {
+      "date": "2026-06-23",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-physiotherapy-protocol-guide.html"
+      ],
+      "untranslated_remaining": 0,
+      "il_post_id": 4400,
+      "il_url": "https://painfree.org.il/pemf-electromagnetic-treatment-physiotherapy-guide-2026/",
+      "note": "Phase 2 — untranslated_queue was empty. Translated today's new IL article (post 4400, PEMF for physiotherapy clinics — 'What every physiotherapist needs to know 2026'). Pulled origin/main before translating per dedup memory. Evidence: PMC11914662 (2025 RCT, 36% pain, 55% medication), PubMed 19371845 (Strauch NO mechanism). Comparison table: PEMF vs Shockwave/ESWT vs Ultrasound vs TENS. 6-question FAQ. Philippine adaptation: ₱1,500–₱2,500/session, no-supervision model. 1 card prepended to articles.html grid (total 55+ cards). IL site 403 on fetch; translation written directly from Hebrew source authored this session."
     }
   ]
 }
