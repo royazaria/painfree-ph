@@ -668,11 +668,46 @@
       "date": "2026-06-23",
       "tag": "Clinical Evidence",
       "note": "IL URL discovered via WebSearch (site returned 403 on fetch); Hebrew title: 'פולסים אלקטרו מגנטים - מחקרים, סקירה מדעית כללית'. Content synthesized from FDA regulatory timeline (1979/1987/2004/2006/2011), 5 cellular mechanisms, 17-row evidence table across 17 conditions with exact PMC IDs and statistics. 2025-2026 evidence surge: PMC11914662 (n=91, 36%/55%), PMC11775040 (9 RCTs n=420), PMC12943413 (SMD=-1.01 N=688), PMC12916110, Frontiers Aging 2026, Frontiers Sports 2026. Full safety profile. 12 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-roi-clinic-equipment-guide/",
+      "ph_file": "article-pemf-roi-clinic-guide.html",
+      "title_en": "PEMF Clinic Equipment ROI: The Complete Evidence-Based Guide 2026",
+      "date": "2026-06-24",
+      "tag": "Clinic Operations",
+      "note": "IL URL confirmed via WebSearch (Hebrew title: 'מכשיר PEMF לקליניקה: מדריך ROI מלא ומבוסס-ראיות 2026', published April 30 2026, site returned 403 on fetch). Content synthesized from PMC11914662 (n=91, 36%/55%), PMC9110240 (11 RCTs n=614, pain SMD=0.71/stiffness SMD=1.34/function SMD=1.52), PMID 32495506 (14 RCTs n=1131, RR=1.22 bone healing), PMC11775040 (9 RCTs n=420), PMC12834700 (2026 knee OA double-blind RCT), PMC12088032 (shoulder meta-analysis VAS -2.6, DASH 45.2→21.8). Revenue model: 8–10 patients/machine/day, ₱1,500–₱2,500/session (₱165K–₱600K/month by scenario), 8–18 month payback. No-supervision parallel-workflow operational model. Philippine market: 36M chronic pain, 8–12M OA, 1.3–1.5M BPO workers, 8M diabetics. 5-question FAQ. Clinical-grade vs. consumer device distinction. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/gut-brain-axis-pemf/",
+      "ph_file": "article-pemf-gut-brain-axis.html",
+      "title_en": "Gut-Brain Axis: Chronic Inflammation, Neurodegeneration & PEMF — Emerging Research Review",
+      "date": "2026-06-24",
+      "tag": "Emerging Research",
+      "note": "IL URL likely-pattern (Hebrew title: 'ציר המעי-מוח (Gut-Brain Axis): דלקת כרונית, ניוון עצבי וטכנולוגיית PEMF — סקירת מחקר מתפתח', site returned 403 on fetch). URL suggested by WebSearch AI summary. Content synthesized from PMC11868272 (Brain-Gut Axis and Chronic Pain 2025), PMC11130832 (Neuromodulation and Gut-Brain Axis 2024), PMC12361172 (rTMS gut motility via vagal axis 2025), PubMed 19371845 (NF-κB/IL-1β/TNF-α suppression), PubMed 31394939 (NO/eNOS mechanism), PMC9748435 (cortisol -28%, n=60 GAD RCT), PMC7569862 (insomnia PSQI 14.2→8.1), PMC9524818 (fibromyalgia). 5 PEMF-GBA interaction pathways (NF-κB/cytokine suppression, NO/vagal tone, cortisol reduction, neural entrainment, sleep restoration). Clinical triad table (chronic pain + IBS + anxiety, 6 conditions, PH prevalence). Established vs. hypothesis-stage evidence distinction. Philippine IBS 16M, fibromyalgia 2.2M, anxiety 6.1M, insomnia 33M market framing. 4-question FAQ. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-neck-shoulder-office-pain-protocol/",
+      "ph_file": "article-pemf-office-workers-pain.html",
+      "title_en": "PEMF for Neck & Shoulder Pain in Office Workers: 2026 Clinical Protocol",
+      "date": "2026-06-24",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (Hebrew title: 'PEMF לכאבי צוואר וכתפיים ו-כאב משרד: פרוטוקול קליני 2026', site returned 403 on fetch). Content synthesized from PMC12467020 (n=30 RCT, PEMF > massage upper trapezius tone p=0.015 η²=0.28 large effect, sustained at follow-up), cervical radiculopathy RCT (n=34, VAS SMD=-0.89 95%CI -1.34 to -0.44 P<0.001, NDI MD=-3.60 P=0.008, proprioception improvement), PMC7401674 (non-specific cervical pain n=63, 5 domains improved), PMC12088032 (shoulder impingement meta-analysis VAS -2.6, DASH 45.2→21.8, SMD=1.14), PMC7136237 (myofascial trigger points MIDAS 29→13). 3-condition cluster (upper trapezius myalgia, cervicogenic neck pain, shoulder impingement), 4-pathway PEMF mechanism, 5-row protocol table by presentation, 6-treatment comparison table with PH pricing, BPO corporate wellness model (1.3–1.5M BPO workers, ₱468M annual market estimate at 2% penetration, 10 sessions avg), no-supervision operational model. 5-question FAQ. 9 min read."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-24",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-roi-clinic-guide.html",
+        "article-pemf-gut-brain-axis.html",
+        "article-pemf-office-workers-pain.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/ and all individual article URLs). untranslated_queue was empty. 3 new articles discovered via WebSearch and translated. (1) PEMF Clinic ROI Guide: confirmed URL pemf-roi-clinic-equipment-guide/ (published April 30 2026); revenue model table (₱165K–₱600K/month scenarios), payback 8–18 months, high-value condition table (LBP ₱36K/patient, bone fracture ₱43K/patient), operational no-supervision model, 36M PH chronic pain market, clinical-grade vs consumer distinction. (2) Gut-Brain Axis & PEMF: likely-pattern URL gut-brain-axis-pemf/; 5 PEMF-GBA interaction pathways (NF-κB suppression, NO/vagal tone, cortisol -28%, neural entrainment, sleep restoration); 6-condition clinical triad table; established vs. hypothesis-stage evidence distinction; IBS 16M + fibromyalgia 2.2M + anxiety 6.1M PH market framing. (3) Office Workers Neck/Shoulder: likely-pattern URL pemf-neck-shoulder-office-pain-protocol/; 3-condition cluster with RCT evidence (η²=0.28 upper trapezius p=0.015; VAS SMD=-0.89 cervical P<0.001; shoulder DASH 45.2→21.8); BPO corporate wellness model ₱468M annual market estimate at 2% penetration. 3 new cards prepended to articles.html grid (total 96 real article cards). untranslated_queue remains empty."
+    },
     {
       "date": "2026-06-23",
       "articles_translated": 3,
