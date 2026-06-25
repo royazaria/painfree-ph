@@ -2,6 +2,14 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-ankle-sprain-ligament-injury-protocol/",
+      "ph_file": "article-pemf-ankle-sprain.html",
+      "title_en": "PEMF for Ankle Sprains & Ligament Injuries: Clinical Protocol",
+      "date": "2026-06-25",
+      "tag": "Clinical Protocol",
+      "note": "Phase 2 — same-day translation of today's new Hebrew article (post IL 4409). Content from PMC11914662 (joint & soft-tissue pain, n=91, 36% vs 10% pain reduction p<0.0001, 55% medication drop) + PubMed 31394939 (vascular/microcirculation mechanism only, not condition evidence). Honest framing: ankle-specific RCTs limited, PEMF positioned as adjunct to functional rehab. 3-phase protocol, PEMF vs shockwave/RICE/NSAIDs table, 5-Q FAQ, P1500-2500 pricing."
+    },
+    {
       "il_url": "https://painfree.org.il/%D7%93%D7%9C%D7%A7%D7%AA-%D7%95%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%94%D7%A9%D7%99%D7%98%D7%94-%D7%A9%D7%AA%D7%97%D7%96%D7%99%D7%A8-%D7%9C%D7%9B%D7%9D-%D7%90/",
       "ph_file": "article-pemf-lower-back-inflammation.html",
       "title_en": "Lower Back Inflammation & Pain: The Method That Restores Quality of Life",
@@ -721,6 +729,16 @@
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-25",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-ankle-sprain.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2 — same-day translation of today's new IL article (post 4409, ankle sprain & ligament injury). 1 card prepended to articles.html grid. PMC11914662 + PubMed 31394939 (mechanism only) + FDA 510k; honest adjunct framing (ankle-specific RCTs limited). untranslated_queue remains empty. Note: ran concurrently with a remote Phase-1 run (cartilage/ROI translations) — rebased onto it."
+    },
     {
       "date": "2026-06-25",
       "articles_translated": 3,
