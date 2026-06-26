@@ -2,6 +2,14 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-achilles-tendinopathy-runners-athletes/",
+      "ph_file": "article-pemf-achilles-tendinopathy-runners.html",
+      "title_en": "PEMF for Achilles Tendinopathy in Runners & Athletes: Clinical Protocol",
+      "date": "2026-06-26",
+      "tag": "Sports Medicine Protocol",
+      "note": "Phase 2 — same-day translation of today's new IL article (post 4412, Achilles tendinopathy in runners/athletes). Distinct from existing article-pemf-achilles-tendonitis.html (general). Content from PMC11914662 (n=91, 36% vs 10% pain, p<0.0001, 55% med reduction) + PubMed 32401418 (vascular mechanism only) + Strauch 2009 PubMed 19371845 (soft-tissue review). Honest framing: Achilles-specific RCTs limited, PEMF positioned as adjunct to eccentric loading. 3-phase protocol, PEMF vs shockwave/physio/NSAIDs table with patient-experience row, dual-audience FAQ, P1500-2500 pricing."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-ankle-sprain-ligament-injury-protocol/",
       "ph_file": "article-pemf-ankle-sprain.html",
       "title_en": "PEMF for Ankle Sprains & Ligament Injuries: Clinical Protocol",
@@ -753,6 +761,14 @@
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-06-26",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": ["article-pemf-achilles-tendinopathy-runners.html"],
+      "untranslated_remaining": 0,
+      "note": "Phase 2 — same-day translation of today's new IL article (post 4412, Achilles tendinopathy in runners/athletes). 1 card added to articles.html. Ran after the remote 2026-06-26 Phase-1 discovery run (commit 29066e5); pulled latest first. untranslated_queue remains empty."
+    },
     {
       "date": "2026-06-26",
       "articles_translated": 3,
