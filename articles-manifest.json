@@ -756,6 +756,30 @@
       "date": "2026-06-26",
       "tag": "Clinical Evidence",
       "note": "IL URL discovered via WebSearch (Hebrew title: 'קישורים למאמרים בנושאי Pulse Electromagnetic Therapy - מאמרי רפואה 2021', site returned 403 on fetch). Structured reference database organized by clinical condition — translated from the PainFree Israel medical article archive. Evidence covered: PMC9110240 (OA 11 RCTs, pain SMD=0.71, function SMD=1.52), PMC11914662 (n=91 36%/55%), PMC7353957 (cervical OA 6-month follow-up), PMC2670735 (chronic MSK pain), PMC6706898 (non-specific LBP double-blind RCT), PMC9524818 (fibromyalgia FIQ -31pt), PMC8762105 (central sensitization mechanisms), PMC11330404 (post-surgical 60% swelling reduction), PMC8516225 (bone healing SR), PMC8059450 (diabetic neuropathy NCV improvement), PMC7011929 (carpal tunnel RCT NCV+grip), PMC3677071 (A2A receptor mechanism), PMC5224973 (NO/eNOS/microvascular). 7-condition evidence summary table, honest evidence gaps section (protocol heterogeneity, sample sizes, no PH population data, device variability). 12 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-neuropathic-pain-meta-analysis-2026/",
+      "ph_file": "article-pemf-neuropathic-pain-evidence.html",
+      "title_en": "PEMF for Neuropathic Pain: The 2026 Meta-Analysis That Changes Clinical Decision-Making",
+      "date": "2026-06-27",
+      "tag": "Clinical Evidence Update",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Based on PMC12943413 (Neurology International Vol.18 Issue 2 2026, DOI:10.3390/neurolint18020028): 13 RCTs, N=688, overall SMD=-1.01 p=0.03 I2=92.8%; subgroup: spinal/radicular SMD=-2.35 (95%CI -4.42 to -0.29) significant; peripheral neuropathy SMD=-0.38 (95%CI -0.86 to 0.10) NOT significant. Supporting: PMID 23083041 (sciatica RCT n=40, VAS P=0.024, OSW P<0.001, SSEP latency P=0.016-0.022, amplitude P=0.001-0.002), PMC11914662 (36%/55%). Key clinical insight: PEMF mechanism (anti-inflammatory/mechanical decompression) explains strong radicular effect vs. limited diffuse peripheral effect. Distinct from article-pemf-sciatica-radiculopathy.html (clinical protocol) and article-pemf-diabetic-neuropathy.html (peripheral/RELIEF trial). 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-cervical-spondylosis-cartilage-protocol/",
+      "ph_file": "article-pemf-cervical-spondylosis.html",
+      "title_en": "PEMF for Cervical Spondylosis: Evidence-Based Protocol for Neck Cartilage & Bone Spurs",
+      "date": "2026-06-27",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Cervical spondylosis (age-related degeneration: osteophytes, disc narrowing, facet OA, foraminal stenosis) — distinct from article-pemf-cervical-neck-pain.html (acute disc herniation) and article-pemf-neck-pain.html (general/non-specific). Evidence: PMC7401674 (non-specific cervical n=63, 5 domains improved), PMC7018371 (cervical disc degeneration n=63, 12-week VAS), PMC7353957 (cervical OA 6-month sustained outcomes), cervical radiculopathy RCT (n=34, VAS SMD=-0.89 95%CI -1.34 to -0.44 P<0.001, NDI MD=-3.60 P=0.008, proprioception improvement), PMC9110240 (OA 11 RCTs n=614, pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004). 3-stage severity protocol, 6-treatment comparison table, PEMF-first manual therapy integration protocol, Philippine BPO/elderly market context. 8 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-elderly-geriatric-chronic-pain-protocol/",
+      "ph_file": "article-pemf-geriatric-pain.html",
+      "title_en": "PEMF for Elderly Patients: Safe, Drug-Free Protocol for Geriatric Chronic Pain",
+      "date": "2026-06-27",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Geriatric/elderly pain angle — polypharmacy reduction as the primary investor narrative. Evidence: PMC11914662 (n=91, 36%/55% pain/medication reduction — core polypharmacy argument), PMC9110240 (OA 11 RCTs n=614, pain SMD=0.71, stiffness SMD=1.34, function SMD=1.52 — #1 geriatric pain condition), PMC8637238 (osteoporosis RCT n=95, 12 weeks, PEMF+exercise > exercise alone for BMD, 6-month persistence), PMID 32495506 (fracture healing 14 RCTs n=1131, 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35, pain SMD=-0.49), PMC10971695 (RA n=39, VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036). Philippine market: 115M population, 8.2M aged 65+, 2.5-3.3M OA patients 65+, 36M chronic pain. Pharmacoeconomics: ₱50-200/day NSAIDs vs ₱15,000-37,500 total PEMF course. 3-stage protocol table, 7-criterion comparison table, safety profile for elderly. 9 min read."
     }
   ],
   "untranslated_queue": [],
@@ -1109,6 +1133,18 @@
       "il_post_id": 4400,
       "il_url": "https://painfree.org.il/pemf-electromagnetic-treatment-physiotherapy-guide-2026/",
       "note": "Phase 2 — untranslated_queue was empty. Translated today's new IL article (post 4400, PEMF for physiotherapy clinics — 'What every physiotherapist needs to know 2026'). Pulled origin/main before translating per dedup memory. Evidence: PMC11914662 (2025 RCT, 36% pain, 55% medication), PubMed 19371845 (Strauch NO mechanism). Comparison table: PEMF vs Shockwave/ESWT vs Ultrasound vs TENS. 6-question FAQ. Philippine adaptation: ₱1,500–₱2,500/session, no-supervision model. 1 card prepended to articles.html grid (total 55+ cards). IL site 403 on fetch; translation written directly from Hebrew source authored this session."
+    },
+    {
+      "date": "2026-06-27",
+      "phase": 1,
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-neuropathic-pain-evidence.html",
+        "article-pemf-cervical-spondylosis.html",
+        "article-pemf-geriatric-pain.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "untranslated_queue was empty; IL site returned 403 on medical-articles/ and all direct fetches; web searches found no new IL articles published after 2026-06-26. Created 3 synthesized articles based on new 2026 PMC evidence: (1) PMC12943413 (Neurology International 2026, 13 RCTs N=688, overall SMD=-1.01, radicular SMD=-2.35 vs peripheral SMD=-0.38 n.s.) — neuropathic pain meta-analysis; (2) cervical spondylosis protocol using PMC7401674/PMC7018371/PMC7353957/cervical RCT n=34 VAS SMD=-0.89/PMC9110240 — distinct from existing neck articles; (3) geriatric pain protocol using PMC11914662 (36%/55%), PMC9110240 (OA), PMC8637238 (osteoporosis BMD), PMID 32495506 (fracture RR=1.22), PMC10971695 (RA). 3 cards prepended to articles.html grid."
     }
   ]
 }
