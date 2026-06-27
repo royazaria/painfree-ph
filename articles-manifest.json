@@ -2,6 +2,14 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-hamstring-strain-injury-protocol/",
+      "ph_file": "article-pemf-hamstring-strain.html",
+      "title_en": "PEMF for Hamstring Strains & Injuries in Athletes: Clinical Protocol",
+      "date": "2026-06-27",
+      "tag": "Sports Medicine Protocol",
+      "note": "Phase 2 same-day translation of today new IL article (post 4417, hamstring strain/proximal tendinopathy). Balanced-evidence template (Yaki 2026-06-26 rule): names mixed/null RCT evidence, PEMF=adjunct, physiotherapy/eccentric loading=cornerstone. Content from PMC11914662 (n=91, 36% vs 10% pain p<0.0001, 55% med reduction) + PubMed 32401418 (vascular mechanism only) + Strauch 2009 PubMed 19371845 (soft-tissue review). Who-is-it-for block, 3-phase protocol, PEMF vs physio/shockwave/NSAIDs table w/ patient-experience row, honest physio-adjunct FAQ, P1500-2500 pricing."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-achilles-tendinopathy-runners-athletes/",
       "ph_file": "article-pemf-achilles-tendinopathy-runners.html",
       "title_en": "PEMF for Achilles Tendinopathy in Runners & Athletes: Clinical Protocol",
@@ -789,7 +797,9 @@
       "date": "2026-06-26",
       "phase": 2,
       "articles_translated": 1,
-      "files_created": ["article-pemf-achilles-tendinopathy-runners.html"],
+      "files_created": [
+        "article-pemf-achilles-tendinopathy-runners.html"
+      ],
       "untranslated_remaining": 0,
       "note": "Phase 2 — same-day translation of today's new IL article (post 4412, Achilles tendinopathy in runners/athletes). 1 card added to articles.html. Ran after the remote 2026-06-26 Phase-1 discovery run (commit 29066e5); pulled latest first. untranslated_queue remains empty."
     },
@@ -1145,6 +1155,15 @@
       ],
       "untranslated_remaining": 0,
       "note": "untranslated_queue was empty; IL site returned 403 on medical-articles/ and all direct fetches; web searches found no new IL articles published after 2026-06-26. Created 3 synthesized articles based on new 2026 PMC evidence: (1) PMC12943413 (Neurology International 2026, 13 RCTs N=688, overall SMD=-1.01, radicular SMD=-2.35 vs peripheral SMD=-0.38 n.s.) — neuropathic pain meta-analysis; (2) cervical spondylosis protocol using PMC7401674/PMC7018371/PMC7353957/cervical RCT n=34 VAS SMD=-0.89/PMC9110240 — distinct from existing neck articles; (3) geriatric pain protocol using PMC11914662 (36%/55%), PMC9110240 (OA), PMC8637238 (osteoporosis BMD), PMID 32495506 (fracture RR=1.22), PMC10971695 (RA). 3 cards prepended to articles.html grid."
+    },
+    {
+      "date": "2026-06-27",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-hamstring-strain.html"
+      ],
+      "untranslated_remaining": 0
     }
   ]
 }
