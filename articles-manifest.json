@@ -2,6 +2,14 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-knee-ligament-acl-mcl-sprain-protocol/",
+      "ph_file": "article-pemf-knee-ligament-acl-mcl.html",
+      "title_en": "PEMF for Knee Ligament Injuries (ACL/MCL): Rehabilitation Protocol",
+      "date": "2026-06-28",
+      "tag": "Sports Rehabilitation Protocol",
+      "note": "Phase 2 same-day translation of today's new IL article (post 4423, knee ligament ACL/MCL sprain). HONEST framing: no dedicated ACL/MCL RCT exists; evidence from PMC11914662 (n=91, 36% vs 10% soft-tissue pain p<0.0001, 55% med reduction) + Strauch 2009 PubMed 19371845 (soft-tissue mechanism review). PEMF=adjunct, functional rehab=cornerstone. PEMF vs RehabRICE/shockwave/NSAIDs table w/ patient-experience + supervision rows, who-is-it-for, 4-step protocol, 5-Q FAQ, P1500-2500 pricing. Hero img Pexels 7446985 (orthopedic knee X-ray, clinical). Card prepended to articles.html grid. Distinct from remote run's same-day natural-knee (cartilage) + cervical-disc articles."
+    },
+    {
       "il_url": "https://painfree.org.il/treatment-natural-cartilage-erosion-knee/",
       "ph_file": "article-pemf-natural-knee-treatment.html",
       "title_en": "Natural Treatment for Knee Cartilage Erosion: The PEMF Protocol",
@@ -1188,6 +1196,16 @@
         "article-pemf-hamstring-strain.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-06-28",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-knee-ligament-acl-mcl.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: translated today new IL article 4423 (knee ligament ACL/MCL). Note: a concurrent remote run already published 3 PH articles today (natural-knee, frozen-shoulder-mobility, cervical-disc) at commit aa0b6c4; pulled before adding this distinct article to avoid dup."
     }
   ]
 }
