@@ -2,6 +2,14 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-greater-trochanteric-pain-gluteal-tendinopathy/",
+      "ph_file": "article-pemf-gluteal-tendinopathy-hip-pain.html",
+      "title_en": "PEMF for Greater Trochanteric Pain Syndrome (GTPS) & Gluteal Tendinopathy: Clinical Protocol",
+      "date": "2026-06-30",
+      "tag": "Clinical Protocol",
+      "note": "Phase 2 same-day translation of today new IL article (post 4430, GTPS / gluteal tendinopathy / lateral hip pain). Distinct from article-pemf-hip-bursitis.html and article-pemf-hip-osteoarthritis.html. HONEST framing: no dedicated GTPS RCT; evidence from PMC11914662 (n=91, 36% soft-tissue pain reduction vs 10% p<0.0001, 55% med reduction) explicitly clarified as a GENERAL joint/soft-tissue study (not GTPS-specific) + Strauch 2009 PubMed 19371845 (soft-tissue mechanism review). PEMF=adjunct, gluteal loading exercise=cornerstone. PEMF vs injection/shockwave table w/ patient-experience + practitioner-hands-on-time rows, who-is-it-for, protocol, 3-Q FAQ, P1500-2500 pricing."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-wrist-sprain-ligament-injury-protocol/",
       "ph_file": "article-pemf-wrist-sprain.html",
       "title_en": "PEMF for Wrist Sprains & Ligament Injuries: Clinical Protocol",
@@ -1276,6 +1284,16 @@
       ],
       "untranslated_remaining": 0,
       "note": "untranslated_queue was empty; IL site returned 403 on medical-articles/, feed, and sitemap; web searches found no new IL articles published on 2026-06-29 (site may not yet have published or new post not yet indexed). Created 3 synthesized articles continuing the sports-injury series (ankle/Achilles/hamstring/knee-ligament was the recent pattern). Evidence anchor: PMC12916110 (Frontiers Sports & Active Living 2026 SR on PEMF for soft tissue injuries, doi:10.3389/fspor.2026.1694944) + PMC7477588 (DOMS RCT 43%/CK 2.3x) + PMC9325280 (muscle strain cohort 38% faster RTP, 6.5% vs 18.4% re-injury) + PMC11914662 (36%/55%). Likely-pattern IL URLs assigned. 3 cards prepended to articles.html grid (d1/d2/d3)."
+    },
+    {
+      "date": "2026-06-30",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-gluteal-tendinopathy-hip-pain.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: translated today new IL article 4430 (GTPS / gluteal tendinopathy). Pulled origin/main first (remote run added quadriceps/thumb-CMC/wrist). Distinct from existing hip-bursitis + hip-osteoarthritis files."
     }
   ]
 }
