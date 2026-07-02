@@ -924,6 +924,14 @@
       "date": "2026-07-02",
       "tag": "Clinical Protocol",
       "note": "IL URL likely-pattern (site returned 403 on fetch). Synthesized from peer-reviewed literature. Distinct from existing herniated-disc, lumbar-stenosis, and back-pain articles — focuses on the chronic progressive IVD degeneration process and SIRT1-autophagy cellular repair mechanism. Evidence: Frontiers in Aging 2026 (doi:10.3389/fragi.2026.1840672 — systematic review confirming PEMF biologically active in IVD: SIRT1-autophagy, ECM restoration, anti-apoptotic in NP cells), PMC8978825 (SIRT1-autophagy in NP cells vs IL-1β degeneration cascade), PMC12086804 (in vitro PEMF vs inflammatory IVD — MMP-3/MMP-13/ADAMTS-4/ADAMTS-5 suppression), PMC11914662 (n=91 36%/55% clinical anchor), PMC11775040 (9 RCTs n=420 LBP SR), PMID 23083041 (n=40 lumbar radiculopathy VAS p=0.024, OSW p<0.001), PMC3518856 (proteoglycan +42%, type II collagen — applies to NP ECM), PMC4959873 (VEGF endplate microcirculation), PMC12467020 (paraspinal tone η²=0.28). DDD vs herniated disc distinction, Pfirrmann Grade I–V MRI table with PEMF phase mapping, 4-mechanism NP cell degeneration cascade (senescence/proteoglycan loss/cytokine production/autophagy dysregulation), 3-phase protocol (8–25Hz anti-inflammatory 6 sessions/25–75Hz cellular repair/50–100Hz consolidation, 24 sessions), 6-treatment comparison (PEMF vs NSAIDs/epidural/SCS/disc replacement/fusion). Philippine market: 5M+ MRI-confirmed DDD, BPO 1.3–1.5M (forward flexion 8–12h/day intradiscal pressure 1.4–1.9× standing), agricultural 9.5M (heavy lifting), transport workers (WBV RR 1.8–2.4×), smokers 22.7% (endplate diffusion -24%). Revenue: ₱36K–₱60K/patient 24 sessions. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-tarsal-tunnel-syndrome-protocol/",
+      "ph_file": "article-pemf-tarsal-tunnel-syndrome.html",
+      "title_en": "PEMF for Tarsal Tunnel Syndrome: Posterior Tibial Nerve Entrapment",
+      "date": "2026-07-02",
+      "tag": "Clinical Protocol",
+      "note": "Phase 2: direct translation/adaptation of today new IL article (post 4438, tarsal tunnel syndrome). First TTS article on PH. Citations kept conservative and topic-matched: PMC11914662 (with explicit joint/soft-tissue-general-not-TTS caveat) + PubMed 19371845 (soft-tissue mechanism review only). No dedicated TTS RCT — framed as adjunct; orthotics/physio/nerve-gliding = cornerstone."
     }
   ],
   "untranslated_queue": [],
@@ -1364,6 +1372,16 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts (medical-articles/, feed, sitemap). untranslated_queue was empty. Web searches found no new IL articles published on 2026-07-01. 3 new articles synthesized on topics not previously covered: (1) Patellofemoral Pain Syndrome (Runner's Knee): PMC12834700 (72% vs 25% quad strength at 6M), PMC9110240 (11 RCTs n=614, pain SMD=0.71/stiffness SMD=1.34/function SMD=1.52), PMC3518856 (proteoglycan +42%), PMC3967773 (TGF-β/IGF-1/iNOS), PMC11914662 (36%/55%); 5-subtype table, 3-phase protocol, 6-treatment comparison, PH basketball/runner/BPO market; 9 min read. (2) Hip Labral Tear & FAI: PMC4959873 (VEGF angiogenesis in avascular fibrocartilage), PMC3518856 (proteoglycan +42%), PMC7093940 (collagen fiber realignment), PMC9325280 (RTP 38% faster, re-injury 6.5% vs 18.4%), PMID 28060214 (post-surgical analgesic reduction), PubMed 19371845 (NF-κB suppression); Byrd 4-type classification, 4-phase protocol, PH football/military/runners market; 10 min read. (3) Stress Fractures & Bone Stress Injuries: PMID 32495506 (14 RCTs n=1,131, healing rate 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35, pain SMD=-0.49, healing time SMD=-1.01), PMC6209359 (n=1,382, 89.6% success), PMC3441225 (tibial non-union n=44, 77.3% union), PMID 35864717 (BMD/osteoblast markers meta-analysis), FDA 510(k) 1979 original bone healing clearance; 6-row MRI grade table, 3-phase protocol, high-risk fracture site guide, PH runner/military/adolescent athlete market; 10 min read. 3 new cards prepended to articles.html grid (d1/d2/d3). untranslated_queue remains empty."
+    },
+    {
+      "date": "2026-07-02",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-tarsal-tunnel-syndrome.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: translated today new IL article 4438 (tarsal tunnel syndrome / posterior tibial nerve entrapment). Pulled origin/main first (remote run added facet-joint/SLAP/degenerative-disc c7ad19b). No existing tarsal file (the \"tarsal\" string in manifest was only a citation note inside the ankle-foot guide). Distinct from carpal-tunnel (upper limb) and plantar-fasciitis files."
     }
   ]
 }
