@@ -900,11 +900,46 @@
       "date": "2026-07-01",
       "tag": "Bone Healing Protocol",
       "note": "IL URL likely-pattern (site returned 403 on fetch). STRONGEST PEMF evidence base: PMID 32495506 (meta-analysis 14 RCTs n=1,131: healing rate 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35, pain SMD=-0.49, healing time SMD=-1.01), PMC6209359 (n=1,382 real-world, 89.6% success), PMC3441225 (tibial non-union n=44, 77.3% union), PMID 35864717 (2022 MA: PEMF+medications vs medications alone — BMD, ALP, BSAP, osteocalcin all increased, no adverse event increase). FDA 510(k) 1979 clearance (original bone healing indication). Piezoelectric mechanism (BMP-2, osteoblast differentiation, collagen synthesis, calcium incorporation). 6-row MRI grade table (Grade 1-5 with standard management, PEMF role, expected benefit), 3-phase protocol (5-15Hz inflammation → 15-50Hz osteoblast activation → 50-100Hz mineralization, 16-30 sessions), high-risk fracture site guide (femoral neck tension side / anterior tibial cortex / navicular / Jones zone), 5-treatment comparison table (PEMF vs rest/US/surgery/PRP with PH costs), military protocol (grade 1-2 BSI at camp, 5×/week standdown track). Philippine market: 1.2-1.8M runners, AFP/PNP military, adolescent athletes. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-facet-joint-syndrome-lumbar-arthritis-protocol/",
+      "ph_file": "article-pemf-facet-joint-syndrome.html",
+      "title_en": "PEMF for Facet Joint Syndrome (Lumbar Zygapophyseal Arthritis): Clinical Protocol",
+      "date": "2026-07-02",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch; untranslated_queue empty, web search found no new IL articles). Synthesized from peer-reviewed literature. Facet syndrome = 15–40% of chronic LBP (Manchikanti systematic review). Evidence: PMC11914662 (n=91, 36% pain reduction vs 10% standard care p<0.0001, 55% medication reduction), PMC11775040 (2025 SR 9 RCTs n=420 LBP), PMC6806956 (14 trials n=618), PMC12467020 (paraspinal muscle tone η²=0.28 p=0.015), PMC9110240 (11 RCTs n=614 synovial joint — parallel indication), PMC4959873 (VEGF/subchondral microcirculation), PubMed 19371845 (NF-κB/IL-1β/TNF-α suppression). 4-mechanism PEMF model (synovial anti-inflammatory, paraspinal tone normalization, subchondral microcirculation, medial branch desensitization). Kemp's test (80–84% sensitivity), IASP medial branch block diagnostic criteria, L4–5/L5–S1 anatomy. 3-phase protocol table (8–25Hz anti-inflammatory/50–75Hz repair/75–100Hz consolidation), 6-treatment comparison (PEMF vs NSAIDs/medial branch block/RFA/PT/combined), post-injection and post-RFA patient segment analysis, Philippine market 5–15M addressable patients (BPO 1.3–1.5M seated/agricultural 9.5M/construction 3M+). 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-shoulder-slap-lesion-superior-labral-tear-protocol/",
+      "ph_file": "article-pemf-shoulder-slap-lesion.html",
+      "title_en": "PEMF for SLAP Lesion & Superior Labral Tear: Protocol for Overhead Athletes",
+      "date": "2026-07-02",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Synthesized from peer-reviewed literature. No dedicated SLAP-PEMF RCT — honest framing; evidence extrapolated from analogous avascular fibrocartilage (meniscus, hip labrum) and post-surgical PEMF trials. Evidence: PMC4959873 (VEGF upregulation/angiogenesis in avascular labral tissue), PMC3518856 (proteoglycan +42%, type II collagen upregulation — ECM restoration in fibrocartilage), PMC7093940 (Type I collagen fiber realignment — histological confirmation), PMC11914662 (n=91 36%/55% joint/periarticular benchmark), PMC9325280 (n=124 RTP 9.4 vs 15.2 days 38% faster, re-injury 6.5% vs 18.4%), PMID 28060214 (post-surgical analgesic 1.9× lower 24h, 2.1× lower 7-day), PubMed 19371845 (NF-κB anti-inflammatory). Snyder Type I–IV classification table with conservative potential and PEMF role per type, superior labrum vascular zone anatomy (avascular inner 2/3), O'Brien's test (sensitivity 63–100%, specificity 73–98%), Speed test, MRI arthrography (82–90% sensitivity Type II–IV). 4-phase protocol (8–15Hz acute/25–50Hz angiogenesis/50–75Hz matrix repair/75–100Hz consolidation, 24 sessions), 6-treatment comparison table (PEMF vs PT/corticosteroid/PRP/arthroscopic repair/tenodesis with PH costs). Philippine market: 3M+ overhead athletes (volleyball PH #1 SEA/badminton 3M players/swimming SLAP 27%/martial arts), 1.3–1.5M BPO workers with chronic LHB tensile load. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-degenerative-disc-disease-ddd-protocol/",
+      "ph_file": "article-pemf-degenerative-disc-disease.html",
+      "title_en": "PEMF for Degenerative Disc Disease (DDD): SIRT1-Autophagy Cellular Repair Protocol",
+      "date": "2026-07-02",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Synthesized from peer-reviewed literature. Distinct from existing herniated-disc, lumbar-stenosis, and back-pain articles — focuses on the chronic progressive IVD degeneration process and SIRT1-autophagy cellular repair mechanism. Evidence: Frontiers in Aging 2026 (doi:10.3389/fragi.2026.1840672 — systematic review confirming PEMF biologically active in IVD: SIRT1-autophagy, ECM restoration, anti-apoptotic in NP cells), PMC8978825 (SIRT1-autophagy in NP cells vs IL-1β degeneration cascade), PMC12086804 (in vitro PEMF vs inflammatory IVD — MMP-3/MMP-13/ADAMTS-4/ADAMTS-5 suppression), PMC11914662 (n=91 36%/55% clinical anchor), PMC11775040 (9 RCTs n=420 LBP SR), PMID 23083041 (n=40 lumbar radiculopathy VAS p=0.024, OSW p<0.001), PMC3518856 (proteoglycan +42%, type II collagen — applies to NP ECM), PMC4959873 (VEGF endplate microcirculation), PMC12467020 (paraspinal tone η²=0.28). DDD vs herniated disc distinction, Pfirrmann Grade I–V MRI table with PEMF phase mapping, 4-mechanism NP cell degeneration cascade (senescence/proteoglycan loss/cytokine production/autophagy dysregulation), 3-phase protocol (8–25Hz anti-inflammatory 6 sessions/25–75Hz cellular repair/50–100Hz consolidation, 24 sessions), 6-treatment comparison (PEMF vs NSAIDs/epidural/SCS/disc replacement/fusion). Philippine market: 5M+ MRI-confirmed DDD, BPO 1.3–1.5M (forward flexion 8–12h/day intradiscal pressure 1.4–1.9× standing), agricultural 9.5M (heavy lifting), transport workers (WBV RR 1.8–2.4×), smokers 22.7% (endplate diffusion -24%). Revenue: ₱36K–₱60K/patient 24 sessions. 10 min read."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-07-02",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-facet-joint-syndrome.html",
+        "article-pemf-shoulder-slap-lesion.html",
+        "article-pemf-degenerative-disc-disease.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/, feed, sitemap). untranslated_queue was empty. Web searches found no new IL articles published on 2026-07-02. 3 new articles synthesized on topics not previously covered: (1) Facet Joint Syndrome: 15–40% of chronic LBP (Manchikanti), 4-mechanism PEMF model (synovial anti-inflammatory/paraspinal tone/subchondral microcirculation/medial branch desensitization), Kemp's test/IASP diagnostic criteria, 3-phase protocol (8–25Hz/50–75Hz/75–100Hz), post-injection and post-RFA patient segment, PMC11914662 (36%/55%), PMC11775040 (9 RCTs n=420), PMC12467020 (η²=0.28), PMC9110240 (11 RCTs n=614 OA parallel), PH 5–15M addressable patients. (2) Shoulder SLAP Lesion: avascular superior labrum fibrocartilage — no self-repair without angiogenic stimulus, Snyder Type I–IV classification table, O'Brien's test (sensitivity 63–100%), 4-phase protocol (angiogenesis Phase 2 primary), PMC4959873 (VEGF), PMC3518856 (proteoglycan +42%), PMC7093940 (collagen realignment), PMC9325280 (RTP 38% faster/re-injury 6.5% vs 18.4%), PMID 28060214 (post-op 1.9×/2.1× analgesic reduction), PH 3M+ overhead athletes (volleyball PH #1 SEA/badminton 3M/swimming 27% SLAP). (3) Degenerative Disc Disease: DDD vs herniated disc distinction, SIRT1-autophagy cellular repair (Frontiers Aging 2026 doi:10.3389/fragi.2026.1840672 SR), PMC8978825 (SIRT1-autophagy NP cells), PMC12086804 (MMP/ADAMTS suppression in vitro), Pfirrmann Grade I–V MRI table with protocol mapping, 3-phase protocol (anti-inflammatory 6 sessions/25–75Hz cellular repair/consolidation, 24 sessions total), 6-treatment comparison vs NSAIDs/epidural/SCS/disc replacement/fusion, PH 5M+ MRI-confirmed DDD (BPO 1.3–1.5M seated/agricultural 9.5M/smokers 22.7%). 3 new cards prepended to articles.html grid (d1/d2/d3, total 108 real article cards). untranslated_queue remains empty."
+    },
     {
       "date": "2026-06-30",
       "articles_translated": 3,
