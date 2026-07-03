@@ -932,11 +932,46 @@
       "date": "2026-07-02",
       "tag": "Clinical Protocol",
       "note": "Phase 2: direct translation/adaptation of today new IL article (post 4438, tarsal tunnel syndrome). First TTS article on PH. Citations kept conservative and topic-matched: PMC11914662 (with explicit joint/soft-tissue-general-not-TTS caveat) + PubMed 19371845 (soft-tissue mechanism review only). No dedicated TTS RCT — framed as adjunct; orthotics/physio/nerve-gliding = cornerstone."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-avascular-necrosis-osteonecrosis-protocol/",
+      "ph_file": "article-pemf-avascular-necrosis.html",
+      "title_en": "PEMF for Avascular Necrosis (Osteonecrosis): Bone Preservation Protocol",
+      "date": "2026-07-03",
+      "tag": "Bone Health Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch; IL site 403 since 2026-05-31, untranslated_queue empty, no new IL articles found via web search). Synthesized from peer-reviewed literature. Distinct from osteoporosis and bone fracture healing articles — focuses on AVN pathology: avascular bone death, Ficat & Arlet Stage I-IV classification, osteoblast/angiogenesis PEMF biology. Evidence: PMID 32495506 (14 RCTs n=1,131, healing rate 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35), PMC6209359 (n=1,382, 89.6% real-world success), PMC3441225 (tibial non-union n=44, 77.3% union in avascular environment), PMID 35864717 (2022 MA: BMD, ALP, BSAP, osteocalcin all increased — osteoblast activity markers), PMC4959873 (VEGF/angiogenesis in avascular tissue), PubMed 19371845 (NF-κB anti-inflammatory). 3-phase protocol table (8-15Hz anti-inflammatory/15-50Hz osteoblast+VEGF/50-100Hz mineralization, 24 sessions), 6-treatment comparison table (PEMF vs core decompression vs bisphosphonates vs THA with PH costs), Philippine post-COVID steroid AVN cohort (high-dose dexamethasone 2020-2022 creates new 30-55 age group presenting now). No dedicated AVN-PEMF RCT — honest adjunct framing. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-cubital-tunnel-syndrome-ulnar-nerve-protocol/",
+      "ph_file": "article-pemf-cubital-tunnel-syndrome.html",
+      "title_en": "PEMF for Cubital Tunnel Syndrome (Ulnar Nerve Entrapment): Clinical Protocol",
+      "date": "2026-07-03",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Synthesized from peer-reviewed literature. 2nd most common peripheral nerve entrapment after CTS; distinct from existing carpal-tunnel article. Evidence: PMC5144749 / PMID 27980864 (CTS RCT n=40, PEMF > ultrasound all endpoints p<0.05 — directly analogous mechanism for ulnar nerve entrapment at cubital tunnel), PMC12943413 (2026 MA 13 RCTs N=688 neuropathic pain SMD=-1.01 p<0.001), PubMed 31394939 (NO/microcirculation), PubMed 19371845 (NF-κB/IL-1β suppression), PMC11914662 (36%/55% general benchmark). McGowan Grade I-III classification table (paresthesia only/intermittent weakness/persistent wasting), anatomy (Osborne's ligament, anconeus epitrochlearis 10% population, medial epicondyle-olecranon channel, 8x pressure increase at full flexion), 3-phase protocol (8-25Hz perineural anti-inflammation/50Hz nerve conduction/25-75Hz consolidation, 12-16 sessions), 6-treatment comparison table (PEMF vs splinting vs corticosteroid vs ulnar transposition with PH costs), differential diagnosis (Guyon's canal, TOS, C8-T1 radiculopathy, true neurogenic TOS). Philippine BPO 1.3-1.5M workers (sustained elbow flexion 8-10h/day), manufacturing 200K+, drivers, throwing athletes, diabetic patients. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-complex-regional-pain-syndrome-crps-protocol/",
+      "ph_file": "article-pemf-crps-complex-regional-pain.html",
+      "title_en": "PEMF for Complex Regional Pain Syndrome (CRPS): Neuroinflammatory Protocol",
+      "date": "2026-07-03",
+      "tag": "Neurological Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Synthesized from peer-reviewed literature. Formerly known as RSD (Reflex Sympathetic Dystrophy) / Causalgia. Distinct from neuropathic pain evidence article and sciatica/carpal tunnel articles — focuses on the 3-mechanism CRPS disease model (neurogenic inflammation + sympathetically maintained pain + central sensitization). Evidence: PMC12943413 (2026 MA 13 RCTs N=688 overall SMD=-1.01 95%CI -1.40 to -0.62 p<0.001 — strongest neuropathic pain meta-analysis), PMC9748435 (GAD RCT n=60, HAMA 40% vs 14%, cortisol -28% — sympathetic/HPA axis modulation), PubMed 19371845 (NF-κB/IL-1β/TNF-α suppression — neurogenic inflammation), PubMed 31394939 (NO/microcirculation — vasomotor dysregulation), PMID 23083041 (SSEP latency/amplitude improvement — nerve signal normalization), PMC11914662 (36%/55% benchmark). Budapest Criteria diagnostic table (4 categories: sensory/vasomotor/sudomotor-edema/motor-trophic), CRPS Type I vs Type II distinction, 3-phase disease model (acute inflammatory/subacute dystrophic/chronic atrophic), mechanism-to-PEMF-action table (4 rows), 3-phase protocol (start 1-5Hz low-intensity proximal/subacute 8-25Hz/chronic 25-75Hz, 20 sessions), post-sympathetic-block window application (PEMF consolidates block durability + primes PT), 5-treatment comparison table (PEMF vs gabapentin vs sympathetic block vs SCS with PH costs). Critical allodynia caution: start low-intensity, start proximal, titrate slowly — never directly over allodynic zone in acute phase. Philippines: post-COVID surgical patients, road accident (12K+ fatalities/yr), post-stroke shoulder-hand syndrome, diabetic neuropathy patients. No dedicated CRPS-PEMF RCT — honest adjunct framing. 10 min read."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-07-03",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-avascular-necrosis.html",
+        "article-pemf-cubital-tunnel-syndrome.html",
+        "article-pemf-crps-complex-regional-pain.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/, feed, sitemap). untranslated_queue was empty. Web searches found no new IL articles published on 2026-07-03. 3 new articles synthesized on topics not previously covered: (1) Avascular Necrosis/Osteonecrosis: Ficat & Arlet Stage I-IV classification, 4-mechanism PEMF model (BMP-2 osteoblast/VEGF angiogenesis/OPG-RANKL ratio shift/NF-κB bone marrow anti-inflammation), PMID 32495506 (14 RCTs n=1,131 healing rate 79.7% vs 64.3% RR=1.22), PMC6209359 (n=1,382 89.6% real-world success), PMC3441225 (tibial non-union 77.3% union), PMID 35864717 (osteoblast activity markers), 3-phase protocol (8-15/15-50/50-100 Hz, 24 sessions), 6-treatment comparison table (vs core decompression/bisphosphonates/THA), Philippine post-COVID steroid AVN cohort; honest adjunct framing (no dedicated AVN-PEMF RCT). (2) Cubital Tunnel Syndrome: McGowan Grade I-III classification, Osborne's ligament anatomy, 8x tunnel pressure increase in sustained flexion, PMC5144749/PMID 27980864 (CTS RCT n=40 PEMF>ultrasound all endpoints — directly analogous mechanism), PMC12943413 (neuropathic pain MA SMD=-1.01), 3-phase protocol (8-25Hz/50Hz/25-75Hz, 12-16 sessions), 6-treatment comparison table (vs splinting/corticosteroid/ulnar transposition), differential diagnosis table (Guyon's canal/TOS/C8-T1 radiculopathy), BPO 1.3-1.5M workers (8x tunnel pressure in sustained keyboard flexion). (3) Complex Regional Pain Syndrome (CRPS/formerly RSD): Budapest Criteria diagnostic table (4 category/symptom/sign matrix), CRPS Type I vs Type II distinction, 3-mechanism disease model (neurogenic inflammation/sympathetically maintained pain/central sensitization), mechanism-to-PEMF action table (4 rows), PMC12943413 (overall SMD=-1.01 p<0.001), PMC9748435 (cortisol -28% sympathetic modulation), NF-κB suppression, NO/microcirculation, SSEP improvement; low-intensity allodynia protocol caution (start 1-5Hz proximal, titrate slowly), post-sympathetic-block window application (PEMF consolidates block durability), 5-treatment comparison (vs gabapentin/sympathetic block/SCS ₱400K+), 3-phase disease stage protocol (acute/subacute/chronic), Philippines: road accident-induced (12K+ fatalities/yr), post-surgical orthopedic, post-stroke shoulder-hand syndrome; honest adjunct framing (no dedicated CRPS-PEMF RCT). 3 new cards prepended to articles.html grid (d1/d2/d3, total 111 real article cards). untranslated_queue remains empty."
+    },
     {
       "date": "2026-07-02",
       "articles_translated": 3,

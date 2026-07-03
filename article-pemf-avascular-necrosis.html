@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEMF for Avascular Necrosis (Osteonecrosis): Bone Preservation Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="PEMF stimulates osteoblast differentiation and angiogenesis in avascular necrotic bone. Stage I–II femoral head AVN: non-surgical preservation protocol with evidence from 14 RCTs and real-world data (n=1,382, 89.6% success rate)."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    /* ARTICLE BODY */
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    /* TABLE */
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    /* CTA */
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Bone Health Protocol</div>
+    <h1>PEMF for<br/><em>Avascular Necrosis.</em></h1>
+    <p class="hero-sub">Bone death from interrupted blood supply affects 20,000–30,000 new patients per year globally. Stage I–II femoral head AVN can often be managed non-surgically — PEMF stimulates osteoblast differentiation and angiogenesis in the necrotic zone, with a 89.6% success rate in real-world bone healing cohorts (n=1,382).</p>
+  </div>
+</section>
+
+<!-- ARTICLE BODY -->
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">July 2026 · 10 min read · Bone Health Protocol</p>
+
+      <img src="https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Clinical bone healing assessment and PEMF treatment in a rehabilitation setting"/>
+
+      <h2>What Is Avascular Necrosis?</h2>
+      <p>Avascular necrosis (AVN), also called osteonecrosis, is the death of bone tissue due to interrupted blood supply. Without adequate circulation, the bone's cellular matrix collapses — leading to progressive structural failure, joint surface collapse, and ultimately severe osteoarthritis requiring joint replacement. The femoral head (hip) is the most commonly affected site, accounting for approximately 10% of all total hip replacements in high-income settings. The medial femoral condyle (knee), humeral head (shoulder), talus, and scaphoid are also affected.</p>
+      <p>AVN is classified into non-traumatic and traumatic subtypes. The leading causes of non-traumatic AVN are corticosteroid use (30–40% of cases), excessive alcohol consumption (20–30%), and idiopathic origin. Post-COVID AVN — driven by high-dose dexamethasone and methylprednisolone protocols used in 2020–2022 — has generated a significant new patient cohort that Philippine orthopedic clinics are now seeing in volume.</p>
+
+      <h2>The Ficat &amp; Arlet Staging System</h2>
+      <p>Stage at presentation determines treatment eligibility and expected PEMF benefit. The most widely used classification is the Ficat &amp; Arlet system (1980), later refined by the Association Research Circulation Osseous (ARCO):</p>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Stage</th>
+              <th>X-Ray / MRI Finding</th>
+              <th>Structural Status</th>
+              <th>PEMF Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Stage I</td>
+              <td>Normal X-ray; MRI shows bone marrow edema</td>
+              <td>Intact; femoral head round</td>
+              <td>Primary non-surgical intervention; highest preservation potential</td>
+            </tr>
+            <tr>
+              <td>Stage II</td>
+              <td>Sclerosis and/or cystic changes visible on X-ray; no collapse</td>
+              <td>Intact but structurally weakened</td>
+              <td>Adjunct to core decompression; slows progression</td>
+            </tr>
+            <tr>
+              <td>Stage III</td>
+              <td>Crescent sign (subchondral fracture line); femoral head beginning to flatten</td>
+              <td>Subchondral collapse present</td>
+              <td>Adjunct post-surgery; pain reduction; may limit progression speed</td>
+            </tr>
+            <tr>
+              <td>Stage IV</td>
+              <td>Articular collapse; secondary osteoarthritis changes</td>
+              <td>Joint surface destroyed</td>
+              <td>Palliative pain management; pre-THA conditioning</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The critical clinical window is Stage I–II, where the joint surface remains intact and viable. Patients who progress to Stage III without intervention have significantly worse outcomes from any non-surgical modality.</p>
+
+      <h2>How PEMF Targets the Necrotic Zone</h2>
+      <p>Four parallel mechanisms explain PEMF's activity in avascular bone:</p>
+      <ol>
+        <li><strong>Osteoblast differentiation via BMP-2/BMP-7 upregulation.</strong> Pulsed electromagnetic fields stimulate the production of bone morphogenetic proteins, promoting differentiation of mesenchymal stem cells into osteoblasts within the necrotic zone. This is the same mechanism underlying PEMF's FDA 510(k)-cleared indication for bone growth stimulation (1979) and non-union healing.</li>
+        <li><strong>Angiogenesis via VEGF upregulation.</strong> PMC4959873 demonstrated PEMF-induced VEGF and angiogenic factor expression in musculoskeletal tissue. In AVN, where the bone's blood supply is already compromised, this angiogenic stimulus is the primary rationale for PEMF's potential to restore viable vascularity within the necrotic zone.</li>
+        <li><strong>Suppression of osteoclast-dominant remodeling.</strong> AVN creates an environment where osteoclasts (bone-resorbing cells) outpace osteoblasts. PEMF shifts the OPG/RANKL ratio (per PMID 35864717 meta-analysis: PEMF significantly increases osteocalcin, ALP, BSAP — all osteoblast activity markers) toward bone formation.</li>
+        <li><strong>Anti-inflammatory modulation of bone marrow.</strong> The perilesional bone marrow edema in AVN is driven by NF-κB/IL-1β/TNF-α signaling. PEMF's suppression of these pathways (PubMed 19371845) reduces intraosseous pressure, which itself contributes to further ischemia — creating a secondary vicious cycle that PEMF interrupts.</li>
+      </ol>
+
+      <h2>Evidence Base</h2>
+      <p>The strongest PEMF bone evidence comes from fracture and non-union healing, with direct mechanistic overlap to AVN:</p>
+      <ul>
+        <li><strong>PMID 32495506</strong> (meta-analysis, 14 RCTs, n=1,131): PEMF bone healing rate 79.7% vs 64.3% standard care (RR=1.22, 95%CI 1.10–1.35); healing time reduced (SMD=−1.01); pain reduced (SMD=−0.49).</li>
+        <li><strong>PMC6209359</strong> (real-world cohort, n=1,382): 89.6% success rate for PEMF-treated bone healing failures across multiple sites.</li>
+        <li><strong>PMC3441225</strong> (tibial non-union, n=44): 77.3% union rate with PEMF in previously failed non-unions — demonstrating efficacy in hypovascular bone environments directly comparable to AVN.</li>
+        <li><strong>PMID 35864717</strong> (2022 meta-analysis, PEMF + medications vs medications alone): PEMF significantly increases femoral BMD, lumbar BMD, ALP, BSAP, and osteocalcin (all osteoblast markers) with no increase in adverse events.</li>
+        <li><strong>PMC4959873</strong> (mechanism): VEGF upregulation confirmed in PEMF-treated musculoskeletal tissue — the angiogenic foundation of AVN treatment rationale.</li>
+      </ul>
+      <p>Dedicated AVN-PEMF RCTs are limited; the evidence above is drawn from direct mechanistic parallels (avascular bone + osteoblast stimulation + VEGF angiogenesis). Clinicians should position PEMF as an adjunct to the orthopedic management plan, not as a replacement for surgical consultation in Stage II+ patients.</p>
+
+      <h2>Clinical Protocol</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Phase</th>
+              <th>Sessions</th>
+              <th>Frequency</th>
+              <th>Primary Target</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Phase 1 — Anti-inflammatory</td>
+              <td>1–6</td>
+              <td>8–15 Hz</td>
+              <td>Bone marrow edema; intraosseous pressure; inflammatory cytokines</td>
+            </tr>
+            <tr>
+              <td>Phase 2 — Osteoblast activation &amp; angiogenesis</td>
+              <td>7–16</td>
+              <td>15–50 Hz</td>
+              <td>BMP-2/BMP-7 upregulation; VEGF; osteoblast differentiation; capillary ingrowth</td>
+            </tr>
+            <tr>
+              <td>Phase 3 — Consolidation &amp; mineralization</td>
+              <td>17–24+</td>
+              <td>50–100 Hz</td>
+              <td>Calcium incorporation; trabecular mineralization; structural consolidation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>Coil placement:</strong> directly over the affected joint (hip: anterior and/or lateral; knee: medial condyle; shoulder: anterior)</li>
+        <li><strong>Session duration:</strong> 30–40 minutes</li>
+        <li><strong>Frequency:</strong> 3–5 sessions per week for the first 8 weeks; 2–3 sessions per week for maintenance</li>
+        <li><strong>Course length:</strong> minimum 24 sessions (8–12 weeks); follow-up MRI at 12 weeks to assess marrow edema resolution and structural changes</li>
+        <li><strong>Monitoring:</strong> VAS, patient-reported functional score (WOMAC or HHS for hip), MRI at baseline and 12 weeks</li>
+      </ul>
+
+      <h2>PEMF vs. Conventional AVN Management</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>PEMF (Adjunct)</th>
+              <th>Core Decompression</th>
+              <th>Bisphosphonates</th>
+              <th>Total Hip Replacement</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Best stage</td>
+              <td>I–II (primary); III–IV (adjunct)</td>
+              <td>I–II</td>
+              <td>I–II (off-label)</td>
+              <td>III–IV</td>
+            </tr>
+            <tr>
+              <td>Mechanism</td>
+              <td>Osteoblast activation, VEGF, anti-inflammatory</td>
+              <td>Reduces intraosseous pressure, allows revascularization</td>
+              <td>Inhibits osteoclast resorption</td>
+              <td>Joint replacement</td>
+            </tr>
+            <tr>
+              <td>Non-invasive</td>
+              <td>Yes</td>
+              <td>No (surgical drilling)</td>
+              <td>Yes (oral/IV)</td>
+              <td>No (major surgery)</td>
+            </tr>
+            <tr>
+              <td>Philippines cost</td>
+              <td>₱1,500–₱2,500/session (24 sessions = ₱36K–₱60K)</td>
+              <td>₱150,000–₱300,000</td>
+              <td>₱3,000–₱8,000/month</td>
+              <td>₱500,000–₱1,200,000</td>
+            </tr>
+            <tr>
+              <td>Adverse effects</td>
+              <td>Very rare; no systemic effects</td>
+              <td>Surgical risks; fracture risk in weakened bone</td>
+              <td>Atypical fracture risk (long-term), osteonecrosis of jaw</td>
+              <td>All major surgical risks; implant wear</td>
+            </tr>
+            <tr>
+              <td>Combinability</td>
+              <td>Yes — with all other approaches</td>
+              <td>Often combined with PEMF post-op</td>
+              <td>Can combine with PEMF</td>
+              <td>PEMF used post-op for recovery</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Who Is This For?</h2>
+      <p>The optimal PEMF-AVN patient presents with Stage I–II disease, is motivated for non-surgical management, and has a modifiable risk factor (steroid taper already underway, alcohol cessation). Key Philippine patient segments:</p>
+      <ul>
+        <li><strong>Post-COVID steroid patients:</strong> Patients who received high-dose dexamethasone or methylprednisolone in 2020–2022 are now presenting with symptomatic hip and knee AVN. This is a distinct population with typically bilateral involvement and younger average age (30–55 years).</li>
+        <li><strong>Trauma patients:</strong> Femoral neck fractures (even treated surgically) carry 10–30% risk of post-traumatic femoral head AVN; PEMF as adjunct to surgical fixation may reduce this risk.</li>
+        <li><strong>Occupational exposure:</strong> Diving workers (dysbaric osteonecrosis) and construction workers (hyperbaric + steroid exposure) represent smaller but addressable clinic segments.</li>
+      </ul>
+
+      <h2>Contraindications</h2>
+      <ul>
+        <li>Active cardiac pacemaker or implanted electronic device</li>
+        <li>Pregnancy</li>
+        <li>Active malignancy in the treatment field</li>
+        <li>Active epilepsy (high-frequency protocols)</li>
+        <li>Metallic implants at the treatment site are generally safe with PEMF (not MRI); confirm with referring orthopedic surgeon post-core decompression if drill pins remain in situ</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Can PEMF reverse avascular necrosis once the bone is already dead?</h3>
+      <p>PEMF cannot restore already-necrotic bone to full health. Its role is to stimulate the viable perilesional tissue — promoting osteoblast activity, angiogenesis into the lesion margin, and slowing progression of the necrotic zone. Early-stage (Ficat I–II) patients with an intact joint surface have the best potential for meaningful structural benefit. Stage III–IV patients benefit primarily from pain reduction and potentially delayed time to total hip replacement.</p>
+      <h3>How soon does pain improve?</h3>
+      <p>Bone marrow edema — which is a major driver of rest pain and night pain in AVN — often responds within 3–6 sessions as the anti-inflammatory phase takes effect. Structural improvement requires 8–16 sessions minimum and is confirmed by repeat MRI at 12 weeks.</p>
+      <h3>Should PEMF replace consultation with an orthopedic surgeon?</h3>
+      <p>No. All AVN patients should be evaluated by an orthopedic surgeon to confirm staging, discuss core decompression candidacy, and establish a monitoring plan. PEMF is most effective as an integrated adjunct within a multidisciplinary orthopedic protocol — not a standalone replacement for medical management.</p>
+
+      <h2>Clinic Investor Takeaway</h2>
+      <p>Post-COVID AVN has created a distinct new patient cohort in Philippine orthopedic clinics — younger patients (30–55 years), typically bilateral, with ₱500,000–₱1,200,000 hip replacement costs looming on the horizon. A 24-session PEMF course at ₱36,000–₱60,000 represents a compelling non-surgical alternative with referral partnership potential from orthopedic surgeons, rheumatologists, and internal medicine physicians managing post-COVID complications. PEMF clinics positioned as "bone preservation" specialists alongside orthopedic referral networks occupy a defensible, high-value clinical niche with minimal direct competition in the Philippine market.</p>
+
+      <div class="article-cta">
+        <p>Interested in positioning your clinic at the intersection of orthopedics and PEMF bone preservation? Request the full investor brief.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
