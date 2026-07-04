@@ -956,6 +956,14 @@
       "date": "2026-07-03",
       "tag": "Neurological Protocol",
       "note": "IL URL likely-pattern (site returned 403 on fetch). Synthesized from peer-reviewed literature. Formerly known as RSD (Reflex Sympathetic Dystrophy) / Causalgia. Distinct from neuropathic pain evidence article and sciatica/carpal tunnel articles — focuses on the 3-mechanism CRPS disease model (neurogenic inflammation + sympathetically maintained pain + central sensitization). Evidence: PMC12943413 (2026 MA 13 RCTs N=688 overall SMD=-1.01 95%CI -1.40 to -0.62 p<0.001 — strongest neuropathic pain meta-analysis), PMC9748435 (GAD RCT n=60, HAMA 40% vs 14%, cortisol -28% — sympathetic/HPA axis modulation), PubMed 19371845 (NF-κB/IL-1β/TNF-α suppression — neurogenic inflammation), PubMed 31394939 (NO/microcirculation — vasomotor dysregulation), PMID 23083041 (SSEP latency/amplitude improvement — nerve signal normalization), PMC11914662 (36%/55% benchmark). Budapest Criteria diagnostic table (4 categories: sensory/vasomotor/sudomotor-edema/motor-trophic), CRPS Type I vs Type II distinction, 3-phase disease model (acute inflammatory/subacute dystrophic/chronic atrophic), mechanism-to-PEMF-action table (4 rows), 3-phase protocol (start 1-5Hz low-intensity proximal/subacute 8-25Hz/chronic 25-75Hz, 20 sessions), post-sympathetic-block window application (PEMF consolidates block durability + primes PT), 5-treatment comparison table (PEMF vs gabapentin vs sympathetic block vs SCS with PH costs). Critical allodynia caution: start low-intensity, start proximal, titrate slowly — never directly over allodynic zone in acute phase. Philippines: post-COVID surgical patients, road accident (12K+ fatalities/yr), post-stroke shoulder-hand syndrome, diabetic neuropathy patients. No dedicated CRPS-PEMF RCT — honest adjunct framing. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-insomnia-sleep-disorders-protocol/",
+      "ph_file": "article-pemf-insomnia-sleep-disorders.html",
+      "title_en": "PEMF for Insomnia & Sleep Disorders: A Complementary, Drug-Free Clinical Approach",
+      "date": "2026-07-04",
+      "tag": "Clinical Protocol",
+      "note": "Phase 2: translated today new IL article 4441 (insomnia/sleep disorders, pemf-insomnia-sleep-disorders-protocol). Distinct from earlier synthesized article-pemf-anxiety-sleep.html (anxiety+sleep, guessed IL URL). Honest complementary framing; citations Pelka 2001 PubMed 11512529 (insomnia RCT n=101) + PMC11914662 (pain, framed as non-sleep). Pulled origin/main first (remote run added avascular-necrosis/crps/cubital)."
     }
   ],
   "untranslated_queue": [],
@@ -1417,6 +1425,16 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2: translated today new IL article 4438 (tarsal tunnel syndrome / posterior tibial nerve entrapment). Pulled origin/main first (remote run added facet-joint/SLAP/degenerative-disc c7ad19b). No existing tarsal file (the \"tarsal\" string in manifest was only a citation note inside the ankle-foot guide). Distinct from carpal-tunnel (upper limb) and plantar-fasciitis files."
+    },
+    {
+      "date": "2026-07-04",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-insomnia-sleep-disorders.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: today new IL article 4441 insomnia/sleep. First of Father-requested sleep/stress/anxiety/immune series. No Coming Soon slots left -> prepended card. Queue empty."
     }
   ]
 }
