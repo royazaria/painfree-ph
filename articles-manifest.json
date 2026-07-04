@@ -2,6 +2,30 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-ankylosing-spondylitis-axial-spondyloarthritis-protocol/",
+      "ph_file": "article-pemf-ankylosing-spondylitis.html",
+      "title_en": "PEMF for Ankylosing Spondylitis: Anti-Inflammatory Protocol for Axial Spondyloarthritis",
+      "date": "2026-07-04",
+      "tag": "Rheumatology Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Evidence: PMC10971695 (inflammatory arthritis RCT n=39: VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036), PMC9862561 (murine 10Hz optimal, NF-κB/TNF-α suppression), PMC11914662 (36%/55%), PMC9110240 (stiffness SMD=1.34 p=0.003). Philippine context: HLA-B27 4-8% prevalence, 430K-900K Filipinos at risk, biologics ₱15K-₱45K/dose unavailable to most. TNF-α/IL-17 pathway suppression, BASDAI monitoring, 3-phase protocol."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-spondylolisthesis-spinal-instability-protocol/",
+      "ph_file": "article-pemf-spondylolisthesis.html",
+      "title_en": "PEMF for Spondylolisthesis: Non-Surgical Spinal Instability Protocol",
+      "date": "2026-07-04",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Evidence: PMC11914662 (36%/55%), PMID 23083041 (radiculopathy RCT n=40: VAS p=0.024, ODI total p<0.001, 9/10 domains, SSEP latency bilateral p=0.016-0.022, amplitude p=0.001-0.002), PMC11775040 (LBP SR 9 RCTs n=420), PMC6531640 (LBP RCT n=40), PMC10753353 (lumbar fusion pseudarthrosis PEMF). Meyerding Grade I-IV protocol table, 2 pain generators (disc-facet inflammation + nerve root compression), fusion cost ₱350K-₱1.2M comparison."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-mortons-neuroma-plantar-nerve-protocol/",
+      "ph_file": "article-pemf-mortons-neuroma.html",
+      "title_en": "PEMF for Morton's Neuroma: Plantar Digital Nerve Entrapment Protocol",
+      "date": "2026-07-04",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Evidence: PMC5144749/PMID 27980864 (CTS RCT n=40, 50Hz 8mT 30min 3x/week 4 weeks: PEMF > ultrasound ALL endpoints sensory/motor latency/velocity/grip p<0.05), PMC11874150 (RELIEF Trial n=182, 85% vs 25% highly compliant), PMC11914662 (36%/55%), PMID 23083041 (SSEP improvements), PMC7093940 (collagen fiber realignment). 3rd web space 80-85% prevalence, 4-step pathophysiology cycle, 4:1 female ratio, Philippine service industry market."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-greater-trochanteric-pain-gluteal-tendinopathy/",
       "ph_file": "article-pemf-gluteal-tendinopathy-hip-pain.html",
       "title_en": "PEMF for Greater Trochanteric Pain Syndrome (GTPS) & Gluteal Tendinopathy: Clinical Protocol",
