@@ -988,6 +988,14 @@
       "date": "2026-07-05",
       "tag": "Women's Health Protocol",
       "note": "IL URL likely-pattern (site returned 403 on fetch). Distinct from article-pemf-dysmenorrhea.html (primary dysmenorrhea protocol) and article-pemf-menstrual-pain.html (RCT evidence review). Focuses on endometriosis-specific context: hormonal suppression gap, fertility considerations, post-laparoscopic maintenance. Evidence: Roozbeh et al. RCT (n=55, 5Hz 10mT, VAS 7.4→3.2 vs 6.1 sham, NSAID -68%, p<0.001), Gharloghi et al. RCT (n=60, 60Hz, pain -56% vs -12%, duration 18.4→7.2 hrs/cycle), Dolatian et al. RCT (n=42, 60Hz, VAS 7.1→2.3 at 3 months, -68%), PMC11914662 (36%/55% benchmark), PMC9748435 (cortisol -28% central sensitization). 3-phase protocol table (acute/inter-cycle/long-term maintenance), 5-treatment comparison (PEMF vs NSAIDs/OCP/GnRH agonists/laparoscopy with fertility impact and PH cost rows), hormonal suppression gap section (fertility/side effects/adolescent/perimenopausal segments), 3 FAQ (fertility, timeline, surgery compatibility). Philippines: 2.7–4.1M women with endometriosis, 6–10yr diagnostic delay. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-chronic-stress-nervous-system-regulation/",
+      "ph_file": "article-pemf-chronic-stress-nervous-system.html",
+      "title_en": "PEMF for Chronic Stress & Nervous-System Regulation: A Complementary Clinical Protocol",
+      "date": "2026-07-05",
+      "tag": "Wellness Protocol",
+      "note": "Phase 2 translation of same-day IL article (post 4444). HONEST complementary framing preserved from the IL source: PEMF is explicitly NOT a treatment for anxiety/depression and does not replace psychotherapy — positioned as a physical-layer adjunct for the somatic burden of chronic stress (muscle tension, tension headaches, stress-related sleep). NO fabricated stress-specific RCT (deliberately avoided). Real citations only, each with caveat: PMC11914662 (2025 multi-center joint/soft-tissue RCT — cited ONLY for the somatic muscle-tension pain component, with explicit general-vs-specific caveat), PubMed 32401418 + 31394939 (vascular/NO microcirculation — mechanism-only). Explicit evidence-gap statement (no dedicated PEMF-for-stress trial; psychotherapy = cornerstone). Includes mental-health red-flags + PH crisis resources (NCMH 1553 / 0966-351-4518). Comparison table (PEMF vs anxiolytics vs biofeedback/HRV, therapist-hands-free row, PH price row). 8 min read."
     }
   ],
   "untranslated_queue": [],
@@ -1470,6 +1478,7 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2: today new IL article 4441 insomnia/sleep. First of Father-requested sleep/stress/anxiety/immune series. No Coming Soon slots left -> prepended card. Queue empty."
-    }
+    },
+    "2026-07-05: Phase 2 — added article-pemf-chronic-stress-nervous-system.html (translation of IL post 4444), honest complementary framing, no fabricated evidence."
   ]
 }
