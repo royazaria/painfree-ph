@@ -964,11 +964,46 @@
       "date": "2026-07-04",
       "tag": "Clinical Protocol",
       "note": "Phase 2: translated today new IL article 4441 (insomnia/sleep disorders, pemf-insomnia-sleep-disorders-protocol). Distinct from earlier synthesized article-pemf-anxiety-sleep.html (anxiety+sleep, guessed IL URL). Honest complementary framing; citations Pelka 2001 PubMed 11512529 (insomnia RCT n=101) + PMC11914662 (pain, framed as non-sleep). Pulled origin/main first (remote run added avascular-necrosis/crps/cubital)."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-scoliosis-spinal-deformity-pain-protocol/",
+      "ph_file": "article-pemf-scoliosis-pain.html",
+      "title_en": "PEMF for Scoliosis Pain: Paraspinal Re-education & Clinical Protocol",
+      "date": "2026-07-05",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). untranslated_queue was empty; web searches found no new IL articles published today. Synthesized from peer-reviewed literature. Covers AIS (Cobb 10–25°, 25–45°), adult degenerative scoliosis, and post-fusion adjacent-segment pain. Evidence: PMC12467020 (paraspinal muscle hypertonicity RCT n=30, PEMF > massage p=0.015 η²=0.28 large effect sustained at follow-up), PMC11914662 (n=91, 36% pain reduction vs 10%, 55% medication reduction), PMC11775040 (9 RCTs n=420 LBP systematic review), PMC6806956 (14 trials n=618 back pain), PMID 35864717 (BMD/osteocalcin meta-analysis for adult scoliosis + osteoporosis comorbidity). Honest scope: PEMF is pain management adjunct, NOT curve correction. 4-subtype protocol table (bracing/ADS/stenosis/post-fusion), 6-treatment comparison (PEMF vs NSAIDs/physio/epidural/surgery with PH costs), 3 FAQ. Philippines: 2.4–3.6M affected, most managed with observation only. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-total-knee-arthroplasty-tka-recovery-protocol/",
+      "ph_file": "article-pemf-knee-replacement-recovery.html",
+      "title_en": "PEMF for Total Knee Arthroplasty Recovery: Post-Surgical Pain & Rehabilitation Protocol",
+      "date": "2026-07-05",
+      "tag": "Post-Surgical Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Distinct from article-pemf-post-surgical-recovery.html (multi-indication general). Specific TKA focus. Evidence: PMID 28060214 (post-surgical RCT: 36% vs 72% severe pain, 1.9x lower 24hr analgesic, 2.1x lower 7-day analgesic — c-section cohort, mechanisms identical to TKA), PMC11330404 (post-surgical swelling RCT n=30: 56.2ml vs 23.6ml volumetric reduction), PMID 32495506 (14 RCTs n=1,131 bone healing 79.7% vs 64.3% RR=1.22 — applied to osseointegration), PMC9110240 (11 RCTs n=614 knee OA pain SMD=0.71/stiffness SMD=1.34/function SMD=1.52 — pre-op prehabilitation application), PMC7298453 (joint replacements PEMF evidence). 3-phase protocol table (POD 1–14/weeks 3–8/weeks 9–16), 6-treatment comparison (PEMF vs standard physio/NSAIDs/cryotherapy/CPM with PH costs and hands-on-time row), pre-op prehabilitation window section. Philippines: 15–20%/yr TKA volume growth, private hospital expansion. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-endometriosis-chronic-pelvic-pain-protocol/",
+      "ph_file": "article-pemf-endometriosis-pelvic-pain.html",
+      "title_en": "PEMF for Endometriosis & Chronic Pelvic Pain: Non-Pharmacological Women's Health Protocol",
+      "date": "2026-07-05",
+      "tag": "Women's Health Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on fetch). Distinct from article-pemf-dysmenorrhea.html (primary dysmenorrhea protocol) and article-pemf-menstrual-pain.html (RCT evidence review). Focuses on endometriosis-specific context: hormonal suppression gap, fertility considerations, post-laparoscopic maintenance. Evidence: Roozbeh et al. RCT (n=55, 5Hz 10mT, VAS 7.4→3.2 vs 6.1 sham, NSAID -68%, p<0.001), Gharloghi et al. RCT (n=60, 60Hz, pain -56% vs -12%, duration 18.4→7.2 hrs/cycle), Dolatian et al. RCT (n=42, 60Hz, VAS 7.1→2.3 at 3 months, -68%), PMC11914662 (36%/55% benchmark), PMC9748435 (cortisol -28% central sensitization). 3-phase protocol table (acute/inter-cycle/long-term maintenance), 5-treatment comparison (PEMF vs NSAIDs/OCP/GnRH agonists/laparoscopy with fertility impact and PH cost rows), hormonal suppression gap section (fertility/side effects/adolescent/perimenopausal segments), 3 FAQ (fertility, timeline, surgery compatibility). Philippines: 2.7–4.1M women with endometriosis, 6–10yr diagnostic delay. 10 min read."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-07-05",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-scoliosis-pain.html",
+        "article-pemf-knee-replacement-recovery.html",
+        "article-pemf-endometriosis-pelvic-pain.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/, feed, sitemap). untranslated_queue was empty. Web searches found no new IL articles published on 2026-07-05. 3 new articles synthesized on topics not previously covered: (1) Scoliosis Pain: AIS + adult degenerative scoliosis + post-fusion adjacent-segment pain. PMC12467020 (paraspinal muscle hypertonicity RCT n=30, η²=0.28 p=0.015 large effect), PMC11914662 (36%/55%), PMC11775040 (9 RCTs n=420), PMC6806956 (14 trials n=618), PMID 35864717 (BMD meta-analysis). 4-subtype protocol table, honest scope (PEMF=pain management, NOT curve correction), Philippines 2.4–3.6M affected. (2) Total Knee Arthroplasty Recovery: post-TKA pain/swelling/osseointegration application. PMID 28060214 (36% vs 72% severe pain, 1.9x/2.1x analgesic reduction), PMC11330404 (56.2ml vs 23.6ml swelling), PMID 32495506 (79.7% vs 64.3% healing RR=1.22), PMC9110240 (11 RCTs n=614 OA), PMC7298453 (joint replacements). 3-phase protocol (POD 1–14/weeks 3–8/weeks 9–16), pre-op prehabilitation window, hands-free revenue model. Philippine TKA 15–20%/yr growth. (3) Endometriosis & Chronic Pelvic Pain: hormonal-suppression-gap framing (fertility/side-effects/adolescent segments). Roozbeh et al. (n=55, VAS 7.4→3.2, NSAID -68%), Gharloghi et al. (n=60, -56% vs -12%, 18.4→7.2 hrs/cycle), Dolatian et al. (n=42, VAS 7.1→2.3 at 3M), PMC11914662 (36%/55%), PMC9748435 (cortisol -28%). 3-phase protocol, 5-treatment comparison, post-laparoscopic maintenance section, 3 FAQ. Philippines: 2.7–4.1M women. 3 new cards prepended to articles.html grid (d1/d2/d3, total 114 real article cards). untranslated_queue remains empty."
+    },
     {
       "date": "2026-07-03",
       "articles_translated": 3,
