@@ -1020,6 +1020,14 @@
       "date": "2026-07-06",
       "tag": "Clinical Protocol",
       "note": "IL URL likely-pattern (site returned 403 on fetch; untranslated_queue empty). Synthesized from peer-reviewed literature. Distinct from article-pemf-degenerative-disc-disease.html (DDD), article-pemf-lumbar-spinal-stenosis.html (stenosis), article-pemf-herniated-disc.html (disc herniation). Covers Meyerding Grade I-IV classification + isthmic spondylolysis. Evidence: PMC11914662 (n=91, 36% pain reduction vs 10% standard care p<0.0001, 55% medication reduction — LBP benchmark including spondylolisthesis), PMC11775040 (2025 SR 9 RCTs n=420 LBP), PMC6806956 (14 trials n=618 LBP), PMC12467020 (paraspinal muscle hypertonicity RCT n=30 η²=0.28 p=0.015 large effect — primary component of spondylolisthesis pain), PMID 23083041 (n=40 VAS p=0.024 OSW p<0.001 SSEP latency/amplitude p=0.016-0.022 — radicular component), PMID 32495506 (14 RCTs n=1,131 bone healing RR=1.22 — pars interarticularis repair in isthmic type), PMC4959873 (VEGF/microcirculation — facet joint and pars vascularization). 3-mechanism PEMF model (facet inflammation/paraspinal guarding/radicular neuroinflammation). 5-row Meyerding Grade table with clinical picture + standard management + PEMF role. 3-phase protocol (8-25Hz/50-75Hz/75-100Hz, 24 sessions). 6-treatment comparison (PEMF vs NSAIDs/epidural/PT/spinal fusion with PH costs). Philippine occupational market: construction 3M+ workers, agricultural 9.5M, BPO 1.3M seated. Honest framing: no dedicated spondylolisthesis-PEMF RCT; LBP RCT evidence extrapolated; PEMF = pain adjunct, NOT structural correction; Grade III-IV with neurological deficit = surgical evaluation required. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-anxiety-disorder-autonomic-regulation/",
+      "ph_file": "article-pemf-anxiety-disorder-autonomic.html",
+      "title_en": "PEMF for Anxiety & Autonomic Hyperarousal: A Complementary Clinical Protocol",
+      "date": "2026-07-06",
+      "tag": "Wellness Protocol",
+      "note": "Phase 2 translation of same-day IL article (post 4447). Father-requested sleep/stress/anxiety/immune series (article 4 of series). HONEST complementary framing preserved: PEMF explicitly NOT a treatment for anxiety and does NOT replace CBT/psychotherapy — positioned as a physical-layer adjunct for the somatic burden of anxiety (muscle tension, palpitations, disturbed sleep). NO fabricated anxiety-specific RCT. Real citations only: PMC11914662 (2025 multi-center joint/soft-tissue RCT — cited ONLY for comorbid pain component, with explicit general-vs-specific caveat), plus NIMH + MedlinePlus (NIH) as background authority (non-PEMF-study). Explicit evidence-gap statement (no dedicated PEMF-for-anxiety trial; CBT/psychotherapy = cornerstone). Mental-health red-flags + PH crisis resources (NCMH 1553 / 0966-351-4518 / 0917-899-8727). Comparison table (PEMF vs anxiolytics vs CBT, hands-free row, PH price row). Distinct from article-pemf-anxiety-sleep.html (older combined anxiety+sleep) and article-pemf-chronic-stress-nervous-system.html (chronic stress). Hero stone-cairn image (faceless). 8 min read."
     }
   ],
   "untranslated_queue": [],
@@ -1514,6 +1522,16 @@
       "untranslated_remaining": 0,
       "note": "Phase 2: today new IL article 4441 insomnia/sleep. First of Father-requested sleep/stress/anxiety/immune series. No Coming Soon slots left -> prepended card. Queue empty."
     },
-    "2026-07-05: Phase 2 — added article-pemf-chronic-stress-nervous-system.html (translation of IL post 4444), honest complementary framing, no fabricated evidence."
+    "2026-07-05: Phase 2 — added article-pemf-chronic-stress-nervous-system.html (translation of IL post 4444), honest complementary framing, no fabricated evidence.",
+    {
+      "date": "2026-07-06",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-anxiety-disorder-autonomic.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: today new IL article 4447 anxiety/autonomic hyperarousal (Father-requested series, article 4). Pulled origin/main first (remote run added ankylosing-spondylitis/CIPN/spondylolisthesis 3a1184b). No Coming Soon slots left -> prepended card. Honest framing, no fabricated anxiety RCT. Queue empty."
+    }
   ]
 }
