@@ -1028,6 +1028,30 @@
       "date": "2026-07-06",
       "tag": "Wellness Protocol",
       "note": "Phase 2 translation of same-day IL article (post 4447). Father-requested sleep/stress/anxiety/immune series (article 4 of series). HONEST complementary framing preserved: PEMF explicitly NOT a treatment for anxiety and does NOT replace CBT/psychotherapy — positioned as a physical-layer adjunct for the somatic burden of anxiety (muscle tension, palpitations, disturbed sleep). NO fabricated anxiety-specific RCT. Real citations only: PMC11914662 (2025 multi-center joint/soft-tissue RCT — cited ONLY for comorbid pain component, with explicit general-vs-specific caveat), plus NIMH + MedlinePlus (NIH) as background authority (non-PEMF-study). Explicit evidence-gap statement (no dedicated PEMF-for-anxiety trial; CBT/psychotherapy = cornerstone). Mental-health red-flags + PH crisis resources (NCMH 1553 / 0966-351-4518 / 0917-899-8727). Comparison table (PEMF vs anxiolytics vs CBT, hands-free row, PH price row). Distinct from article-pemf-anxiety-sleep.html (older combined anxiety+sleep) and article-pemf-chronic-stress-nervous-system.html (chronic stress). Hero stone-cairn image (faceless). 8 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-gout-crystal-arthropathy-protocol/",
+      "ph_file": "article-pemf-gout.html",
+      "title_en": "PEMF for Gout & Crystal Arthropathy: Anti-Inflammatory Protocol for Philippine Clinics",
+      "date": "2026-07-07",
+      "tag": "Rheumatology Protocol",
+      "note": "IL site returned 403; article synthesized. Gout — NLRP3 inflammasome / IL-1β cascade disease. HONEST framing: no dedicated gout-PEMF RCT; evidence from PMC9862561 (10Hz PEMF inhibits IL-1β/NF-κB in murine inflammatory arthritis — the same cascade as gout), PMC10971695 (inflammatory arthritis RCT n=39, VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036), PMC11914662 (36%/55%), PMC9110240 (11 RCTs n=614 SMD=0.71/1.34/1.52), PubMed 19371845 (VEGF/NO mechanism). 3-phase protocol (acute attack/inter-critical/chronic tophaceous), 7-row comparison table (PEMF vs colchicine/NSAIDs/corticosteroids/biologics). Philippine market: hyperuricemia 20-25% of adults (~10-12M), clinical gout 1-2M, HLA-B*58:01 allele 6-8% Filipinos (allopurinol DRESS risk — reinforces non-pharmacological alternatives), diabetic comorbidity. Distinct from RA (PMC10971695) and AS articles. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-post-stroke-spasticity-rehabilitation/",
+      "ph_file": "article-pemf-post-stroke-rehabilitation.html",
+      "title_en": "PEMF for Post-Stroke Spasticity & Pain: The Neurological Rehabilitation Protocol",
+      "date": "2026-07-07",
+      "tag": "Neurological Rehabilitation Protocol",
+      "note": "IL site returned 403; article synthesized. Post-stroke sequelae: spasticity (65-85% of survivors), central post-stroke pain (8-11%), hemiplegic shoulder pain (30-40%), autonomic dysregulation (>50%). HONEST framing: no dedicated stroke-PEMF RCT; evidence from PMC12467020 (skeletal muscle tone normalization η²=0.28 p=0.015 sustained), PMID 23083041 (SSEP latency p=0.016/0.022, amplitude p=0.001/0.002 — somatosensory neural conduction), PMC9748435 (cortisol -28%, autonomic modulation), PMC11914662 (36%/55% pain). 3-phase protocol (acute weeks 1-4/subacute months 1-6/chronic >6 months), 5-position coil placement table by target condition, 6-treatment comparison (PEMF vs baclofen/Botox/PT/rTMS). Philippine market: 120K new strokes/year, 500K-700K living with stroke disability, physiatrist ratio 1:115,000 structural supply constraint, Botox ₱25K-₱70K/injection alternative. Distinct from CRPS (shoulder-hand syndrome parallel noted), cervical articles. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-lymphedema-post-cancer-swelling/",
+      "ph_file": "article-pemf-lymphedema.html",
+      "title_en": "PEMF for Lymphedema & Post-Cancer Swelling: Clinical Protocol",
+      "date": "2026-07-07",
+      "tag": "Oncology Supportive Protocol",
+      "note": "IL site returned 403; article synthesized. Lymphedema — ISL Stage 0-III classification. HONEST framing: no dedicated lymphedema-PEMF RCT; evidence from PMC11330404 (post-surgical swelling RCT n=30: 23.6ml vs 56.2ml, 58% reduction — acute post-surgical edema mechanism directly relevant to Stage 0 prophylaxis), PMC4959873 (VEGF upregulation including VEGF-C lymphangiogenesis isoform), PMID 17973597 (wound healing meta-analysis 13 RCTs OR=2.83, vascular supply to compromised tissue), PMC8985423 (venous leg ulcer 61% vs 32%), PMC9862561 (NF-κB/IL-1β/fibrosis attenuation), PubMed 19371845 (NO/microcirculation). 4-stage protocol table, 6-treatment comparison (PEMF vs CDT/compression/pneumatic/VLNT surgery). Philippine cancer market: 150K+ new cases/year, breast cancer 27K/year (20-30% ALND lymphedema = 5,400-8,100 new/year), 60K-90K existing lymphedema pool, <50 certified CDT therapists nationally. IMPORTANT oncology caveat: obtain oncology clearance before treating; avoid PEMF in active cancer treatment field; contraindicated in active cellulitis. Filariasis (tropical) lymphedema PH context included. 9 min read."
     }
   ],
   "untranslated_queue": [],
@@ -1532,6 +1556,17 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2: today new IL article 4447 anxiety/autonomic hyperarousal (Father-requested series, article 4). Pulled origin/main first (remote run added ankylosing-spondylitis/CIPN/spondylolisthesis 3a1184b). No Coming Soon slots left -> prepended card. Honest framing, no fabricated anxiety RCT. Queue empty."
+    },
+    {
+      "date": "2026-07-07",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-gout.html",
+        "article-pemf-post-stroke-rehabilitation.html",
+        "article-pemf-lymphedema.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/). untranslated_queue was empty. 3 new articles synthesized on clinically distinct topics not previously covered: (1) Gout & Crystal Arthropathy: NLRP3 inflammasome/IL-1β disease. PMC9862561 (10Hz PEMF inhibits IL-1β/NF-κB in murine inflammatory arthritis — same cascade as gout), PMC10971695 (inflammatory arthritis RCT n=39 VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036), PMC11914662 (36%/55%), PMC9110240 (11 RCTs SMD=0.71/1.34/1.52), PubMed 19371845 (VEGF/NO). 3-phase protocol (acute/inter-critical/chronic tophaceous), 7-row comparison table. Philippine market: hyperuricemia 20-25% adults (~10-12M), clinical gout 1-2M, HLA-B*58:01 6-8% (allopurinol DRESS risk), diabetic comorbidity 15-20% of gout. Honest: no dedicated gout-PEMF RCT. 9 min read. (2) Post-Stroke Spasticity & Pain: 120K new strokes/year, 500K-700K living with stroke disability, physiatrist ratio 1:115,000. PMC12467020 (skeletal muscle tone normalization η²=0.28 p=0.015 sustained), PMID 23083041 (SSEP latency p=0.016/0.022, amplitude p=0.001/0.002), PMC9748435 (cortisol -28% autonomic), PMC11914662 (36%/55%). 3-phase protocol, coil placement table by target (spasticity/CPSP/shoulder/autonomic), 6-treatment comparison (PEMF vs baclofen/Botox/PT/rTMS). Honest: no dedicated stroke-PEMF RCT; mechanistic + condition-analogous evidence. 10 min read. (3) Lymphedema & Post-Cancer Swelling: 150K+ new PH cancer cases/year, breast cancer 27K/year (5,400-8,100 new lymphedema/year), 60K-90K existing pool, <50 certified CDT therapists nationally. PMC11330404 (post-surgical swelling 23.6ml vs 56.2ml — 58% reduction, RCT n=30), PMC4959873 (VEGF-C/lymphangiogenesis), PMID 17973597 (wound healing meta-analysis OR=2.83), PMC8985423 (VLU 61% vs 32%), PMC9862561 (NF-κB/fibrosis). ISL Stage 0-III protocol table, 6-treatment comparison (vs CDT/compression/pneumatic/VLNT surgery). Filariasis PH context. Oncology clearance protocol noted. Honest: no dedicated lymphedema-PEMF RCT; Stage 0 prophylaxis best supported mechanistically. 9 min read. 3 new cards prepended to articles.html grid (d1/d2/d3, total 134 real article cards). untranslated_queue remains empty."
     }
   ]
 }
