@@ -1124,6 +1124,14 @@
       "date": "2026-07-10",
       "tag": "Vascular Medicine Protocol",
       "note": "IL site returned 403; article synthesized. PAD: 236M adults globally; Philippines: 7-8M diabetics (20-30% = 1.4-2.4M PAD patients) + 22.7% smoking adults (doubles PAD risk). 10,000 lower-limb amputations/year in Philippines, majority preventable. Fontaine Stage I-IV table with PEMF role per stage: IIa-IIb = primary adjunct; III-IV = vascular surgery required (absolute). Three PEMF vascular mechanisms: (1) VEGF-driven therapeutic angiogenesis — HIF-1α activation → collateral vessel formation (PMC4959873); (2) eNOS/NO endothelial function — vasodilation of collateral microvascular network (PubMed 31394939); (3) anti-inflammatory vascular wall action — NF-κB/IL-1β/TNF-α suppression slows plaque progression (PubMed 19371845). Evidence transparency: large-scale dedicated PAD-PEMF RCTs limited; wound healing evidence (PMID 17973597: 57% vs 32% closure OR=2.83 13 RCTs) directly relevant to diabetic foot PAD component; vascular mechanisms validated. 3-phase 24-session protocol: Phase 1 (8-15Hz eNOS/vasodilation, bilateral calf + lumbosacral L4-S1, 8 sessions); Phase 2 (15-50Hz VEGF angiogenesis, bilateral thigh + calf, 8 sessions); Phase 3 (50-75Hz tissue repair, bilateral lower limb segmental, 8 sessions). ABI monitoring at baseline/session 12/session 24 (response threshold ABI ≥+0.10). Contraindications: active DVT (absolute), cardiac pacemaker. DVT risk note included. 6-row comparison table (PEMF vs supervised exercise/cilostazol/pentoxifylline/angioplasty/bypass). Diabetic foot dual-protocol: bilateral vascular + wound coil placement simultaneously (PMC4959873 VEGF + TcPO₂ monitoring). Endocrinology partnership pipeline: 200 diabetic patients/month → 40-60 PAD-identified → 20-30 new PEMF courses/month. Revenue: ₱36K-₱60K standard course, ₱48K-₱72K diabetic foot dual-protocol premium, ₱6K-₱10K/month maintenance. 3 FAQ. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-coccydynia-tailbone-pain-protocol/",
+      "ph_file": "article-pemf-coccydynia-tailbone-pain.html",
+      "title_en": "PEMF for Coccydynia (Tailbone Pain): Non-Invasive Clinical Protocol",
+      "date": "2026-07-10",
+      "tag": "Clinical Protocol",
+      "note": "Phase 2 translation of today IL article (post 4460). Honest evidence-gap: no dedicated coccydynia PEMF RCT; extrapolated from PMC11914662 (n=91 joint/soft-tissue RCT, 36% vs 10% p<0.0001), PubMed 19371845 (soft-tissue edema/inflammation review), PubMed 31394939 (NO/microcirculation). PH market framing: BPO sedentary workforce + postpartum women. Same validated clinical image as IL (Pexels 4506111). 8 min read."
     }
   ],
   "untranslated_queue": [],
@@ -1672,6 +1680,15 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts (medical-articles/). untranslated_queue was empty. 3 new articles synthesized on clinically distinct topics not previously covered: (1) Morton's Neuroma & Metatarsalgia: perineural fibrosis of 3rd common digital nerve, affects women 15:1. HONEST framing: no Morton's-specific RCT; evidence from PMC5144749 (peripheral nerve compression model CTS n=40, PEMF > ultrasound all endpoints P<0.05 — mechanistically identical tunnel-compression pathology), PMC12943413 (neuropathic pain 13 RCTs N=688, SMD=-1.01 P<0.001), PubMed 19371845 (NO/VEGF nerve healing). 3-phase protocol (8-25Hz anti-inflammatory / 50-75Hz nerve repair / 100Hz consolidation), 7-treatment comparison table (vs corticosteroid/sclerosing alcohol/ultrasound/neurectomy). Philippine market: 400K nurses + 1.3M BPO + women 15:1 + 7-8M diabetics DSPN overlap. 9 min read. (2) Cognitive Function & Brain Fog: post-COVID (2-3M Filipinos), MCI (~500K-700K), post-stroke cognitive impairment, burnout/BPO. THREE PATHWAYS: neuroinflammation (PMC9862561 NF-κB/IL-1β), HPA-axis (PMC9748435 cortisol -28% RCT n=60), sleep architecture (PMC7569862 PSQI 14.2→8.1 RCT n=52). HONEST framing: cognitive evidence EMERGING; PMC9453745 neuroplasticity/BDNF mechanism review. 3-phase protocol (neuroinflammation 8-10Hz / sleep delta-theta 0.5-8Hz / neuroplasticity gamma 40Hz), 7-treatment comparison vs donepezil/TMS/cognitive training. Corporate wellness/BPO retainer angle. 10 min read. (3) Immune Modulation & Chronic Inflammation: systemic wellness protocol distinct from condition-specific inflammatory articles. FOUR PATHWAYS: NF-κB suppression (PMC9862561), anti-inflammatory gene expression (PMC3967773 TGF-β/IGF-1/iNOS), HPA normalisation (PMC9748435), microcirculation (PubMed 19371845). HONEST framing: no dedicated chronic-inflammation-as-primary-endpoint PEMF RCT; mechanistic + condition-analogous evidence (PMC10971695 RA RCT n=39, PMC11914662 36%/55%). Philippine market: 7-8M diabetics + 2-3M long-COVID + ~15M metabolic syndrome + autoimmune remission pool. Recurring maintenance model (4-6 sessions/month). 7-treatment comparison vs LDN/corticosteroids/biologics. Post-dengue recovery positioning. 9 min read. 3 new cards prepended to articles.html grid (d1/d2/d3, total 137 real article cards). untranslated_queue remains empty."
+    },
+    {
+      "date": "2026-07-10",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-coccydynia-tailbone-pain.html"
+      ],
+      "untranslated_remaining": 0
     }
   ]
 }
