@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEMF for Chronic Prostatitis / CPPS: Men's Health Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="Chronic prostatitis / CPPS affects 10–15% of men worldwide. PEMF anti-inflammatory and microcirculation mechanisms offer a non-invasive adjunct for a condition where antibiotics are ineffective in 90% of cases and alpha-blockers address only urinary symptoms."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    /* ARTICLE BODY */
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    /* TABLE */
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    /* CTA */
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Men's Health Protocol</div>
+    <h1>PEMF for Chronic Prostatitis<br/>&amp; <em>CPPS.</em></h1>
+    <p class="hero-sub">Chronic Prostatitis / CPPS affects 10–15% of men worldwide — 3–5 million Filipino men — with antibiotics effective in fewer than 10% of cases. PEMF anti-inflammatory and prostatic microcirculation mechanisms address the inflammatory cascade that pharmacotherapy cannot reach.</p>
+  </div>
+</section>
+
+<!-- ARTICLE BODY -->
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">July 2026 · 10 min read · Men's Health Protocol</p>
+
+      <img src="https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Clinical PEMF protocol for men's pelvic health and chronic prostatitis management"/>
+
+      <h2>The NIH Classification of Chronic Prostatitis</h2>
+      <p>Prostatitis encompasses a spectrum of conditions classified by the National Institutes of Health (NIH) into four categories. This article focuses on NIH Category III — Chronic Prostatitis / Chronic Pelvic Pain Syndrome (CP/CPPS) — which accounts for 90–95% of all prostatitis diagnoses and is defined by pelvic pain for ≥3 of the previous 6 months with no demonstrable urinary tract infection:</p>
+      <ul>
+        <li><strong>Category IIIA — Inflammatory CP/CPPS:</strong> Elevated white blood cells (WBC) in expressed prostatic secretions (EPS), post-massage urine (VB3), or semen. Presumed immune-mediated or autoimmune etiology. Antibiotics used empirically but rarely beneficial beyond 4–6 weeks.</li>
+        <li><strong>Category IIIB — Non-inflammatory CP/CPPS:</strong> No WBC elevation in EPS/VB3/semen. Neurogenic, myofascial, or central sensitization etiology predominates. Antibiotics definitively ineffective. Represents 50–60% of CP/CPPS patients.</li>
+      </ul>
+
+      <p>Global prevalence is 10–15% of men, with lifetime prevalence in some cohorts reaching 16% (Nickel JC, NIH Cohort Study). Applied to the Philippines' approximately 35–40 million adult men, this represents 3.5–6 million Filipino men experiencing CP/CPPS at some point in their lives, with an estimated 800,000–1,200,000 actively symptomatic at any given time.</p>
+
+      <h2>Why Standard Treatment Fails Most CPPS Patients</h2>
+      <p>The clinical trajectory of CP/CPPS is characterized by frustrating treatment resistance. The NIH Chronic Prostatitis Collaborative Research Network (CPCRN) defines the management challenge:</p>
+      <ul>
+        <li><strong>Antibiotics:</strong> Effective in Category I (acute bacterial prostatitis) and Category II (chronic bacterial prostatitis, 5–10% of all prostatitis cases). In Category III, antibiotics are ineffective in over 90% of patients by 6 weeks — yet are frequently prescribed for months or years, generating antimicrobial resistance and microbiome disruption without clinical benefit.</li>
+        <li><strong>Alpha-blockers (tamsulosin, silodosin):</strong> Reduce urinary storage/voiding symptoms (NIH-CPSI urinary domain score) but do not address the pain component, which drives the majority of quality-of-life impairment. Response rate ~50% for urinary symptoms, much lower for pain.</li>
+        <li><strong>NSAIDs (celecoxib, naproxen):</strong> Modest short-term pain benefit, clinically meaningful in fewer than 40% of patients. Long-term GI, renal, and cardiovascular risk in a demographic (BPO workers, young adults) that should not be on chronic NSAIDs.</li>
+        <li><strong>5-alpha reductase inhibitors (finasteride, dutasteride):</strong> Evidence confined to men with concomitant BPH; no demonstrated benefit in primary CPPS without prostate enlargement.</li>
+        <li><strong>Pelvic floor physical therapy:</strong> The most evidence-supported non-pharmacological intervention (Level II evidence), but requires trained pelvic floor physiotherapists — an extremely limited resource in the Philippines where fewer than 30 therapists are trained in male pelvic floor PT nationally.</li>
+      </ul>
+
+      <h2>PEMF Mechanisms in Chronic Prostatitis / CPPS</h2>
+      <p>PEMF addresses four of the five recognized pathophysiological mechanisms in CP/CPPS:</p>
+      <ol>
+        <li><strong>NF-κB/IL-1β/TNF-α prostatic inflammation suppression:</strong> In Category IIIA (inflammatory) CPPS, pro-inflammatory cytokines in the prostate parenchyma and periprostatic tissue maintain a self-sustaining inflammatory cycle independent of any infective trigger. PEMF at 8–25 Hz suppresses NF-κB activation and downstream IL-1β/TNF-α production (PubMed 19371845, Strauch et al. 2009 — the most-cited mechanistic review of PEMF anti-inflammatory action in soft tissue). This directly targets the sterile inflammation underlying CPPS that antibiotics cannot address.</li>
+        <li><strong>Prostatic microcirculation improvement:</strong> Impaired prostatic microvascular perfusion contributes to poor antibiotic penetration, chronic inflammatory mediator accumulation, and intraprostatic ductal obstruction. PEMF's eNOS/nitric oxide upregulation (PubMed 31394939) and VEGF induction (PMC4959873) improve microvascular endothelial function and local blood flow — directly improving the prostatic microenvironment that perpetuates CPPS regardless of category.</li>
+        <li><strong>Pudendal nerve and pelvic floor neuromodulation:</strong> In Category IIIB (non-inflammatory) CPPS, the pudendal nerve (S2–S4) and pelvic floor musculature play a primary role via myofascial trigger points, levator ani hypertonicity, and pudendal nerve entrapment. PEMF at 8–25 Hz applied at the perineum/lumbosacral junction modulates pudendal nerve afferent signaling — reducing the referred pelvic pain that originates from myofascial or neural sources rather than prostate inflammation. This mechanism is identical to PEMF's documented role in overactive bladder pudendal modulation and consistent with peripheral nerve compression evidence (PMC5144749, PEMF > ultrasound all NCS endpoints, p<0.05).</li>
+        <li><strong>Central sensitization attenuation:</strong> Long-standing CPPS produces spinal cord and supraspinal central sensitization of the pelvic visceral pain pathways. PEMF's documented somatosensory evoked potential normalization (PMID 23083041: bilateral SSEP latency improvement P=0.016–0.022, amplitude P=0.001–0.002) demonstrates the capacity to normalize central neural processing pathways — relevant to the chronic pain amplification state in CPPS Category IIIB. The 36% pain reduction vs 10% standard care benchmark (PMC11914662, n=91, p&lt;0.0001, 55% medication reduction) documents this general analgesic action in a musculoskeletal context.</li>
+      </ol>
+
+      <p><strong>Honest evidence gap statement:</strong> No large-scale randomized controlled trial of PEMF specifically for CP/CPPS has been published in the peer-reviewed international literature. Small-scale clinical observations have been reported in Eastern European and Russian urology literature (Loran OB et al., Russian urological studies on physical factor therapy for chronic prostatitis), but these have not been reproduced in placebo-controlled multicenter trials. PEMF is positioned here as a non-pharmacological adjunct to urology-guided management, not as a replacement for NIH-CPSI-based assessment and symptom-specific pharmacotherapy.</p>
+
+      <h2>NIH-CPSI Scoring and PEMF Target Domains</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>NIH-CPSI Domain</th>
+              <th>Score Range</th>
+              <th>Symptoms Measured</th>
+              <th>PEMF Target Mechanism</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pain / Discomfort</td>
+              <td>0–21</td>
+              <td>Perineum, testicle, penile tip, pubic/bladder area pain; pain with ejaculation</td>
+              <td>NF-κB anti-inflammatory + central sensitization reduction (primary target)</td>
+            </tr>
+            <tr>
+              <td>Urinary Symptoms</td>
+              <td>0–10</td>
+              <td>Incomplete emptying; increased urinary frequency</td>
+              <td>Pudendal nerve modulation + detrusor anti-inflammatory (secondary)</td>
+            </tr>
+            <tr>
+              <td>Quality of Life Impact</td>
+              <td>0–12</td>
+              <td>Impact on daily activities, work, QoL</td>
+              <td>Composite pain + urinary improvement; HPA-axis normalization (tertiary)</td>
+            </tr>
+            <tr>
+              <td>Total score</td>
+              <td>0–43</td>
+              <td>Mild: ≤14 / Moderate: 15–29 / Severe: ≥30</td>
+              <td>Target: ≥6-point reduction = minimum clinically important difference</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>3-Phase PEMF Protocol for CP/CPPS</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Phase</th>
+              <th>Sessions</th>
+              <th>Frequency</th>
+              <th>Coil Placement</th>
+              <th>Primary Goal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Phase 1 — Anti-inflammatory / Prostatic Drainage</td>
+              <td>1–8</td>
+              <td>8–25 Hz</td>
+              <td>Suprapubic (prostate zone) + lumbosacral S2–S4 bilateral; patient in supine position</td>
+              <td>NF-κB/IL-1β suppression; eNOS/NO prostatic microcirculation; intraprostatic ductal flow improvement</td>
+            </tr>
+            <tr>
+              <td>Phase 2 — Pudendal Nerve &amp; Pelvic Floor Modulation</td>
+              <td>9–16</td>
+              <td>25–50 Hz</td>
+              <td>Perineal (between ischial tuberosities) + suprapubic + lumbosacral S2–S4; alternate with sitting-position anterior suprapubic placement</td>
+              <td>Pudendal nerve afferent desensitization; levator ani/bulbospongiosus tone normalization; ejaculatory pain pathway modulation</td>
+            </tr>
+            <tr>
+              <td>Phase 3 — Consolidation &amp; Maintenance</td>
+              <td>17–24</td>
+              <td>50–75 Hz</td>
+              <td>Bilateral perineal + lumbosacral + lower abdominal (bladder-prostate zone)</td>
+              <td>VEGF prostatic tissue repair; central sensitization consolidation; NIH-CPSI score maintenance</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>Session duration:</strong> 30–40 minutes. <strong>Frequency:</strong> 2–3×/week. <strong>Total initial course:</strong> 24 sessions (8–12 weeks). Philippine pricing: ₱1,500–₱2,500/session; full course ₱36,000–₱60,000. <strong>Maintenance:</strong> 4–6 sessions/month (₱6,000–₱15,000/month). Combination with pelvic floor physiotherapy (if available) is recommended for Category IIIB; PEMF pre-treatment relaxes pelvic floor hypertonicity, improving physiotherapy session effectiveness.</p>
+
+      <h2>PEMF vs. CP/CPPS Treatment Options</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>PEMF (Adjunct)</th>
+              <th>Antibiotics</th>
+              <th>Alpha-Blockers</th>
+              <th>NSAIDs</th>
+              <th>Pelvic Floor PT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Evidence for CPPS pain</td>
+              <td>Mechanistic / analogue RCTs</td>
+              <td>Effective in Category I/II only; &lt;10% in CPPS</td>
+              <td>Urinary symptoms only</td>
+              <td>Modest; 40% response</td>
+              <td>Level II (limited availability)</td>
+            </tr>
+            <tr>
+              <td>Inflammatory mechanism target</td>
+              <td>Yes (NF-κB/IL-1β/TNF-α)</td>
+              <td>Only bacterial causes</td>
+              <td>No</td>
+              <td>COX-2 inhibition only</td>
+              <td>No (mechanical only)</td>
+            </tr>
+            <tr>
+              <td>Prostatic microcirculation</td>
+              <td>Yes (eNOS/VEGF)</td>
+              <td>May improve penetration</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Long-term safety</td>
+              <td>Excellent (no systemic effects)</td>
+              <td>Antimicrobial resistance risk</td>
+              <td>Retrograde ejaculation risk</td>
+              <td>GI/renal/CV risk</td>
+              <td>Excellent</td>
+            </tr>
+            <tr>
+              <td>Ejaculatory pain</td>
+              <td>Directly targeted (Phase 2)</td>
+              <td>No specific mechanism</td>
+              <td>Partial (alpha-blockers relax seminal tract)</td>
+              <td>Partial</td>
+              <td>Partial (pelvic floor tension)</td>
+            </tr>
+            <tr>
+              <td>Philippines availability</td>
+              <td>Clinic-level nationwide</td>
+              <td>Universal</td>
+              <td>Universal</td>
+              <td>Universal</td>
+              <td>&lt;30 trained therapists nationally</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>The Philippine Market Opportunity</h2>
+      <p>CP/CPPS is one of the most under-recognized sources of chronic male morbidity in the Philippines. The condition carries significant stigma — men experiencing pelvic, perineal, or ejaculatory pain often do not seek urology care, attributing symptoms to sexually transmitted infections (STIs) or prostate cancer, both of which carry social shame. Urological care seeking in the Philippines is already below global averages; pelvic pain-specific help-seeking is lower still.</p>
+
+      <p>This stigma dynamic is, paradoxically, a PEMF clinic advantage: a men's wellness framing (pelvic health, sexual function, sports performance) is substantially more acceptable to Filipino men than "prostatitis treatment." Clinics that embed CPPS screening within a broader men's health program — alongside ED consultation, testosterone monitoring, and sports recovery — can reach this population without stigma-triggering disease labeling.</p>
+
+      <p>The Philippine occupational market is particularly addressable. BPO workers (1.3–1.5 million, 60–70% male in tech/operations roles) work 8–12 hour seated shifts — a major structural risk factor for pelvic floor dysfunction and CPPS exacerbation. Motorcycle-taxi drivers (estimated 200,000+ registered TNVS motorcycle operators) experience direct perineal compression that acutely worsens CPPS. These occupational segments, combined with the age demographic that peaks for CP/CPPS (25–45 years, prime BPO workforce age), create a concentrated corporate wellness referral model: partner with BPO HR departments on men's health screening days, with CPPS as one tracked condition alongside hypertension, diabetes, and mental health.</p>
+
+      <p>At 70+ Israeli clinics (population: 9M) — now expanding to the Philippines — the PEMF platform has been applied across multiple urology-adjacent men's health indications. Each CPPS patient who completes the initial 24-session course generates ₱36,000–₱60,000 in revenue, with a high maintenance conversion rate (ongoing pelvic floor dysfunction management) that translates to ₱72,000–₱120,000+ per patient annually.</p>
+
+      <h2>Contraindications and Safety Notes</h2>
+      <ul>
+        <li><strong>Absolute contraindications:</strong> Active implanted pacemaker or neurostimulator; active malignancy in the pelvic region (prostate cancer must be excluded before CP/CPPS treatment — PSA and urological evaluation prerequisite); active pelvic infection/abscess.</li>
+        <li><strong>PSA evaluation mandatory:</strong> All men over 40 with pelvic pain and urinary symptoms should have PSA measured and urological evaluation before initiating PEMF, to exclude prostate cancer as a cause of symptoms.</li>
+        <li><strong>Category I/II prostatitis (acute/chronic bacterial):</strong> Active bacterial prostatitis requires antibiotic treatment first. PEMF may be considered as an adjunct after the acute phase resolves, to support tissue healing and prevent recurrence via microbiome-independent anti-inflammatory mechanisms.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Does PEMF improve sexual function in CPPS patients?</h3>
+      <p>Ejaculatory pain (dysorgasmia) is a primary NIH-CPSI symptom in the pain domain. PEMF's Phase 2 pudendal nerve and pelvic floor modulation directly targets the hypertonicity and nerve sensitization that produces ejaculatory pain — so improvement in sexual comfort is an expected secondary outcome of pain-domain improvement, not a separate therapeutic claim. Sexual function improvement has been documented separately in the PEMF erectile dysfunction evidence base (distinct mechanism: NO-mediated vascular function), but this article addresses pain-domain CPPS, not erectile dysfunction.</p>
+
+      <h3>How is this different from the PEMF erectile dysfunction protocol?</h3>
+      <p>The ED protocol focuses on penile vascular endothelial function (eNOS/NO penile blood flow) and smooth muscle regeneration — a hemodynamic mechanism. The CPPS protocol targets prostatic and perineal inflammation, pudendal nerve sensitization, and pelvic floor hypertonicity — a neuromusculoskeletal/inflammatory mechanism. Coil placement, frequency bands, and treatment goals are distinct. Patients with both conditions can undergo sequential or combined protocols with distinct placement strategies.</p>
+
+      <h3>What NIH-CPSI improvement should patients realistically expect?</h3>
+      <p>Based on analogy with PEMF outcomes in inflammatory arthritis (PMC10971695: VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166) and the general soft-tissue pain benchmark (PMC11914662: 36% pain reduction, 55% medication reduction), a realistic target for a CPPS responder is a 6–10 point reduction in total NIH-CPSI score at 12 weeks — the minimum clinically important difference for CPPS is 6 points (Propert et al., CPCRN). This level of improvement represents meaningful pain reduction and quality-of-life benefit, though it typically does not constitute complete remission in moderate-to-severe CPPS. Expectations should be calibrated: PEMF is an adjunct that meaningfully improves the symptom burden, not a cure for a condition without a single standard of care.</p>
+
+      <div class="article-cta">
+        <p>Request the full investor package including men's health clinic partnership models, BPO corporate wellness screening program structure, and per-machine revenue projections for a combined ED + CPPS men's health program.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
