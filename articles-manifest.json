@@ -1156,11 +1156,45 @@
       "date": "2026-07-11",
       "tag": "Men's Health Protocol",
       "note": "IL site returned 403; article synthesized. CP/CPPS (NIH Category III): 10-15% of men globally = 3.5-6M Filipinos (800K-1.2M actively symptomatic). NIH-CPSI scoring: pain (0-21) + urinary (0-10) + QoL (0-12), total 0-43. IIIA (inflammatory, WBC+ in EPS/VB3/semen) vs IIIB (non-inflammatory, 50-60%). Antibiotics effective <10% in CPPS; alpha-blockers = urinary only; NSAIDs 40% response. Pelvic floor PT: best evidence (Level II) but <30 trained therapists nationally. FOUR MECHANISMS: (1) NF-κB/IL-1β/TNF-α prostatic inflammation suppression (PubMed 19371845 — sterile inflammation not addressable by antibiotics); (2) eNOS/NO + VEGF prostatic microcirculation (PubMed 31394939, PMC4959873); (3) pudendal nerve S2-S4 modulation (perineal placement, analogous to OAB pudendal evidence); (4) central sensitization attenuation (PMID 23083041 SSEP normalization). NIH-CPSI domain table with PEMF target mechanism per domain. 3-phase protocol: Phase 1 (8-25Hz suprapubic + lumbosacral S2-S4, sessions 1-8) / Phase 2 (25-50Hz perineal + suprapubic + lumbosacral, sessions 9-16) / Phase 3 (50-75Hz bilateral perineal + lower abdominal, sessions 17-24). 6-row comparison table (PEMF vs antibiotics/alpha-blockers/NSAIDs/5-ARIs/pelvic floor PT — includes ejaculatory pain and PH availability rows). PSA evaluation mandatory before treatment (exclude prostate cancer). Active bacterial prostatitis = antibiotics first. BPO seated workforce (1.3-1.5M) + motorcycle taxi operators (~200K) primary occupational segments. Men's wellness framing (avoids prostatitis stigma). Combined ED + CPPS men's health program positioning. Revenue ₱36K-₱60K initial course + ₱72K-₱120K/yr maintenance. MCID: 6-point NIH-CPSI total score reduction. Honest: no large-scale PEMF-CPPS RCT; Eastern European small-scale observations exist (Loran OB et al.); evidence extrapolated from inflammatory tissue + peripheral nerve + soft-tissue analogues. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/severe-back-pain/",
+      "ph_file": "article-pemf-severe-back-pain-relief.html",
+      "title_en": "Severe Back Pain: When the Pain Won't Leave — PEMF Relief Protocol",
+      "date": "2026-07-12",
+      "tag": "Clinical Protocol",
+      "note": "IL URL discovered via Google site: search (Hebrew title: 'כאבי גב חזקים מאוד – כשהכאב לא עוזב, והגיע הזמן לשחרר'; site returned 403 on fetch). Distinct from article-pemf-severe-back-pain.html (clinical RCT protocol) and article-pemf-severe-back-pain-guide.html. Targets treatment-resistant severe LBP population (VAS ≥7/10, ODI >40%). Central sensitization framing: four PEMF mechanisms (nociceptor membrane stabilization, adenosine A2A activation, perivertebral microcirculation, cytokine suppression). Evidence: PMC11914662 (n=91, 36% vs 10% p<0.0001, 55% medication reduction), PMC11775040 (9 RCTs n=420), PMC6806956 (14 trials n=618). 7-row comparison table (PEMF vs NSAIDs/opioids/physiotherapy/epidural/surgery — includes central sensitization and patient-experience rows). 3-phase protocol, Philippines pricing ₱1,500–₱2,500/session."
+    },
+    {
+      "il_url": "https://painfree.org.il/chronic-pain/",
+      "ph_file": "article-pemf-chronic-pain-treatment.html",
+      "title_en": "PEMF for Chronic Pain: Rewiring the Pain Signal at Its Source",
+      "date": "2026-07-12",
+      "tag": "Clinical Overview",
+      "note": "IL URL discovered via Google site: search (English landing page on IL site; site returned 403 on fetch). Distinct from article-pemf-chronic-pain.html (patient-facing), article-pemf-chronic-pain-guide.html (comprehensive guide). Investor/clinic-operator facing comprehensive overview. Five PEMF mechanisms (nociceptor stabilization, adenosine A2A, microcirculation, cytokine suppression, ATP production). 6-row evidence table by pain category: LBP PMC11914662 (n=91, 36%/55%), OA PMC9110240 (11 RCTs n=614, SMD=0.71), RA PMC10971695 (n=39, VAS -2.2 p=0.0000), neuropathy PMC11874150 RELIEF (n=182, 85% vs 25%), fibromyalgia PMC9524818, sciatica PMID 23083041 (n=40, VAS P=0.024, ODI P<0.001). Philippine market: 22 million Filipinos, ₱450B annual burden. Combination modalities: PEMF+manual, PEMF+exercise, PEMF+acupuncture (PMC5927830 n=17,922). 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%9B%D7%90%D7%91%D7%99-%D7%92%D7%91-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%9B%D7%9C-%D7%9E%D7%94-%D7%A9%D7%97%D7%93%D7%A9-%D7%91%D7%AA%D7%97%D7%95%D7%9D/",
+      "ph_file": "article-pemf-lower-back-pain-treatment.html",
+      "title_en": "Lower Back Pain Treatment in 2026: The Evidence Summary for Clinic Operators",
+      "date": "2026-07-12",
+      "tag": "Clinical Evidence",
+      "note": "IL URL discovered via Google site: search (Hebrew title: 'כאבי גב תחתון טיפול – כל מה שחדש בתחום' = 'Lower back pain treatment – all that is new in the field'; site returned 403 on fetch). Distinct from article-pemf-lower-back-pain-latest.html and article-pemf-lower-back-inflammation.html. 2026 LBP treatment landscape overview for clinic operators. Core evidence: PMC11775040 (2025 SR, 9 RCTs, n=420, statistically significant pain and disability reduction), PMC11914662 (multicenter RCT n=91, 36% vs 10% p<0.0001, 55% medication reduction), PMC6806956 (14 trials n=618). Modality comparison table (PEMF vs physiotherapy/manual therapy/acupuncture/ultrasound/TENS/NSAIDs — includes central sensitization and FDA clearance columns). LBP subtype patient selection (CNSLBP, disc radiculopathy, facet syndrome, post-surgical, elderly). Philippine clinic implementation: capital ROI, referral pipeline, clinical differentiation. 3-phase protocol. 9 min read."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-07-12",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-severe-back-pain-relief.html",
+        "article-pemf-chronic-pain-treatment.html",
+        "article-pemf-lower-back-pain-treatment.html"
+      ],
+      "note": "IL site returned 403 for all pages including medical-articles/. New URLs discovered via Google site: search. untranslated_queue was empty; 3 new IL URLs found: /severe-back-pain/ (Hebrew: very severe back pain), /chronic-pain/ (English landing page), and Hebrew URL for lower back pain treatment. Articles synthesized from PMC11914662/PMC11775040/PMC6806956/PMC9110240/PMC10971695/PMC11874150/PMC9524818/PMID23083041. 3 cards prepended to articles.html grid."
+    },
     {
       "date": "2026-07-11",
       "articles_translated": 3,
