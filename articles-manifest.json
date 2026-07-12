@@ -1180,6 +1180,13 @@
       "date": "2026-07-12",
       "tag": "Clinical Evidence",
       "note": "IL URL discovered via Google site: search (Hebrew title: 'כאבי גב תחתון טיפול – כל מה שחדש בתחום' = 'Lower back pain treatment – all that is new in the field'; site returned 403 on fetch). Distinct from article-pemf-lower-back-pain-latest.html and article-pemf-lower-back-inflammation.html. 2026 LBP treatment landscape overview for clinic operators. Core evidence: PMC11775040 (2025 SR, 9 RCTs, n=420, statistically significant pain and disability reduction), PMC11914662 (multicenter RCT n=91, 36% vs 10% p<0.0001, 55% medication reduction), PMC6806956 (14 trials n=618). Modality comparison table (PEMF vs physiotherapy/manual therapy/acupuncture/ultrasound/TENS/NSAIDs — includes central sensitization and FDA clearance columns). LBP subtype patient selection (CNSLBP, disc radiculopathy, facet syndrome, post-surgical, elderly). Philippine clinic implementation: capital ROI, referral pipeline, clinical differentiation. 3-phase protocol. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-calcific-tendinitis-shoulder-protocol/",
+      "ph_file": "article-pemf-calcific-tendinitis-shoulder.html",
+      "title_en": "PEMF for Calcific Tendinitis of the Shoulder: Non-Invasive Clinical Protocol",
+      "date": "2026-07-12",
+      "tag": "Clinical Protocol"
     }
   ],
   "untranslated_queue": [],
@@ -1756,6 +1763,15 @@
       "articles_translated": 1,
       "files_created": [
         "article-pemf-coccydynia-tailbone-pain.html"
+      ],
+      "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-07-12",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-calcific-tendinitis-shoulder.html"
       ],
       "untranslated_remaining": 0
     }
