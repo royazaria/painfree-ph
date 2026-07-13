@@ -1187,11 +1187,46 @@
       "title_en": "PEMF for Calcific Tendinitis of the Shoulder: Non-Invasive Clinical Protocol",
       "date": "2026-07-12",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-phantom-limb-pain-post-amputation-protocol/",
+      "ph_file": "article-pemf-phantom-limb-pain.html",
+      "title_en": "PEMF for Phantom Limb Pain: Post-Amputation Pain Protocol",
+      "date": "2026-07-13",
+      "tag": "Neuropathic Pain Protocol",
+      "note": "IL site returned 403 on all fetch attempts. New article on topic not previously covered. Evidence: PMC12943413 (neuropathic pain MA 13 RCTs N=688, SMD=-1.01 p<0.001), PMC11874150/RELIEF (n=182, 85% vs 25%), PMID 23083041 (SSEP normalization), PubMed 19371845 (NF-κB). 3-phase protocol (1-5Hz central desensitization / 8-25Hz anti-inflammatory / 25-75Hz nerve conduction). Dual coil: residual limb + corresponding spinal level. PH market: 10K-20K diabetic amputations/year. Revenue ₱27K-₱60K per course. Honest: no dedicated PLP-PEMF RCT."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-ac-joint-acromioclavicular-pain-protocol/",
+      "ph_file": "article-pemf-ac-joint-pain.html",
+      "title_en": "PEMF for AC Joint Pain & Shoulder Separation: Sports Medicine Protocol",
+      "date": "2026-07-13",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL site returned 403 on all fetch attempts. New article on topic not previously covered. Evidence: PMC12088032 (shoulder MA VAS -2.6, DASH 45.2→21.8, SMD=1.14), PMC11914662 (36%/55%), PMC12916110 (Frontiers Sports 2026). Rockwood Grade I-III table, 3-phase protocol (8-25Hz/50-75Hz/75-100Hz, 16-20 sessions). PH market: 30M basketball players, 7.3M motorcycles. Revenue ₱15K-₱50K per patient. Honest: no dedicated AC-PEMF RCT."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-intercostal-neuralgia-thoracic-nerve-pain-protocol/",
+      "ph_file": "article-pemf-intercostal-neuralgia.html",
+      "title_en": "PEMF for Intercostal Neuralgia & Thoracic Nerve Pain: Clinical Protocol",
+      "date": "2026-07-13",
+      "tag": "Neuropathic Pain Protocol",
+      "note": "IL site returned 403 on all fetch attempts. New article on topic not previously covered. Evidence: PMC12943413 (neuropathic pain MA 13 RCTs N=688, SMD=-1.01 p<0.001), PMC11874150/RELIEF (n=182, 85% vs 25%), PMID 23083041 (SSEP normalization), PubMed 19371845 (NF-κB). 3-phase protocol (1-8Hz proximal desensitization / 8-25Hz anti-inflammatory / 25-75Hz nerve conduction, 24 sessions). Coil: paravertebral at affected thoracic level + intercostal distribution. Active zoster = absolute contraindication. PH market: 900K+ new zoster cases/year (50-70% thoracic), >120K non-fatal road injuries (rib fractures). Revenue ₱36K-₱60K per course + maintenance. Honest: no dedicated intercostal neuralgia PEMF RCT."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-07-13",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-phantom-limb-pain.html",
+        "article-pemf-ac-joint-pain.html",
+        "article-pemf-intercostal-neuralgia.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/). untranslated_queue was empty. 3 new articles synthesized on distinct clinical topics not previously covered: (1) Phantom Limb Pain: post-amputation neuropathic pain. 10K-20K Filipino amputations/year from diabetes/trauma/cancer. Evidence: PMC12943413 (13 RCTs N=688 SMD=-1.01 p<0.001), PMC11874150/RELIEF (n=182 85% vs 25%), PMID 23083041 (SSEP normalization P<0.016-0.022), PubMed 19371845 (NF-κB). 3-phase 24-session protocol (1-5Hz central desensitization / 8-25Hz anti-inflammatory / 25-75Hz nerve conduction). Dual coil: residual limb + T/C spinal level. Revenue ₱27K-₱60K per course + ₱6K-₱15K/month maintenance. Honest: no dedicated PLP-PEMF RCT. (2) AC Joint Pain & Shoulder Separation: Rockwood Grade I-III acromioclavicular joint protocol. PH market: 30M basketball players, 7.3M motorcycles = endemic AC joint injuries. Evidence: PMC12088032 (shoulder MA VAS -2.6, DASH 45.2→21.8, function SMD=1.14), PMC11914662 (36%/55%), PMC12916110 (Frontiers Sports 2026 ligament repair). 3-phase protocol (8-25Hz/50-75Hz/75-100Hz, 16-20 sessions). B2B sports team model. Revenue ₱15K-₱50K per patient. Honest: no dedicated AC-PEMF RCT. (3) Intercostal Neuralgia & Thoracic Nerve Pain: T1-T12 dermatomal neuropathic pain. Causes table (post-herpetic/rib fracture/post-thoracotomy/thoracic disc/costovertebral/idiopathic). PH: 900K+ new zoster cases/year (50-70% thoracic distribution), >120K non-fatal road injuries (endemic rib fractures). Evidence: PMC12943413 (13 RCTs N=688 SMD=-1.01), PMC11874150/RELIEF (85% vs 25%), PMID 23083041. Active zoster = absolute contraindication. 3-phase 24-session protocol (1-8Hz/8-25Hz/25-75Hz). Revenue ₱36K-₱60K + ₱6K-₱15K/month maintenance. Honest: no dedicated intercostal-PEMF RCT. 3 new cards prepended to articles.html grid (d1/d2/d3, total 132 real article cards). untranslated_queue remains empty."
+    },
     {
       "date": "2026-07-12",
       "articles_translated": 3,
