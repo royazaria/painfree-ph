@@ -1211,6 +1211,14 @@
       "date": "2026-07-13",
       "tag": "Neuropathic Pain Protocol",
       "note": "IL site returned 403 on all fetch attempts. New article on topic not previously covered. Evidence: PMC12943413 (neuropathic pain MA 13 RCTs N=688, SMD=-1.01 p<0.001), PMC11874150/RELIEF (n=182, 85% vs 25%), PMID 23083041 (SSEP normalization), PubMed 19371845 (NF-κB). 3-phase protocol (1-8Hz proximal desensitization / 8-25Hz anti-inflammatory / 25-75Hz nerve conduction, 24 sessions). Coil: paravertebral at affected thoracic level + intercostal distribution. Active zoster = absolute contraindication. PH market: 900K+ new zoster cases/year (50-70% thoracic), >120K non-fatal road injuries (rib fractures). Revenue ₱36K-₱60K per course + maintenance. Honest: no dedicated intercostal neuralgia PEMF RCT."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-thoracic-outlet-syndrome-protocol/",
+      "ph_file": "article-pemf-thoracic-outlet-syndrome.html",
+      "title_en": "PEMF for Thoracic Outlet Syndrome: Clinical Protocol",
+      "date": "2026-07-13",
+      "tag": "Nerve Entrapment Protocol",
+      "note": "Phase 2 translation of today new IL article (post 4466). Nerve-entrapment cluster companion to carpal/cubital/tarsal tunnel. Citation-disciplined: only PMC11914662 (general joint/soft-tissue RCT, framed NOT TOS-specific) + PubMed 19371845 (Strauch soft-tissue edema/angiogenesis review). Deliberately did NOT use 31394939 (metabolic-syndrome BP study) per 2026-07-13 Jack rule. Honest: no dedicated TOS PEMF RCT. PH market: large BPO/desk workforce w/ forward-head posture; overhead-work + motorcycle whiplash; congenital cervical rib. Protocol 30 min, 1-2x/week (acute up to 3 w/ rest day). Absolute contraindication: suspected vascular TOS -> urgent vascular referral."
     }
   ],
   "untranslated_queue": [],
@@ -1807,6 +1815,15 @@
       "articles_translated": 1,
       "files_created": [
         "article-pemf-calcific-tendinitis-shoulder.html"
+      ],
+      "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-07-13",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-thoracic-outlet-syndrome.html"
       ],
       "untranslated_remaining": 0
     }
