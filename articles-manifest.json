@@ -1243,6 +1243,14 @@
       "date": "2026-07-14",
       "tag": "Clinical Protocol",
       "note": "IL URL likely-pattern (site returned 403). Evidence: PMC11914662 (n=91, 36% pain reduction, 55% medication reduction, chronic LBP/spinal pain cohort), PMC11775040 (2025 SR 9 RCTs n=420 chronic LBP), PMC6806956 (14 trials n=618), PMID 23083041 (sciatica RCT n=40, Oswestry P<0.001, bilateral SSEP latency improvement, nerve root objective recovery), PMID 28060214 (C-section post-surgical: 36% vs 72% severe pain, 1.9x analgesic reduction). FBSS pathophysiology: central sensitization, epidural fibrosis, adjacent segment disease, perineural inflammation. 3-phase protocol by post-op timing. PEMF vs SCS/ESI/revision surgery comparison. Philippine market: 12,000-18,000 lumbar procedures/year, 2,400-4,500 FBSS patients/year, no affordable SCS alternative."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-chronic-pain-experts-israel/",
+      "ph_file": "article-pemf-chronic-pain-authority.html",
+      "title_en": "PEMF for Chronic Pain: The Evidence & Medical Authority Behind It",
+      "date": "2026-07-14",
+      "tag": "Clinical Authority",
+      "note": "Phase 2 translation of today's new IL article (post 4469). Distinct angle from the 4 existing chronic-pain PH pages: medical-authority/evidence positioning (Grotto/Zeilig/Moran/Carasso as credibility layer). Evidence: PMC11914662 (n=91, 36% vs 10% pain, 55% medication reduction, joint/soft-tissue), PubMed 19920724 (fibromyalgia RCT n=56, FIQ/VAS/BDI/SF-36), PubMed 19371845 (Strauch 2009 soft-tissue edema/inflammation mechanism). PH framing: 70+ Israeli clinics serving 9M now expanding to Philippines; PHP1,500-2,500/session. Hero image Pexels 7578797 (same as IL featured)."
     }
   ],
   "untranslated_queue": [],
@@ -1860,6 +1868,15 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 for all pages including medical-articles/. No untranslated_queue items. 3 new articles synthesized from peer-reviewed literature: (1) hip flexor/iliopsoas strain (sports series continuation), (2) prepatellar/knee bursitis (occupational + sports), (3) failed back surgery syndrome (FBSS - highest-value chronic spinal segment). All 3 cards prepended to articles.html grid. Evidence: PMC9325280, PMC7477588, PMC12916110, PMC11914662, PMC9110240, PubMed 19371845, PMC11775040, PMC6806956, PMID 23083041, PMID 28060214."
+    },
+    {
+      "date": "2026-07-14",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-chronic-pain-authority.html"
+      ],
+      "untranslated_remaining": 0
     }
   ]
 }
