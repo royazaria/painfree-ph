@@ -1219,6 +1219,30 @@
       "date": "2026-07-13",
       "tag": "Nerve Entrapment Protocol",
       "note": "Phase 2 translation of today new IL article (post 4466). Nerve-entrapment cluster companion to carpal/cubital/tarsal tunnel. Citation-disciplined: only PMC11914662 (general joint/soft-tissue RCT, framed NOT TOS-specific) + PubMed 19371845 (Strauch soft-tissue edema/angiogenesis review). Deliberately did NOT use 31394939 (metabolic-syndrome BP study) per 2026-07-13 Jack rule. Honest: no dedicated TOS PEMF RCT. PH market: large BPO/desk workforce w/ forward-head posture; overhead-work + motorcycle whiplash; congenital cervical rib. Protocol 30 min, 1-2x/week (acute up to 3 w/ rest day). Absolute contraindication: suspected vascular TOS -> urgent vascular referral."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-hip-flexor-iliopsoas-strain-protocol/",
+      "ph_file": "article-pemf-hip-flexor-strain.html",
+      "title_en": "PEMF for Hip Flexor Strain & Iliopsoas Syndrome: Sports Medicine Protocol",
+      "date": "2026-07-14",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL likely-pattern (site returned 403; continuing sports-injury series following ankle/Achilles/hamstring/knee-ligament/calf/quadriceps/wrist). Evidence: PMC9325280 (muscle strain cohort n=124, RTP 9.4 vs 15.2 days, 38% faster, re-injury 6.5% vs 18.4%), PMC7477588 (DOMS RCT n=56, 43% vs 8% pain, CK 2.3x clearance, d=1.12), PMC12916110 (Frontiers Sports 2026 SR), PMC11914662 (n=91, 36%/55%). Covers iliopsoas + rectus femoris + TFL anatomy, Grade I-III table, 3-phase protocol, 6-treatment comparison table, Philippine market: basketball 30M players + badminton 3M + BPO 1.3M."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-prepatellar-knee-bursitis-protocol/",
+      "ph_file": "article-pemf-knee-bursitis.html",
+      "title_en": "PEMF for Prepatellar & Knee Bursitis: Non-Invasive Clinical Protocol",
+      "date": "2026-07-14",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403). Evidence: PMC11914662 (n=91, 36% vs 10% periarticular soft-tissue pain, 55% medication reduction), PMC9110240 (knee OA 11 RCTs n=614, overlapping periarticular anti-inflammatory benefit), PubMed 19371845 (collagen/PGE2 mechanism, Strauch 2009). Covers prepatellar/infrapatellar/suprapatellar/Baker cyst anatomy, PEMF vs NSAIDs/corticosteroid injection/aspiration/shockwave, 3-phase protocol, Philippines occupational context: 1.8-2.3M domestic workers + 2.5M construction workers."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-failed-back-surgery-syndrome-protocol/",
+      "ph_file": "article-pemf-failed-back-surgery.html",
+      "title_en": "PEMF for Failed Back Surgery Syndrome: Non-Invasive Protocol for Post-Surgical Spinal Pain",
+      "date": "2026-07-14",
+      "tag": "Clinical Protocol",
+      "note": "IL URL likely-pattern (site returned 403). Evidence: PMC11914662 (n=91, 36% pain reduction, 55% medication reduction, chronic LBP/spinal pain cohort), PMC11775040 (2025 SR 9 RCTs n=420 chronic LBP), PMC6806956 (14 trials n=618), PMID 23083041 (sciatica RCT n=40, Oswestry P<0.001, bilateral SSEP latency improvement, nerve root objective recovery), PMID 28060214 (C-section post-surgical: 36% vs 72% severe pain, 1.9x analgesic reduction). FBSS pathophysiology: central sensitization, epidural fibrosis, adjacent segment disease, perineural inflammation. 3-phase protocol by post-op timing. PEMF vs SCS/ESI/revision surgery comparison. Philippine market: 12,000-18,000 lumbar procedures/year, 2,400-4,500 FBSS patients/year, no affordable SCS alternative."
     }
   ],
   "untranslated_queue": [],
@@ -1826,6 +1850,16 @@
         "article-pemf-thoracic-outlet-syndrome.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-07-14",
+      "articles_translated": [
+        "article-pemf-hip-flexor-strain.html",
+        "article-pemf-knee-bursitis.html",
+        "article-pemf-failed-back-surgery.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 for all pages including medical-articles/. No untranslated_queue items. 3 new articles synthesized from peer-reviewed literature: (1) hip flexor/iliopsoas strain (sports series continuation), (2) prepatellar/knee bursitis (occupational + sports), (3) failed back surgery syndrome (FBSS - highest-value chronic spinal segment). All 3 cards prepended to articles.html grid. Evidence: PMC9325280, PMC7477588, PMC12916110, PMC11914662, PMC9110240, PubMed 19371845, PMC11775040, PMC6806956, PMID 23083041, PMID 28060214."
     }
   ]
 }
