@@ -1251,6 +1251,30 @@
       "date": "2026-07-14",
       "tag": "Clinical Authority",
       "note": "Phase 2 translation of today's new IL article (post 4469). Distinct angle from the 4 existing chronic-pain PH pages: medical-authority/evidence positioning (Grotto/Zeilig/Moran/Carasso as credibility layer). Evidence: PMC11914662 (n=91, 36% vs 10% pain, 55% medication reduction, joint/soft-tissue), PubMed 19920724 (fibromyalgia RCT n=56, FIQ/VAS/BDI/SF-36), PubMed 19371845 (Strauch 2009 soft-tissue edema/inflammation mechanism). PH framing: 70+ Israeli clinics serving 9M now expanding to Philippines; PHP1,500-2,500/session. Hero image Pexels 7578797 (same as IL featured)."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-meralgia-paresthetica-lateral-femoral-nerve-protocol/",
+      "ph_file": "article-pemf-meralgia-paresthetica.html",
+      "title_en": "PEMF for Meralgia Paresthetica: Lateral Femoral Cutaneous Nerve Protocol",
+      "date": "2026-07-15",
+      "tag": "Nerve Entrapment Protocol",
+      "note": "IL site returned 403. New article on clinically distinct topic not previously covered. Continues nerve entrapment series (carpal/cubital/tarsal/thoracic outlet). Evidence: PMC12943413 (neuropathic pain MA 13 RCTs N=688, SMD=-1.01 95%CI -1.31 to -0.71 P<0.001), PMC5144749 (peripheral nerve compression CTS RCT n=40, PEMF > ultrasound all endpoints P<0.05), PMC11874150/RELIEF (n=182, 85% vs 25% in compliant pop), PMC9862561 (NF-κB/IL-1β mechanism), PubMed 19371845 (perineural edema/VEGF). Honest: no dedicated meralgia-PEMF RCT; mechanistic analog from CTS study + neuropathic pain MA. PH market: 7-8M diabetics, ~68K pregnant women/year, >15M metabolic syndrome, 7.3M motorcycles, 1.3M BPO. 3-phase protocol (8-25Hz/25-75Hz/75-100Hz, 16-20 sessions). Coil: inguinal ligament at ASIS + anterolateral thigh distribution. Pregnancy protocol noted. 7-row comparison table (vs gabapentinoids/injection/surgery). 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-occipital-neuralgia-greater-occipital-nerve-protocol/",
+      "ph_file": "article-pemf-occipital-neuralgia.html",
+      "title_en": "PEMF for Occipital Neuralgia: Greater Occipital Nerve Protocol",
+      "date": "2026-07-15",
+      "tag": "Neuropathic Pain Protocol",
+      "note": "IL site returned 403. New article on clinically distinct topic not previously covered. Distinct from migraine (article-pemf-migraine-headache.html, article-pemf-migraine-natural-treatment.html) — ON is peripheral nerve entrapment at GON/LON, not central sensitization. Evidence: PMC12943413 (neuropathic pain MA 13 RCTs N=688, SMD=-1.01 P<0.001), PMC12467020 (paraspinal tone RCT n=30, p=0.015 η²=0.28 large effect), PMC7401674 (cervical neck pain RCT n=63, 5 domains), PubMed 19371845 (perineural VEGF/PGE2 mechanism). Honest: no dedicated ON-PEMF RCT. PH market: 1.3M BPO workers (headache 62-78%), >300K road injuries/year (whiplash→ON), 6-8M migraine misdiagnosis pool. 3-phase protocol (1-8Hz/8-25Hz/25-50Hz, 12-16 sessions). Coil: suboccipital C1-C2 at GON emergence + ipsilateral trapezius. 7-row comparison table (vs GON block/triptans/Botox/ONS). 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-psoriatic-arthritis-inflammatory-protocol/",
+      "ph_file": "article-pemf-psoriatic-arthritis.html",
+      "title_en": "PEMF for Psoriatic Arthritis: Anti-Inflammatory Protocol for Philippine Clinics",
+      "date": "2026-07-15",
+      "tag": "Inflammatory Arthritis Protocol",
+      "note": "IL site returned 403. New article on clinically distinct topic not previously covered. Distinct from article-pemf-rheumatoid-arthritis.html (RA, Th1-dominant, symmetric polyarticular) and article-pemf-ankylosing-spondylitis.html (axial only). PsA=Th17-dominant (IL-17/IL-23 + TNF-α + NF-κB), enthesitis hallmark, seronegative. Evidence: PMC10971695 (inflammatory arthritis RCT n=39: VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036), PMC9862561 (10Hz optimal for NF-κB/TNF-α/IL-1β suppression — same cascade as TNF inhibitors), PMC3967773 (TGF-β/IGF-1/iNOS enthesis repair), PubMed 19371845 (entheseal collagen/VEGF), PMC11914662 (36%/55%). 10Hz Phase 1 specifically per PMC9862561 frequency optimization. Coil placement table by 5 PsA subtypes (oligoarticular/polyarticular/axial/enthesitis/dactylitis). PH market: 1-3% psoriasis=1.15-3.45M Filipinos, 20-30% PsA=230K-1M patients; biologics inaccessible (₱15K-₱60K/month vs ₱15K-₱35K household income). 6-column comparison table. Honest: no PsA-specific PEMF RCT; inflammatory arthritis RCT mechanistically applicable. 10 min read."
     }
   ],
   "untranslated_queue": [],
@@ -1877,6 +1901,17 @@
         "article-pemf-chronic-pain-authority.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-07-15",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-meralgia-paresthetica.html",
+        "article-pemf-occipital-neuralgia.html",
+        "article-pemf-psoriatic-arthritis.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/). untranslated_queue was empty. 3 new articles synthesized on clinically distinct topics not previously covered: (1) Meralgia Paresthetica (lateral femoral cutaneous nerve entrapment): continues nerve entrapment series after carpal/cubital/tarsal/thoracic outlet. PMC12943413 (neuropathic pain 13 RCTs N=688 SMD=-1.01 P<0.001), PMC5144749 (CTS n=40 PEMF>ultrasound all endpoints), PMC11874150/RELIEF (85% vs 25%), PubMed 19371845, PMC9862561. PH market: 7-8M diabetics, ~68K pregnant women/year, 7.3M motorcycles, 1.3M BPO. 3-phase protocol (8-25Hz/25-75Hz/75-100Hz, 16-20 sessions). 7-row comparison. Honest: no dedicated meralgia-PEMF RCT. 9 min read. (2) Occipital Neuralgia (GON/LON entrapment headache): distinct from migraine (existing articles). PMC12943413 (SMD=-1.01), PMC12467020 (cervical paraspinal tone η²=0.28 large effect p=0.015), PMC7401674 (cervical n=63), PubMed 19371845. PH market: 1.3M BPO (headache 62-78%), >300K whiplash injuries/year, 6-8M migraine misdiagnosis pool. 3-phase protocol (1-8Hz/8-25Hz/25-50Hz, 12-16 sessions), suboccipital coil placement. 7-row comparison vs GON block/triptans/Botox/ONS. Honest: no ON-specific PEMF RCT. 9 min read. (3) Psoriatic Arthritis (Th17-dominant seronegative inflammatory arthritis): distinct from RA and ankylosing spondylitis articles. PMC10971695 (inflammatory arthritis RCT n=39: VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036), PMC9862561 (10Hz optimal NF-κB/TNF-α/IL-1β suppression), PMC3967773 (enthesis TGF-β/IGF-1), PubMed 19371845 (entheseal collagen), PMC11914662 (36%/55%). 10Hz Phase 1 per PMC9862561 frequency optimization. 5-subtype coil placement table, 6-column comparison vs DMARDs/biologics. PH market: 1.15-3.45M psoriasis→230K-1M PsA, biologics inaccessible (₱15K-₱60K/month). Honest: no PsA-specific PEMF RCT; RA-adjacent inflammatory arthritis RCT mechanistically applicable. 10 min read. 3 new cards prepended to articles.html grid (d1/d2/d3). untranslated_queue remains empty."
     }
   ]
 }
