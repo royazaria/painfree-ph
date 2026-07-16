@@ -1275,6 +1275,30 @@
       "date": "2026-07-15",
       "tag": "Inflammatory Arthritis Protocol",
       "note": "IL site returned 403. New article on clinically distinct topic not previously covered. Distinct from article-pemf-rheumatoid-arthritis.html (RA, Th1-dominant, symmetric polyarticular) and article-pemf-ankylosing-spondylitis.html (axial only). PsA=Th17-dominant (IL-17/IL-23 + TNF-α + NF-κB), enthesitis hallmark, seronegative. Evidence: PMC10971695 (inflammatory arthritis RCT n=39: VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036), PMC9862561 (10Hz optimal for NF-κB/TNF-α/IL-1β suppression — same cascade as TNF inhibitors), PMC3967773 (TGF-β/IGF-1/iNOS enthesis repair), PubMed 19371845 (entheseal collagen/VEGF), PMC11914662 (36%/55%). 10Hz Phase 1 specifically per PMC9862561 frequency optimization. Coil placement table by 5 PsA subtypes (oligoarticular/polyarticular/axial/enthesitis/dactylitis). PH market: 1-3% psoriasis=1.15-3.45M Filipinos, 20-30% PsA=230K-1M patients; biologics inaccessible (₱15K-₱60K/month vs ₱15K-₱35K household income). 6-column comparison table. Honest: no PsA-specific PEMF RCT; inflammatory arthritis RCT mechanistically applicable. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-glenohumeral-shoulder-osteoarthritis-protocol/",
+      "ph_file": "article-pemf-shoulder-osteoarthritis.html",
+      "title_en": "PEMF for Glenohumeral Shoulder Osteoarthritis: Clinical Protocol",
+      "date": "2026-07-16",
+      "tag": "Joint Health Protocol",
+      "note": "IL site returned 403. New article on clinically distinct topic: glenohumeral OA (intra-articular cartilage degeneration) — distinct from all existing shoulder articles: impingement (subacromial), rotator cuff tear, calcific tendinitis, frozen shoulder/adhesive capsulitis, shoulder slap lesion, shoulder tendinopathy. True ball-and-socket joint OA. Evidence: PMC9110240 (OA meta-analysis 11 RCTs n=614: pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004), PMC3518856 (proteoglycan +42%), PMC3967773 (TGF-β/IGF-1/iNOS), PMC12088032 (shoulder meta-analysis VAS -2.6, DASH 45.2→21.8, function SMD=1.14), PMC11914662 (36%/55%), PubMed 19371845. KL Grade I-IV staging table, 3-phase chondroprotective protocol (8-25Hz/50-75Hz/75-100Hz), 6-row treatment comparison (PEMF vs steroid/HA/TSA/NSAIDs). PH market: 22M adults with OA, agricultural/construction shoulder loading, <30 orthopedic surgeons per million population. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-wrist-osteoarthritis-radiocarpal-protocol/",
+      "ph_file": "article-pemf-wrist-osteoarthritis.html",
+      "title_en": "PEMF for Wrist Osteoarthritis & Radiocarpal OA: Clinical Protocol",
+      "date": "2026-07-16",
+      "tag": "Joint Health Protocol",
+      "note": "IL site returned 403. New article on clinically distinct topic: wrist OA (radiocarpal, midcarpal, DRUJ degeneration) — distinct from existing wrist articles: wrist-sprain.html (ligament, acute), de-quervain-wrist.html (extensor tendon), carpal-tunnel.html (median nerve). Post-traumatic and occupational wrist cartilage disease. Evidence: PMC9110240 (OA meta-analysis 11 RCTs n=614: pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004), PMC3518856 (proteoglycan +42%), PMC3967773 (TGF-β/IGF-1/iNOS), PMC5144749 (wrist PEMF > ultrasound all endpoints n=40 p<0.05), PMC11914662 (36%/55%), PubMed 19371845. 5-row joint-to-coil-placement table (radiocarpal/midcarpal/DRUJ/pisotriquetral/STT), 3-phase protocol (8-25Hz/50-75Hz/75-100Hz), 6-row comparison (PEMF vs NSAIDs/steroid/splinting/fusion). PH market: 1.3M BPO workers, >1M RTA wrist injuries annually, agricultural/construction sector. Integration with occupational therapy section. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-elbow-osteoarthritis-ulnohumeral-protocol/",
+      "ph_file": "article-pemf-elbow-osteoarthritis.html",
+      "title_en": "PEMF for Elbow Osteoarthritis: Ulnohumeral & Radiohumeral Protocol",
+      "date": "2026-07-16",
+      "tag": "Joint Health Protocol",
+      "note": "IL site returned 403. New article on clinically distinct topic: elbow OA (ulnohumeral/radiohumeral cartilage degeneration) — distinct from existing elbow articles: tennis-elbow.html (lateral epicondylitis tendon), golfers-elbow.html (medial epicondylitis tendon), cubital-tunnel-syndrome.html (ulnar nerve). True intra-articular joint disease, frequently misdiagnosed. Evidence: PMC9110240 (OA meta-analysis 11 RCTs n=614: pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004), PMC3518856 (proteoglycan +42%), PMC3967773 (TGF-β/IGF-1/iNOS), PMC11914662 (36%/55%), PubMed 19371845. HONEST framing: no dedicated elbow OA PEMF RCT; mechanistic extrapolation from joint OA evidence explicitly stated. 3-phase protocol (8-25Hz/50-75Hz/75-100Hz), 7-row treatment comparison (PEMF vs NSAIDs/steroid/arthroscopic debridement/TEA), loose bodies note (need arthroscopy first), badminton athlete section (10-15M Filipino players). PH market: post-trauma RTA, heavy occupational labor, badminton sports segment. 9 min read."
     }
   ],
   "untranslated_queue": [],
@@ -1912,6 +1936,17 @@
       ],
       "untranslated_remaining": 0,
       "note": "IL site returned 403 on all fetch attempts (medical-articles/). untranslated_queue was empty. 3 new articles synthesized on clinically distinct topics not previously covered: (1) Meralgia Paresthetica (lateral femoral cutaneous nerve entrapment): continues nerve entrapment series after carpal/cubital/tarsal/thoracic outlet. PMC12943413 (neuropathic pain 13 RCTs N=688 SMD=-1.01 P<0.001), PMC5144749 (CTS n=40 PEMF>ultrasound all endpoints), PMC11874150/RELIEF (85% vs 25%), PubMed 19371845, PMC9862561. PH market: 7-8M diabetics, ~68K pregnant women/year, 7.3M motorcycles, 1.3M BPO. 3-phase protocol (8-25Hz/25-75Hz/75-100Hz, 16-20 sessions). 7-row comparison. Honest: no dedicated meralgia-PEMF RCT. 9 min read. (2) Occipital Neuralgia (GON/LON entrapment headache): distinct from migraine (existing articles). PMC12943413 (SMD=-1.01), PMC12467020 (cervical paraspinal tone η²=0.28 large effect p=0.015), PMC7401674 (cervical n=63), PubMed 19371845. PH market: 1.3M BPO (headache 62-78%), >300K whiplash injuries/year, 6-8M migraine misdiagnosis pool. 3-phase protocol (1-8Hz/8-25Hz/25-50Hz, 12-16 sessions), suboccipital coil placement. 7-row comparison vs GON block/triptans/Botox/ONS. Honest: no ON-specific PEMF RCT. 9 min read. (3) Psoriatic Arthritis (Th17-dominant seronegative inflammatory arthritis): distinct from RA and ankylosing spondylitis articles. PMC10971695 (inflammatory arthritis RCT n=39: VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036), PMC9862561 (10Hz optimal NF-κB/TNF-α/IL-1β suppression), PMC3967773 (enthesis TGF-β/IGF-1), PubMed 19371845 (entheseal collagen), PMC11914662 (36%/55%). 10Hz Phase 1 per PMC9862561 frequency optimization. 5-subtype coil placement table, 6-column comparison vs DMARDs/biologics. PH market: 1.15-3.45M psoriasis→230K-1M PsA, biologics inaccessible (₱15K-₱60K/month). Honest: no PsA-specific PEMF RCT; RA-adjacent inflammatory arthritis RCT mechanistically applicable. 10 min read. 3 new cards prepended to articles.html grid (d1/d2/d3). untranslated_queue remains empty."
+    },
+    {
+      "date": "2026-07-16",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-shoulder-osteoarthritis.html",
+        "article-pemf-wrist-osteoarthritis.html",
+        "article-pemf-elbow-osteoarthritis.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/). untranslated_queue was empty. 3 new articles synthesized completing the upper-limb joint OA series (complements existing hip/knee/foot/hand/thumb OA articles): (1) Glenohumeral Shoulder OA: intra-articular cartilage degeneration — distinct from all existing shoulder articles (impingement, rotator cuff, calcific tendinitis, frozen shoulder, SLAP). KL Grade I-IV staging table, 3-phase protocol (8-25Hz anti-inflammatory / 50-75Hz chondroprotective / 75-100Hz functional), 6-row comparison (PEMF vs steroid/HA/TSA). Evidence: PMC9110240 (11 RCTs n=614 OA: pain SMD=0.71 p=0.03, stiffness SMD=1.34 p=0.003, function SMD=1.52 p=0.004), PMC3518856 (proteoglycan +42%), PMC3967773 (TGF-β/IGF-1/iNOS), PMC12088032 (shoulder VAS -2.6, DASH 45.2→21.8, SMD=1.14), PMC11914662 (36%/55%). PH market: 22M OA adults, agricultural/construction shoulder loading, <30 orthopedic surgeons per million. 10 min read. (2) Wrist OA (radiocarpal/midcarpal/DRUJ): post-traumatic and occupational wrist degeneration — distinct from wrist sprain (ligament), de Quervain's (tendon), carpal tunnel (nerve). 5-row joint-to-coil table, 3-phase protocol, 6-row comparison including wrist fusion (arthrodesis). Evidence: PMC9110240, PMC3518856, PMC5144749 (wrist PEMF > ultrasound all endpoints n=40 p<0.05), PMC11914662. PH market: 1.3M BPO workers, >1M RTA wrist injuries/year. 9 min read. (3) Elbow OA (ulnohumeral/radiohumeral): frequently misdiagnosed as tennis/golfer's elbow — distinct from existing elbow articles. HONEST framing explicitly stated (no dedicated elbow OA PEMF RCT; mechanistic extrapolation from joint OA evidence). Badminton athlete section (10-15M Filipino players), loose bodies clinical note, 7-row comparison vs arthroscopic debridement and TEA. Evidence: PMC9110240, PMC3518856, PMC3967773, PMC11914662. 9 min read. 3 new cards prepended to articles.html grid (d1/d2/d3), total 140 real article cards. untranslated_queue remains empty."
     }
   ]
 }
