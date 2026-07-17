@@ -1330,6 +1330,13 @@
       "date": "2026-07-17",
       "tag": "Clinical Protocol",
       "note": "IL site returned 403 on all fetch attempts. Synthesized from peer-reviewed literature. Distinct from article-pemf-herniated-disc.html (existing) — focuses on advanced multi-phase protocol with detailed SSEP neurological evidence and causes/classification. Key evidence: PMID 23083041 (n=40, VAS P=0.024, OSW P<0.001, 9/10 Oswestry domains, bilateral SSEP latency p=0.016-0.022, amplitude p=0.001-0.002), PMC7018371 (n=63 cervical 12 weeks), PMC11914662 (36%/55%), PMC12467020 (paraspinal tone p=0.015 η²=0.28). 4 causes: degeneration (70%), acute mechanical loading, repetitive microtrauma, genetic susceptibility. Grade I-IV classification table (bulge→protrusion→extrusion→sequestration). Cervical vs lumbar symptoms table (C5-C6/C6, C6-C7/C7, L4-L5/L5, L5-S1/S1). 5 PEMF mechanisms. 3-phase protocol table (Phase 1: 8-15Hz anti-inflammatory; Phase 2: 25-50Hz neurological recovery; Phase 3: 50-100Hz consolidation). PEMF vs competing treatments table (NSAIDs, epidural steroid, physiotherapy, surgery). Up to 85% of cases managed conservatively. 11 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-costochondritis-chest-wall-pain-protocol/",
+      "ph_file": "article-pemf-costochondritis.html",
+      "title_en": "PEMF for Costochondritis: Chest Wall Pain Protocol",
+      "date": "2026-07-17",
+      "tag": "Clinical Protocol"
     }
   ],
   "untranslated_queue": [],
@@ -1999,6 +2006,16 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2 — translation of the same-day Hebrew article (IL post 4475, insertional Achilles tendinopathy / heel-insertion). NOTE: a parallel remote run had already pushed today PH output (a7af139: shoulder/wrist/elbow OA) before this run; pulled origin/main first per the parallel-run rule, so no duplicate work. Overlap check before writing: PH already had TWO Achilles pages (article-pemf-achilles-tendonitis.html, article-pemf-achilles-tendinopathy-runners.html), but neither is a dedicated insertional page — the runners article covers the mid-portion-vs-insertional distinction in only ~120 words. Insertional is a distinct clinical entity (compression at the calcaneal insertion; eccentric heel-drop contraindicated; Haglund deformity + retrocalcaneal bursitis; corticosteroid injection carries rupture risk), so a dedicated page was justified on the same basis the remote run used for elbow OA vs tennis/golfer elbow. Cross-links to the existing Achilles pages rather than competing. Citations: PMC11914662 (with explicit general-not-insertional caveat) + PubMed 19371845 (Strauch, framed as a review). Deliberately did NOT carry over PubMed 32401418, which the existing PH runners article cites — that metabolic-syndrome BP study is banned in MSK articles per the 2026-07-12 rule. Hero image Pexels 5619447 (new ID, landscape, clinical, no tape/devices). 1,805 words, 9 FAQ. untranslated_queue remains empty."
+    },
+    {
+      "date": "2026-07-17",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-costochondritis.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2 — same-day translation of IL post 4478 (costochondritis/chest-wall pain, Tietze). Rebased onto parallel remote run. Prepended card. Hero Pexels 10031268. Cardiac red-flag callout retained. Citations PMC11914662 + PubMed 19371845. 70+ clinics PH substitution."
     }
   ]
 }
