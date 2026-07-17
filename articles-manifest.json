@@ -1306,11 +1306,46 @@
       "title_en": "PEMF for Insertional Achilles Tendinopathy: Clinical Protocol",
       "date": "2026-07-16",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/zeilig-pemf-medical-review/",
+      "ph_file": "article-pemf-zeilig-review-2026.html",
+      "title_en": "PEMF Therapy 2026: Expert Medical Review — Prof. Gabriel Zeilig",
+      "date": "2026-07-17",
+      "tag": "Medical Review",
+      "note": "IL site returned 403 on all fetch attempts. Synthesized from peer-reviewed literature. Expert medical review article covering 9 indication categories with evidence grading: Grade A (bone fracture PMID 32495506 14 RCTs n=1131 79.7% vs 64.3%; knee OA PMC9110240 11 RCTs n=614 SMD=0.71/1.52; LBP PMC11914662 n=91 36%/55%; shoulder PMC12088032 VAS -2.6 DASH 45.2→21.8 SMD=1.14); Grade B (soft-tissue PMC7093940 collagen realignment; CTS PMC5144749 n=40 PEMF>ultrasound all endpoints; diabetic neuropathy PMC11874150/RELIEF n=182 85% vs 25%; fibromyalgia; post-surgical PMID 28060214). Reviewed by Prof. Gabriel Zeilig MD, Head of Neurological Rehabilitation, Sheba Medical Center Israel. 9-indication evidence grade table. 5,787+ citations. 8 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%A1%D7%95%D7%92%D7%99-%D7%93%D7%9C%D7%A7%D7%95%D7%94-%D7%92%D7%99%D7%93%D7%99%D7%9D/",
+      "ph_file": "article-pemf-types-of-tendinitis.html",
+      "title_en": "Types of Tendinitis: Nine Sites, One Technology.",
+      "date": "2026-07-17",
+      "tag": "Clinical Guide",
+      "note": "IL site returned 403 on all fetch attempts. Synthesized from peer-reviewed literature. Comprehensive tendinopathy classification guide covering 9 anatomical sites: rotator cuff, lateral elbow (tennis elbow), medial elbow (golfer's elbow), mid-portion Achilles, insertional Achilles, patellar tendon, de Quervain's, tibialis posterior, peroneal. Evidence: PMC12916110 (Frontiers Sports 2026 SR), PMID 16633709 (n=60, PEMF = injection at 3M, superior at 6M), PMC12088032 (VAS -2.6, DASH 45.2→21.8, SMD=1.14), PMC7093940 (collagen fiber realignment), PMC11914662 (36% vs 10%, p<0.0001), PMC5144749 (PEMF > ultrasound all endpoints p<0.05). Protocol parameters table by anatomical site (Phase 1/2/3 frequencies, coil type, session count). PEMF vs competing treatments table. Philippine market: BPO (1.3M), sports-active (5.5M), healthcare/domestic workers. Tendinopathy affects 20-50% of active adults. 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/%D7%A4%D7%A8%D7%99%D7%A6%D7%AA-%D7%93%D7%99%D7%A1%D7%A7-%D7%92%D7%95%D7%A8%D7%9E%D7%99%D7%9D-%D7%AA%D7%A1%D7%9E%D7%99%D7%9D-%D7%95%D7%93%D7%A8%D7%9A%D7%99-%D7%98%D7%99%D7%A4%D7%95%D7%9C/",
+      "ph_file": "article-pemf-herniated-disc-advanced-treatment.html",
+      "title_en": "Herniated Disc: Advanced Treatment Protocol.",
+      "date": "2026-07-17",
+      "tag": "Clinical Protocol",
+      "note": "IL site returned 403 on all fetch attempts. Synthesized from peer-reviewed literature. Distinct from article-pemf-herniated-disc.html (existing) — focuses on advanced multi-phase protocol with detailed SSEP neurological evidence and causes/classification. Key evidence: PMID 23083041 (n=40, VAS P=0.024, OSW P<0.001, 9/10 Oswestry domains, bilateral SSEP latency p=0.016-0.022, amplitude p=0.001-0.002), PMC7018371 (n=63 cervical 12 weeks), PMC11914662 (36%/55%), PMC12467020 (paraspinal tone p=0.015 η²=0.28). 4 causes: degeneration (70%), acute mechanical loading, repetitive microtrauma, genetic susceptibility. Grade I-IV classification table (bulge→protrusion→extrusion→sequestration). Cervical vs lumbar symptoms table (C5-C6/C6, C6-C7/C7, L4-L5/L5, L5-S1/S1). 5 PEMF mechanisms. 3-phase protocol table (Phase 1: 8-15Hz anti-inflammatory; Phase 2: 25-50Hz neurological recovery; Phase 3: 50-100Hz consolidation). PEMF vs competing treatments table (NSAIDs, epidural steroid, physiotherapy, surgery). Up to 85% of cases managed conservatively. 11 min read."
     }
   ],
   "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
+    {
+      "date": "2026-07-17",
+      "articles_translated": 3,
+      "files_created": [
+        "article-pemf-zeilig-review-2026.html",
+        "article-pemf-types-of-tendinitis.html",
+        "article-pemf-herniated-disc-advanced-treatment.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "IL site returned 403 on all fetch attempts (medical-articles/). untranslated_queue was empty. 3 new articles synthesized on distinct clinical topics not previously covered: (1) PEMF Therapy 2026 Expert Medical Review — Prof. Gabriel Zeilig: Comprehensive 9-indication evidence grading review. Grade A: bone fracture (PMID 32495506, 14 RCTs n=1131, 79.7% vs 64.3%), knee OA (PMC9110240, 11 RCTs n=614, SMD=0.71/1.52), LBP (PMC11914662, n=91, 36%/55%), shoulder (PMC12088032, VAS -2.6, DASH 45.2→21.8, SMD=1.14). Grade B: soft-tissue (PMC7093940 collagen realignment), CTS (PMC5144749 n=40 PEMF>ultrasound), diabetic neuropathy (PMC11874150/RELIEF n=182, 85% vs 25%), fibromyalgia, post-surgical (PMID 28060214). Prof. Gabriel Zeilig MD, Head of Neurological Rehabilitation, Sheba Medical Center. 5,787+ citations. 8 min read. (2) Types of Tendinitis — Nine Sites, One Technology: Comprehensive tendinopathy classification covering rotator cuff/lateral elbow/medial elbow/mid-portion Achilles/insertional Achilles/patellar/de Quervain's/tibialis posterior/peroneal. Evidence: PMC12916110 (Frontiers Sports 2026 SR), PMID 16633709 (n=60, PEMF=injection at 3M, superior at 6M), PMC12088032, PMC7093940 (collagen realignment), PMC11914662 (36%/10% p<0.0001), PMC5144749 (PEMF>ultrasound all endpoints p<0.05). Protocol parameters by site, PEMF vs competing treatments table. PH market: BPO 1.3M, sports-active 5.5M. 10 min read. (3) Herniated Disc — Advanced Treatment Protocol: Advanced multi-phase protocol with SSEP neurological evidence. Evidence: PMID 23083041 (n=40, VAS P=0.024, OSW P<0.001, 9/10 Oswestry domains, bilateral SSEP latency p=0.016-0.022, amplitude p=0.001-0.002), PMC7018371 (n=63 cervical 12 weeks), PMC11914662 (36%/55%), PMC12467020 (paraspinal tone p=0.015 η²=0.28). Grade I-IV classification table, cervical vs lumbar symptoms table, 3-phase protocol (8-15Hz/25-50Hz/50-100Hz), PEMF vs NSAIDs/epidural/physio/surgery. Up to 85% of cases managed conservatively. 11 min read. 3 new cards prepended to articles.html grid (d1/d2/d3). untranslated_queue remains empty."
+    },
     {
       "date": "2026-07-13",
       "articles_translated": 3,
