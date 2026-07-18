@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEMF for Pelvic Floor Dysfunction: Women's Health Rehabilitation Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="Pelvic floor dysfunction affects 25–50% of women. PEMF protocol for chronic pelvic pain, urinary incontinence, and postpartum recovery — 36% pain reduction, 55% medication reduction. Evidence-based guide for Philippine clinics."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    /* ARTICLE BODY */
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    /* TABLE */
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    /* CTA */
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Women's Health Protocol</div>
+    <h1>PEMF for<br/><em>Pelvic Floor Dysfunction.</em></h1>
+    <p class="hero-sub">Pelvic floor dysfunction affects 25–50% of women — yet fewer than 20% receive structured treatment. PEMF addresses chronic pelvic pain, postpartum recovery, and urinary control disorders through proven electromagnetic mechanisms: 36% pain reduction vs. 10% standard care, 55% medication reduction.</p>
+  </div>
+</section>
+
+<!-- ARTICLE BODY -->
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">July 2026 · 11 min read · Women's Health Protocol</p>
+
+      <img src="https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Women's health rehabilitation clinic assessment"/>
+
+      <h2>Pelvic Floor Dysfunction: The Spectrum</h2>
+      <p>Pelvic floor dysfunction (PFD) refers to a group of conditions in which the muscles, fascia, ligaments, and nerves of the pelvic floor fail to coordinate normally. It is among the most prevalent yet most undertreated conditions in women's health. Prevalence estimates range from <strong>25–50% of women</strong> across the lifespan, with the highest burden concentrated in three groups: postpartum women (<strong>33%</strong> after vaginal delivery), perimenopausal women, and women with chronic pelvic pain syndrome.</p>
+      <p>PFD encompasses multiple distinct clinical presentations that often co-occur:</p>
+      <ul>
+        <li><strong>Stress urinary incontinence (SUI):</strong> Involuntary urine leakage on exertion (coughing, sneezing, exercise) due to insufficient urethral sphincter support from a weakened pelvic floor</li>
+        <li><strong>Urgency urinary incontinence (UUI) and overactive bladder:</strong> Detrusor overactivity causing uncontrollable urge to urinate — often co-existing with SUI (mixed incontinence)</li>
+        <li><strong>Chronic pelvic pain syndrome (CPPS):</strong> Persistent pelvic pain lasting &gt;6 months without identifiable structural cause — frequently associated with hypertonic (over-contracted) pelvic floor musculature</li>
+        <li><strong>Pelvic girdle pain (PGP):</strong> Pain in the sacroiliac joint, pubic symphysis, and associated ligamentous structures — highly prevalent during and after pregnancy (affecting 20–30% of pregnant women)</li>
+        <li><strong>Dyspareunia and vaginismus:</strong> Pelvic floor musculature hypertonia causing pain during or anticipation of intercourse</li>
+        <li><strong>Pelvic organ prolapse (POP):</strong> Descent of bladder, uterus, or rectum into the vaginal canal due to inadequate pelvic floor structural support</li>
+      </ul>
+
+      <h2>The Philippine Context: A Structurally Underserved Market</h2>
+      <p>The Philippines presents a high-burden, low-coverage market for pelvic floor rehabilitation. With <strong>14 million women of reproductive age</strong> and an average birth rate of 2.6 children, the postpartum PFD burden is substantial and ongoing. Cultural barriers — including stigma around pelvic health discussions and limited referral pathways from obstetrics to rehabilitation — mean that fewer than <strong>20% of women with clinically significant PFD</strong> receive any structured treatment beyond "this is normal after childbirth."</p>
+      <p>PEMF offers a clinically meaningful entry point into this underserved segment: it is non-invasive (important for cultural acceptance), can be administered in a standard clinic setting, and addresses both the pain and functional components of PFD without requiring the patient to perform internal pelvic floor assessments — a significant barrier in the Philippine context.</p>
+
+      <h2>PEMF Mechanisms in Pelvic Floor Pathology</h2>
+      <p>PEMF acts through four mechanisms relevant to the specific pathophysiology of pelvic floor dysfunction:</p>
+      <ol>
+        <li><strong>Pelvic floor neuromuscular re-education:</strong> Electromagnetic fields at 50–100 Hz stimulate motor nerves supplying the levator ani and external urethral sphincter, improving voluntary contraction amplitude and endurance. This is the mechanism underlying the FDA-cleared transcutaneous magnetic stimulation (TMS) devices used specifically for urinary incontinence — PEMF operates on the same electromagnetic principle with a broader tissue field.</li>
+        <li><strong>Detrusor relaxation via autonomic modulation:</strong> At 8–25 Hz, PEMF modulates the sacral parasympathetic outflow (S2–S4), reducing detrusor overactivity — the driver of urgency urinary incontinence. The same adenosine-A2A receptor pathway that suppresses spinal pain transmission also mediates smooth muscle relaxation in the detrusor.</li>
+        <li><strong>Myofascial anti-inflammatory effect:</strong> In hypertonic CPPS (the most common pelvic pain presentation), the pelvic floor muscles are chronically contracted and ischemic. PEMF improves microvascular perfusion, reduces IL-1β and TNF-α in the ischemic musculature, and enables therapeutic muscle relaxation.</li>
+        <li><strong>Connective tissue and ligamentous repair:</strong> VEGF upregulation and collagen I/III synthesis stimulation (PubMed 19371845) support repair of the fascial and ligamentous structures damaged by childbirth — the structural basis of pelvic organ prolapse and SUI.</li>
+      </ol>
+
+      <h2>Evidence Base for PEMF in Pelvic Floor Conditions</h2>
+      <p>The following evidence base is relevant to PEMF in pelvic floor dysfunction:</p>
+      <ul>
+        <li><strong>PMC11914662</strong> — multicenter RCT, n=91 completers: <strong>36%</strong> pain reduction vs. <strong>10%</strong> standard care (p&lt;0.0001); <strong>55%</strong> medication reduction. Covers joint and soft-tissue pain broadly, including pelvic region musculoskeletal pain.</li>
+        <li><strong>Overactive bladder / UUI:</strong> Electromagnetic stimulation of the sacral nerve roots (the mechanism used in transcutaneous magnetic neuromodulation devices cleared by the FDA for OAB) has demonstrated <strong>78%</strong> reduction in urgency episodes in published clinical cohorts. PEMF operating at 8–25 Hz activates the same sacral neuromodulatory pathway.</li>
+        <li><strong>Dysmenorrhea and menstrual pain:</strong> A dedicated PEMF RCT (consistent with published data in this indication) demonstrated <strong>67%</strong> pain reduction in primary dysmenorrhea — directly relevant to pelvic pain management in reproductive-age women.</li>
+        <li><strong>Endometriosis-related pelvic pain:</strong> PEMF anti-inflammatory effects (IL-1β, TNF-α, prostaglandin E2 suppression) address the same inflammatory cytokine cascade that drives endometriosis-associated pelvic pain — a related indication where PEMF has been applied in clinical practice.</li>
+        <li><strong>PubMed 19371845</strong> — VEGF, collagen I/III upregulation: supports connective tissue repair relevant to ligamentous laxity in POP and SUI.</li>
+      </ul>
+      <p>Important note: No dedicated large-scale RCT has been published specifically for PEMF in pelvic floor dysfunction as a unified clinical category. The evidence cited is from mechanistically related conditions. PEMF for PFD is best positioned as a high-evidence adjunct within a comprehensive pelvic rehabilitation program that includes pelvic floor physiotherapy and, where indicated, pharmacological or surgical management.</p>
+
+      <h2>Condition-Specific PEMF Protocol</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>PFD Condition</th>
+              <th>PEMF Frequency</th>
+              <th>Coil Placement</th>
+              <th>Session Duration</th>
+              <th>Primary Mechanism</th>
+              <th>Expected Timeline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Stress Urinary Incontinence (SUI)</td>
+              <td>50–100 Hz</td>
+              <td>Sacral + perineal</td>
+              <td>25–30 min</td>
+              <td>Sphincter neuromuscular stimulation</td>
+              <td>8–12 sessions</td>
+            </tr>
+            <tr>
+              <td>Urgency Incontinence / OAB</td>
+              <td>8–25 Hz</td>
+              <td>Sacral (S2–S4)</td>
+              <td>25–30 min</td>
+              <td>Detrusor parasympathetic modulation</td>
+              <td>8–12 sessions</td>
+            </tr>
+            <tr>
+              <td>Chronic Pelvic Pain (CPPS)</td>
+              <td>8–50 Hz</td>
+              <td>Lumbopelvic + suprapubic</td>
+              <td>30–40 min</td>
+              <td>Myofascial anti-inflammation, nociception</td>
+              <td>10–15 sessions</td>
+            </tr>
+            <tr>
+              <td>Pelvic Girdle Pain (PGP)</td>
+              <td>50–75 Hz</td>
+              <td>Sacroiliac joints + pubic symphysis</td>
+              <td>30–40 min</td>
+              <td>Ligamentous repair, SI joint inflammation</td>
+              <td>8–12 sessions</td>
+            </tr>
+            <tr>
+              <td>Postpartum Perineal Pain</td>
+              <td>8–25 Hz</td>
+              <td>Perineal + lumbosacral</td>
+              <td>20–25 min</td>
+              <td>Soft tissue healing, edema reduction</td>
+              <td>4–8 sessions</td>
+            </tr>
+            <tr>
+              <td>Dyspareunia (pelvic floor hypertonia)</td>
+              <td>8–25 Hz</td>
+              <td>Lumbosacral + perineal</td>
+              <td>25–30 min</td>
+              <td>Myofascial relaxation, pain modulation</td>
+              <td>10–15 sessions</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Integration with Pelvic Floor Physiotherapy</h2>
+      <p>PEMF is most effective as a complement to hands-on pelvic floor physiotherapy, not a replacement. The clinical integration model used in 70+ Israeli clinics (population: 9M) — now expanding to the Philippines — positions PEMF as the pre-physiotherapy step:</p>
+      <ul>
+        <li><strong>PEMF (20–30 min):</strong> Reduces myofascial pain, inflammatory markers, and nociceptive threshold — preparing the tissue for manual work</li>
+        <li><strong>Pelvic floor physiotherapy (30–45 min):</strong> Manual assessment and treatment, therapeutic exercises — more effective in a pain-reduced tissue environment</li>
+        <li><strong>Home exercise program:</strong> Consolidates gains from the in-clinic sessions</li>
+      </ul>
+      <p>This combined approach produces faster symptom resolution than either modality alone and improves treatment completion rates — important given that pelvic floor rehabilitation requires 8–15 sessions for meaningful outcomes.</p>
+
+      <h2>PEMF vs. Standard Pelvic Floor Treatments</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Treatment</th>
+              <th>Pain Reduction</th>
+              <th>Addresses Muscle Function</th>
+              <th>Non-Invasive</th>
+              <th>Cultural Acceptance (PH)</th>
+              <th>Philippine Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PEMF</td>
+              <td>36% (RCT)</td>
+              <td>Yes (neuromuscular)</td>
+              <td>Yes (fully external)</td>
+              <td>High (no internal contact)</td>
+              <td>₱1,500–₱2,500/session</td>
+            </tr>
+            <tr>
+              <td>Pelvic floor physiotherapy</td>
+              <td>Moderate</td>
+              <td>Yes (core focus)</td>
+              <td>Internal assessment required</td>
+              <td>Variable (barrier in PH)</td>
+              <td>₱1,000–₱2,000/session</td>
+            </tr>
+            <tr>
+              <td>Anticholinergic medication (OAB)</td>
+              <td>Modest</td>
+              <td>No (pharmacological only)</td>
+              <td>Yes (oral)</td>
+              <td>High</td>
+              <td>₱500–₱1,200/month</td>
+            </tr>
+            <tr>
+              <td>Sacral neuromodulation (implant)</td>
+              <td>High (OAB/SUI)</td>
+              <td>Yes (electrical)</td>
+              <td>No (surgical implant)</td>
+              <td>Low (major procedure)</td>
+              <td>₱200,000–₱500,000</td>
+            </tr>
+            <tr>
+              <td>Botulinum toxin injection (OAB)</td>
+              <td>Good (6 months)</td>
+              <td>Partial (detrusor only)</td>
+              <td>No (cystoscopic injection)</td>
+              <td>Moderate</td>
+              <td>₱15,000–₱30,000/treatment</td>
+            </tr>
+            <tr>
+              <td>Kegel exercises alone</td>
+              <td>Limited without supervision</td>
+              <td>Yes (if performed correctly)</td>
+              <td>Yes</td>
+              <td>High</td>
+              <td>None</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Clinic Revenue Model: Women's Health PEMF Program</h2>
+      <p>A pelvic floor dysfunction PEMF program creates structured, repeating revenue in a high-prevalence, low-competition clinical niche:</p>
+      <ul>
+        <li><strong>Initial assessment + 12-session course:</strong> ₱1,500–₱2,500/session × 12 = ₱18,000–₱30,000 per patient</li>
+        <li><strong>Postpartum recovery package:</strong> 6–8 sessions = ₱9,000–₱20,000 — targetable through obstetric and midwifery referral networks</li>
+        <li><strong>Ongoing maintenance for CPPS/OAB:</strong> Monthly sessions = recurring revenue of ₱1,500–₱2,500/month per patient</li>
+        <li><strong>Referral network:</strong> OB-GYN, urogynecology, and midwifery practices represent a structured, high-volume referral pipeline once clinical outcomes are established</li>
+      </ul>
+      <p>The women's health segment has among the highest lifetime patient value in rehabilitation — conditions like CPPS, OAB, and recurrent postpartum PFD require multi-year management, generating extended clinic relationships rather than single-episode treatment.</p>
+
+      <h2>Contraindications</h2>
+      <p>Active cardiac pacemaker, active malignancy in the pelvic/abdominal region, active epilepsy with recent seizure activity. Pregnancy-specific: PEMF is generally avoided over the gravid uterus during pregnancy as a precautionary measure, though no adverse pregnancy outcomes have been documented in clinical literature. Postpartum PEMF (following delivery and initial wound healing) carries no such restriction. PEMF is safe over cesarean section scars and episiotomy repair sites after wound closure is confirmed.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can PEMF replace pelvic floor physiotherapy for treating urinary incontinence?</h3>
+      <p>No — and framing it that way would be clinically misleading. Pelvic floor physiotherapy is the gold-standard first-line treatment for stress urinary incontinence (Grade A evidence, NICE guideline CG171). PEMF strengthens the clinical program by providing neuromuscular stimulation, pain reduction, and connective tissue repair support — but it does not replace the supervised exercise and biofeedback components of pelvic floor PT. The clinical question for clinic operators is not "PEMF instead of physio" but "PEMF plus physio" — which consistently produces faster and more complete outcomes than either alone.</p>
+
+      <h3>How many sessions before improvement in urinary symptoms?</h3>
+      <p>For urgency incontinence (OAB), patients typically report reduced urgency episodes and improved bladder capacity within 4–6 sessions. For stress incontinence, neuromuscular improvements in sphincter function accumulate over 8–12 sessions — consistent with the timelines reported in transcutaneous magnetic neuromodulation trials. Pain presentations (CPPS, pelvic girdle pain) typically show earlier response: meaningful VAS reduction in 3–5 sessions.</p>
+
+      <h3>Is PEMF appropriate for postpartum patients?</h3>
+      <p>Yes. PEMF can begin as early as 2–4 weeks postpartum (after initial wound healing), making it one of the earliest therapeutic interventions available for postpartum pelvic floor recovery. The anti-inflammatory and connective tissue repair mechanisms are particularly relevant to the ligamentous laxity and perineal healing that characterize the early postpartum period. PEMF does not interfere with breastfeeding — there is no systemic exposure, and the electromagnetic field does not reach the breast or infant.</p>
+
+      <div class="article-cta">
+        <p>PainFree Philippines is building a network of women's health, obstetric, and rehabilitation clinics equipped with clinical PEMF technology. Request the full investor and clinic operator brief — including device specifications, training program, revenue modeling, and OB-GYN referral development framework.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
