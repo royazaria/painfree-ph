@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEMF for Multiple Sclerosis: Fatigue & Spasticity Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="PEMF reduces MS-related fatigue and spasticity in double-blind RCT evidence. Clinical adjunct protocol for multiple sclerosis symptom management in the Philippines."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Neurological Protocol</div>
+    <h1>PEMF for<br/><em>Multiple Sclerosis.</em></h1>
+    <p class="hero-sub">Double-blind RCT evidence for PEMF reducing MS fatigue and spasticity — the two most disabling symptoms in 80% of patients. Adjunct protocol for neurological clinics in the Philippines.</p>
+  </div>
+</section>
+
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">July 2026 · 10 min read · Neurological Protocol</p>
+
+      <img src="https://images.pexels.com/photos/3993212/pexels-photo-3993212.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Neurological rehabilitation clinic for multiple sclerosis patients"/>
+
+      <h2>Why MS Patients Seek Non-Pharmacological Adjuncts</h2>
+      <p>Multiple sclerosis (MS) is a chronic autoimmune demyelinating disease affecting approximately 2.8 million people worldwide. In the Philippines, prevalence is estimated at 4,000–7,000 diagnosed cases — significantly underdiagnosed relative to the population of 115 million due to limited neurology access outside Metro Manila and Cebu. The two symptoms that dominate clinical quality-of-life scores are fatigue (reported by 75–80% of patients) and spasticity (35–85%), neither of which responds adequately to disease-modifying therapies (DMTs) alone.</p>
+      <p>Disease-modifying drugs — interferons, natalizumab, ocrelizumab — slow relapse rates but do not reliably address fatigue or spasticity. Amantadine and modafinil for fatigue show modest effects with tolerability issues. Baclofen and tizanidine for spasticity carry sedation and weakness risks. This therapeutic gap creates significant demand for evidence-based, non-pharmacological adjuncts — which is precisely where PEMF sits.</p>
+
+      <h2>Mechanism: How PEMF Affects MS Symptom Pathways</h2>
+      <p>MS symptoms arise from three interacting processes: axonal demyelination (disrupting nerve conduction velocity), neuroinflammation (perpetuating lesion expansion), and mitochondrial dysfunction (underpinning fatigue at the cellular level). PEMF addresses all three through distinct biophysical pathways:</p>
+      <ol>
+        <li><strong>Mitochondrial ATP upregulation</strong> — PEMF fields in the 10–50 Hz range increase cytochrome c oxidase activity, raising mitochondrial membrane potential and restoring ATP synthesis in axons already stressed by demyelination. This is the proposed mechanism for fatigue reduction.</li>
+        <li><strong>Neuroinflammation modulation</strong> — PEMF suppresses microglial M1 activation and reduces secretion of IL-1β, IL-6, and TNF-α in the CNS, attenuating perilesional inflammation without systemic immunosuppression.</li>
+        <li><strong>Calcium signaling normalization</strong> — Demyelinated axons exhibit dysregulated Ca²⁺ influx contributing to spasticity; PEMF normalizes voltage-gated Ca²⁺ channel activity, reducing hyperexcitability in spinal motor circuits.</li>
+        <li><strong>BDNF and NGF upregulation</strong> — PEMF increases brain-derived neurotrophic factor and nerve growth factor expression, supporting myelin repair processes and axonal survival in perilesional zones.</li>
+      </ol>
+
+      <h2>Clinical Evidence: Fatigue and Spasticity</h2>
+      <p>The most cited double-blind RCT in MS-PEMF literature (Lappin et al., Journal of Alternative and Complementary Medicine, 2003) enrolled 37 patients with relapsing-remitting MS, randomized to 25 Hz PEMF (20 minutes/day, 8 weeks) or sham. The primary outcome — Modified Fatigue Impact Scale (MFIS) — showed statistically significant reduction in the active group versus sham (p=0.04). Bladder and bowel function scores also improved significantly in the PEMF arm.</p>
+      <p>A second double-blind RCT (Piatkowski et al., 2009, n=27 secondary-progressive MS) applied low-frequency PEMF over 4 weeks. Spasticity measured by the Modified Ashworth Scale decreased significantly in the PEMF group (mean 2.5 → 1.9, p=0.016); the sham group showed no change. Patient-reported pain and sleep quality also improved in the active group.</p>
+      <p>A 2014 systematic review of electromagnetic therapy in MS (Richards et al., Multiple Sclerosis Journal) concluded that the evidence base for PEMF in MS fatigue is "promising," noting methodological limitations in available RCTs but consistent directional results across studies. The overall evidence classification is Level B (moderate evidence, adjunct role).</p>
+
+      <h2>MS Symptom Domains Addressable with PEMF</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>MS Symptom</th>
+              <th>Prevalence in MS</th>
+              <th>PEMF Evidence Level</th>
+              <th>Primary Mechanism</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fatigue</td>
+              <td>75–80%</td>
+              <td>Level B (RCT)</td>
+              <td>Mitochondrial ATP restoration</td>
+              <td>Primary indication; 8-week protocol</td>
+            </tr>
+            <tr>
+              <td>Spasticity</td>
+              <td>35–85%</td>
+              <td>Level B (RCT)</td>
+              <td>Ca²⁺ channel normalization</td>
+              <td>Adjunct to physiotherapy</td>
+            </tr>
+            <tr>
+              <td>Neuropathic pain</td>
+              <td>50–75%</td>
+              <td>Level C (observational)</td>
+              <td>Adenosine-A2A receptor activation</td>
+              <td>Use with standard neuropathic pain protocol</td>
+            </tr>
+            <tr>
+              <td>Bladder dysfunction</td>
+              <td>50–90%</td>
+              <td>Level C (subset of RCT)</td>
+              <td>Sacral neuromodulation analog</td>
+              <td>Secondary finding in Lappin 2003</td>
+            </tr>
+            <tr>
+              <td>Sleep disturbance</td>
+              <td>50–60%</td>
+              <td>Level C (observational)</td>
+              <td>Circadian rhythm / melatonin regulation</td>
+              <td>Secondary benefit, not primary indication</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Clinical Protocol for MS Patients</h2>
+      <h3>Phase 1 — Anti-inflammatory and Fatigue Foundation (Sessions 1–8, Weeks 1–4)</h3>
+      <ul>
+        <li><strong>Frequency:</strong> 10–25 Hz</li>
+        <li><strong>Intensity:</strong> Low to moderate (1–5 mT)</li>
+        <li><strong>Duration:</strong> 20–30 minutes per session</li>
+        <li><strong>Coil placement:</strong> Full-spine mat (cervical + thoracic + lumbar) for systemic neurological effect</li>
+        <li><strong>Session frequency:</strong> 3× per week (minimum), 5× per week for faster fatigue response</li>
+        <li><strong>Goal:</strong> Establish mitochondrial baseline; reduce neuroinflammatory burden</li>
+      </ul>
+
+      <h3>Phase 2 — Symptom-Targeted Protocol (Sessions 9–18, Weeks 5–9)</h3>
+      <ul>
+        <li><strong>Frequency:</strong> 25–50 Hz (spasticity focus) or 10–25 Hz (fatigue focus)</li>
+        <li><strong>Intensity:</strong> Moderate (3–8 mT)</li>
+        <li><strong>Duration:</strong> 30–40 minutes</li>
+        <li><strong>Coil placement:</strong> Spinal (spasticity) + localized limb coil for affected extremities</li>
+        <li><strong>Session frequency:</strong> 2–3× per week</li>
+        <li><strong>Goal:</strong> Target dominant symptom cluster (fatigue vs. spasticity vs. pain)</li>
+      </ul>
+
+      <h3>Phase 3 — Maintenance (Ongoing, Monthly)</h3>
+      <ul>
+        <li><strong>Frequency:</strong> 25 Hz maintenance</li>
+        <li><strong>Duration:</strong> 20–30 minutes</li>
+        <li><strong>Session frequency:</strong> 1–2× per week or fortnightly boosters</li>
+        <li><strong>Goal:</strong> Sustain symptomatic gains; schedule intensification during relapse periods</li>
+      </ul>
+
+      <h2>PEMF vs. Other MS Symptom Management Approaches</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>PEMF</th>
+              <th>Amantadine / Modafinil (Fatigue)</th>
+              <th>Baclofen / Tizanidine (Spasticity)</th>
+              <th>Physiotherapy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Primary target</td>
+              <td>Fatigue + spasticity</td>
+              <td>Fatigue only</td>
+              <td>Spasticity only</td>
+              <td>Functional strength/balance</td>
+            </tr>
+            <tr>
+              <td>RCT evidence in MS</td>
+              <td>Yes (2 double-blind RCTs)</td>
+              <td>Yes (limited)</td>
+              <td>Yes</td>
+              <td>Yes (strong)</td>
+            </tr>
+            <tr>
+              <td>Systemic side effects</td>
+              <td>None documented</td>
+              <td>Insomnia, headache, GI</td>
+              <td>Sedation, weakness, withdrawal risk</td>
+              <td>Minimal</td>
+            </tr>
+            <tr>
+              <td>CNS depression risk</td>
+              <td>No</td>
+              <td>Possible</td>
+              <td>Yes (significant)</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Combines with DMTs</td>
+              <td>Yes — no interaction</td>
+              <td>Case-by-case</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Session cost (PH)</td>
+              <td>₱1,500–₱2,500</td>
+              <td>₱800–₱3,000/month (Rx)</td>
+              <td>₱300–₱1,500/month (Rx)</td>
+              <td>₱500–₱2,000/session</td>
+            </tr>
+            <tr>
+              <td>Patient experience</td>
+              <td>Comfortable, passive</td>
+              <td>Oral medication</td>
+              <td>Oral / intrathecal</td>
+              <td>Active effort required</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Important Positioning: PEMF as Adjunct, Not Disease Modifier</h2>
+      <p>It is critical that PEMF is positioned accurately with MS patients and their neurologists. PEMF does not slow relapse rates, halt lesion accumulation, or replace disease-modifying therapy. The evidence supports PEMF as a non-pharmacological symptom management adjunct — addressing fatigue, spasticity, and pain — while patients remain on their prescribed DMT regimen.</p>
+      <p>This positioning is commercially and ethically important. Clinics should coordinate with the patient's neurologist and document symptom tracking (MFIS for fatigue, Modified Ashworth Scale for spasticity) to demonstrate measurable outcomes and sustain the referral relationship.</p>
+
+      <h2>Contraindications and Precautions in MS</h2>
+      <ul>
+        <li><strong>Active relapse:</strong> Defer PEMF until 4–6 weeks post-relapse stabilization; acute inflammatory lesions may respond unpredictably</li>
+        <li><strong>Active pacemaker or implanted neurostimulator (DBS/VNS):</strong> Absolute contraindication</li>
+        <li><strong>Intrathecal baclofen pump:</strong> Consult device specifications; many pump manufacturers advise avoiding strong electromagnetic fields near the device</li>
+        <li><strong>Severe heat sensitivity (Uhthoff phenomenon):</strong> Ensure PEMF system does not generate significant thermal effect; most clinical PEMF systems operate at sub-thermal levels</li>
+        <li><strong>Pregnancy:</strong> Contraindicated per standard PEMF safety guidelines</li>
+      </ul>
+
+      <h2>Philippines Market Context</h2>
+      <p>MS in the Philippines remains severely underdiagnosed: the Philippine Neurological Association estimates 4,000–7,000 identified cases, but true prevalence may be 2–3× higher due to limited access to MRI and neurological specialists outside NCR and key urban centers. As diagnostic capacity improves with Health Facilities Enhancement Programme investments, the diagnosed MS population is expected to grow materially through 2030.</p>
+      <p>MS patients in the Philippines carry a disproportionate symptom burden relative to global counterparts: later diagnosis (mean delay of 3–5 years), limited access to high-efficacy DMTs, and reliance on generic interferons with suboptimal adherence due to cost. This makes non-pharmacological symptom management (PEMF, physiotherapy, occupational therapy) even more clinically and commercially significant in the Philippine context than in Western markets.</p>
+      <p>Rehabilitation centers affiliated with neurology departments at Philippine General Hospital, St. Luke's, The Medical City, and Chong Hua Hospital Cebu represent the primary clinical partnership channel for PEMF clinics targeting the MS segment. With 70+ Israeli clinics (population: 9M) now expanding to the Philippines, this protocol brings validated adjunct MS care to a growing and underserved neurological patient base.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Can MS patients feel PEMF during the session?</h3>
+      <p>Most MS patients do not feel PEMF during treatment — there is no heat, vibration, or electrical sensation at therapeutic intensities. Patients with heightened sensory sensitivity (a common MS symptom) occasionally report mild tingling, which resolves immediately upon session end and is not clinically significant.</p>
+
+      <h3>How quickly does fatigue improvement appear?</h3>
+      <p>The Lappin 2003 RCT used an 8-week protocol with significant fatigue reduction. In clinical practice, patients often notice subjective improvement in fatigue within 3–4 weeks of 3× weekly sessions. Objective MFIS score improvement is typically measurable at 6–8 weeks. Maintenance sessions sustain the effect; discontinuation typically leads to gradual return of fatigue over 4–8 weeks.</p>
+
+      <h3>Is PEMF safe alongside ocrelizumab or natalizumab?</h3>
+      <p>No known electromagnetic interaction with any current MS disease-modifying therapy has been documented. PEMF does not affect drug pharmacokinetics or pharmacodynamics. However, clinics should document current medications and coordinate with the treating neurologist, particularly for patients on investigational agents or enrolled in clinical trials.</p>
+
+      <div class="article-cta">
+        <p>Interested in adding neurological PEMF protocols to your Philippine rehabilitation or neurology clinic? Request the full investor and clinical integration package.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

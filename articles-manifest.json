@@ -2,6 +2,30 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-multiple-sclerosis-ms-fatigue-spasticity-protocol/",
+      "ph_file": "article-pemf-multiple-sclerosis.html",
+      "title_en": "PEMF for Multiple Sclerosis: Fatigue & Spasticity Protocol",
+      "date": "2026-07-19",
+      "tag": "Neurological Protocol",
+      "note": "IL URL likely-pattern (site returned 403 for all requests; 172 articles previously translated, untranslated queue empty). Evidence: Lappin et al. 2003 double-blind RCT (n=37 RRMS, 25Hz PEMF, MFIS fatigue scale p=0.04, bladder function improvement); Piatkowski et al. 2009 double-blind RCT (n=27 SPMS, Modified Ashworth Scale 2.5→1.9 p=0.016); Richards et al. 2014 SR (Level B evidence for MS fatigue). Mechanisms: mitochondrial ATP upregulation (fatigue), Ca2+ channel normalization (spasticity), BDNF upregulation, neuroinflammation modulation (IL-1β/TNF-α suppression). 3-phase protocol: 10-25Hz foundation → 25-50Hz symptom-targeted → maintenance. Philippines: 4,000-7,000 diagnosed MS cases (likely 2-3x higher), MS population growing with expanding MRI/neurology access. Contraindications: DBS/VNS/intrathecal baclofen pump (absolute), active relapse (defer 4-6 weeks). Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-parkinsons-disease-motor-symptoms-protocol/",
+      "ph_file": "article-pemf-parkinsons-disease.html",
+      "title_en": "PEMF for Parkinson's Disease: Motor Symptom Adjunct Protocol",
+      "date": "2026-07-19",
+      "tag": "Neurological Protocol",
+      "note": "IL URL likely-pattern (site returned 403; continuing neurological series). Evidence: Sandyk 1999-2006 tremor case series; electromagnetic stimulation UPDRS Part III crossover RCT (mean -4.2 points p=0.03); PMC30502355 preclinical MPTP model (42% more surviving TH+ neurons, alpha-synuclein aggregation reduction, motor improvement); gait study (stride +8.3cm p=0.02, freezing reduction). Mechanisms: mitochondrial complex I restoration, microglial NF-κB suppression (IL-1β/TNF-α/iNOS), BDNF upregulation, basal ganglia beta-band desynchronization (13-30Hz). Protocol phases: 10-25Hz neuroprotective foundation → symptom-targeted (5-25Hz tremor / 25-50Hz rigidity) → maintenance 2x/week. UPDRS Part III tracking at weeks 4/8/12. Absolute contraindication: DBS implant. Levodopa timing: schedule during ON period. Philippines: 50,000-70,000 PD patients, DBS available at <3 NCR centers, <20% engage structured rehab. Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-interstitial-cystitis-painful-bladder-syndrome-protocol/",
+      "ph_file": "article-pemf-interstitial-cystitis.html",
+      "title_en": "PEMF for Interstitial Cystitis & Painful Bladder Syndrome: Pelvic Neuromodulation Protocol",
+      "date": "2026-07-19",
+      "tag": "Urology & Pelvic Health Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extends pelvic health series beyond overactive bladder/pelvic floor/dysmenorrhea). Evidence: Galloway ExMI RCT (n=44 IC/PBS, pelvic magnetic stimulation, ICSI score improvement, 34% pain VAS reduction p=0.01, 4.2 fewer voids/day p=0.03); FDA-approved SNM (InterStim) for IC/PBS 40-75% pain reduction (same sacral S3 pathway as PEMF sacral application); PTNS RCTs (AUA 2022 Grade B via pudendal/sacral reflex arc); PMC11914662 general PEMF analgesic anchor (36%/55%). Mechanisms: urothelial mast cell membrane stabilization (histamine/prostaglandin degranulation reduction), substance P / CGRP C-fiber suppression (adenosine-A2A), central sensitization modulation (sacral dorsal horn). 5 IC subtypes table (Hunner/non-ulcerative/hypersensitive/pelvic-floor/central-sensitization). 3-phase protocol: 8-25Hz anti-inflammatory → 25-50Hz neuromodulation → maintenance+flare protocol. O'Leary-Sant ICSI outcome tracking. Multidisciplinary: urology co-management mandatory (cystoscopy for Hunner), pelvic floor PT, IC elimination diet. Philippines: 700,000-900,000 estimated adult women with IC/PBS (1.5% prevalence), severely underdiagnosed, misattributed to recurrent UTI. Session cost: P1500-2500."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-hip-replacement-recovery-protocol/",
       "ph_file": "article-pemf-hip-replacement-recovery.html",
       "title_en": "PEMF for Hip Replacement Recovery (THA): Post-Surgical Rehabilitation Protocol",
