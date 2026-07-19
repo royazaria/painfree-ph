@@ -1385,6 +1385,13 @@
       "title_en": "PEMF for Costochondritis: Chest Wall Pain Protocol",
       "date": "2026-07-17",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-posterior-tibial-tendon-dysfunction-protocol/",
+      "ph_file": "article-pemf-posterior-tibial-tendon-dysfunction.html",
+      "title_en": "PEMF for Posterior Tibial Tendon Dysfunction (PTTD): Clinical Protocol",
+      "date": "2026-07-19",
+      "tag": "Clinical Protocol"
     }
   ],
   "untranslated_queue": [],
@@ -2064,6 +2071,16 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2 — same-day translation of IL post 4478 (costochondritis/chest-wall pain, Tietze). Rebased onto parallel remote run. Prepended card. Hero Pexels 10031268. Cardiac red-flag callout retained. Citations PMC11914662 + PubMed 19371845. 70+ clinics PH substitution."
+    },
+    {
+      "date": "2026-07-19",
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-posterior-tibial-tendon-dysfunction.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: translated today's new Hebrew article (PTTD / adult-acquired flatfoot, IL post 4481) to English and published to PH. Fresh clinical topic, no prior tibialis-posterior/flatfoot article on PH. Citations PMC11914662 (general soft-tissue caveat) + Strauch 19371845; no banned metabolic-BP studies. Peso pricing, no Hebrew/ILS."
     }
-  ]
+  ],
+  "translated_count": 176
 }
