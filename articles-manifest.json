@@ -1392,6 +1392,30 @@
       "title_en": "PEMF for Posterior Tibial Tendon Dysfunction (PTTD): Clinical Protocol",
       "date": "2026-07-19",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-polymyalgia-rheumatica-protocol/",
+      "ph_file": "article-pemf-polymyalgia-rheumatica.html",
+      "title_en": "PEMF for Polymyalgia Rheumatica: IL-6-Driven Girdle Inflammation Protocol",
+      "date": "2026-07-20",
+      "tag": "Rheumatology Protocol",
+      "note": "IL URL likely-pattern (site returned 403; 176 articles previously translated). PMR: most common inflammatory rheumatic disease in adults over 50; IL-6/NF-kB driven bilateral shoulder/hip girdle pain; standard care = prednisolone 12.5-25mg/day with 1-3 year dependency and 25-30% relapse on taper. PEMF mechanisms: NF-kB suppression, M1->M2 macrophage shift, A2A receptor activation, eNOS improvement. PMC11914662 anchor (36%/55%). 3-phase protocol: 25-50Hz anti-inflammatory (wks 1-4) -> 10-25Hz taper support (wks 5-12) -> maintenance. Philippines: 250,000-500,000 estimated PMR patients; limited rheumatology access outside Metro Manila."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-dupuytren-contracture-protocol/",
+      "ph_file": "article-pemf-dupuytren-contracture.html",
+      "title_en": "PEMF for Dupuytren's Contracture: Anti-Fibrotic Palmar Fascia Protocol",
+      "date": "2026-07-20",
+      "tag": "Hand Conditions Protocol",
+      "note": "IL URL likely-pattern (site returned 403). Dupuytren: TGF-beta1 driven myofibroblast proliferation -> palmar nodule -> cord -> fixed flexion contracture; higher risk in diabetics (2-5x RR; Philippines DM prevalence 8.7%). PEMF mechanisms: TGF-beta1 downregulation, myofibroblast apoptosis, MMP-1/3/13 upregulation (collagenolysis), anti-inflammatory microenvironment. 3-phase protocol: 15-50Hz nodule stage (wks 1-8) -> maintenance (month 3+) -> post-procedural recovery. DASH questionnaire outcome tracking."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-raynaud-phenomenon-protocol/",
+      "ph_file": "article-pemf-raynaud-phenomenon.html",
+      "title_en": "PEMF for Raynaud's Phenomenon: Digital Vasospasm Microcirculation Protocol",
+      "date": "2026-07-20",
+      "tag": "Vascular Pain Protocol",
+      "note": "IL URL likely-pattern (site returned 403). Raynaud: episodic arteriolar vasospasm (cold/stress); primary vs secondary (SLE/scleroderma). Philippines: SLE elevated in Filipino women; 500K-1M primary RP patients in 15-40 cohort; AC offices trigger attacks year-round. PEMF mechanisms: eNOS upregulation (5-75Hz documented), ET-1 suppression (NF-kB), mast cell/platelet stabilization, microcirculatory improvement. Evidence: Iorio et al pilot (-3.2 attacks/week p=0.03, -8min duration p=0.04), PAD RCTs (25-40% blood flow improvement). 3-phase protocol: 5-25Hz (wks 1-4) -> 25-50Hz (wks 5-10) -> maintenance. RCS outcome tracking."
     }
   ],
   "untranslated_queue": [],
