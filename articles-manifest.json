@@ -942,12 +942,12 @@
       "note": "IL URL likely-pattern (site returned 403 on fetch). Evidence: PMC4959873 (VEGF/angiogenesis upregulation — primary mechanism for avascular labral fibrocartilage), PMC3518856 (proteoglycan +42%, type II collagen upregulation — ECM restoration in fibrocartilage), PMC7093940 (Type I collagen fiber realignment — histological confirmation in connective tissue), PMC11914662 (n=91 36%/55% joint/periarticular benchmark), PMC9325280 (n=124, RTP 9.4 vs 15.2 days 38% faster, re-injury 6.5% vs 18.4%), PMID 28060214 (post-surgical analgesic 1.9× lower 24h, 2.1× lower 7-day), PubMed 19371845 (NF-κB/IL-1β/TNF-α suppression). Byrd 4-type classification table (radial flap/fibrillated/longitudinal peripheral/unstable with PEMF role per type), zonal blood supply model (red-red/red-white/white-white), 4-phase protocol (8-15Hz acute → 25-50Hz angiogenesis → 50-75Hz matrix repair → 75-100Hz consolidation, 24 sessions), 5-treatment comparison table (PEMF vs PT/corticosteroid/PRP/arthroscopy with PH costs). Philippine market: 600K football players, 1.2M runners, martial arts athletes, military. 10 min read."
     },
     {
-      "il_url": "https://painfree.org.il/pemf-stress-fractures-bone-stress-injuries-protocol/",
+      "il_url": "https://painfree.org.il/pemf-stress-fracture-bone-stress-injury-protocol/",
       "ph_file": "article-pemf-stress-fractures.html",
       "title_en": "PEMF for Stress Fractures & Bone Stress Injuries: Evidence from 14 Randomized Trials",
       "date": "2026-07-01",
       "tag": "Bone Healing Protocol",
-      "note": "IL URL likely-pattern (site returned 403 on fetch). STRONGEST PEMF evidence base: PMID 32495506 (meta-analysis 14 RCTs n=1,131: healing rate 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35, pain SMD=-0.49, healing time SMD=-1.01), PMC6209359 (n=1,382 real-world, 89.6% success), PMC3441225 (tibial non-union n=44, 77.3% union), PMID 35864717 (2022 MA: PEMF+medications vs medications alone — BMD, ALP, BSAP, osteocalcin all increased, no adverse event increase). FDA 510(k) 1979 clearance (original bone healing indication). Piezoelectric mechanism (BMP-2, osteoblast differentiation, collagen synthesis, calcium incorporation). 6-row MRI grade table (Grade 1-5 with standard management, PEMF role, expected benefit), 3-phase protocol (5-15Hz inflammation → 15-50Hz osteoblast activation → 50-100Hz mineralization, 16-30 sessions), high-risk fracture site guide (femoral neck tension side / anterior tibial cortex / navicular / Jones zone), 5-treatment comparison table (PEMF vs rest/US/surgery/PRP with PH costs), military protocol (grade 1-2 BSI at camp, 5×/week standdown track). Philippine market: 1.2-1.8M runners, AFP/PNP military, adolescent athletes. 10 min read."
+      "note": "IL URL likely-pattern (site returned 403 on fetch). STRONGEST PEMF evidence base: PMID 32495506 (meta-analysis 14 RCTs n=1,131: healing rate 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35, pain SMD=-0.49, healing time SMD=-1.01), PMC6209359 (n=1,382 real-world, 89.6% success), PMC3441225 (tibial non-union n=44, 77.3% union), PMID 35864717 (2022 MA: PEMF+medications vs medications alone — BMD, ALP, BSAP, osteocalcin all increased, no adverse event increase). FDA 510(k) 1979 clearance (original bone healing indication). Piezoelectric mechanism (BMP-2, osteoblast differentiation, collagen synthesis, calcium incorporation). 6-row MRI grade table (Grade 1-5 with standard management, PEMF role, expected benefit), 3-phase protocol (5-15Hz inflammation → 15-50Hz osteoblast activation → 50-100Hz mineralization, 16-30 sessions), high-risk fracture site guide (femoral neck tension side / anterior tibial cortex / navicular / Jones zone), 5-treatment comparison table (PEMF vs rest/US/surgery/PRP with PH costs), military protocol (grade 1-2 BSI at camp, 5×/week standdown track). Philippine market: 1.2-1.8M runners, AFP/PNP military, adolescent athletes. 10 min read. | 2026-07-20: il_url corrected to the real live IL post 4487 (the earlier URL was a guessed pattern that 403d). No new PH file created — PH already covers this topic."
     },
     {
       "il_url": "https://painfree.org.il/pemf-facet-joint-syndrome-lumbar-arthritis-protocol/",
@@ -2104,6 +2104,14 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2: translated today's new Hebrew article (PTTD / adult-acquired flatfoot, IL post 4481) to English and published to PH. Fresh clinical topic, no prior tibialis-posterior/flatfoot article on PH. Citations PMC11914662 (general soft-tissue caveat) + Strauch 19371845; no banned metabolic-BP studies. Peso pricing, no Hebrew/ILS."
+    },
+    {
+      "date": "2026-07-20",
+      "phase": 2,
+      "articles_translated": 0,
+      "files_created": [],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: today's IL article (post 4487, stress fracture / bone stress injury) already has a PH equivalent (article-pemf-stress-fractures.html, created 2026-07-01 against a guessed IL URL). Converged the manifest il_url to the real live IL post instead of publishing a duplicate PH page. FLAG FOR ROY: that PH page cites studies (PMID 32495506, PMC6209359, PMC3441225, PMID 35864717) that are NOT in pemf-knowledge.md and were never verified — needs a citation audit before it is promoted."
     }
   ],
   "translated_count": 176
