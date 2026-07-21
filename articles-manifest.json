@@ -1440,6 +1440,14 @@
       "date": "2026-07-21",
       "tag": "Neurorehabilitation Protocol",
       "note": "IL URL likely-pattern (site returned 403; extending neurological series: MS/Parkinson/post-stroke). Evidence: Defrin R et al. (2002) double-blind crossover RCT n=24 chronic SCI neuropathic pain (Pain 97(3):223-230, Tel Aviv Sourasky Medical Center, significant VAS reduction PEMF vs sham p<0.05, 3 weeks daily PEMF); Piatkowski et al. MS spasticity RCT (MAS 2.5->1.9 p=0.016, same UMN pathway); preclinical PEMF muscle atrophy (MAFbx/MuRF1 atrophy ligase suppression, CSA preservation); preclinical glial scar (GFAP/CSPG reduction); PEMF bone density osteogenic (FDA-cleared bone growth stimulator indication). AIS A-E classification table with PEMF applicability. Multi-target protocol: neuropathic pain (8-25Hz), spasticity (25-50Hz), bone density (75-100Hz), pressure ulcer prevention (10-25Hz). SCI-specific contraindications table: spinal fixation hardware (coil positioning rules), intrathecal baclofen pump (absolute local), HO (defer during active phase), autonomic dysreflexia monitoring (T6 and above). Philippines: 170,000 SCI patients, road traffic leading cause, severe rehabilitation access gap. Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-cervicogenic-headache-neck-origin-protocol/",
+      "ph_file": "article-pemf-cervicogenic-headache.html",
+      "title_en": "PEMF for Cervicogenic Headache: Neck-Origin Head Pain Protocol",
+      "date": "2026-07-21",
+      "tag": "Cervical Protocol",
+      "note": "Phase 2 same-day translation of live IL post 4626 (URL verified HTTP 200 before writing, not a guessed pattern). Citations carried over verbatim from the verified pemf-knowledge.md set: PMC11914662 (2025 multi-center RCT n=91, 36% vs 10%, p<0.0001, 55% vs 12% medication drop), PubMed 7837158 (Trock 1994, knee n=86 + cervical spine n=81, 18 sessions, sustained at 1 month), PMC12943413 (Neurology International 2026, stratified: strong in mechanical/radicular, limited in diffuse peripheral neuropathy). Article states explicitly that no dedicated cervicogenic-headache RCT exists and the transfer is mechanism-level. PH angle: 1.3M BPO/night-shift forward-head load, OTC analgesic self-management and medication-overuse headache, post-whiplash sequelae, mislabelled long-standing 'migraine' patients."
     }
   ],
   "untranslated_queue": [],
@@ -2138,5 +2146,5 @@
       "note": "Phase 2: today's IL article (post 4487, stress fracture / bone stress injury) already has a PH equivalent (article-pemf-stress-fractures.html, created 2026-07-01 against a guessed IL URL). Converged the manifest il_url to the real live IL post instead of publishing a duplicate PH page. FLAG FOR ROY: that PH page cites studies (PMID 32495506, PMC6209359, PMC3441225, PMID 35864717) that are NOT in pemf-knowledge.md and were never verified — needs a citation audit before it is promoted."
     }
   ],
-  "translated_count": 176
+  "translated_count": 183
 }
