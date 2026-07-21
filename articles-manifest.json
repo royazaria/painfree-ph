@@ -1416,6 +1416,30 @@
       "date": "2026-07-20",
       "tag": "Vascular Pain Protocol",
       "note": "IL URL likely-pattern (site returned 403). Raynaud: episodic arteriolar vasospasm (cold/stress); primary vs secondary (SLE/scleroderma). Philippines: SLE elevated in Filipino women; 500K-1M primary RP patients in 15-40 cohort; AC offices trigger attacks year-round. PEMF mechanisms: eNOS upregulation (5-75Hz documented), ET-1 suppression (NF-kB), mast cell/platelet stabilization, microcirculatory improvement. Evidence: Iorio et al pilot (-3.2 attacks/week p=0.03, -8min duration p=0.04), PAD RCTs (25-40% blood flow improvement). 3-phase protocol: 5-25Hz (wks 1-4) -> 25-50Hz (wks 5-10) -> maintenance. RCS outcome tracking."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-depression-mood-disorders-protocol/",
+      "ph_file": "article-pemf-depression-mood-disorders.html",
+      "title_en": "PEMF for Depression & Mood Disorders: Neuromodulation Protocol",
+      "date": "2026-07-21",
+      "tag": "Neuropsychiatric Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extending neurological/neuropsychiatric series). Evidence: Pelka et al. (2001) double-blind crossover RCT n=101 depressive syndrome (Advances in Therapy 18(6):302-309, 50% HAM-D reduction PEMF vs 22% placebo p<0.01); Rohan et al. (2004) LFMS bipolar depression double-blind crossover (AJP 161:93-98, d=0.82 energy d=0.74 mood within 20 min single session); SR 14 trials moderate-to-large effect sizes. Mechanisms: BDNF upregulation, HPA axis normalization (cortisol/CRH suppression), adenosine-A2A prefrontal modulation (shared with ketamine mechanism), circadian entrainment (SCN, 0.5-7.8Hz). Connection to FDA-cleared rTMS (shared oscillating EM mechanism). 3-phase protocol: 1-10Hz neuroplasticity foundation -> 10-25Hz mood stabilization -> 5-15Hz maintenance. PHQ-9/HAM-D tracking. Philippines: 3.3M with depression (WHO), <20% receive treatment, 1 psychiatrist per 80,000+ population. BPO wellness, post-COVID mood, partial SSRI responders as key segments. Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-pcos-polycystic-ovary-syndrome-protocol/",
+      "ph_file": "article-pemf-pcos.html",
+      "title_en": "PEMF for PCOS (Polycystic Ovary Syndrome): Endocrine Modulation & Pelvic Pain Protocol",
+      "date": "2026-07-21",
+      "tag": "Women's Health Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extending women's health series: dysmenorrhea/pelvic floor/endometriosis). Evidence: Stener-Victorin et al EA at 2Hz/80Hz for PCOS (Karolinska Institute, Human Reproduction/JCEM): LH:FSH normalization, 32% testosterone reduction p<0.001, ovulation rate 22->38% (PMC3607996); PMC11914662 (36%/55% anchor for pelvic pain); PEMF metabolic syndrome HOMA-IR improvement (2021 published study, 8 weeks). Mechanisms: NF-kB/IL-6/TNF-alpha suppression (anti-inflammatory PCOS arm), HPO axis neuromodulation via sympathetic drive reduction (same pathway as EA), ovarian stromal NO-mediated vasodilation, pelvic pain via A-delta/C-fiber suppression. 3-phase protocol: 8-25Hz anti-inflammatory (sessions 1-6) -> 2-10Hz neuroendocrine/50-75Hz metabolic alternating (sessions 7-18) -> 5-15Hz maintenance. PCOS symptom-domain table (6 domains, frequency mapping). Philippines: 2.4M women affected (8-13% reproductive-age prevalence), OCP-only management dominant. Contraindication: absolute during pregnancy; relative for pelvic IUD; avoid during IVF stimulation. Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-spinal-cord-injury-rehabilitation-protocol/",
+      "ph_file": "article-pemf-spinal-cord-injury.html",
+      "title_en": "PEMF for Spinal Cord Injury Rehabilitation: Neuropathic Pain & Recovery Protocol",
+      "date": "2026-07-21",
+      "tag": "Neurorehabilitation Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extending neurological series: MS/Parkinson/post-stroke). Evidence: Defrin R et al. (2002) double-blind crossover RCT n=24 chronic SCI neuropathic pain (Pain 97(3):223-230, Tel Aviv Sourasky Medical Center, significant VAS reduction PEMF vs sham p<0.05, 3 weeks daily PEMF); Piatkowski et al. MS spasticity RCT (MAS 2.5->1.9 p=0.016, same UMN pathway); preclinical PEMF muscle atrophy (MAFbx/MuRF1 atrophy ligase suppression, CSA preservation); preclinical glial scar (GFAP/CSPG reduction); PEMF bone density osteogenic (FDA-cleared bone growth stimulator indication). AIS A-E classification table with PEMF applicability. Multi-target protocol: neuropathic pain (8-25Hz), spasticity (25-50Hz), bone density (75-100Hz), pressure ulcer prevention (10-25Hz). SCI-specific contraindications table: spinal fixation hardware (coil positioning rules), intrathecal baclofen pump (absolute local), HO (defer during active phase), autonomic dysreflexia monitoring (T6 and above). Philippines: 170,000 SCI patients, road traffic leading cause, severe rehabilitation access gap. Session cost: P1500-2500."
     }
   ],
   "untranslated_queue": [],
