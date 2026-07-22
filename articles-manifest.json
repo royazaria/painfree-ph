@@ -2152,6 +2152,14 @@
       "files_created": [],
       "untranslated_remaining": 0,
       "note": "Phase 2: today's IL article (Jack daily run, post 4629 — facet joint syndrome, pemf-facet-joint-syndrome-spine-protocol/) already has a PH equivalent (article-pemf-facet-joint-syndrome.html, created 2026-07-02 against a guessed IL URL that is now confirmed 404). Converged the manifest il_url to the real live IL post 4629 (verified HTTP 200) instead of publishing a duplicate PH page — same pattern as the 2026-07-20 stress-fracture convergence. FLAG FOR ROY: the pre-existing PH page cites studies NOT in the verified pemf-knowledge.md (PMC11775040, PMC6806956, PMC12467020, PMC9110240, PMC4959873) — needs a citation audit before promotion. The live IL post 4629 uses only the verified set (PMC11914662 + PubMed 7837158 + PubMed 19371845) with an explicit 'no dedicated facet-joint RCT exists' honesty statement."
+    },
+    {
+      "date": "2026-07-22",
+      "phase": "audit",
+      "articles_translated": 0,
+      "files_created": [],
+      "untranslated_remaining": 0,
+      "note": "CITATION AUDIT DONE (Roy requested 'תסדר מה שאתה צריך'). Rewrote the body of article-pemf-facet-joint-syndrome.html to match the verified IL post 4629. REMOVED 7 unverified/not-in-KB citations (PMC11775040, PMC6806956, PMC12467020, PMC9110240, PMC4959873, PMC3518856, PMC3967773) and the fabricated stats attached to them (η²=0.28/p=0.015 paraspinal, SMD figures, +42% proteoglycan). REMOVED the fabricated claim that 'the majority of PMC11914662 participants had a facet/paraspinal component' (contradicts the verified study description — it was joint & soft-tissue pain across 5 orthopedic clinics). REMOVED the specific-Hz 3-phase protocol table (violates the 'המחשב יידע/no specific Hz' rule) and the 'disease-modifying/chondroprotective' overreach. NOW uses only the verified set: PMC11914662 (general joint/soft-tissue, explicit general->specific bridge), PubMed 7837158 (Trock 1994 cervical spine OA), PubMed 19371845 (Strauch soft-tissue mechanism), plus an explicit 'no dedicated facet RCT' statement, 30-min/1-2x-week protocol, honest comparison table (no fabricated efficacy %), and '60+ clinics / 25 years' (was '70+'). Also fixed the meta description, hero sub-head and the articles.html card to match. Structural audit: all fabricated IDs = 0 occurrences, 3 verified IDs present as clickable links, all tags balanced."
     }
   ],
   "translated_count": 183
