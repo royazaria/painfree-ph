@@ -1472,6 +1472,14 @@
       "date": "2026-07-23",
       "tag": "Connective Tissue Protocol",
       "note": "IL URL likely-pattern (site returned 403; extending rare connective tissue/rheumatology series). EDS 2017 International Classification: 13 subtypes; hEDS most common (est 1/500-1000). No FDA/EMA approved disease-modifying therapy. PEMF unique mechanism: TGF-beta1 upregulation -> collagen type I/III synthesis in fibroblasts; LOX upregulation (collagen crosslinking); fibroblast proliferation/migration. Additional: adenosine-A2A + NF-kB for joint pain (PMC11914662 36%/55%); Trock 1993 n=81 joint pain; proprioceptive A-beta afferent stimulation (subluxation reduction); vagal enhancement for POTS (40-70% of hEDS); FDA 510k wound healing mechanism. Philippines estimate: 23K EDS strict criteria + 200K+ hypermobility spectrum disorder (HSD). vEDS contraindication: do not apply high-intensity coils over aorta/major vessels. 3-phase: 8-25Hz pain reduction -> 25-75Hz collagen synthesis -> 0.5-10Hz + 25-50Hz autonomic/proprioceptive. Session cost P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-cervical-radiculopathy-arm-pain-protocol/",
+      "ph_file": "article-pemf-cervical-radiculopathy.html",
+      "title_en": "PEMF for Cervical Radiculopathy: Radiating Arm Pain Protocol",
+      "date": "2026-07-23",
+      "tag": "Cervical Protocol",
+      "note": "Phase 2 same-day translation of live IL post 4632 (URL verified HTTP 200 before writing, not a guessed pattern). Distinct from existing PH cervical pages: cervical-disc-herniation (the disc), cervical-neck-pain (axial), and sciatica-radiculopathy (LUMBAR) — this is the cervical radicular syndrome (radiating arm pain, dermatomal, differential vs carpal tunnel/TOS). Citations verbatim from the verified pemf-knowledge.md set: PMC12943413 (Neurology International 2026 meta-analysis, radicular/mechanical subgroup SMD -2.35 vs -0.38 diffuse peripheral — Valid-for explicitly names cervical radiculopathy; headline), PubMed 7837158 (Trock 1994 cervical spine OA n=81), PMC11914662 (2025 multi-center RCT n=91, 36% vs 10%). Article states explicitly that no dedicated large cervical-radiculopathy RCT exists and PEMF does not decompress the root. PH angle: 1.3M BPO/night-shift forward-head load, motorcycle cervical trauma, self-managed/misdiagnosed carpal-tunnel patients."
     }
   ],
   "untranslated_queue": [],
@@ -2184,7 +2192,17 @@
       "files_created": [],
       "untranslated_remaining": 0,
       "note": "CITATION AUDIT DONE (Roy requested 'תסדר מה שאתה צריך'). Rewrote the body of article-pemf-facet-joint-syndrome.html to match the verified IL post 4629. REMOVED 7 unverified/not-in-KB citations (PMC11775040, PMC6806956, PMC12467020, PMC9110240, PMC4959873, PMC3518856, PMC3967773) and the fabricated stats attached to them (η²=0.28/p=0.015 paraspinal, SMD figures, +42% proteoglycan). REMOVED the fabricated claim that 'the majority of PMC11914662 participants had a facet/paraspinal component' (contradicts the verified study description — it was joint & soft-tissue pain across 5 orthopedic clinics). REMOVED the specific-Hz 3-phase protocol table (violates the 'המחשב יידע/no specific Hz' rule) and the 'disease-modifying/chondroprotective' overreach. NOW uses only the verified set: PMC11914662 (general joint/soft-tissue, explicit general->specific bridge), PubMed 7837158 (Trock 1994 cervical spine OA), PubMed 19371845 (Strauch soft-tissue mechanism), plus an explicit 'no dedicated facet RCT' statement, 30-min/1-2x-week protocol, honest comparison table (no fabricated efficacy %), and '60+ clinics / 25 years' (was '70+'). Also fixed the meta description, hero sub-head and the articles.html card to match. Structural audit: all fabricated IDs = 0 occurrences, 3 verified IDs present as clickable links, all tags balanced."
+    },
+    {
+      "date": "2026-07-23",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-cervical-radiculopathy.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: today's Jack IL article (post 4632, cervical radiculopathy) translated to English and published. Pulled origin/main first (parallel remote run had added chronic-fatigue/ehlers-danlos/lupus pages); no exact PH equivalent existed for cervical radiculopathy, so a new page was created rather than converging an il_url. il_url is the real live IL post 4632 (HTTP 200 verified). Note: remote left translated_count stale at 183 vs list len 186; recomputed to actual length."
     }
   ],
-  "translated_count": 183
+  "translated_count": 187
 }
