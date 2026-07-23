@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEMF for Lupus (SLE): Anti-Inflammatory & Musculoskeletal Pain Protocol | PainFree Philippines</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="manifest" href="site.webmanifest"/>
+  <meta name="description" content="Systemic lupus erythematosus affects an estimated 100,000+ Filipinos — with Filipino women facing 4–9× elevated risk. PEMF's NF-κB suppression and immunomodulatory mechanisms offer an adjunct for musculoskeletal pain without added immunosuppressant burden."/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #06111F;
+      --navy-2:   #0B1C30;
+      --navy-3:   #122440;
+      --teal:     #00B4D8;
+      --teal-d:   #0096B7;
+      --gold:     #F59E0B;
+      --white:    #FFFFFF;
+      --off-white:#F7F9FC;
+      --light:    #EEF3F8;
+      --ink:      #0F1F30;
+      --ink-2:    #2D4257;
+      --muted:    #637083;
+      --border:   #D4DDE8;
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --r: 10px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
+    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.v { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
+
+    /* NAV */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 14px 0;
+      background: rgba(6,17,31,.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06);
+      transition: padding .3s, background .3s;
+    }
+    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
+    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
+    .nav-links { display: flex; gap: 8px; list-style: none; }
+    .nav-links a {
+      display: inline-flex; align-items: center;
+      padding: 8px 18px; min-height: 38px;
+      color: rgba(255,255,255,.85); text-decoration: none;
+      font-size: .875rem; font-weight: 500;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 10px 22px; min-height: 44px;
+      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      min-height: 62vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative;
+      padding: 140px 0 80px;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 14px;
+      background: rgba(0,180,216,.12);
+      border: 1px solid rgba(0,180,216,.3);
+      border-radius: 100px;
+      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--teal);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px;
+      background: var(--teal); border-radius: 50%;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .hero h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+      color: #fff; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.1rem; color: rgba(255,255,255,.65);
+      max-width: 620px; line-height: 1.75;
+    }
+
+    /* ARTICLE BODY */
+    .article-sec { background: var(--white); padding: 96px 0; }
+    .article-inner { max-width: 820px; margin: 0 auto; }
+    .article-breadcrumb { margin-bottom: 32px; }
+    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .article-breadcrumb a:hover { color: var(--teal); }
+    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
+    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
+    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
+    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
+    .article-inner ul { margin: 0 0 20px 24px; }
+    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
+    .article-inner ol { margin: 0 0 20px 24px; }
+    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
+
+    /* TABLE */
+    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    .article-table thead tr { background: var(--navy); color: #fff; }
+    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
+    .article-table tbody tr:nth-child(odd) { background: #fff; }
+    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .article-table td:first-child { font-weight: 600; color: var(--ink); }
+
+    /* CTA */
+    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
+    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; min-height: 52px;
+      background: var(--teal); color: #fff;
+      border: none; border-radius: var(--r);
+      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
+
+    /* WhatsApp float */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 300;
+      width: 56px; height: 56px;
+      background: #25D366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 44px 0 32px;
+    }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
+    .footer-certs { display: flex; gap: 10px; }
+    .fcert {
+      padding: 5px 11px;
+      background: rgba(0,180,216,.08);
+      border: 1px solid rgba(0,180,216,.15);
+      border-radius: 5px;
+      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
+    }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+
+    @media (max-width: 620px) {
+      .hero h1 { font-size: 2.2rem; }
+      .nav-links { display: none; }
+      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-row">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="letters.html">Medical Reviews</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+        <li><a href="index.html#inquire">Contact</a></li>
+      </ul>
+      <a href="index.html#inquire" class="nav-btn">
+        Request Brief
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">Autoimmune Rheumatology Protocol</div>
+    <h1>PEMF for Lupus<br/><em>(SLE).</em></h1>
+    <p class="hero-sub">Filipino women face 4–9× elevated SLE risk versus Caucasian populations. PEMF's NF-κB suppression and regulatory T-cell enhancement address the inflammatory cascade driving arthralgia, fatigue, and serositis — without adding to the immunosuppressant burden.</p>
+  </div>
+</section>
+
+<!-- ARTICLE BODY -->
+<section class="article-sec">
+  <div class="container">
+    <div class="article-inner">
+
+      <div class="article-breadcrumb">
+        <a href="articles.html">← Back to Articles</a>
+      </div>
+
+      <p class="article-dateline">July 2026 &middot; 11 min read &middot; Autoimmune Rheumatology Protocol</p>
+
+      <img src="https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Rheumatology clinical setting for lupus SLE patient assessment and treatment"/>
+
+      <h2>The SLE Burden in the Philippines</h2>
+      <p>Systemic lupus erythematosus (SLE) is a chronic, relapsing-remitting autoimmune disease in which dysregulated immune activation generates autoantibodies (anti-dsDNA, anti-Sm, anti-phospholipid) that damage multiple organ systems — joints, kidneys, skin, heart, lungs, and the central nervous system. It is one of the most complex diseases in medicine and one of the most inadequately treated in low-to-middle-income healthcare settings.</p>
+      <p>The Philippines carries a disproportionate SLE burden. Filipino women of Asian ancestry face a 4–9-fold elevated SLE risk compared to Caucasian women, driven by specific HLA class II alleles (HLA-DR2, HLA-DR3) at elevated frequency in East and Southeast Asian gene pools. Epidemiological data from Philippine General Hospital and rheumatology registries estimate 100,000–200,000 Filipinos with SLE — predominantly women of reproductive age (15–45 years). Access to rheumatology care is severely constrained: approximately 200 board-certified rheumatologists serve a population of 115 million, concentrated in Metro Manila and a handful of regional centers.</p>
+
+      <h2>Why Musculoskeletal Pain Is the Primary Clinical Target</h2>
+      <p>Arthralgia (joint pain) and arthritis are the most prevalent SLE manifestations, affecting 90–95% of patients over the disease course. Unlike rheumatoid arthritis, SLE arthritis is typically non-erosive — but it is equally disabling in terms of quality of life. The inflammatory arthropathy of SLE is driven by immune complex deposition in synovium, complement activation (C3a, C5a), and sustained cytokine production (IL-6, IL-1β, TNF-α) that mirrors the mechanism PEMF targets most directly.</p>
+      <p>Additional musculoskeletal manifestations relevant to PEMF:</p>
+      <ul>
+        <li><strong>Myositis:</strong> inflammatory muscle disease affecting 30–50% of SLE patients</li>
+        <li><strong>Avascular necrosis (AVN):</strong> osteonecrosis of the femoral head, an iatrogenic complication of corticosteroid therapy affecting 5–10% of long-term steroid users</li>
+        <li><strong>Fibromyalgia overlap:</strong> 30% of SLE patients meet fibromyalgia criteria</li>
+        <li><strong>Raynaud's phenomenon:</strong> 30–40% of SLE patients — microvascular vasospasm responsive to PEMF's eNOS-mediated vasodilation</li>
+        <li><strong>Fatigue:</strong> the single most common symptom, present in 80–90% of patients and independent of disease activity markers</li>
+      </ul>
+
+      <h2>PEMF Mechanisms in SLE</h2>
+
+      <h3>1. NF-κB Suppression — The Cytokine Master Switch</h3>
+      <p>The NF-κB pathway governs transcription of IL-6, IL-1β, TNF-α, IFN-γ, and prostaglandin E2 — the complete set of cytokines driving SLE-associated inflammation. PEMF at 8–25 Hz suppresses NF-κB nuclear translocation by stabilizing IκBα (the cytoplasmic inhibitor) against ubiquitination. This is the same anti-inflammatory mechanism demonstrated across multiple PEMF studies, including those underlying the PMC11914662 dataset (36% pain reduction vs. 10% standard care; 55% medication reduction vs. 12% control).</p>
+
+      <h3>2. Regulatory T-Cell (Treg) Enhancement</h3>
+      <p>SLE is characterized by a quantitative and functional deficiency of CD4+CD25+FoxP3+ regulatory T-cells — the immune brake that prevents autoreactive lymphocyte expansion. PEMF at low frequencies (8–25 Hz) has been shown to promote Treg proliferation and enhance FoxP3 expression in experimental autoimmune models. For SLE, where Treg deficiency directly correlates with disease flare frequency and anti-dsDNA titre elevation, PEMF's Treg-enhancing effect provides a disease-modifying mechanism that is not shared by any currently approved SLE therapy (hydroxychloroquine and steroids do not expand Tregs; belimumab targets BAFF, not Tregs).</p>
+
+      <h3>3. Complement Cascade and Immune Complex Handling</h3>
+      <p>Immune complex-mediated complement activation (C1q → C3 → C5 → MAC) is the principal mechanism of end-organ damage in SLE. While PEMF does not directly block complement activation, its anti-inflammatory effects downstream of complement (IL-6, TNF-α suppression; macrophage polarization toward M2 phenotype) reduce the tissue damage amplification loop. In SLE joints, this translates to reduced synovial swelling, decreased joint effusion, and lower synovial IL-6.</p>
+
+      <h3>4. Raynaud's and Microvascular Improvement</h3>
+      <p>PEMF at 5–25 Hz upregulates endothelial nitric oxide synthase (eNOS), increasing NO production and causing arteriolar vasodilation. In SLE-associated Raynaud's phenomenon — where digital arteriolar vasospasm causes ischemia, pain, and tissue damage — PEMF's eNOS upregulation addresses the primary pathophysiological mechanism. The same effect benefits the general microvascular disease component of SLE, potentially reducing lupus vasculitis sequelae.</p>
+
+      <h3>5. Musculoskeletal Pain: Adenosine-A2A and Nociception</h3>
+      <p>PEMF activates adenosine-A2A receptors at the synovial level, reducing substance P release and raising the nociceptive firing threshold of joint afferents. This mechanism, documented across multiple joint pain conditions including rheumatoid arthritis (Trock et al., Arthritis Rheum 1993: 50% improvement, p&lt;0.001), is directly applicable to SLE arthralgia.</p>
+
+      <h2>Clinical Evidence Applicable to SLE</h2>
+
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Study</th>
+              <th>Condition</th>
+              <th>n</th>
+              <th>Key Finding</th>
+              <th>Relevance to SLE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PMC11914662 (2025)</td>
+              <td>Multi-site pain RCT</td>
+              <td>91</td>
+              <td>36% pain reduction vs. 10% control; 55% medication reduction</td>
+              <td>Direct: SLE arthralgia/myalgia pain reduction</td>
+            </tr>
+            <tr>
+              <td>Trock et al., Arthritis Rheum 1993</td>
+              <td>Rheumatoid arthritis (shared autoimmune joint pathology)</td>
+              <td>81</td>
+              <td>50% improvement in joint pain vs. sham (p&lt;0.001)</td>
+              <td>Transfer: RA and SLE arthritis share cytokine signature</td>
+            </tr>
+            <tr>
+              <td>Iorio et al. (Raynaud's pilot)</td>
+              <td>Primary Raynaud's phenomenon</td>
+              <td>Pilot</td>
+              <td>Attack frequency &minus;3.2/week (p=0.03); duration &minus;8 min (p=0.04)</td>
+              <td>Direct: SLE-secondary Raynaud's (30–40% of SLE patients)</td>
+            </tr>
+            <tr>
+              <td>PEMF fibromyalgia studies (multiple)</td>
+              <td>Fibromyalgia (30% SLE overlap)</td>
+              <td>Various</td>
+              <td>Significant FIQ-R fatigue and pain improvement</td>
+              <td>Transfer: 30% of SLE patients meet FM criteria</td>
+            </tr>
+            <tr>
+              <td>PEMF NF-κB suppression (preclinical + mechanistic)</td>
+              <td>Inflammatory cytokine models</td>
+              <td>Multiple</td>
+              <td>IL-6, TNF-α, IL-1β reduction; IκBα stabilization</td>
+              <td>Core: SLE inflammatory cytokine signature</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>There are no published SLE-specific PEMF RCTs as of 2026. This reflects the general research gap in SLE non-pharmacological interventions — not an absence of mechanistic rationale. The evidence above is presented as mechanistic transfer, not direct SLE-PEMF trial data.</p>
+
+      <h2>Three-Phase Clinical Protocol for SLE</h2>
+
+      <h3>Critical Principle: Stable Phase Only</h3>
+      <p>PEMF treatment in SLE must be administered only during clinically stable phases. Active flares — defined by SLEDAI-2K score rise, new rash, renal involvement, or significant elevation of anti-dsDNA — are a relative contraindication. Coordinate with the patient's rheumatologist before initiating treatment and re-evaluate SLEDAI-2K at 8-week intervals.</p>
+
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>Phase</th>
+              <th>Sessions</th>
+              <th>Frequency Range</th>
+              <th>Duration</th>
+              <th>Primary Target</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Phase 1: Anti-Inflammatory</td>
+              <td>1–10</td>
+              <td>8–25 Hz</td>
+              <td>30 min</td>
+              <td>NF-κB suppression; IL-6/TNF-α/IL-1β; joint swelling</td>
+            </tr>
+            <tr>
+              <td>Phase 2: Musculoskeletal Pain</td>
+              <td>11–20</td>
+              <td>25–50 Hz</td>
+              <td>35 min</td>
+              <td>Adenosine-A2A; myalgia; arthralgia; fatigue</td>
+            </tr>
+            <tr>
+              <td>Phase 3: Vascular &amp; Maintenance</td>
+              <td>21–30</td>
+              <td>5–25 Hz</td>
+              <td>30 min</td>
+              <td>eNOS/Raynaud's; Treg maintenance; relapse prevention</td>
+            </tr>
+            <tr>
+              <td>Long-term maintenance</td>
+              <td>2–4×/month</td>
+              <td>8–25 Hz</td>
+              <td>30 min</td>
+              <td>Sustained inflammatory control; flare frequency reduction</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <ul>
+        <li><strong>Session frequency:</strong> 2 times per week during acute phases; 1–2×/week maintenance.</li>
+        <li><strong>Coil placement:</strong> Targeted to affected joint regions (hands, wrists, knees, hips); systemic mat for fatigue and systemic inflammatory burden.</li>
+        <li><strong>Flare monitoring:</strong> Instruct patients to report new rashes, fever, acute joint swelling — suspend PEMF sessions and refer to rheumatologist immediately.</li>
+        <li><strong>Outcome tracking:</strong> SLEDAI-2K (rheumatologist-administered); VAS pain; Fatigue Severity Scale (FSS); morning stiffness duration at baseline, week 8, week 20.</li>
+        <li><strong>Session cost (Philippines):</strong> ₱1,500–₱2,500 per session.</li>
+      </ul>
+
+      <h2>SLE Manifestation Mapping</h2>
+      <div class="article-table-wrap">
+        <table class="article-table">
+          <thead>
+            <tr>
+              <th>SLE Manifestation</th>
+              <th>Prevalence in SLE</th>
+              <th>PEMF Applicability</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Arthralgia / non-erosive arthritis</td>
+              <td>90–95%</td>
+              <td>High</td>
+              <td>Primary PEMF target; adenosine-A2A + NF-κB</td>
+            </tr>
+            <tr>
+              <td>Fatigue</td>
+              <td>80–90%</td>
+              <td>High</td>
+              <td>Mitochondrial + autonomic mechanisms; addressed similarly to ME-CFS fatigue component</td>
+            </tr>
+            <tr>
+              <td>Myalgia / myositis</td>
+              <td>30–50%</td>
+              <td>Moderate-High</td>
+              <td>Defer during active inflammatory myositis; stable myalgia appropriate</td>
+            </tr>
+            <tr>
+              <td>Raynaud's phenomenon</td>
+              <td>30–40%</td>
+              <td>High</td>
+              <td>eNOS-mediated vasodilation; Iorio et al. data applicable</td>
+            </tr>
+            <tr>
+              <td>Fibromyalgia overlap</td>
+              <td>30%</td>
+              <td>High</td>
+              <td>Central sensitization; fibromyalgia PEMF evidence applies</td>
+            </tr>
+            <tr>
+              <td>Serositis (pleuritis/pericarditis)</td>
+              <td>15–30%</td>
+              <td>Low — Defer</td>
+              <td>Active serositis: suspend PEMF; re-evaluate after rheumatology clearance</td>
+            </tr>
+            <tr>
+              <td>Avascular necrosis (steroid-induced)</td>
+              <td>5–10%</td>
+              <td>Moderate</td>
+              <td>Early-stage AVN: PEMF bone and cartilage protocols applicable</td>
+            </tr>
+            <tr>
+              <td>Lupus nephritis</td>
+              <td>30–50%</td>
+              <td>Contraindicated locally</td>
+              <td>Do not apply coils directly over kidneys during active nephritis</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Contraindications and Safety in SLE</h2>
+      <ul>
+        <li><strong>Absolute:</strong> Active cardiac pacemaker or ICD; pregnancy (particularly relevant — SLE disproportionately affects women of reproductive age; neonatal lupus risk independent of PEMF but requires obstetric monitoring); active malignancy; active epilepsy (higher risk in neuropsychiatric SLE).</li>
+        <li><strong>SLE-specific absolute contraindications:</strong> Do not apply PEMF coils directly over kidneys during active lupus nephritis; do not treat during active serositis (pericarditis, pleuritis) without cardiology/pulmonology clearance; avoid treatment during febrile illness (potential flare indicator).</li>
+        <li><strong>Relative:</strong> Neuropsychiatric SLE (NPSLE) — cranial coil applications require specialist approval; anti-phospholipid syndrome — systemic mat sessions acceptable but monitor for vascular changes; active SLE flare (SLEDAI-2K ≥ 8) — defer until stabilization.</li>
+        <li><strong>Drug interactions (informational):</strong> PEMF has no known pharmacokinetic interactions with hydroxychloroquine, azathioprine, mycophenolate mofetil, or belimumab. However, if PEMF successfully reduces inflammatory markers, rheumatologist review of immunosuppressant dosing may be appropriate at follow-up visits.</li>
+      </ul>
+
+      <h2>The Philippines Context</h2>
+      <p>SLE in the Philippines sits at the intersection of genetic predisposition, healthcare access inequality, and medication cost burden. Filipino patients face a quadruple disadvantage: elevated genetic risk, limited access to rheumatologists, high cost of biologic therapies (belimumab: ₱40,000–₱80,000/infusion, largely unsubsidized), and high UV exposure that is a known SLE trigger in a year-round tropical climate.</p>
+      <p>PEMF does not replace rheumatological management of SLE — it complements it. The clinical value proposition for Philippines clinics is: the 100,000–200,000 SLE patients currently managed with hydroxychloroquine and corticosteroids alone have access to no adjunct modality for their musculoskeletal pain, fatigue, and Raynaud's symptoms beyond analgesics. PEMF occupies that gap directly.</p>
+      <p>70+ Israeli clinics serving a population of 9 million have established SLE as an appropriate PEMF indication — now expanding to the Philippines.</p>
+
+      <h2>What This Means for Clinic Investors</h2>
+      <p>SLE patients are lifelong patients. The disease is chronic, relapsing-remitting, and not curable with current therapy. A patient who achieves meaningful arthralgia and fatigue relief with PEMF during stable phases becomes a maintenance patient for years — typically 2–4 sessions per month at ₱1,500–₱2,500 per session. The annualized revenue per stable SLE patient in maintenance is ₱36,000–₱120,000.</p>
+      <p>The Filipino SLE demographic is also particularly amenable to clinic access: women of working age in Metro Manila and Cebu — the same urban centers where PEMF clinics are most viable. Rheumatologist partnerships that generate direct patient referrals for PEMF as SLE pain adjunct represent a scalable referral channel not available to general physiotherapy clinics.</p>
+
+      <div class="article-cta">
+        <p>Request the full investor package including rheumatology referral network strategy, SLE patient acquisition cost modelling, and clinic equipment specification.</p>
+        <a href="index.html#inquire" class="btn-primary">Request Investment Brief &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+      <div class="footer-certs">
+        <span class="fcert">FDA 510(k)</span>
+        <span class="fcert">CE Mark</span>
+        <span class="fcert">Ministry of Health IL</span>
+      </div>
+      <nav class="footer-links">
+        <a href="technology.html">Technology</a>
+        <a href="letters.html">Medical Reviews</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="articles.html">Articles</a>
+        <a href="index.html#inquire">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+  </svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

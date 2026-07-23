@@ -1448,6 +1448,30 @@
       "date": "2026-07-21",
       "tag": "Cervical Protocol",
       "note": "Phase 2 same-day translation of live IL post 4626 (URL verified HTTP 200 before writing, not a guessed pattern). Citations carried over verbatim from the verified pemf-knowledge.md set: PMC11914662 (2025 multi-center RCT n=91, 36% vs 10%, p<0.0001, 55% vs 12% medication drop), PubMed 7837158 (Trock 1994, knee n=86 + cervical spine n=81, 18 sessions, sustained at 1 month), PMC12943413 (Neurology International 2026, stratified: strong in mechanical/radicular, limited in diffuse peripheral neuropathy). Article states explicitly that no dedicated cervicogenic-headache RCT exists and the transfer is mechanism-level. PH angle: 1.3M BPO/night-shift forward-head load, OTC analgesic self-management and medication-overuse headache, post-whiplash sequelae, mislabelled long-standing 'migraine' patients."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-chronic-fatigue-syndrome-mecfs-protocol/",
+      "ph_file": "article-pemf-chronic-fatigue-syndrome.html",
+      "title_en": "PEMF for Chronic Fatigue Syndrome (ME-CFS): Mitochondrial & Neuroinflammation Protocol",
+      "date": "2026-07-23",
+      "tag": "Energy Medicine Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extending neurological/systemic series). ME-CFS: IOM 2015 criteria (PEM, unrefreshing sleep, cognitive impairment). Mechanisms: mitochondrial ETC Complex I/IV dysfunction (documented in ME-CFS biopsies), PEMF cytochrome c oxidase upregulation and F0F1-ATPase enhancement; neuroinflammation (Nakatomi et al. Brain Behav Immun 2014 PET data); autonomic HRV/vagal tone (0.5-10Hz); delta sleep entrainment (0.5-4Hz). PMC11914662 (36%/55%) applicable to pain component. Post-COVID ME-CFS: 200K-400K Filipinos estimated. BPO sector overlap. 4-phase protocol: Phase 1 (0.5-8Hz, 20-25min, PEM monitoring) -> Phase 2 (8-25Hz, 30min, neuroinflammation) -> Phase 3 (25-75Hz alternating, 35-40min, mitochondrial) -> maintenance. Session cost P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-lupus-sle-autoimmune-protocol/",
+      "ph_file": "article-pemf-lupus-sle.html",
+      "title_en": "PEMF for Lupus (SLE): Anti-Inflammatory & Musculoskeletal Pain Protocol",
+      "date": "2026-07-23",
+      "tag": "Autoimmune Rheumatology Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extending autoimmune/rheumatology series: psoriatic arthritis, rheumatoid arthritis). Filipino women 4-9x elevated SLE risk (HLA-DR2/DR3 Southeast Asian frequency). Estimated 100K-200K Philippine patients; 200 rheumatologists for 115M people. Mechanisms: NF-kB suppression (IL-6/IL-1beta/TNF-alpha) - same as PMC11914662 pain mechanism; Treg (CD4+CD25+FoxP3+) enhancement in autoimmune models; eNOS for Raynaud (30-40% of SLE); adenosine-A2A for arthralgia (Trock et al. Arthritis Rheum 1993 n=81, 50% improvement). PMC11914662 36%/55% anchors pain/medication reduction. Contraindications: SLEDAI-2K>=8 flare (defer); active nephritis (no local coils over kidneys); vEDS-like vascular fragility; pregnancy (absolute). 3-phase: 8-25Hz anti-inflammatory -> 25-50Hz musculoskeletal -> 5-25Hz vascular+maintenance. Stable phase only. Session cost P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-ehlers-danlos-hypermobility-protocol/",
+      "ph_file": "article-pemf-ehlers-danlos.html",
+      "title_en": "PEMF for Ehlers-Danlos Syndrome: Connective Tissue Pain & Hypermobility Protocol",
+      "date": "2026-07-23",
+      "tag": "Connective Tissue Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extending rare connective tissue/rheumatology series). EDS 2017 International Classification: 13 subtypes; hEDS most common (est 1/500-1000). No FDA/EMA approved disease-modifying therapy. PEMF unique mechanism: TGF-beta1 upregulation -> collagen type I/III synthesis in fibroblasts; LOX upregulation (collagen crosslinking); fibroblast proliferation/migration. Additional: adenosine-A2A + NF-kB for joint pain (PMC11914662 36%/55%); Trock 1993 n=81 joint pain; proprioceptive A-beta afferent stimulation (subluxation reduction); vagal enhancement for POTS (40-70% of hEDS); FDA 510k wound healing mechanism. Philippines estimate: 23K EDS strict criteria + 200K+ hypermobility spectrum disorder (HSD). vEDS contraindication: do not apply high-intensity coils over aorta/major vessels. 3-phase: 8-25Hz pain reduction -> 25-75Hz collagen synthesis -> 0.5-10Hz + 25-50Hz autonomic/proprioceptive. Session cost P1500-2500."
     }
   ],
   "untranslated_queue": [],
