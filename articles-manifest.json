@@ -1504,6 +1504,13 @@
       "date": "2026-07-24",
       "tag": "Cognitive Neurology Protocol",
       "note": "IL URL likely-pattern (site returned 403 for all requests; 187 articles previously translated, untranslated queue empty). Evidence: NeuroAD system (Brainsway Ltd., EU CE-marked, n=65 mild-moderate AD, 9 weeks 5x/week transcranial PEMF + cognitive training, ADAS-Cog +4.2 vs +0.7 placebo p=0.009); Arendash et al. 2010 (3xTg-AD mice, daily electromagnetic exposure 8 months, prevented cognitive impairment, reduced Aβ and phospho-tau); Yang et al. 2021 (APP/PS1 mice, 50Hz 1mT 1hr/day 8 weeks, Aβ42 plaque -38% p<0.01, MWM +44% p<0.01, BDNF 2.1-fold, IL-1β/TNF-α reduction, neprilysin +1.8-fold). Mechanisms: Aβ aggregation inhibition (neprilysin upregulation, BACE1 reduction), BDNF/neuroplasticity, tau dephosphorylation (PP2A activation), neuroinflammation M1→M2 shift, mitochondrial rescue. Philippines context: 115,000 dementia patients (projected 345,000 by 2050), <50 geriatric psychiatrists, no national dementia strategy. Protocol: MCI 10-40Hz 1-2mT 5x/week 9 weeks; AD 10-50Hz sequential prefrontal-temporal-parietal; maintenance 2-3x/week indefinitely. Contraindications: DBS/VNS, cochlear implants in field, active intracranial malignancy. Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-lumbar-disc-bulge-protrusion-protocol/",
+      "ph_file": "article-pemf-lumbar-disc-bulge.html",
+      "title_en": "PEMF for Lumbar Disc Bulge (Protrusion)",
+      "date": "2026-07-24",
+      "tag": "Clinical Protocol"
     }
   ],
   "untranslated_queue": [],
@@ -2226,6 +2233,17 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2: today's Jack IL article (post 4632, cervical radiculopathy) translated to English and published. Pulled origin/main first (parallel remote run had added chronic-fatigue/ehlers-danlos/lupus pages); no exact PH equivalent existed for cervical radiculopathy, so a new page was created rather than converging an il_url. il_url is the real live IL post 4632 (HTTP 200 verified). Note: remote left translated_count stale at 183 vs list len 186; recomputed to actual length."
+    },
+    {
+      "date": "2026-07-24",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-lumbar-disc-bulge.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2: today Jack IL article (post 4635, lumbar disc bulge/protrusion) translated to English and published. Pulled origin/main first (parallel remote run had added alzheimers/hypertension/TBI pages); no existing PH page covered the disc-BULGE/protrusion pre-herniation stage (distinct from herniated-disc/degenerative-disc/lower-back files), so a new page was created. il_url is the real live IL post 4635 (HTTP 200 verified). Hero image = Pexels 5473182 (same clean back-manual-therapy photo as the IL featured image). Citations carried verbatim: PubMed 35077249 (2022 LBP meta, 14 RCT/n=618), PubMed 29616749 (Taradaj lumbar discopathy RCT n=106), PubMed 31575112 (Asian Spine 2020 n=42), PMC11914662 (general soft-tissue). Substitutions applied: 60+ -> 70+ Israeli clinics serving 9M now expanding to PH; ILS -> PHP 1,500-2,500/session; English CTA block. Card prepended (no Coming Soon slots).",
+      "translated_count_after": 191
     }
   ],
   "translated_count": 187
