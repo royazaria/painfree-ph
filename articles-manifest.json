@@ -1513,7 +1513,9 @@
       "tag": "Clinical Protocol"
     }
   ],
-  "untranslated_queue": [],
+  "untranslated_queue": [
+    "https://painfree.org.il/pemf-ptsd-anxiety-neuroinflammation/"
+  ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
     {
