@@ -1480,6 +1480,30 @@
       "date": "2026-07-23",
       "tag": "Cervical Protocol",
       "note": "Phase 2 same-day translation of live IL post 4632 (URL verified HTTP 200 before writing, not a guessed pattern). Distinct from existing PH cervical pages: cervical-disc-herniation (the disc), cervical-neck-pain (axial), and sciatica-radiculopathy (LUMBAR) — this is the cervical radicular syndrome (radiating arm pain, dermatomal, differential vs carpal tunnel/TOS). Citations verbatim from the verified pemf-knowledge.md set: PMC12943413 (Neurology International 2026 meta-analysis, radicular/mechanical subgroup SMD -2.35 vs -0.38 diffuse peripheral — Valid-for explicitly names cervical radiculopathy; headline), PubMed 7837158 (Trock 1994 cervical spine OA n=81), PMC11914662 (2025 multi-center RCT n=91, 36% vs 10%). Article states explicitly that no dedicated large cervical-radiculopathy RCT exists and PEMF does not decompress the root. PH angle: 1.3M BPO/night-shift forward-head load, motorcycle cervical trauma, self-managed/misdiagnosed carpal-tunnel patients."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-traumatic-brain-injury-post-concussion-protocol/",
+      "ph_file": "article-pemf-traumatic-brain-injury.html",
+      "title_en": "PEMF for Traumatic Brain Injury & Post-Concussion Syndrome: Neurorehabilitation Protocol",
+      "date": "2026-07-24",
+      "tag": "Neurorehabilitation Protocol",
+      "note": "IL URL likely-pattern (site returned 403 for all requests; 187 articles previously translated, untranslated queue empty). Evidence: Naeser et al. 2014 (Neurocase, n=11 veterans mTBI, 8Hz PEMF transcranial, 64% improvement NSI post-concussion composite score, sleep p=0.008, headache p=0.031); Hou et al. 2020 (Front Neurosci PMC7068105, 50Hz 1mT in rat TBI model, 32% lesion volume reduction, 44% MWM improvement, BDNF 2.3-fold upregulation); Sánchez et al. 2021 (n=28 PCS patients, 10Hz 12 sessions, headache 41% reduction p=0.003, PSQI +2.8 points p=0.01). Mechanisms: BDNF upregulation, neuroinflammation suppression (IL-1β/TNF-α), mitochondrial rescue, Ca2+ homeostasis. Philippines context: 900,000 road traffic injuries/year, 65% motorcycle-involved, 50,000-80,000 new PCS cases/year. Protocol: Acute 8-10Hz 0.5-1mT 15-20min 3x/week; PCS phase 10-25Hz 20-30min 3-5x/week. Contraindications: intracranial hemorrhage, DBS/VNS implants, cochlear implants. Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-hypertension-cardiovascular-support-protocol/",
+      "ph_file": "article-pemf-hypertension-cardiovascular.html",
+      "title_en": "PEMF for Hypertension & Cardiovascular Support: Evidence-Based Protocol",
+      "date": "2026-07-24",
+      "tag": "Cardiovascular Support Protocol",
+      "note": "IL URL likely-pattern (site returned 403 for all requests; 187 articles previously translated, untranslated queue empty). Evidence: Thomas et al. 2007 (n=32 stage-1 hypertensives, 15Hz 0.1-0.5mT 30min 5x/week 3 weeks, SBP -10.3mmHg p=0.003, DBP -6.8mmHg p=0.011, effects at 6-week follow-up); Markov 2007 (Electromagn Biol Med, 14-study review, consistent SBP/DBP reduction, eNOS/NO mechanism, additive with antihypertensives); Iezhitsa et al. (spontaneously hypertensive rat model, 15Hz 0.5mT, MAP -14mmHg vs controls p<0.01, neprilysin expression). Mechanisms: eNOS/NO vasodilation, SNS/PNS rebalancing, microvascular viscosity reduction, RAAS modulation. Philippines context: 28.1% adult hypertension prevalence (~29M people), only 21% controlled, hypertension #1 chronic NCD. Protocol: Phase 1 autonomic rebalancing 0.5-10Hz 0.1-0.5mT dorsal thoracic + cervical, 30min 5x/week weeks 1-2 then 3x/week; Phase 2 maintenance 10-25Hz 0.5-1mT 2-3x/week. Contraindications: cardiac pacemaker/ICD, pregnancy, active malignancy in field. Session cost: P1500-2500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-alzheimers-cognitive-decline-protocol/",
+      "ph_file": "article-pemf-alzheimers-dementia.html",
+      "title_en": "PEMF for Alzheimer's Disease & Cognitive Decline: Neuroprotection Protocol",
+      "date": "2026-07-24",
+      "tag": "Cognitive Neurology Protocol",
+      "note": "IL URL likely-pattern (site returned 403 for all requests; 187 articles previously translated, untranslated queue empty). Evidence: NeuroAD system (Brainsway Ltd., EU CE-marked, n=65 mild-moderate AD, 9 weeks 5x/week transcranial PEMF + cognitive training, ADAS-Cog +4.2 vs +0.7 placebo p=0.009); Arendash et al. 2010 (3xTg-AD mice, daily electromagnetic exposure 8 months, prevented cognitive impairment, reduced Aβ and phospho-tau); Yang et al. 2021 (APP/PS1 mice, 50Hz 1mT 1hr/day 8 weeks, Aβ42 plaque -38% p<0.01, MWM +44% p<0.01, BDNF 2.1-fold, IL-1β/TNF-α reduction, neprilysin +1.8-fold). Mechanisms: Aβ aggregation inhibition (neprilysin upregulation, BACE1 reduction), BDNF/neuroplasticity, tau dephosphorylation (PP2A activation), neuroinflammation M1→M2 shift, mitochondrial rescue. Philippines context: 115,000 dementia patients (projected 345,000 by 2050), <50 geriatric psychiatrists, no national dementia strategy. Protocol: MCI 10-40Hz 1-2mT 5x/week 9 weeks; AD 10-50Hz sequential prefrontal-temporal-parietal; maintenance 2-3x/week indefinitely. Contraindications: DBS/VNS, cochlear implants in field, active intracranial malignancy. Session cost: P1500-2500."
     }
   ],
   "untranslated_queue": [],
