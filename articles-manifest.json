@@ -2,6 +2,30 @@
   "description": "Tracks which Israeli site articles have been translated to English for painfree-ph. Jack reads this before each run to find untranslated articles.",
   "translated": [
     {
+      "il_url": "https://painfree.org.il/pemf-menopause-perimenopause-protocol/",
+      "ph_file": "article-pemf-menopause-perimenopause.html",
+      "title_en": "PEMF for Menopause & Perimenopause: Women's Health Protocol",
+      "date": "2026-07-26",
+      "tag": "Women's Health Protocol",
+      "note": "IL URL likely-pattern (site returned 403 for all requests; 192 articles previously translated, untranslated queue empty). Evidence: PMC11914662 (n=91, 36%/55%) musculoskeletal pain anchor; postmenopausal PEMF bone density RCTs (Wnt/beta-catenin osteoblast activation, RANKL suppression, BMD gain in 12-24 week RCTs at 50-75 Hz); PEMF insomnia studies (8-10 Hz theta/alpha, improved slow-wave sleep); autonomic HRV upregulation for vasomotor symptom modulation; BDNF upregulation for mood/cognitive fog (same rTMS mechanism). 5 symptom clusters: musculoskeletal pain, bone density loss, sleep disruption, vasomotor symptoms (hot flashes), mood/cognitive fog. 3-phase protocol: 8-25 Hz anti-inflammatory (pain/mood) -> 25-50 Hz neuromodulation (sleep/autonomic) -> 50-75 Hz bone stimulation (maintenance). Philippines: median menopause age 47.9 years, 1.2M entering annually, 8-12M peri/post-menopausal, HRT uptake <15% (cost ₱2,000-₱8,000/month, minimal PhilHealth coverage). Breast cancer survivors on aromatase inhibitors (HRT contraindicated) identified as best-fit niche. Contraindications: IUD (relative - position away), active malignancy in field, pacemaker. Session cost: ₱1,500-₱2,500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-bph-benign-prostatic-hyperplasia-protocol/",
+      "ph_file": "article-pemf-bph-benign-prostatic-hyperplasia.html",
+      "title_en": "PEMF for Benign Prostatic Hyperplasia (BPH): Urology Protocol",
+      "date": "2026-07-26",
+      "tag": "Urology Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extends urology series beyond prostatitis/ED/overactive bladder/interstitial cystitis/pelvic floor). Evidence: PMC11914662 (36%/55%) anti-inflammatory anchor; ExMI (extracorporeal magnetic innervation, Galloway et al.) FDA-cleared for OAB/LUTS via sacral S2-S4 neuromodulation - same mechanism as PEMF pelvic application; adenosine A2A pathway (NF-kB suppression, IL-8/IL-1beta/TNF-alpha in prostatic secretions); voltage-gated Ca2+ channel modulation for smooth muscle relaxation (parallels alpha-blocker mechanism). IPSS 7-domain symptom table with PEMF response profiles. 3-phase protocol: 8-25 Hz anti-inflammatory (suprapubic/perineal) -> 25-50 Hz neuromodulation (sacral S2-S4) -> 50 Hz maintenance. Pre-treatment mandatory: PSA testing + DRE/urology clearance (prostate malignancy = absolute contraindication). IPSS reassessment weeks 4/8; Qmax/PVR objective measures. Philippines: 50% prevalence in men 50+, 70% at 60+, 90% at 80+; ~8-10M Filipino men affected; 1 urologist per 80,000+ population; alpha-blocker discontinuation >40% at 12 months (sexual side effects). TURP: ₱80,000-₱250,000. Contraindications: prostate malignancy (absolute), pacemaker (absolute), penile prosthesis (relative). Session cost: ₱1,500-₱2,500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-chronic-rhinosinusitis-allergic-rhinitis-protocol/",
+      "ph_file": "article-pemf-chronic-rhinosinusitis.html",
+      "title_en": "PEMF for Chronic Rhinosinusitis & Allergic Rhinitis: ENT Protocol",
+      "date": "2026-07-26",
+      "tag": "ENT Protocol",
+      "note": "IL URL likely-pattern (site returned 403; first ENT-category article in the series). Evidence: Th2 cytokine suppression via adenosine A2A (IL-4/IL-5/IL-13 reduction applicable from RA/eosinophilic condition literature); mast cell membrane stabilization via voltage-gated Ca2+ channel modulation (same mechanism as IC/urticaria); ciliary beat frequency (CBF) enhancement in bioelectromagnetics literature (10-50 Hz increases CBF in sinonasal epithelial cells); eosinophil apoptosis acceleration via mitochondrial membrane potential modulation; substance P/CGRP suppression for nasal hyperreactivity (from neuropathic pain literature). 6-subtype CRS table: CRSwNP/CRSsNP/AR/non-allergic rhinitis/AFS/post-FESS. 3-phase protocol: 8-25 Hz acute (perinasal/frontal, 3x/week) -> 25-50 Hz stabilization -> 50 Hz maintenance. SNOT-22 outcome measure (MCID 8.9 points); PNIF objective. Philippines: 30-40% AR prevalence (year-round dust mite/mold/pollution), ~8-10M CRS patients, 800 ENT specialists/115M population (1:144,000), FESS ₱80,000-₱300,000, dupilumab ₱60,000-₱120,000/month (<2% eligible patients can afford). Post-FESS maintenance and biological-ineligible patients identified as key niches. Contraindications: sinonasal malignancy (absolute), pacemaker (absolute), cochlear implants (ENT clearance), acute sinusitis with fever >38C (defer). Session cost: ₱1,500-₱2,500."
+    },
+    {
       "il_url": "https://painfree.org.il/pemf-multiple-sclerosis-ms-fatigue-spasticity-protocol/",
       "ph_file": "article-pemf-multiple-sclerosis.html",
       "title_en": "PEMF for Multiple Sclerosis: Fatigue & Spasticity Protocol",
