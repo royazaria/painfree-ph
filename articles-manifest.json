@@ -1511,11 +1511,16 @@
       "title_en": "PEMF for Lumbar Disc Bulge (Protrusion)",
       "date": "2026-07-24",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-ptsd-anxiety-neuroinflammation/",
+      "ph_file": "article-pemf-ptsd-anxiety-neuroinflammation.html",
+      "title_en": "PEMF for PTSD, Anxiety & Neuroinflammation: Clinical Protocol",
+      "date": "2026-07-26",
+      "tag": "Neuromodulation Protocol"
     }
   ],
-  "untranslated_queue": [
-    "https://painfree.org.il/pemf-ptsd-anxiety-neuroinflammation/"
-  ],
+  "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
     {
