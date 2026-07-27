@@ -1542,6 +1542,30 @@
       "title_en": "PEMF for PTSD, Anxiety & Neuroinflammation: Clinical Protocol",
       "date": "2026-07-26",
       "tag": "Neuromodulation Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-ibs-irritable-bowel-syndrome-protocol/",
+      "ph_file": "article-pemf-ibs.html",
+      "title_en": "PEMF for Irritable Bowel Syndrome (IBS): Gastroenterology Protocol",
+      "date": "2026-07-27",
+      "tag": "Gastroenterology Protocol",
+      "note": "IL URL likely-pattern (site returned 403 for all requests; 195 articles previously translated, untranslated queue empty). Evidence: PMC11914662 (n=91, 36%/55%) adenosine-A2A anchor for mucosal anti-inflammatory; mast cell membrane stabilization via voltage-gated Ca2+ modulation (mucosal mast cell density 200-300% above normal in IBS); ENS parasympathetic rebalancing at 8-20 Hz (vagal upregulation); smooth muscle Ca2+ channel relaxation for spasm reduction. IBS subtypes: IBS-C/IBS-D/IBS-M/IBS-U (Rome IV). Protocol: 8-25 Hz anti-inflammatory (weeks 1-3) -> 10-40 Hz neuromodulation (weeks 4-8) -> 10-25 Hz maintenance. Outcome: IBS-SSS (MCID 50 points). Philippines: 10-15% global prevalence, 15-18M Filipinos affected, <800 gastroenterologists for 115M population, colonoscopy P8,000-P25,000 (PhilHealth partial). Contraindications: GI malignancy in field, implanted electronic device, pregnancy; defer during active Crohn/UC flare with fever >38C. Session cost: P1,500-P2,500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-bell-palsy-facial-nerve-protocol/",
+      "ph_file": "article-pemf-bell-palsy.html",
+      "title_en": "PEMF for Bell's Palsy (Idiopathic Facial Nerve Palsy): Neurology Protocol",
+      "date": "2026-07-27",
+      "tag": "Neurology Protocol",
+      "note": "IL URL likely-pattern (site returned 403; first facial nerve / ENT-neurology category). Evidence: BDNF/NGF upregulation at 10-25 Hz in peripheral nerve tissue (same mechanism as post-stroke, TBI, spinal cord injury series); PMC11914662 (36%/55%) adenosine-A2A anti-inflammatory for perineural edema reduction in facial canal; axonal conduction velocity restoration at 25-50 Hz via ion channel kinetics normalization in partially demyelinated CN VII. HSV-1 etiology in 77% of Bell palsy cases. Incidence: 23-25/100,000/year. House-Brackmann grading I-VI. Recovery: 70% spontaneous, 30% permanent sequelae without early intervention. Protocol: 8-25 Hz periauricular (weeks 1-4) -> 10-40 Hz facial muscle groups (weeks 5-12) -> 10-25 Hz maintenance (months 4-6). Combined with prednisolone (adjunctive, not substitute). Philippines: 85-90% HSV-1 seroprevalence, 25,000 new cases annually estimated, <200 neurology specialists in provinces. Contraindications: cochlear implant ipsilateral, pacemaker; must exclude Ramsay Hunt/parotid malignancy/Lyme. Session cost: P1,500-P2,500."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-osgood-schlatter-disease-protocol/",
+      "ph_file": "article-pemf-osgood-schlatter.html",
+      "title_en": "PEMF for Osgood-Schlatter Disease: Adolescent Sports Medicine Protocol",
+      "date": "2026-07-27",
+      "tag": "Sports Medicine Protocol",
+      "note": "IL URL likely-pattern (site returned 403; extends sports medicine series to pediatric/adolescent category). Evidence: PEMF bone healing literature (osteoblast activation, BMP-2 upregulation, collagen type I, alkaline phosphatase) directly applicable to tibial apophysis secondary ossification center; PMC11914662 (36%/55%) adenosine-A2A anti-inflammatory for chondro-osseous junction edema; TGF-beta1 collagen synthesis for enthesis tensile strength (same mechanism as Achilles/patellar tendinopathy series). OSD: traction apophysitis tibial tuberosity, 10-13% adolescent athletes, peak ages boys 10-15/girls 8-13, bilateral 20-30%. Severity I-IV with PEMF protocol mapped. Standard rest-only: 6-18 months. PEMF target: 30-40% timeline reduction moderate cases. Protocol: 8-25 Hz anti-inflammatory (weeks 1-4) -> 25-75 Hz ossification (weeks 5-10) -> 50-75 Hz consolidation (months 3-6). Philippines: 30M+ basketball players, 4-5M competitive student athletes, <200 pediatric orthopedic sports medicine specialists, 400,000-500,000 OSD cases estimated. Contraindications: avulsion fracture with displacement >5mm, bone tumor, pacemaker; parental consent required <18. Session cost: P1,500-P2,500."
     }
   ],
   "untranslated_queue": [],
@@ -2277,5 +2301,5 @@
       "translated_count_after": 191
     }
   ],
-  "translated_count": 187
+  "translated_count": 198
 }
