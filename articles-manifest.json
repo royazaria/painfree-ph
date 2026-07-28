@@ -272,12 +272,12 @@
       "note": "IL URL is likely-pattern (site returned 403 globally today); content synthesized from PMC9110240 meta-analysis and 2025 RCT data"
     },
     {
-      "il_url": "https://painfree.org.il/pemf-shoulder-impingement-rotator-cuff-protocol/",
+      "il_url": "https://painfree.org.il/pemf-subacromial-bursitis-shoulder-impingement-protocol/",
       "ph_file": "article-pemf-shoulder-impingement.html",
       "title_en": "PEMF for Shoulder Impingement Syndrome: The 2025 Evidence & Clinical Protocol",
       "date": "2026-05-31",
       "tag": "Clinical Protocol",
-      "note": "IL URL is likely-pattern (site returned 403 globally today); content synthesized from PMC12088032 (PLoS ONE May 2025 meta-analysis)"
+      "note": "IL url corrected 2026-07-28: the previous value (https://painfree.org.il/pemf-shoulder-impingement-rotator-cuff-protocol/) was a fabricated \"likely-pattern\" URL returning HTTP 404. The real Hebrew twin is post 4638 (בורסיטיס ותסמונת צביטה / Shoulder Impingement), verified HTTP 200. Content was synthesized from PMC12088032 (PLoS ONE May 2025 meta-analysis, 4 RCTs n=252) — the same headline citation now used on the Hebrew side."
     },
     {
       "il_url": "https://painfree.org.il/pemf-hand-finger-osteoarthritis-protocol/",
@@ -1592,7 +1592,9 @@
       "note": "IL URL likely-pattern (site returned 403; extends ankle/foot series to peroneal tendinopathy specifically, distinct from generic ankle sprain article). Evidence: PMC7093940 (collagen fiber realignment, TGF-beta1 upregulation, tenocyte proliferation, tensile strength improvement in tendinopathic tissue); PMC11914662 (36%/55%) A2A peritendinous anti-inflammatory anchor; PubMed 31394939 / PMC4959873 (eNOS/VEGF microvascular density increase - critical for retromalleolar PB watershed zone); PMC12916110 (Frontiers Sports 2026 SR, tenocyte apoptosis reduction caspase-3, PI3K/Akt proliferation across tendinopathy types); PMID 16633709 (n=60 PEMF=injection at 3M, superior at 6M for tendinopathy); PMC5144749 (PEMF>ultrasound all endpoints p<0.05). Two tendons: PL (plantar first ray, cuboid tunnel injury) vs PB (fifth metatarsal styloid, retromalleolar split). Staging table: Acute/Subacute/Chronic/Degenerative/Post-surgical with PEMF phase mapping. 3-phase protocol: 8-25Hz anti-inflammatory acute (weeks 1-4, lateral ankle coil, 3x/week) -> 25-50Hz TGF-beta1 collagen repair (weeks 5-12, 3x transitioning to 2x/week) -> 50-75Hz consolidation return-to-sport (months 4-6, 2x/week). FAAM outcomes. Philippines: >30M basketball players, 10-28% of ankle injuries = 300K-840K peroneal cases/year, <200 sports medicine fellows, 7.3M motorcycles (non-sports pipeline), pes planus/cavus morphology increases peroneal loading. Revenue: 20-session protocol P1,500-P2,500/session = P225K-P625K gross per machine/month (peroneal alone). Comparison table: PEMF vs rest/eccentric/corticosteroid injection/PRP/surgery. Contraindications: complete rupture (surgery first), SPR disruption requiring retinacular repair (post-op adjunct from week 6), active infection, pacemaker; non-ferrous titanium hardware safe; stainless steel hardware - confirm composition. Session cost: P1,500-P2,500."
     }
   ],
-  "untranslated_queue": [],
+  "untranslated_queue": [
+    "https://painfree.org.il/pemf-shoulder-inflammation-protocol/"
+  ],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
     {
@@ -2334,7 +2336,15 @@
       "untranslated_remaining": 0,
       "note": "Phase 2: today Jack IL article (post 4635, lumbar disc bulge/protrusion) translated to English and published. Pulled origin/main first (parallel remote run had added alzheimers/hypertension/TBI pages); no existing PH page covered the disc-BULGE/protrusion pre-herniation stage (distinct from herniated-disc/degenerative-disc/lower-back files), so a new page was created. il_url is the real live IL post 4635 (HTTP 200 verified). Hero image = Pexels 5473182 (same clean back-manual-therapy photo as the IL featured image). Citations carried verbatim: PubMed 35077249 (2022 LBP meta, 14 RCT/n=618), PubMed 29616749 (Taradaj lumbar discopathy RCT n=106), PubMed 31575112 (Asian Spine 2020 n=42), PMC11914662 (general soft-tissue). Substitutions applied: 60+ -> 70+ Israeli clinics serving 9M now expanding to PH; ILS -> PHP 1,500-2,500/session; English CTA block. Card prepended (no Coming Soon slots).",
       "translated_count_after": 191
+    },
+    {
+      "date": "2026-07-28",
+      "phase": 0,
+      "articles_translated": 0,
+      "files_created": [],
+      "untranslated_remaining": 1,
+      "note": "No English page published today, deliberately. The IL run was a WEEKLY CONTENT REFRESH of post 4176 (pemf-shoulder-inflammation-protocol) rather than a new article, and an English page covering the same clinical territory already exists (article-pemf-shoulder-impingement.html). Publishing a second English shoulder-inflammation page would be the duplicate-content / query-cannibalisation failure flagged on 2026-07-26 and 2026-07-27. Two honest fixes were made instead: (1) article-pemf-shoulder-impingement.html carried a FABRICATED il_url (pemf-shoulder-impingement-rotator-cuff-protocol, HTTP 404) — corrected to the real post 4638; (2) post 4176 is genuinely unmirrored, so it was added to untranslated_queue for a proper Phase 1 backfill. Repo was git-fetched and fast-forwarded (0f9f2fc..3cbd08d) before any write. WARNING: the concurrent unowned Step 8 process pushed again today (3cbd08d, 3 articles) — third consecutive day."
     }
   ],
-  "translated_count": 198
+  "translated_count": 201
 }
