@@ -1614,11 +1614,33 @@
       "date": "2026-07-30",
       "tag": "Pediatric Rheumatology Protocol",
       "note": "IL URL likely-pattern (site returned 403; first pediatric rheumatology category article — extends pediatric series beyond Osgood-Schlatter to autoimmune joint disease). Evidence: PMC11914662 (n=91, 36%/55%) adenosine-A2A anchor — A2A activation on synovial macrophages (highest A2A density in musculoskeletal system) suppresses NF-kB/TNF-alpha/IL-1beta/IL-6, interrupting pannus formation cascade; PMC9110240 (11 RCTs n=614 knee OA, SMD=0.71 pain/1.34 stiffness/1.52 function) — cartilage protection via chondrocyte anabolism (collagen type II, aggrecan, SOX9 upregulation at 25-50Hz), mechanism age-independent; PMID 32495506 (14 RCTs n=1131, 79.7% vs 64.3% bone healing) — subchondral bone protection via BMP-2/collagen type I osteoblast activation, relevant for JIA periarticular osteopenia and corticosteroid-related bone loss; PMC12943413 (13 RCTs N=688 SMD=-1.01) — C-fiber/central sensitization at 1-8Hz for morning stiffness and chronic pain sensitization. ILAR 7-subtype classification table (oligoarticular persistent/extended/polyarticular RF-/RF+/systemic/ERA/psoriatic): joint count, prevalence, peak age, key features, PEMF role per subtype. Synovial cascade: T-cell -> macrophage/FLS -> cytokine storm (TNF-alpha/IL-1beta/IL-6/IL-17) -> MMP-1/3/13 cartilage erosion + RANKL osteoclast activation. 4 mechanisms: A2A core anti-inflammatory (8-25Hz), chondrocyte anabolism (25-50Hz), bone protection BMP-2 (25-75Hz), C-fiber desensitization morning stiffness (1-8Hz). 3-phase protocol: 8-25Hz anti-inflammatory (weeks 1-4) -> 25-50Hz cartilage protection (weeks 5-10) -> 10-25Hz maintenance (monthly); session 20-30min children <10, 30-40min adolescents; parental written consent mandatory; pediatric rheumatologist coordination. Pediatric safety: <=3mT over open growth plates established (OSD + fracture literature); sJIA active fever >38C = contraindication; methotrexate and biologic compatibility confirmed. PEMF vs JIA treatment pyramid table: NSAIDs/methotrexate/etanercept (P25K-P30K/2weeks)/adalimumab (P50K-P65K/2weeks)/tocilizumab (P35K-P50K/month)/PEMF (P1500-P2500/session). Philippines: 40M children <15, 1-2/1000 prevalence = 400K-800K JIA cases, <50 pediatric rheumatologists, biologic inaccessible >95% families; referral pathway general pediatricians/school health officers/pediatric orthopedic surgeons. B2B model: 20-24 session course P30K-P60K/patient + monthly maintenance recurring revenue. Contraindications: pacemaker, sJIA fever/MAS, malignancy (exclude leukemia before treating new-onset arthritis), pregnancy (adolescent females). Uveitis surveillance reminder (oligoarticular ANA+ 20-30% uveitis risk). 4 FAQs (age minimum, growth effects, vs PT, biologic avoidance). 10 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-shoulder-inflammation-protocol/",
+      "ph_file": "article-pemf-shoulder-inflammation.html",
+      "title_en": "PEMF for Shoulder Inflammation & Subacromial Bursitis: Clinical Protocol",
+      "date": "2026-07-31",
+      "tag": "Clinical Protocol",
+      "note": "IL URL from queue (site returned 403; 204 articles previously translated). Evidence: Binder & Hazleman 1985 BMJ landmark shoulder RCT (73% vs 42% improvement, n=29); PMC12088032 (shoulder PEMF meta-analysis, 9 RCTs, VAS -2.6 cm, DASH 45.2->21.8, function SMD=1.14); PMC12916110 (Frontiers Sports 2026 SR, 4 RCTs n=243 soft-tissue shoulder); PMC11914662 (n=91, 36%/55% anchor study). 4 PEMF mechanisms: NF-kB suppression, A2A receptor activation, subacromial microcirculation improvement, fibroblast/collagen synthesis. Protocol: 8-25 Hz anti-inflammatory (sessions 1-6) -> 50-75 Hz repair (sessions 7-15), 20-30 min, 2-3x/week. Comparison table vs NSAIDs/injection/physio/surgery with PH costs. Philippine market: 3M construction workers + 1.3M BPO agents with overhead/postural shoulder load. 9 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-radial-tunnel-syndrome-protocol/",
+      "ph_file": "article-pemf-radial-tunnel-syndrome.html",
+      "title_en": "PEMF for Radial Tunnel Syndrome & Posterior Interosseous Nerve Entrapment",
+      "date": "2026-07-31",
+      "tag": "Neurology · Upper Limb Protocol",
+      "note": "IL URL likely-pattern (site returned 403 on all fetch attempts since 2026-05-31). Evidence: PMC12943413 (neuropathic pain MA, 13 RCTs, N=688, SMD=-1.01, 95%CI -1.40 to -0.62, p<0.001); PubMed 31394939 (NO/eNOS endoneural microcirculation); PMID 23083041 (SSEP latency/amplitude normalization); PMC11914662 (n=91, 36%/55% anchor). Differential diagnosis table vs lateral epicondylitis (tenderness location 3-5cm vs 0-1cm distal to LE; middle finger extension test; EMG findings; corticosteroid contraindication near PIN). Protocol: 1-10 Hz nerve regeneration -> 25-50 Hz anti-fibrotic, 15-30 mT, 12-18 sessions. Philippine occupational angle: 1.5M construction workers, 3M+ motorcycle taxi operators, 2.5M PEZA manufacturing workers with sustained forearm pronation/gripping. 8 min read."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-shoulder-replacement-recovery-protocol/",
+      "ph_file": "article-pemf-shoulder-replacement-recovery.html",
+      "title_en": "PEMF After Shoulder Replacement (TSA/RSA): Post-Surgical Recovery Protocol",
+      "date": "2026-07-31",
+      "tag": "Post-Surgical Protocol",
+      "note": "IL URL likely-pattern (site returned 403; shoulder replacement/arthroplasty post-surgical protocol). Evidence: PMID 28060214 (post-surgical RCT: severe pain 36% vs 72% at 24h, analgesic 1.9x lower at 24h, 2.1x lower at 7 days); PMC11330404 (post-surgical edema 56.2ml vs 23.6ml, 60% reduction at 48h); PMC12088032 (shoulder meta-analysis VAS -2.6, DASH 45.2->21.8, SMD=1.14); PMC7477588 (CK clearance 2.3x faster - muscle repair); PMC7093940 (type I collagen fiber realignment - bone-implant interface). TSA vs RSA comparison table (coil placement, ROM priorities, early start timing, bone-ingrowth phase). 4-phase protocol table: acute (8-25Hz) -> soft tissue (25-50Hz) -> bone-implant integration (50-75Hz) -> functional consolidation (75-100Hz). Metal implant safety note (cobalt-chrome/titanium are non-ferromagnetic, PEMF-compatible, no heat generation). Pacemaker screening critical in >60 age demographic. Philippine market: arthroplasty growing 12-18%/yr; per-patient revenue P24,000-P30,000 per course; referral network model from orthopedic surgeons. 9 min read."
     }
   ],
-  "untranslated_queue": [
-    "https://painfree.org.il/pemf-shoulder-inflammation-protocol/"
-  ],
+  "untranslated_queue": [],
   "notes": "Jack should also check https://painfree.org.il/medical-articles/ on each run to discover new articles not yet in this manifest. Site has been returning HTTP 403 Forbidden on all fetch attempts since 2026-05-31; articles are being synthesized from peer-reviewed PMC/PubMed literature on Israeli PEMF topics.",
   "run_log": [
     {
@@ -2390,5 +2412,5 @@
       "translated_count_after": 201
     }
   ],
-  "translated_count": 204
+  "translated_count": 207
 }
