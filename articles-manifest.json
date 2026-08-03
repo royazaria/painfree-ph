@@ -351,14 +351,14 @@
       "note": "IL URL is likely-pattern (site returned 403 globally); content synthesized from PMID 16633709 (Clinical Rheumatology RCT, n=60, PEMF vs sham vs corticosteroid) and Saudi J Sports Med 2017 (VAS 7.82→3.11, PPT 2.95→4.84 kg/cm², PFGS 18.6→22.1 kg, all p<0.001)"
     },
     {
-      "il_url": null,
+      "il_url": "https://painfree.org.il/pemf-rheumatoid-arthritis-protocol/",
       "ph_file": "article-pemf-rheumatoid-arthritis.html",
       "title_en": "PEMF for Rheumatoid Arthritis: Anti-Inflammatory Protocol for Philippine Clinics",
       "date": "2026-06-01",
       "tag": "Rheumatology Protocol",
-      "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-rheumatoid-arthritis-protocol/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL is likely-pattern (site returned 403 globally); content synthesized from PMC10971695 (n=39, pain -2.2 VAS p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036) and PMC9862561 (2023 murine study, 10Hz optimal)",
-      "no_il_twin": true,
-      "il_url_verified": "2026-08-02"
+      "note": "Hebrew twin CREATED 2026-08-03 (post 4654) and this entry rewired to it — this page is no longer orphaned. Originally synthesised from PubMed/PMC by the retired cloud routine with a guessed il_url that 404'd; that URL was nulled on 2026-08-02, and the real Hebrew article was then written on 2026-08-03, which makes the guessed slug accidentally correct. Citations independently re-verified 2026-08-03 via PubMed E-utilities: PMC10971695 = PMID 38541847 (Zwolinska, J Clin Med 2024, n=39) and PMC9862561 = PMID 36674651 (murine CIA, Int J Mol Sci 2023) — both real and correctly matched. Content corrected the same day: the six outcome figures were mislabelled as PEMF-arm results when they are whole-cohort pre-post results; the 'confirming a broad multimodal benefit' conclusion was replaced with the three real caveats (no sham arm, all participants also received kinesiotherapy, and within-arm significance was limited to HAQ-20/ROM/hand swelling). PMC IDs made clickable.",
+      "no_il_twin": false,
+      "il_url_verified": "2026-08-03"
     },
     {
       "il_url": null,
@@ -2673,6 +2673,19 @@
       "agent": "jack-daily-seo",
       "phase": "reconciliation",
       "note": "Full il_url reconciliation: 22 rewired to real verified slugs, 82 marked no_il_twin (synthesised pages with no Hebrew source), 4 left for manual review, 102 already valid. Cloud routine painfree-ph-articles-daily (trig_01At9CKyGRGQnJ3DCHvZimSU) disabled the same day — Step 8 is now owned solely by the local jack-daily-seo task."
+    },
+    {
+      "date": "2026-08-03",
+      "phase": 2,
+      "articles_translated": 0,
+      "articles_rewired": 1,
+      "files_created": [],
+      "files_modified": [
+        "article-pemf-rheumatoid-arthritis.html",
+        "articles-manifest.json"
+      ],
+      "note": "Phase 2 found the English twin ALREADY EXISTED (created 2026-06-09 by the retired cloud routine, one of the 86 no_il_twin orphans). Per SKILL 8.3 an existing file is never overwritten, so the correct action was to wire il_url to the new Hebrew article and fix the page's accuracy rather than publish a duplicate. Orphan count 86 -> 85.",
+      "untranslated_remaining": 0
     }
   ],
   "translated_count": 210
