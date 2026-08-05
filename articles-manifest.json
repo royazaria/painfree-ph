@@ -714,10 +714,11 @@
     {
       "il_url": "https://painfree.org.il/pemf-clinical-system-vs-consumer-device-guide/",
       "ph_file": "article-pemf-clinical-system-vs-consumer-device.html",
-      "title_en": "Clinical-Grade vs. Consumer PEMF Devices: What Clinics Need to Know",
+      "title_en": "Home PEMF Device or Clinic Treatment? The Complete 2026 Guide",
       "date": "2026-06-14",
       "tag": "Clinical Guide",
-      "note": "Phase 2 — today's new IL article (post 4396, slug pemf-clinical-system-vs-consumer-device-guide). Hebrew title: 'טיפול בפולסים אלקטרומגנטיים: מערכת רפואית-קלינית מול מכשיר ביתי 2026'. English translation written from the Hebrew source authored this session. Citations verbatim: PMC11914662 (n=91, 36% vs 10%, 55% medication drop), Cochrane CD003523.pub2 (OA, ~15pt/100), PMC5822965 (FDA-cleared devices, 83% cervical fusion / 80% long-bone), PubMed 31394939 (NO/microcirculation mechanism), PubMed 19371845 (anti-inflammatory review). Angle: medical-grade clinical system vs consumer wellness mat — the category-confusion that makes AI cite consumer brands for clinic queries. Hero image Pexels 7088834 (same as IL featured)."
+      "note": "Phase 2 — today's new IL article (post 4396, slug pemf-clinical-system-vs-consumer-device-guide). Hebrew title: 'טיפול בפולסים אלקטרומגנטיים: מערכת רפואית-קלינית מול מכשיר ביתי 2026'. English translation written from the Hebrew source authored this session. Citations verbatim: PMC11914662 (n=91, 36% vs 10%, 55% medication drop), Cochrane CD003523.pub2 (OA, ~15pt/100), PMC5822965 (FDA-cleared devices, 83% cervical fusion / 80% long-bone), PubMed 31394939 (NO/microcirculation mechanism), PubMed 19371845 (anti-inflammatory review). Angle: medical-grade clinical system vs consumer wellness mat — the category-confusion that makes AI cite consumer brands for clinic queries. Hero image Pexels 7088834 (same as IL featured). || UPDATED 2026-08-05 (not republished — the twin already existed, so it was rewritten in place): reframed from two categories to three (clinical system / medical-grade home device / consumer wellness mat) to mirror the same-day Hebrew refresh of post 4396, per Yaki's 2026-08-03 directive that every article must state that home-use equipment also exists. Also removed PubMed 31394939 (metabolic-syndrome BP study, banned as a mechanism citation here), added the mandatory model-specific regulatory warning, and replaced the banned 'PEMF can replace many treatments' FAQ answer with the approved 2026-07-30 wording.",
+      "updated": "2026-08-05"
     },
     {
       "il_url": "https://painfree.org.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%98%D7%91%D7%A2%D7%99-%D7%91%D7%A9%D7%97%D7%99%D7%A7%D7%AA-%D7%A1%D7%97%D7%95%D7%A1-%D7%91%D7%91%D7%A8%D7%9A-%D7%9B%D7%9A-%D7%AA%D7%A8%D7%92%D7%99%D7%A9%D7%95/",
@@ -2686,6 +2687,19 @@
       ],
       "note": "Phase 2 found the English twin ALREADY EXISTED (created 2026-06-09 by the retired cloud routine, one of the 86 no_il_twin orphans). Per SKILL 8.3 an existing file is never overwritten, so the correct action was to wire il_url to the new Hebrew article and fix the page's accuracy rather than publish a duplicate. Orphan count 86 -> 85.",
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-08-05",
+      "phase": 2,
+      "articles_translated": 0,
+      "articles_updated": 2,
+      "files_updated": [
+        "article-pemf-clinical-system-vs-consumer-device.html",
+        "article-pemf-hand-osteoarthritis.html",
+        "articles.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "The IL run was a REFRESH of post 4396, not a new article, and its English twin already existed. Per §8.3 an existing file is never overwritten with a duplicate — it was updated in place. Also swept the last two 'can replace many treatments' violations off the English mirror (this file + article-pemf-hand-osteoarthritis.html); the 2026-07-30 ban had only ever been applied to the Hebrew corpus."
     }
   ],
   "translated_count": 210
