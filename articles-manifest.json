@@ -1100,14 +1100,13 @@
       "note": "Phase 2: direct translation/adaptation of today new IL article (post 4438, tarsal tunnel syndrome). First TTS article on PH. Citations kept conservative and topic-matched: PMC11914662 (with explicit joint/soft-tissue-general-not-TTS caveat) + PubMed 19371845 (soft-tissue mechanism review only). No dedicated TTS RCT — framed as adjunct; orthotics/physio/nerve-gliding = cornerstone."
     },
     {
-      "il_url": null,
+      "il_url": "https://painfree.org.il/pemf-avascular-necrosis-femoral-head-protocol/",
       "ph_file": "article-pemf-avascular-necrosis.html",
-      "title_en": "PEMF for Avascular Necrosis (Osteonecrosis): Bone Preservation Protocol",
-      "date": "2026-07-03",
-      "tag": "Bone Health Protocol",
-      "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-avascular-necrosis-osteonecrosis-protocol/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL likely-pattern (site returned 403 on fetch; IL site 403 since 2026-05-31, untranslated_queue empty, no new IL articles found via web search). Synthesized from peer-reviewed literature. Distinct from osteoporosis and bone fracture healing articles — focuses on AVN pathology: avascular bone death, Ficat & Arlet Stage I-IV classification, osteoblast/angiogenesis PEMF biology. Evidence: PMID 32495506 (14 RCTs n=1,131, healing rate 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35), PMC6209359 (n=1,382, 89.6% real-world success), PMC3441225 (tibial non-union n=44, 77.3% union in avascular environment), PMID 35864717 (2022 MA: BMD, ALP, BSAP, osteocalcin all increased — osteoblast activity markers), PMC4959873 (VEGF/angiogenesis in avascular tissue), PubMed 19371845 (NF-κB anti-inflammatory). 3-phase protocol table (8-15Hz anti-inflammatory/15-50Hz osteoblast+VEGF/50-100Hz mineralization, 24 sessions), 6-treatment comparison table (PEMF vs core decompression vs bisphosphonates vs THA with PH costs), Philippine post-COVID steroid AVN cohort (high-dose dexamethasone 2020-2022 creates new 30-55 age group presenting now). No dedicated AVN-PEMF RCT — honest adjunct framing. 10 min read.",
-      "no_il_twin": true,
-      "il_url_verified": "2026-08-02"
+      "title_en": "PEMF for Avascular Necrosis of the Femoral Head: What the Evidence Shows",
+      "date": "2026-08-09",
+      "tag": "Clinical Protocol",
+      "note": "REWRITTEN IN PLACE 2026-08-09 and linked to its new Hebrew twin (post 4665). Was an orphan synthesised by the retired cloud routine. What the old version got wrong, checked against PubMed: (a) it led with \"89.6% success rate (n=1,382)\" and \"14 RCTs n=1,131, 79.7% vs 64.3%\" (PMID 32495506) — both are FRACTURE NON-UNION healing cohorts, not AVN, i.e. the cross-condition conflation banned since 2026-06-30; (b) it claimed angiogenesis was \"the primary rationale for PEMF's potential to restore viable vascularity\" — there is no evidence PEMF restores blood supply, and the Hebrew twin says so explicitly; (c) it cited PubMed 19371845, which carries one of the three banned institution misattributions; (d) it omitted the entire real AVN literature — Massari 2006 JBJS (PMID 17079368), the two 1989 CORR series, and above all the 2014 Jena prospective study (PMID 24987486) which found NO significant difference (18% vs 22% THA). The replacement carries all five real studies including the negative one, the Ficat staging table, the three-category home-device model with the frequency argument, contraindications, and PH pricing.",
+      "il_url_verified": "2026-08-09"
     },
     {
       "il_url": "https://painfree.org.il/pemf-cubital-tunnel-ulnar-nerve-entrapment-protocol/",
@@ -1878,6 +1877,14 @@
       "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-post-mastectomy-pain-syndrome-protocol/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL likely-pattern (site returned 403; oncology rehabilitation series; breast cancer is #1 Filipino female malignancy). Evidence: PMC11914662 (n=91, 36%/55%) core analgesic anchor (substance P/CGRP at T2-T6 dorsal horn); PMC11874150 RELIEF (n=182 CIPN - peripheral sensitization mechanism identical to PMPS ICBN neuroma); PEMF wound healing RCTs (n>400 pooled, collagen organization, fibrosis reduction - scar/radiation fibrosis mechanical pain generator); PEMF frozen shoulder RCTs (30-40% axillary dissection shoulder dysfunction); aromatase inhibitor arthralgia PEMF pilot. Mechanisms: ICBN territory Na+ channel modulation 8-25Hz; adenosine-A2A substance P/CGRP T2-T6; surgical scar collagen remodeling; central sensitization NF-kB/glial suppression; shoulder joint anti-inflammatory (capsulitis/RCT). PMPS subtypes table (ICBN neuralgia/scar/radiation/shoulder/AI-arthralgia). 3-phase: 8-25Hz ICBN territory + axilla -> 25-50Hz central sensitization + shoulder -> maintenance 1-2x/month. NRS + DASH + shoulder ROM outcome tracking. Mandatory oncology clearance before each series. Philippines: 35K new BC cases/year; 250K-350K survivors growing 25K/year; PMPS 25% prevalence = 60K-85K; HR+ >80% (HRT contraindicated); PDEA-regulated opioid access limited; AI arthralgia affects 50% of 200K HR+ survivors on AIs. Contraindications: active malignancy in field (absolute); port-a-cath/tissue expander with magnet (relative, position away); no PEMF during active radiotherapy (wait 6 weeks post-RT). Session cost: P1,500-P2,500.",
       "no_il_twin": true,
       "il_url_verified": "2026-08-02"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-resolution-of-inflammation-cellular-switch/",
+      "ph_file": "article-pemf-resolution-of-inflammation.html",
+      "title_en": "Do Cells Have a \"Switch\" to End Inflammation? PEMF and the Body's Balance Mechanisms",
+      "date": "2026-08-09",
+      "tag": "Guest Article",
+      "note": "English twin of Hebrew post 4662 — a GUEST article by Giora Mor, Dip. Ac. I.A.TCM, forwarded by Yaki 2026-08-06 and published the same day in Hebrew. All five bibliography entries were verified against PubMed before publication and all five are real, including the 2026 Nature Communications epoxy-oxylipin paper (PMID 41545341, vol 17:431, DOI 10.1038/s41467-025-67961-5). The article's central value is that it states explicitly that PEMF has NOT been shown to activate the resolution mechanism — which is also the exact phrasing Yaki banned in his 2026-08-06 review. Guest text and PainFree editorial content are visually separated so no marketing language is attributed to the external author."
     }
   ],
   "untranslated_queue": [],
@@ -2711,7 +2718,22 @@
       ],
       "untranslated_remaining": 0,
       "note": "Today's Hebrew article (post 4659, multiple sclerosis fatigue) already had an English page on the PH site — an orphan with no Hebrew twin, generated by the retired cloud routine. Publishing a second MS page would have been the duplicate-content failure flagged on 07-26/07-28, so the orphan was rewritten in place and linked to its new Hebrew twin. This also removed a fabricated finding (Lappin 2003 'bladder and bowel function improved' — the paper reports the opposite) and a wrong sample size (n=37 vs the real 117). One orphan closed: the mirror gains a real 1:1 pair rather than a new page."
+    },
+    {
+      "date": "2026-08-09",
+      "phase": 2,
+      "articles_translated": 1,
+      "articles_updated": 1,
+      "files_created": [
+        "article-pemf-resolution-of-inflammation.html"
+      ],
+      "files_updated": [
+        "article-pemf-avascular-necrosis.html",
+        "articles.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Two Hebrew articles published in Israel today, so both needed English twins. The AVN page already existed as an ORPHAN from the retired cloud routine and was rewritten in place rather than duplicated (per the 2026-08-06 precedent) — it was leading with a fracture non-union statistic on an AVN page and claiming PEMF restores vascularity. This is the SECOND orphan in four days found to be misreporting its evidence; ~84 orphans remain content-unaudited."
     }
   ],
-  "translated_count": 210
+  "translated_count": 211
 }
