@@ -1119,14 +1119,13 @@
       "il_url_verified": "2026-08-02"
     },
     {
-      "il_url": null,
+      "il_url": "https://painfree.org.il/pemf-complex-regional-pain-syndrome-crps-protocol/",
       "ph_file": "article-pemf-crps-complex-regional-pain.html",
-      "title_en": "PEMF for Complex Regional Pain Syndrome (CRPS): Neuroinflammatory Protocol",
-      "date": "2026-07-03",
-      "tag": "Neurological Protocol",
-      "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-complex-regional-pain-syndrome-crps-protocol/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL likely-pattern (site returned 403 on fetch). Synthesized from peer-reviewed literature. Formerly known as RSD (Reflex Sympathetic Dystrophy) / Causalgia. Distinct from neuropathic pain evidence article and sciatica/carpal tunnel articles — focuses on the 3-mechanism CRPS disease model (neurogenic inflammation + sympathetically maintained pain + central sensitization). Evidence: PMC12943413 (2026 MA 13 RCTs N=688 overall SMD=-1.01 95%CI -1.40 to -0.62 p<0.001 — strongest neuropathic pain meta-analysis), PMC9748435 (GAD RCT n=60, HAMA 40% vs 14%, cortisol -28% — sympathetic/HPA axis modulation), PubMed 19371845 (NF-κB/IL-1β/TNF-α suppression — neurogenic inflammation), PubMed 31394939 (NO/microcirculation — vasomotor dysregulation), PMID 23083041 (SSEP latency/amplitude improvement — nerve signal normalization), PMC11914662 (36%/55% benchmark). Budapest Criteria diagnostic table (4 categories: sensory/vasomotor/sudomotor-edema/motor-trophic), CRPS Type I vs Type II distinction, 3-phase disease model (acute inflammatory/subacute dystrophic/chronic atrophic), mechanism-to-PEMF-action table (4 rows), 3-phase protocol (start 1-5Hz low-intensity proximal/subacute 8-25Hz/chronic 25-75Hz, 20 sessions), post-sympathetic-block window application (PEMF consolidates block durability + primes PT), 5-treatment comparison table (PEMF vs gabapentin vs sympathetic block vs SCS with PH costs). Critical allodynia caution: start low-intensity, start proximal, titrate slowly — never directly over allodynic zone in acute phase. Philippines: post-COVID surgical patients, road accident (12K+ fatalities/yr), post-stroke shoulder-hand syndrome, diabetic neuropathy patients. No dedicated CRPS-PEMF RCT — honest adjunct framing. 10 min read.",
-      "no_il_twin": true,
-      "il_url_verified": "2026-08-02"
+      "title_en": "CRPS and PEMF: What the Evidence Actually Shows",
+      "date": "2026-08-10",
+      "tag": "Clinical Evidence Review",
+      "note": "REWRITTEN IN PLACE 2026-08-10 and linked to its new Hebrew twin (post 4668). The previous version was an ORPHAN synthesised by the retired cloud routine on 2026-07-03, and it was misreporting its evidence in three ways: (1) it anchored on PMC12943413, the 2026 neuropathic-pain meta-analysis, which is radicular-only and does not apply to CRPS; (2) it cited PubMed 19371845 and 31394939, both on the banned-misattribution / wrong-condition list; (3) it prescribed a 3-phase PEMF protocol for CRPS while omitting the two studies that answer the question directly. Corrected content: Cochrane CD010853 (PubMed 26905470, 18 RCTs N=739) states PEMF vs placebo is NOT effective for short-term CRPS-I pain; Comertoglu 2022 (PubMed 35949961, the only dedicated RCT, n=32, 8 Hz / 3.2 mT, 20 sessions) found no added benefit over conventional rehab. Also cited: Pagani 2017 (PubMed 28934787, preclinical rationale only, authors state clinical data are scarce), Notarnicola 2021 (PubMed 34155875, industry-affiliated, no abstract - listed without figures), Lorente 2023 (PubMed 37209231, incidence after radius fracture 0.19-13.63%), Seth 2022 (PubMed 34961681, perioperative vitamin C OR 0.33) balanced against Ranjbar Moghaddam 2024 (PubMed 39447383, not statistically significant, publication bias). Positioning: recognition-and-referral article, not a treatment article. THIRD orphan in five days found misreporting its own evidence.",
+      "il_url_verified": "2026-08-10"
     },
     {
       "il_url": "https://painfree.org.il/pemf-insomnia-sleep-disorders-protocol/",
@@ -2733,6 +2732,18 @@
       ],
       "untranslated_remaining": 0,
       "note": "Two Hebrew articles published in Israel today, so both needed English twins. The AVN page already existed as an ORPHAN from the retired cloud routine and was rewritten in place rather than duplicated (per the 2026-08-06 precedent) — it was leading with a fracture non-union statistic on an AVN page and claiming PEMF restores vascularity. This is the SECOND orphan in four days found to be misreporting its evidence; ~84 orphans remain content-unaudited."
+    },
+    {
+      "date": "2026-08-10",
+      "phase": 2,
+      "articles_translated": 0,
+      "articles_updated": 1,
+      "files_updated": [
+        "article-pemf-crps-complex-regional-pain.html",
+        "articles.html"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Today's Hebrew article (post 4668, CRPS) collided with an existing PH orphan that had guessed the exact same slug. Per the 2026-08-06 and 2026-08-09 precedent the orphan was rewritten in place rather than duplicated. It was recommending a PEMF protocol for a condition where Cochrane says PEMF is not effective, on the strength of a radicular-only meta-analysis and two banned citations. One more no_il_twin flag removed; the mirror gains a real 1:1 pair."
     }
   ],
   "translated_count": 211
