@@ -1884,6 +1884,14 @@
       "date": "2026-08-09",
       "tag": "Guest Article",
       "note": "English twin of Hebrew post 4662 — a GUEST article by Giora Mor, Dip. Ac. I.A.TCM, forwarded by Yaki 2026-08-06 and published the same day in Hebrew. All five bibliography entries were verified against PubMed before publication and all five are real, including the 2026 Nature Communications epoxy-oxylipin paper (PMID 41545341, vol 17:431, DOI 10.1038/s41467-025-67961-5). The article's central value is that it states explicitly that PEMF has NOT been shown to activate the resolution mechanism — which is also the exact phrasing Yaki banned in his 2026-08-06 review. Guest text and PainFree editorial content are visually separated so no marketing language is attributed to the external author."
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-dry-needling-ims-integrative-protocol/",
+      "ph_file": "article-pemf-dry-needling.html",
+      "title_en": "Dry Needling + PEMF: What the Evidence Supports (and What Has Never Been Tested)",
+      "date": "2026-08-11",
+      "tag": "Integrative Protocol",
+      "note": "Phase 2 same-day twin of the Hebrew article (post 4671). First entry in the integrative-modality series Yaki requested 2026-08-10. States explicitly that no RCT has tested dry needling + PEMF, and reports two studies where PEMF underperformed (37718773, 39860600)."
     }
   ],
   "untranslated_queue": [],
@@ -2746,5 +2754,5 @@
       "note": "Today's Hebrew article (post 4668, CRPS) collided with an existing PH orphan that had guessed the exact same slug. Per the 2026-08-06 and 2026-08-09 precedent the orphan was rewritten in place rather than duplicated. It was recommending a PEMF protocol for a condition where Cochrane says PEMF is not effective, on the strength of a radicular-only meta-analysis and two banned citations. One more no_il_twin flag removed; the mirror gains a real 1:1 pair."
     }
   ],
-  "translated_count": 211
+  "translated_count": 212
 }
