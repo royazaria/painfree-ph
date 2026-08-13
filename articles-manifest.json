@@ -1900,6 +1900,13 @@
       "title": "Cupping Therapy + PEMF: What the Evidence Actually Shows",
       "date": "2026-08-12",
       "phase": 2
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-chiropractic-spinal-manipulation-integrative-protocol/",
+      "ph_file": "article-pemf-chiropractic-spinal-manipulation.html",
+      "title_en": "Chiropractic & Spinal Manipulation + PEMF: What the Evidence Actually Shows",
+      "date": "2026-08-13",
+      "tag": "Integrative Protocol"
     }
   ],
   "untranslated_queue": [],
@@ -2768,7 +2775,21 @@
         "article-pemf-cupping-therapy.html",
         "articles.html"
       ]
+    },
+    {
+      "date": "2026-08-13",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-chiropractic-spinal-manipulation.html"
+      ],
+      "files_updated": [
+        "articles.html",
+        "articles-manifest.json"
+      ],
+      "untranslated_remaining": 0,
+      "note": "Phase 2 English twin for today's Hebrew article (post 4677, chiropractic/SMT + PEMF). No orphan collision on this slug — first clean Phase 2 in four runs. Leads on the Cochrane 2026 update (76 RCTs, N=11,866) and states the null explicitly: the only PubMed record linking chiropractic and PEMF is a single case report (41694169), presented as not-evidence."
     }
   ],
-  "translated_count": 213
+  "translated_count": 214
 }
