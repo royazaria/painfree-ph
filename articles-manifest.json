@@ -1907,6 +1907,15 @@
       "title_en": "Chiropractic & Spinal Manipulation + PEMF: What the Evidence Actually Shows",
       "date": "2026-08-13",
       "tag": "Integrative Protocol"
+    },
+    {
+      "hebrew_title": "סרקופניה (ניוון שרירים בגיל): טיפול PEMF ופרוטוקול קליני 2026",
+      "hebrew_url": "https://painfree.org.il/pemf-sarcopenia-muscle-loss-elderly-protocol/",
+      "hebrew_post_id": 4680,
+      "english_title": "Sarcopenia (Age-Related Muscle Loss) and PEMF: What the Evidence Actually Shows",
+      "english_file": "article-pemf-sarcopenia-muscle-loss.html",
+      "date": "2026-08-14",
+      "phase": 2
     }
   ],
   "untranslated_queue": [],
@@ -2789,7 +2798,16 @@
       ],
       "untranslated_remaining": 0,
       "note": "Phase 2 English twin for today's Hebrew article (post 4677, chiropractic/SMT + PEMF). No orphan collision on this slug — first clean Phase 2 in four runs. Leads on the Cochrane 2026 update (76 RCTs, N=11,866) and states the null explicitly: the only PubMed record linking chiropractic and PEMF is a single case report (41694169), presented as not-evidence."
+    },
+    {
+      "date": "2026-08-14",
+      "phase": 2,
+      "articles_translated": 1,
+      "files": [
+        "article-pemf-sarcopenia-muscle-loss.html"
+      ],
+      "queue_remaining": 0
     }
   ],
-  "translated_count": 214
+  "translated_count": 215
 }
