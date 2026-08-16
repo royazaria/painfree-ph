@@ -2807,6 +2807,12 @@
         "article-pemf-sarcopenia-muscle-loss.html"
       ],
       "queue_remaining": 0
+    },
+    {
+      "date": "2026-08-16",
+      "action": "phase2-consolidation",
+      "note": "Rebuilt article-pemf-physiotherapy-clinic.html as the canonical English implementation guide (19,635 -> 37,203 bytes) from the new Hebrew hub (post 4683). De-optimised article-pemf-physiotherapy-protocol-guide.html to a distinct sub-angle and linked it to the canonical. No third competing page created.",
+      "source_he": "https://painfree.org.il/pemf-physiotherapy-clinic-implementation-business-guide/"
     }
   ],
   "translated_count": 215
