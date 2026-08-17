@@ -171,10 +171,12 @@
     {
       "il_url": "https://painfree.org.il/pemf-achilles-tendinopathy-runners-athletes/",
       "ph_file": "article-pemf-achilles-tendinopathy-runners.html",
-      "title_en": "PEMF for Achilles Tendinopathy in Runners & Athletes: Clinical Protocol",
+      "title_en": "Achilles Tendinopathy: What Works, What Doesn't, and Where PEMF Fits",
       "date": "2026-06-26",
-      "tag": "Sports Medicine Protocol",
-      "note": "Phase 2 — same-day translation of today's new IL article (post 4412, Achilles tendinopathy in runners/athletes). Distinct from existing article-pemf-achilles-tendonitis.html (general). Content from PMC11914662 (n=91, 36% vs 10% pain, p<0.0001, 55% med reduction) + PubMed 32401418 (vascular mechanism only) + Strauch 2009 PubMed 19371845 (soft-tissue review). Honest framing: Achilles-specific RCTs limited, PEMF positioned as adjunct to eccentric loading. 3-phase protocol, PEMF vs shockwave/physio/NSAIDs table with patient-experience row, dual-audience FAQ, P1500-2500 pricing."
+      "tag": "Main Clinical Reference",
+      "note": "Phase 2 — same-day translation of today's new IL article (post 4412, Achilles tendinopathy in runners/athletes). Distinct from existing article-pemf-achilles-tendonitis.html (general). Content from PMC11914662 (n=91, 36% vs 10% pain, p<0.0001, 55% med reduction) + PubMed 32401418 (vascular mechanism only) + Strauch 2009 PubMed 19371845 (soft-tissue review). Honest framing: Achilles-specific RCTs limited, PEMF positioned as adjunct to eccentric loading. 3-phase protocol, PEMF vs shockwave/physio/NSAIDs table with patient-experience row, dual-audience FAQ, P1500-2500 pricing.",
+      "updated": "2026-08-17",
+      "role": "canonical-hub"
     },
     {
       "il_url": "https://painfree.org.il/pemf-ankle-sprain-ligament-injury-protocol/",
@@ -482,10 +484,12 @@
     {
       "il_url": "https://painfree.org.il/what-is-achilles-tendonitis-and-how-can-the-pain-be-treated/",
       "ph_file": "article-pemf-achilles-tendonitis.html",
-      "title_en": "PEMF for Achilles Tendinopathy: Non-Invasive Protocol",
+      "title_en": "Achilles Pain in the Morning: Why It Happens and What to Do First",
       "date": "2026-06-06",
       "tag": "Sports Medicine Protocol",
-      "note": "IL URL discovered via web search (site returned 403 on fetch); Hebrew title: 'מהי דלקת בגיד אכילס ואיך אפשר לטפל בכאב?'. Content synthesized from PMC7093940 (collagen fiber realignment, structural repair), Frontiers in Sports & Active Living 2026 (doi:10.3389/fspor.2026.1694944), and established VISA-A clinical literature."
+      "note": "IL URL discovered via web search (site returned 403 on fetch); Hebrew title: 'מהי דלקת בגיד אכילס ואיך אפשר לטפל בכאב?'. Content synthesized from PMC7093940 (collagen fiber realignment, structural repair), Frontiers in Sports & Active Living 2026 (doi:10.3389/fspor.2026.1694944), and established VISA-A clinical literature.",
+      "updated": "2026-08-17",
+      "role": "sub-angle-of:article-pemf-achilles-tendinopathy-runners.html"
     },
     {
       "il_url": "https://painfree.org.il/chronic-pain-treatment-guide/",
@@ -1533,9 +1537,11 @@
     {
       "il_url": "https://painfree.org.il/pemf-insertional-achilles-tendinopathy-heel/",
       "ph_file": "article-pemf-insertional-achilles-tendinopathy.html",
-      "title_en": "PEMF for Insertional Achilles Tendinopathy: Clinical Protocol",
+      "title_en": "Insertional Achilles Tendinopathy: Pain at the Heel Attachment",
       "date": "2026-07-16",
-      "tag": "Clinical Protocol"
+      "tag": "Clinical Protocol",
+      "updated": "2026-08-17",
+      "role": "sub-angle-of:article-pemf-achilles-tendinopathy-runners.html"
     },
     {
       "il_url": "https://painfree.org.il/zeilig-pemf-medical-review/",
@@ -2813,6 +2819,20 @@
       "action": "phase2-consolidation",
       "note": "Rebuilt article-pemf-physiotherapy-clinic.html as the canonical English implementation guide (19,635 -> 37,203 bytes) from the new Hebrew hub (post 4683). De-optimised article-pemf-physiotherapy-protocol-guide.html to a distinct sub-angle and linked it to the canonical. No third competing page created.",
       "source_he": "https://painfree.org.il/pemf-physiotherapy-clinic-implementation-business-guide/"
+    },
+    {
+      "date": "2026-08-17",
+      "phase": 2,
+      "action": "achilles-cluster-consolidation",
+      "articles_translated": 0,
+      "files_updated": [
+        "article-pemf-achilles-tendinopathy-runners.html",
+        "article-pemf-insertional-achilles-tendinopathy.html",
+        "article-pemf-achilles-tendonitis.html",
+        "articles.html"
+      ],
+      "note": "Mirror of the IL consolidation. Canonical rebuilt in place from the new Hebrew hub (25,096 -> 41,515 bytes, 7 -> 14 H2s, same filename so the URL survives); the two twins de-optimised onto distinct sub-angles with a visible hub link. No new page created. Also removed the PMC11914662 36%/10% figure from two places where it read as Achilles-specific, and dropped an unverified PMC7093940 claim from a card excerpt.",
+      "untranslated_remaining": 0
     }
   ],
   "translated_count": 215
