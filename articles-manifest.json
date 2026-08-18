@@ -2833,6 +2833,21 @@
       ],
       "note": "Mirror of the IL consolidation. Canonical rebuilt in place from the new Hebrew hub (25,096 -> 41,515 bytes, 7 -> 14 H2s, same filename so the URL survives); the two twins de-optimised onto distinct sub-angles with a visible hub link. No new page created. Also removed the PMC11914662 36%/10% figure from two places where it read as Achilles-specific, and dropped an unverified PMC7093940 claim from a card excerpt.",
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-08-18",
+      "phase": 2,
+      "action": "heel-plantar-cluster-consolidation-and-fabricated-data-removal",
+      "articles_translated": 0,
+      "files_updated": [
+        "article-pemf-plantar-fasciitis.html",
+        "article-pemf-heel-spur.html",
+        "article-pemf-ankle-foot-guide.html",
+        "article-pemf-treatment-guide.html",
+        "articles.html"
+      ],
+      "note": "Mirror of the IL heel/plantar consolidation. article-pemf-plantar-fasciitis.html elevated as the English canonical (25,273 -> 29,541 bytes) with the 2026 systematic review, the APTA/JOSPT 2023 guideline, a What-PEMF-Does-Not-Do block, and the historical-control warning on the 34% figure; treatment frequency corrected from 3x/week to 1-2x/week. heel-spur and ankle-foot-guide de-optimised onto sub-angles with a visible canonical link. CRITICAL: article-pemf-heel-spur.html carried a fully fabricated dataset attributed to PMID 40378087 (\"Cureus, n=70, double-blind, VAS 7.1->3.4 vs 7.2->6.1 sham, 52% vs 15%, no adverse events in either group\") - that paper is a J Am Podiatr Med Assoc case series with NO control group. The same fabricated numbers were also live in articles.html and article-pemf-treatment-guide.html. All occurrences removed and replaced with the verified figures from PMID 22297104 and 40378087. Site-wide sweep confirms 0 remaining.",
+      "untranslated_remaining": 0
     }
   ],
   "translated_count": 215
