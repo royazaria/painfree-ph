@@ -2848,6 +2848,34 @@
       ],
       "note": "Mirror of the IL heel/plantar consolidation. article-pemf-plantar-fasciitis.html elevated as the English canonical (25,273 -> 29,541 bytes) with the 2026 systematic review, the APTA/JOSPT 2023 guideline, a What-PEMF-Does-Not-Do block, and the historical-control warning on the 34% figure; treatment frequency corrected from 3x/week to 1-2x/week. heel-spur and ankle-foot-guide de-optimised onto sub-angles with a visible canonical link. CRITICAL: article-pemf-heel-spur.html carried a fully fabricated dataset attributed to PMID 40378087 (\"Cureus, n=70, double-blind, VAS 7.1->3.4 vs 7.2->6.1 sham, 52% vs 15%, no adverse events in either group\") - that paper is a J Am Podiatr Med Assoc case series with NO control group. The same fabricated numbers were also live in articles.html and article-pemf-treatment-guide.html. All occurrences removed and replaced with the verified figures from PMID 22297104 and 40378087. Site-wide sweep confirms 0 remaining.",
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-08-19",
+      "action": "knee-cartilage cluster consolidation (Phase 2 mirror of the Hebrew run)",
+      "canonical": "article-pemf-knee-osteoarthritis.html",
+      "canonical_rationale": "\"knee osteoarthritis\" carries the English search volume; chosen on merit, not by mirroring the Hebrew slug (treatment-natural-cartilage-erosion-knee).",
+      "deoptimised": [
+        "article-pemf-knee-cartilage-natural-treatment.html",
+        "article-pemf-natural-knee-treatment.html",
+        "article-pemf-cartilage-erosion.html",
+        "article-pemf-cartilage-erosion-prevention.html",
+        "article-pemf-600-patients-cartilage.html",
+        "article-pemf-pelvis-knee-cartilage.html"
+      ],
+      "new_pages": 0,
+      "data_integrity_fixes": [
+        "CRITICAL: the canonical cited Lau et al. (J Cachexia Sarcopenia Muscle) as having \"confirmed significant improvements in WOMAC total score and VAS pain\" — the trial (PubMed 41588476) found NO significant WOMAC or VAS difference vs sham at any timepoint. The finding was inverted. Replaced with the full result including the null structural outcomes.",
+        "Removed an unidentifiable \"2025 SAGE trial ... 2.4x better pain outcomes\" — no source exists.",
+        "Removed a cross-literature effect-size comparison presenting PEMF as delivering functional gains comparable to total knee replacement.",
+        "Rewrote the \"Does PEMF repair cartilage\" FAQ, which answered \"Both\" — contradicted directly by 41588476.",
+        "Removed the unsourced \"PEMF penetrates 20-25 cm\" specification claim.",
+        "Labelled the four-mechanism list as cell-culture and animal derived.",
+        "Removed the absolute revenue promise (P600,000/month) in favour of a break-even formula.",
+        "Removed the \"surgery-avoidance story\" framing site-wide (4 occurrences, 2 files) - no trial shows PEMF delays or avoids arthroplasty.",
+        "Added the real identifier for the 11-RCT meta-analysis: Tong et al. 2022, PubMed 35586276 / PMC9110240.",
+        "Added the 2026 meta-analysis (PubMed 42075549) with its authors' own caveat about clinical meaningfulness.",
+        "Corrected a disease-modification claim on article-pemf-natural-knee-treatment.html (\"substantially slow progression\")."
+      ]
     }
   ],
   "translated_count": 215
