@@ -2876,6 +2876,13 @@
         "Added the 2026 meta-analysis (PubMed 42075549) with its authors' own caveat about clinical meaningfulness.",
         "Corrected a disease-modification claim on article-pemf-natural-knee-treatment.html (\"substantially slow progression\")."
       ]
+    },
+    {
+      "date": "2026-08-20",
+      "action": "evidence-balance sweep",
+      "detail": "Added a qualifying paragraph to 39 pages that cited the Tong 2022 meta-analysis (PMC9110240) one-sidedly. Verified Tong 2022 (PubMed 35586276) and Cianni 2024 (PubMed 38610722 / PMC11012419) against their abstracts - both real and accurately quoted. Qualifier cites Chang 2026 (PubMed 42075549: no significant VAS/WOMAC at one month, high risk of bias, may not reach clinical meaningfulness) and Lau 2026 (PubMed 41588476: no cartilage-thickness or joint-space difference vs sham at 12 months).",
+      "pages_changed": 39,
+      "pages_skipped": 1
     }
   ],
   "translated_count": 215
