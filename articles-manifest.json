@@ -1922,6 +1922,13 @@
       "english_file": "article-pemf-sarcopenia-muscle-loss.html",
       "date": "2026-08-14",
       "phase": 2
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-spinal-fusion-bone-growth-stimulation-protocol/",
+      "ph_file": "article-pemf-spinal-fusion.html",
+      "title_en": "PEMF and Spinal Fusion: What the Randomized Evidence Shows",
+      "date": "2026-08-22",
+      "tag": "Clinical Protocol"
     }
   ],
   "untranslated_queue": [],
@@ -2898,7 +2905,16 @@
       ],
       "verified": "All four pre-existing sources fetched from PubMed/PMC and confirmed real and correctly topic-matched (28060214 C-section RCT; 30836195 mandibular fracture RCT n=32; PMC11330404 orthognathic; PMC7298453 joint-replacement review). No fabricated citations found on this page.",
       "open": "173 of 227 PH html files publish a per-session peso tariff. The Hebrew corpus was swept of published tariffs on 2026-08-11 after therapists and franchisees complained to Yaki; the PH mirror was never swept. NOT swept today - the Israeli rule was driven by Israeli franchisee complaints and the PH market has a different commercial structure (distributor model), so whether the tariff should be published there is a business decision for Roy, not a medical-accuracy fix. Flagged with exact numbers rather than mass-edited."
+    },
+    {
+      "date": "2026-08-22",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-spinal-fusion.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 215
+  "translated_count": 216
 }
