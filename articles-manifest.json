@@ -1178,14 +1178,14 @@
       "note": "Phase 2 translation of same-day IL article (post 4444). HONEST complementary framing preserved from the IL source: PEMF is explicitly NOT a treatment for anxiety/depression and does not replace psychotherapy — positioned as a physical-layer adjunct for the somatic burden of chronic stress (muscle tension, tension headaches, stress-related sleep). NO fabricated stress-specific RCT (deliberately avoided). Real citations only, each with caveat: PMC11914662 (2025 multi-center joint/soft-tissue RCT — cited ONLY for the somatic muscle-tension pain component, with explicit general-vs-specific caveat), PubMed 32401418 + 31394939 (vascular/NO microcirculation — mechanism-only). Explicit evidence-gap statement (no dedicated PEMF-for-stress trial; psychotherapy = cornerstone). Includes mental-health red-flags + PH crisis resources (NCMH 1553 / 0966-351-4518). Comparison table (PEMF vs anxiolytics vs biofeedback/HRV, therapist-hands-free row, PH price row). 8 min read."
     },
     {
-      "il_url": null,
+      "il_url": "https://painfree.org.il/pemf-ankylosing-spondylitis-evidence-review/",
       "ph_file": "article-pemf-ankylosing-spondylitis.html",
       "title_en": "PEMF for Ankylosing Spondylitis & Axial Spondyloarthropathy: Anti-Inflammatory Protocol",
       "date": "2026-07-06",
       "tag": "Inflammatory Arthritis Protocol",
-      "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-ankylosing-spondylitis-axial-spondyloarthropathy/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL likely-pattern (site returned 403 on fetch; untranslated_queue empty). Synthesized from peer-reviewed literature. Distinct from article-pemf-rheumatoid-arthritis.html (RA) — axSpA/AS has distinct HLA-B27 genetics, sacroiliac/entheseal targeting, BASDAI/BASFI scoring, and bamboo spine pathology. Evidence: PMC10971695 (inflammatory arthritis RCT n=39, VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036 — all BASDAI-relevant domains), PMC9862561 (2023 murine study, 10Hz optimal for IL-1β inflammatory arthritis), PMC11914662 (n=91 36%/55% general benchmark), PMC12467020 (paraspinal tone η²=0.28 p=0.015 — morning stiffness component), PMC9748435 (cortisol -28% — BASDAI fatigue/sleep domains). Philippine biologic cost barrier (₱80K-120K/month unaffordable for most patients), HLA-B27 5-8% in Filipino population, 115K-230K axSpA patients. 5-row AS stage classification table (nr-axSpA/Grade 1-2/Grade 3-4/post-biologic partial responders/peripheral axSpA), 3-phase protocol (5-10Hz/25-50Hz/50-75Hz, 24 sessions), 7-row PEMF vs NSAIDs/biologics/hydrotherapy comparison table, 3 FAQ. Honest framing: PEMF = adjunct (pain/stiffness/HAQ); does NOT modify radiographic progression. 10 min read.",
-      "no_il_twin": true,
-      "il_url_verified": "2026-08-02"
+      "note": "Hebrew twin published 2026-08-23 (post 4702). This English page predated it and was synthesised from adjacent literature by the retired cloud routine. On 2026-08-23 it was corrected to match the Hebrew page: the false claim \"No published RCT has investigated PEMF specifically in an AS patient cohort\" was replaced with the dedicated NEGATIVE trial (Turan 2014, PubMed 24399455, n=66, no significant difference on any outcome at 1/3/6 months); the ASAS-EULAR 2022 SLR (PubMed 36261247) was added; PMC10971695 now carries its decisive no-placebo-arm caveat and is labelled rheumatoid arthritis rather than AS; the stage table no longer presents the RA -23.2 min stiffness figure as an AS outcome; and the unsupported \"synergistically with anti-TNF\" claim was removed. Distinct from article-pemf-rheumatoid-arthritis.html.",
+      "il_url_verified": "2026-08-23",
+      "il_post_id": 4702
     },
     {
       "il_url": null,
@@ -1916,12 +1916,12 @@
     },
     {
       "hebrew_title": "סרקופניה (ניוון שרירים בגיל): טיפול PEMF ופרוטוקול קליני 2026",
-      "hebrew_url": "https://painfree.org.il/pemf-sarcopenia-muscle-loss-elderly-protocol/",
       "hebrew_post_id": 4680,
-      "english_title": "Sarcopenia (Age-Related Muscle Loss) and PEMF: What the Evidence Actually Shows",
-      "english_file": "article-pemf-sarcopenia-muscle-loss.html",
       "date": "2026-08-14",
-      "phase": 2
+      "phase": 2,
+      "ph_file": "article-pemf-sarcopenia-muscle-loss.html",
+      "il_url": "https://painfree.org.il/pemf-sarcopenia-muscle-loss-elderly-protocol/",
+      "title_en": "Sarcopenia (Age-Related Muscle Loss) and PEMF: What the Evidence Actually Shows"
     },
     {
       "il_url": "https://painfree.org.il/pemf-spinal-fusion-bone-growth-stimulation-protocol/",
@@ -1932,7 +1932,7 @@
     }
   ],
   "untranslated_queue": [],
-  "notes": "IL↔PH mapping reconciled 2026-08-02 against the live painfree.org.il inventory. Entries with il_url:null + no_il_twin:true are English pages synthesised from PubMed/PMC literature by the retired painfree-ph-articles-daily cloud routine — they have no Hebrew counterpart and must NOT be given a guessed URL. The old note claiming painfree.org.il returns HTTP 403 applied only to that cloud routine's environment; the site returns 200 to the local agent, so every il_url written from now on must be HTTP-verified.",
+  "notes": "IL↔PH mapping reconciled 2026-08-02 against the live painfree.org.il inventory. Entries with il_url:null + no_il_twin:true are English pages synthesised from PubMed/PMC literature by the retired painfree-ph-articles-daily cloud routine — they have no Hebrew counterpart and must NOT be given a guessed URL. The old note claiming painfree.org.il returns HTTP 403 applied only to that cloud routine's environment; the site returns 200 to the local agent, so every il_url written from now on must be HTTP-verified. | ORPHAN-PAGE AUDIT 2026-08-23: 81 of 216 English pages have no Hebrew twin (il_url null); they were synthesised from literature by the retired cloud routine and their CONTENT had never been audited. A pattern scan of all 217 article files found two serious defects in that set and both were fixed the same day: article-pemf-ankylosing-spondylitis.html (claimed no dedicated AS RCT exists - the dedicated RCT, Turan 2014 PubMed 24399455 n=66, exists and is NEGATIVE) and article-pemf-alzheimers-dementia.html (presented the NeuroAD rTMS result as PEMF evidence, credited the wrong manufacturer, and claimed disease modification). NOT YET REVIEWED - next dedicated run: the remaining 79 orphan pages; 18 pages making synergistic-combination claims; and 23 uses of PMC10971695 across 16 pages (the RA study with NO placebo arm), several transferring its -2.2 VAS / -23.2 min figures to other diseases.",
   "run_log": [
     {
       "date": "2026-08-02",
@@ -2913,6 +2913,19 @@
       "files_created": [
         "article-pemf-spinal-fusion.html"
       ],
+      "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-08-23",
+      "phase": 2,
+      "articles_translated": 0,
+      "articles_corrected": 2,
+      "files_created": [],
+      "files_corrected": [
+        "article-pemf-ankylosing-spondylitis.html",
+        "article-pemf-alzheimers-dementia.html"
+      ],
+      "note": "Today's Hebrew article (post 4702, ankylosing spondylitis) already had an English page on the PH site that predated it. Instead of publishing a duplicate, the existing page was corrected to agree with the Hebrew evidence review and linked as its twin. See the entry note for the four corrections. SECOND correction, found by a corpus scan of the 81 orphan English pages that have no Hebrew twin: article-pemf-alzheimers-dementia.html was built on a modality misattribution. It presented the NeuroAD ADAS-Cog result (4.2 vs 0.7 points) as PEMF evidence in its meta description, hero, evidence section, comparison table and FAQ. NeuroAD is repetitive transcranial magnetic stimulation (rTMS) plus computerised cognitive training, made by Neuronix Ltd. — not Brainsway as the page stated, and not PEMF. An FDA Neurological Devices panel voted 14-0 against de novo clearance, the FDA denied the appeal in March 2019, and Neuronix closed in late 2019; none of that was on the page. The comparison table asserted PEMF achieves disease modification ('Yes') while donepezil does not, and the FAQ said PEMF 'slows disease progression' and delivers 'a reversal of 6-9 months of disease progression'. Seven strings were corrected: the page now states up front that there is no dedicated human PEMF trial in Alzheimer's disease, that the amyloid findings are mouse and cell-culture only, and that the NeuroAD figures belong to a different modality and a device that failed its FDA review. This is a CONTAINMENT fix that removes false claims; a full evidence rebuild of the page is queued.",
       "untranslated_remaining": 0
     }
   ],
