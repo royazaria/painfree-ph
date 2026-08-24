@@ -1929,6 +1929,13 @@
       "title_en": "PEMF and Spinal Fusion: What the Randomized Evidence Shows",
       "date": "2026-08-22",
       "tag": "Clinical Protocol"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-kinesio-taping-clinical-comparison-integration/",
+      "ph_file": "article-pemf-kinesio-taping-integration.html",
+      "title_en": "Kinesiology Taping vs. PEMF: Complementary, Not Competing",
+      "date": "2026-08-24",
+      "tag": "Clinical Comparison"
     }
   ],
   "untranslated_queue": [],
@@ -2927,6 +2934,16 @@
       ],
       "note": "Today's Hebrew article (post 4702, ankylosing spondylitis) already had an English page on the PH site that predated it. Instead of publishing a duplicate, the existing page was corrected to agree with the Hebrew evidence review and linked as its twin. See the entry note for the four corrections. SECOND correction, found by a corpus scan of the 81 orphan English pages that have no Hebrew twin: article-pemf-alzheimers-dementia.html was built on a modality misattribution. It presented the NeuroAD ADAS-Cog result (4.2 vs 0.7 points) as PEMF evidence in its meta description, hero, evidence section, comparison table and FAQ. NeuroAD is repetitive transcranial magnetic stimulation (rTMS) plus computerised cognitive training, made by Neuronix Ltd. — not Brainsway as the page stated, and not PEMF. An FDA Neurological Devices panel voted 14-0 against de novo clearance, the FDA denied the appeal in March 2019, and Neuronix closed in late 2019; none of that was on the page. The comparison table asserted PEMF achieves disease modification ('Yes') while donepezil does not, and the FAQ said PEMF 'slows disease progression' and delivers 'a reversal of 6-9 months of disease progression'. Seven strings were corrected: the page now states up front that there is no dedicated human PEMF trial in Alzheimer's disease, that the amyloid findings are mouse and cell-culture only, and that the NeuroAD figures belong to a different modality and a device that failed its FDA review. This is a CONTAINMENT fix that removes false claims; a full evidence rebuild of the page is queued.",
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-08-24",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-kinesio-taping-integration.html"
+      ],
+      "untranslated_remaining": 0,
+      "notes": "Twin of IL post 4719 (published same day). Citations verified on PubMed before writing (24856938, 23268824, PMC11914662). Clinic count uses 70+ per Yaki 2026-08-23 instruction."
     }
   ],
   "translated_count": 216
