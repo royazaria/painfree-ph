@@ -1936,6 +1936,15 @@
       "title_en": "Kinesiology Taping vs. PEMF: Complementary, Not Competing",
       "date": "2026-08-24",
       "tag": "Clinical Comparison"
+    },
+    {
+      "file": "article-pemf-pelvic-floor-magnetic-stimulation.html",
+      "title": "Magnetic Stimulation for the Pelvic Floor: What the Evidence Proves",
+      "il_url": null,
+      "no_il_twin": false,
+      "twin_pending": true,
+      "date": "2026-08-25",
+      "note": "Phase-2 twin of the Hebrew article written 2026-08-25 (pelvic floor magnetic stimulation). The Hebrew post could NOT be published that day - Imunify360 bot-protection blocked the cPanel API on every port for the agent's egress IP - so il_url is null by fact, not by synthesis. This is NOT an orphan page: set il_url as soon as the Hebrew post goes live. All four citations (PubMed 40401438 / 37176598 / 39262719 / 28878453) were verified against PubMed E-utilities at write time, including a check for attached notices (none)."
     }
   ],
   "untranslated_queue": [],
@@ -2944,7 +2953,18 @@
       ],
       "untranslated_remaining": 0,
       "notes": "Twin of IL post 4719 (published same day). Citations verified on PubMed before writing (24856938, 23268824, PMC11914662). Clinic count uses 70+ per Yaki 2026-08-23 instruction."
+    },
+    {
+      "date": "2026-08-25",
+      "phase": 2,
+      "articles_translated": 1,
+      "articles_corrected": 0,
+      "files_created": [
+        "article-pemf-pelvic-floor-magnetic-stimulation.html"
+      ],
+      "files_corrected": [],
+      "note": "Pelvic floor was the largest untouched clinical vertical in the Hebrew corpus (zero 'pelvic' slugs in 196 posts) and had one English page on neither site. Published English-first because the Hebrew publish was blocked by Imunify360 bot-protection on the cPanel API. Honest-evidence framing: the 2025 Wiley meta-analysis is positive ONLY for urinary incontinence, null for OAB and chronic pelvic pain; the head-to-head RCT shows no superiority over pelvic floor muscle training; the two meta-analyses that disagree on chronic pelvic pain are reported with the source-quality reason for the disagreement rather than by quoting the flattering one."
     }
   ],
-  "translated_count": 216
+  "translated_count": 217
 }
