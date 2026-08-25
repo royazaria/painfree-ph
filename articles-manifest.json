@@ -1940,11 +1940,12 @@
     {
       "file": "article-pemf-pelvic-floor-magnetic-stimulation.html",
       "title": "Magnetic Stimulation for the Pelvic Floor: What the Evidence Proves",
-      "il_url": null,
+      "il_url": "https://painfree.org.il/pemf-pelvic-floor-magnetic-stimulation-evidence-guide/",
       "no_il_twin": false,
-      "twin_pending": true,
+      "twin_pending": false,
       "date": "2026-08-25",
-      "note": "Phase-2 twin of the Hebrew article written 2026-08-25 (pelvic floor magnetic stimulation). The Hebrew post could NOT be published that day - Imunify360 bot-protection blocked the cPanel API on every port for the agent's egress IP - so il_url is null by fact, not by synthesis. This is NOT an orphan page: set il_url as soon as the Hebrew post goes live. All four citations (PubMed 40401438 / 37176598 / 39262719 / 28878453) were verified against PubMed E-utilities at write time, including a check for attached notices (none)."
+      "note": "Phase-2 twin of Hebrew post 4722 (published 2026-08-25). The Hebrew publish was initially blocked by Imunify360 on the cPanel API and went out later the same day over the FTP path, so this page was briefly il_url:null by fact - it is NOT an orphan. All four citations (PubMed 40401438 / 37176598 / 39262719 / 28878453) verified against PubMed E-utilities at write time, including notice checks (none attached).",
+      "il_post_id": 4722
     }
   ],
   "untranslated_queue": [],
