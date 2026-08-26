@@ -1946,6 +1946,16 @@
       "date": "2026-08-25",
       "note": "Phase-2 twin of Hebrew post 4722 (published 2026-08-25). The Hebrew publish was initially blocked by Imunify360 on the cPanel API and went out later the same day over the FTP path, so this page was briefly il_url:null by fact - it is NOT an orphan. All four citations (PubMed 40401438 / 37176598 / 39262719 / 28878453) verified against PubMed E-utilities at write time, including notice checks (none attached).",
       "il_post_id": 4722
+    },
+    {
+      "file": "article-pemf-aesthetic-clinic-recovery.html",
+      "title": "PEMF in the Aesthetic Clinic: What the Evidence Proves",
+      "il_url": "https://painfree.org.il/pemf-aesthetic-clinic-post-procedure-recovery-evidence/",
+      "no_il_twin": false,
+      "twin_pending": false,
+      "date": "2026-08-26",
+      "note": "Phase-2 twin of Hebrew post 4724. Topic requested by Yaki 2026-08-25 (cosmeticians / face & neck / aesthetic scars & wounds). All 10 citations verified against PubMed E-utilities at write time incl. notice checks (none attached). Two claims were corrected post-publication after an adversarial re-check: the facial region has TWO studies (Menini 2016 negative; Till 1993 positive, different device class), and scars have one preclinical rat study (37369865), not zero evidence.",
+      "il_post_id": 4724
     }
   ],
   "untranslated_queue": [],
@@ -2967,5 +2977,5 @@
       "note": "Pelvic floor was the largest untouched clinical vertical in the Hebrew corpus (zero 'pelvic' slugs in 196 posts) and had one English page on neither site. Published English-first because the Hebrew publish was blocked by Imunify360 bot-protection on the cPanel API. Honest-evidence framing: the 2025 Wiley meta-analysis is positive ONLY for urinary incontinence, null for OAB and chronic pelvic pain; the head-to-head RCT shows no superiority over pelvic floor muscle training; the two meta-analyses that disagree on chronic pelvic pain are reported with the source-quality reason for the disagreement rather than by quoting the flattering one."
     }
   ],
-  "translated_count": 217
+  "translated_count": 219
 }
