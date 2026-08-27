@@ -1002,14 +1002,17 @@
       "il_url_verified": "2026-08-02"
     },
     {
-      "il_url": null,
+      "il_url": "https://painfree.org.il/pemf-geriatric-patient-mobility-function-protocol/",
       "ph_file": "article-pemf-geriatric-pain.html",
       "title_en": "PEMF for Elderly Patients: Safe, Drug-Free Protocol for Geriatric Chronic Pain",
       "date": "2026-06-27",
       "tag": "Clinical Protocol",
-      "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-elderly-geriatric-chronic-pain-protocol/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL likely-pattern (site returned 403 on fetch). Geriatric/elderly pain angle — polypharmacy reduction as the primary investor narrative. Evidence: PMC11914662 (n=91, 36%/55% pain/medication reduction — core polypharmacy argument), PMC9110240 (OA 11 RCTs n=614, pain SMD=0.71, stiffness SMD=1.34, function SMD=1.52 — #1 geriatric pain condition), PMC8637238 (osteoporosis RCT n=95, 12 weeks, PEMF+exercise > exercise alone for BMD, 6-month persistence), PMID 32495506 (fracture healing 14 RCTs n=1131, 79.7% vs 64.3%, RR=1.22 95%CI 1.10-1.35, pain SMD=-0.49), PMC10971695 (RA n=39, VAS -2.2 p=0.0000, stiffness -23.2 min p=0.001, HAQ +0.26 p=0.0166, ROM +1.9mm p=0.0036). Philippine market: 115M population, 8.2M aged 65+, 2.5-3.3M OA patients 65+, 36M chronic pain. Pharmacoeconomics: ₱50-200/day NSAIDs vs ₱15,000-37,500 total PEMF course. 3-stage protocol table, 7-criterion comparison table, safety profile for elderly. 9 min read.",
-      "no_il_twin": true,
-      "il_url_verified": "2026-08-02"
+      "note": "AUDITED AND CORRECTED 2026-08-27 (Jack daily run). Originally synthesised by the retired cloud routine, not translated. The audit found 13 defects, several of them safety-critical, all fixed the same day: (1) the hero claimed 'zero contraindications for most elderly patients' while the page's own FAQ said a pacemaker is an absolute contraindication - a self-contradiction on the most implant-dense population we address; (2) the FAQ answered 'Does PEMF improve balance and fall prevention?' with 'Yes' on the strength of an unsourced animal-study mechanism - no trial has shown a fall reduction, and the one RCT that counted falls (PubMed 22817664) found the same rate in both arms; (3) 'the single absolute contraindication ... is a pacemaker or defibrillator' omitted neurostimulators, implanted drug pumps, active malignancy in field and active infection; (4) 'PEMF has no cardiovascular contraindications ... can use PEMF without restriction or cardiac monitoring' - an unsourced clinical directive, removed; (5) PMC8637238 was cited as elderly bone evidence, but it enrolled 95 MEN OF MEAN AGE 51 and its exercising arms outperformed PEMF alone, so it does not support PEMF without loading; (6) 'functional effect size of 1.52 represents a large clinical effect' - now paired with PubMed 42075549 (2026, 9 RCTs n=457: no significant VAS/WOMAC at one month, no objective functional improvement, high risk of bias); (7) PMC11914662 attributed to 'lumbar and cervical spondylosis' when the trial covers joint and soft-tissue pain, OA, bursitis, strains and tears; (8) 'Fall Risk: None' and (9) 'Suitable for 70+: Yes - preferred option' in the comparison table; (10) an invented start day ('typically day 3-5 post-fracture'); (11) a published per-session tariff (PHP 1,500-2,500), which is the 2026-08-11 Yaki rule; (12) a speculative 'would translate to over 800 clinics' projection; (13) a meta description carrying the same device-level unqualified efficacy claim. Balancing citations added: 35130160, 19363567, 22817664, 41588476, 42075549, 34900231 - all resolved by title and notice-checked via PubMed E-utilities. Now linked as the English companion of Hebrew post 4726.",
+      "no_il_twin": false,
+      "il_url_verified": "2026-08-02",
+      "il_post_id": 4726,
+      "twin_pending": false,
+      "audited": "2026-08-27"
     },
     {
       "il_url": null,
@@ -2975,6 +2978,10 @@
       ],
       "files_corrected": [],
       "note": "Pelvic floor was the largest untouched clinical vertical in the Hebrew corpus (zero 'pelvic' slugs in 196 posts) and had one English page on neither site. Published English-first because the Hebrew publish was blocked by Imunify360 bot-protection on the cPanel API. Honest-evidence framing: the 2025 Wiley meta-analysis is positive ONLY for urinary incontinence, null for OAB and chronic pelvic pain; the head-to-head RCT shows no superiority over pelvic floor muscle training; the two meta-analyses that disagree on chronic pelvic pain are reported with the source-quality reason for the disagreement rather than by quoting the flattering one."
+    },
+    {
+      "date": "2026-08-27",
+      "action": "Audited and corrected article-pemf-geriatric-pain.html (13 defects, several safety-critical). No new English page published - the existing geriatric page was strengthened and linked to Hebrew post 4726 instead of adding a competing page (strengthen-over-publish, 2026-08-22)."
     }
   ],
   "translated_count": 219
