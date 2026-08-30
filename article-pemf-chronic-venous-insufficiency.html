@@ -1,359 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PEMF for Chronic Venous Insufficiency & Varicose Veins: Vascular Medicine Protocol | PainFree Philippines</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
-  <link rel="icon" href="favicon.ico" sizes="any"/>
-  <link rel="manifest" href="site.webmanifest"/>
-  <meta name="description" content="60–70% of adults develop venous insufficiency by 65. PEMF improves microcirculation via eNOS upregulation, reduces venous stasis edema, and accelerates chronic venous ulcer healing — now proven in the Philippine clinical context."/>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --navy:     #06111F;
-      --navy-2:   #0B1C30;
-      --navy-3:   #122440;
-      --teal:     #00B4D8;
-      --teal-d:   #0096B7;
-      --gold:     #F59E0B;
-      --white:    #FFFFFF;
-      --off-white:#F7F9FC;
-      --light:    #EEF3F8;
-      --ink:      #0F1F30;
-      --ink-2:    #2D4257;
-      --muted:    #637083;
-      --border:   #D4DDE8;
-      --font: 'Inter', system-ui, -apple-system, sans-serif;
-      --r: 10px;
-    }
-    html { scroll-behavior: smooth; }
-    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
-    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
-    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
-    .reveal.v { opacity: 1; transform: none; }
-    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
-    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
-    #nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
-      padding: 14px 0;
-      background: rgba(6,17,31,.95);
-      backdrop-filter: blur(14px);
-      box-shadow: 0 1px 0 rgba(255,255,255,.06);
-      transition: padding .3s, background .3s;
-    }
-    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
-    .nav-row { display: flex; align-items: center; justify-content: space-between; }
-    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
-    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
-    .nav-links { display: flex; gap: 8px; list-style: none; }
-    .nav-links a {
-      display: inline-flex; align-items: center;
-      padding: 8px 18px; min-height: 38px;
-      color: rgba(255,255,255,.85); text-decoration: none;
-      font-size: .875rem; font-weight: 500;
-      border: 1px solid rgba(255,255,255,.15);
-      border-radius: 100px;
-      transition: background .2s, border-color .2s, color .2s;
-    }
-    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
-    .nav-btn {
-      display: inline-flex; align-items: center; gap: 7px;
-      padding: 10px 22px; min-height: 44px;
-      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
-      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
-      transition: background .2s, transform .2s;
-    }
-    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
-    .hero {
-      min-height: 62vh;
-      background: var(--navy);
-      display: flex; align-items: center;
-      position: relative;
-      padding: 140px 0 80px;
-    }
-    .hero::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
-      pointer-events: none;
-    }
-    .hero-badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 6px 14px;
-      background: rgba(0,180,216,.12);
-      border: 1px solid rgba(0,180,216,.3);
-      border-radius: 100px;
-      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
-      text-transform: uppercase; color: var(--teal);
-      margin-bottom: 28px;
-    }
-    .hero-badge::before {
-      content: ''; width: 6px; height: 6px;
-      background: var(--teal); border-radius: 50%;
-      animation: blink 2s infinite;
-    }
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
-    .hero h1 {
-      font-size: clamp(2.4rem, 5vw, 4rem);
-      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
-      color: #fff; margin-bottom: 22px;
-    }
-    .hero h1 em { font-style: normal; color: var(--teal); }
-    .hero-sub {
-      font-size: 1.1rem; color: rgba(255,255,255,.65);
-      max-width: 620px; line-height: 1.75;
-    }
-    .article-sec { background: var(--white); padding: 96px 0; }
-    .article-inner { max-width: 820px; margin: 0 auto; }
-    .article-breadcrumb { margin-bottom: 32px; }
-    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
-    .article-breadcrumb a:hover { color: var(--teal); }
-    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
-    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
-    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
-    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
-    .article-inner ul { margin: 0 0 20px 24px; }
-    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
-    .article-inner ol { margin: 0 0 20px 24px; }
-    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
-    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
-    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
-    .article-table thead tr { background: var(--navy); color: #fff; }
-    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
-    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
-    .article-table tbody tr:nth-child(odd) { background: #fff; }
-    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
-    .article-table td:first-child { font-weight: 600; color: var(--ink); }
-    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
-    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
-    .btn-primary {
-      display: inline-flex; align-items: center; gap: 9px;
-      padding: 15px 30px; min-height: 52px;
-      background: var(--teal); color: #fff;
-      border: none; border-radius: var(--r);
-      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
-      transition: background .2s, transform .2s, box-shadow .2s;
-    }
-    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
-    .wa-float {
-      position: fixed; bottom: 28px; right: 28px; z-index: 300;
-      width: 56px; height: 56px;
-      background: #25D366; border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 4px 20px rgba(37,211,102,.5);
-      text-decoration: none;
-      transition: transform .2s, box-shadow .2s;
-    }
-    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
-    footer {
-      background: var(--navy);
-      border-top: 1px solid rgba(255,255,255,.06);
-      padding: 44px 0 32px;
-    }
-    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
-    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
-    .footer-certs { display: flex; gap: 10px; }
-    .fcert {
-      padding: 5px 11px;
-      background: rgba(0,180,216,.08);
-      border: 1px solid rgba(0,180,216,.15);
-      border-radius: 5px;
-      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
-    }
-    .footer-links { display: flex; gap: 20px; }
-    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
-    .footer-links a:hover { color: rgba(255,255,255,.7); }
-    @media (max-width: 620px) {
-      .hero h1 { font-size: 2.2rem; }
-      .nav-links { display: none; }
-      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
-    }
-  </style>
+ <meta charset="UTF-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>PEMF for Chronic Venous Insufficiency & Varicose Veins: Vascular Medicine Protocol | PainFree Philippines</title>
+ <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+ <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+ <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+ <link rel="icon" href="favicon.ico" sizes="any"/>
+ <link rel="manifest" href="site.webmanifest"/>
+ <meta name="description" content="60–70% of adults develop venous insufficiency by 65. PEMF improves microcirculation via eNOS upregulation, reduces venous stasis edema, and accelerates chronic venous ulcer healing — now proven in the Philippine clinical context."/>
+ <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+ <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+ <script>window.dataLayer=window.dataLayer||[];function gtag{dataLayer.push(arguments);}gtag("js",new Date);gtag("config","G-WTJD6CF5ZC");</script>
+ <style>
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ :root {
+ --navy: #06111F;
+ --navy-2: #0B1C30;
+ --navy-3: #122440;
+ --teal: #00B4D8;
+ --teal-d: #0096B7;
+ --gold: #F59E0B;
+ --white: #FFFFFF;
+ --off-white:#F7F9FC;
+ --light: #EEF3F8;
+ --ink: #0F1F30;
+ --ink-2: #2D4257;
+ --muted: #637083;
+ --border: #D4DDE8;
+ --font: 'Inter', system-ui, -apple-system, sans-serif;
+ --r: 10px;
+ }
+ html { scroll-behavior: smooth; }
+ body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }.container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }.reveal { opacity: 0; transform: translateY(24px); transition: opacity.55s ease, transform.55s ease; }.reveal.v { opacity: 1; transform: none; }.d1 { transition-delay:.1s; }.d2 { transition-delay:.2s; }.d3 { transition-delay:.3s; }.d4 { transition-delay:.4s; }
+ @media (prefers-reduced-motion: reduce) {.reveal { opacity:1; transform:none; transition:none; } }
+ #nav {
+ position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+ padding: 14px 0;
+ background: rgba(6,17,31,.95);
+ backdrop-filter: blur(14px);
+ box-shadow: 0 1px 0 rgba(255,255,255,.06);
+ transition: padding.3s, background.3s;
+ }
+ #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }.nav-row { display: flex; align-items: center; justify-content: space-between; }.logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }.logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }.nav-links { display: flex; gap: 8px; list-style: none; }.nav-links a {
+ display: inline-flex; align-items: center;
+ padding: 8px 18px; min-height: 38px;
+ color: rgba(255,255,255,.85); text-decoration: none;
+ font-size:.875rem; font-weight: 500;
+ border: 1px solid rgba(255,255,255,.15);
+ border-radius: 100px;
+ transition: background.2s, border-color.2s, color.2s;
+ }.nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }.nav-btn {
+ display: inline-flex; align-items: center; gap: 7px;
+ padding: 10px 22px; min-height: 44px;
+ background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+ font-size:.875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+ transition: background.2s, transform.2s;
+ }.nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }.hero {
+ min-height: 62vh;
+ background: var(--navy);
+ display: flex; align-items: center;
+ position: relative;
+ padding: 140px 0 80px;
+ }.hero::before {
+ content: '';
+ position: absolute; inset: 0;
+ background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+ pointer-events: none;
+ }.hero-badge {
+ display: inline-flex; align-items: center; gap: 8px;
+ padding: 6px 14px;
+ background: rgba(0,180,216,.12);
+ border: 1px solid rgba(0,180,216,.3);
+ border-radius: 100px;
+ font-size:.75rem; font-weight: 700; letter-spacing:.08em;
+ text-transform: uppercase; color: var(--teal);
+ margin-bottom: 28px;
+ }.hero-badge::before {
+ content: ''; width: 6px; height: 6px;
+ background: var(--teal); border-radius: 50%;
+ animation: blink 2s infinite;
+ }
+ @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }.hero h1 {
+ font-size: clamp(2.4rem, 5vw, 4rem);
+ font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+ color: #fff; margin-bottom: 22px;
+ }.hero h1 em { font-style: normal; color: var(--teal); }.hero-sub {
+ font-size: 1.1rem; color: rgba(255,255,255,.65);
+ max-width: 620px; line-height: 1.75;
+ }.article-sec { background: var(--white); padding: 96px 0; }.article-inner { max-width: 820px; margin: 0 auto; }.article-breadcrumb { margin-bottom: 32px; }.article-breadcrumb a { font-size:.875rem; color: var(--muted); text-decoration: none; transition: color.2s; }.article-breadcrumb a:hover { color: var(--teal); }.article-dateline { font-size:.82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing:.02em; }.article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }.article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }.article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }.article-inner ul { margin: 0 0 20px 24px; }.article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }.article-inner ol { margin: 0 0 20px 24px; }.article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }.article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }.article-table { width: 100%; border-collapse: collapse; font-size:.9rem; }.article-table thead tr { background: var(--navy); color: #fff; }.article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size:.82rem; letter-spacing:.04em; }.article-table tbody tr:nth-child(even) { background: #f7f9fc; }.article-table tbody tr:nth-child(odd) { background: #fff; }.article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }.article-table td:first-child { font-weight: 600; color: var(--ink); }.article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }.article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }.btn-primary {
+ display: inline-flex; align-items: center; gap: 9px;
+ padding: 15px 30px; min-height: 52px;
+ background: var(--teal); color: #fff;
+ border: none; border-radius: var(--r);
+ font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+ transition: background.2s, transform.2s, box-shadow.2s;
+ }.btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }.wa-float {
+ position: fixed; bottom: 28px; right: 28px; z-index: 300;
+ width: 56px; height: 56px;
+ background: #25D366; border-radius: 50%;
+ display: flex; align-items: center; justify-content: center;
+ box-shadow: 0 4px 20px rgba(37,211,102,.5);
+ text-decoration: none;
+ transition: transform.2s, box-shadow.2s;
+ }.wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+ footer {
+ background: var(--navy);
+ border-top: 1px solid rgba(255,255,255,.06);
+ padding: 44px 0 32px;
+ }.footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }.footer-copy { font-size:.82rem; color: rgba(255,255,255,.3); }.footer-certs { display: flex; gap: 10px; }.fcert {
+ padding: 5px 11px;
+ background: rgba(0,180,216,.08);
+ border: 1px solid rgba(0,180,216,.15);
+ border-radius: 5px;
+ font-size:.72rem; font-weight: 700; color: var(--teal); letter-spacing:.06em;
+ }.footer-links { display: flex; gap: 20px; }.footer-links a { font-size:.82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color.2s; }.footer-links a:hover { color: rgba(255,255,255,.7); }
+ @media (max-width: 620px) {.hero h1 { font-size: 2.2rem; }.nav-links { display: none; }.footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+ }
+ </style>
 </head>
 <body>
 
 <nav id="nav">
-  <div class="container">
-    <div class="nav-row">
-      <a href="index.html" class="logo">
-        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
-      </a>
-      <ul class="nav-links">
-        <li><a href="technology.html">Technology</a></li>
-        <li><a href="letters.html">Medical Reviews</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
-        <li><a href="index.html#inquire">Contact</a></li>
-      </ul>
-      <a href="index.html#inquire" class="nav-btn">
-        Request Brief
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div>
-  </div>
+ <div class="container">
+ <div class="nav-row">
+ <a href="index.html" class="logo">
+ <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+ </a>
+ <ul class="nav-links">
+ <li><a href="technology.html">Technology</a></li>
+ <li><a href="letters.html">Medical Reviews</a></li>
+ <li><a href="testimonials.html">Testimonials</a></li>
+ <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+ <li><a href="index.html#inquire">Contact</a></li>
+ </ul>
+ <a href="index.html#inquire" class="nav-btn">
+ Request Brief
+ <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+ </a>
+ </div>
+ </div>
 </nav>
 
 <section class="hero">
-  <div class="container">
-    <div class="hero-badge">Vascular Medicine Protocol</div>
-    <h1>PEMF for Chronic<br/><em>Venous Insufficiency.</em></h1>
-    <p class="hero-sub">60–70% of adults develop venous insufficiency by age 65. PEMF improves microcirculation via eNOS upregulation, reduces venous stasis edema, and accelerates chronic venous ulcer healing in a condition where conventional compression therapy fails 40% of patients.</p>
-  </div>
+ <div class="container">
+ <div class="hero-badge">Vascular Medicine Protocol</div>
+ <h1>PEMF for Chronic<br/><em>Venous Insufficiency.</em></h1>
+ <p class="hero-sub">60–70% of adults develop venous insufficiency by age 65. PEMF improves microcirculation via eNOS upregulation, reduces venous stasis edema, and accelerates chronic venous ulcer healing in a condition where conventional compression therapy fails 40% of patients.</p>
+ </div>
 </section>
 
 <section class="article-sec">
-  <div class="container">
-    <div class="article-inner">
+ <div class="container">
+ <div class="article-inner">
 
-      <div class="article-breadcrumb">
-        <a href="articles.html">← Back to Articles</a>
-      </div>
+ <div class="article-breadcrumb">
+ <a href="articles.html">← Back to Articles</a>
+ </div>
 
-      <p class="article-dateline">July 2026 · 10 min read · Vascular Medicine Protocol</p>
+ <p class="article-dateline">July 2026 · 10 min read · Vascular Medicine Protocol</p>
 
-      <img src="https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Clinical PEMF treatment for chronic venous insufficiency and vascular disease"/>
+ <img src="https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="Clinical PEMF treatment for chronic venous insufficiency and vascular disease"/>
 
-      <h2>What Is Chronic Venous Insufficiency?</h2>
-      <p>Chronic venous insufficiency (CVI) occurs when the one-way venous valves in the legs fail to maintain adequate blood return toward the heart. Blood pools in the superficial and deep venous systems, elevating ambulatory venous pressure and triggering a cascade of venous hypertension, inflammation, tissue hypoxia, and — in advanced stages — venous leg ulcers. CVI is classified using the internationally validated CEAP system (Clinical, Etiology, Anatomy, Pathophysiology), ranging from no visible disease (C0) through active venous ulcer (C6).</p>
-      <p>CVI is distinct from deep vein thrombosis (DVT) but shares pathophysiological overlap: post-thrombotic syndrome — occurring in 20–50% of DVT survivors — is one of the leading causes of severe, refractory CVI.</p>
+ <h2>What Is Chronic Venous Insufficiency?</h2>
+ <p>Chronic venous insufficiency (CVI) occurs when the one-way venous valves in the legs fail to maintain adequate blood return toward the heart. Blood pools in the superficial and deep venous systems, elevating ambulatory venous pressure and triggering a cascade of venous hypertension, inflammation, tissue hypoxia, and — in advanced stages — venous leg ulcers. CVI is classified using the internationally validated CEAP system (Clinical, Etiology, Anatomy, Pathophysiology), ranging from no visible disease (C0) through active venous ulcer (C6).</p>
+ <p>CVI is distinct from deep vein thrombosis (DVT) but shares pathophysiological overlap: post-thrombotic syndrome — occurring in 20–50% of DVT survivors — is one of the leading causes of severe, refractory CVI.</p>
 
-      <h2>CEAP Clinical Classification</h2>
-      <div class="article-table-wrap">
-        <table class="article-table">
-          <thead>
-            <tr><th>CEAP Class</th><th>Clinical Features</th><th>Prevalence (Adults)</th><th>PEMF Role</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>C0</td><td>No visible signs; subjective heaviness only</td><td>—</td><td>Preventive</td></tr>
-            <tr><td>C1</td><td>Telangiectasias / reticular veins</td><td>~40%</td><td>Adjunct (microcirculation)</td></tr>
-            <tr><td>C2</td><td>Varicose veins ≥3 mm</td><td>~25%</td><td>Symptom relief + edema</td></tr>
-            <tr><td>C3</td><td>Edema without skin changes</td><td>~10%</td><td>Active: edema + pain reduction</td></tr>
-            <tr><td>C4a/b</td><td>Lipodermatosclerosis, hyperpigmentation, eczema</td><td>~5%</td><td>Anti-inflammatory core role</td></tr>
-            <tr><td>C5</td><td>Healed venous ulcer</td><td>~2%</td><td>Maintenance, recurrence prevention</td></tr>
-            <tr><td>C6</td><td>Active venous ulcer</td><td>~1–2%</td><td>Wound-healing acceleration (adjunct to compression)</td></tr>
-          </tbody>
-        </table>
-      </div>
+ <h2>CEAP Clinical Classification</h2>
+ <div class="article-table-wrap">
+ <table class="article-table">
+ <thead>
+ <tr><th>CEAP Class</th><th>Clinical Features</th><th>Prevalence (Adults)</th><th>PEMF Role</th></tr>
+ </thead>
+ <tbody>
+ <tr><td>C0</td><td>No visible signs; subjective heaviness only</td><td>—</td><td>Preventive</td></tr>
+ <tr><td>C1</td><td>Telangiectasias / reticular veins</td><td>~40%</td><td>Adjunct (microcirculation)</td></tr>
+ <tr><td>C2</td><td>Varicose veins ≥3 mm</td><td>~25%</td><td>Symptom relief + edema</td></tr>
+ <tr><td>C3</td><td>Edema without skin changes</td><td>~10%</td><td>Active: edema + pain reduction</td></tr>
+ <tr><td>C4a/b</td><td>Lipodermatosclerosis, hyperpigmentation, eczema</td><td>~5%</td><td>Anti-inflammatory core role</td></tr>
+ <tr><td>C5</td><td>Healed venous ulcer</td><td>~2%</td><td>Maintenance, recurrence prevention</td></tr>
+ <tr><td>C6</td><td>Active venous ulcer</td><td>~1–2%</td><td>Wound-healing acceleration (adjunct to compression)</td></tr>
+ </tbody>
+ </table>
+ </div>
 
-      <h2>How PEMF Acts on the Venous System</h2>
-      <p>CVI involves three interlinked pathological processes: venous hypertension, endothelial dysfunction, and leukocyte-mediated perivenous inflammation. PEMF addresses all three through distinct but overlapping cellular mechanisms.</p>
+ <h2>How PEMF Acts on the Venous System</h2>
+ <p>CVI involves three interlinked pathological processes: venous hypertension, endothelial dysfunction, and leukocyte-mediated perivenous inflammation. PEMF addresses all three through distinct but overlapping cellular mechanisms.</p>
 
-      <h3>1. eNOS Upregulation and Nitric Oxide Bioavailability</h3>
-      <p>Endothelial nitric oxide synthase (eNOS) activity decreases significantly under venous hypertension conditions, reducing NO-mediated venodilation and accelerating endothelial activation. PEMF at 8–25 Hz upregulates eNOS expression and restores NO bioavailability, improving venous tone and reducing ambulatory venous pressure. This mechanism — documented in microcirculatory studies including PubMed 31394939 and PMC4959873 — is the same pathway responsible for PEMF's benefit in peripheral arterial disease and wound-related vascular insufficiency.</p>
+ <h3>1. eNOS Upregulation and Nitric Oxide Bioavailability</h3>
+ <p>Endothelial nitric oxide synthase (eNOS) activity decreases significantly under venous hypertension conditions, reducing NO-mediated venodilation and accelerating endothelial activation. PEMF at 8–25 Hz upregulates eNOS expression and restores NO bioavailability, improving venous tone and reducing ambulatory venous pressure. This mechanism — documented in microcirculatory studies including PubMed 31394939 (metabolic syndrome) — is the same pathway responsible for PEMF's benefit in peripheral arterial disease and wound-related vascular insufficiency.</p>
 
-      <h3>2. Adenosine-A2A Anti-Inflammatory Signaling</h3>
-      <p>The pivotal 2025 multicenter RCT (PMC11914662, n=91, 36% pain reduction vs 10% standard care, 55% medication reduction) established adenosine-A2A receptor activation as PEMF's primary anti-inflammatory pathway. In CVI, peri-venous inflammation driven by activated leukocytes (neutrophils, macrophages) degrading the extracellular matrix is the central driver of lipodermatosclerosis and ulceration. Adenosine-A2A suppression of NF-κB and TNF-α directly interrupts this destructive cycle at the C4–C6 disease stages.</p>
+ <h3>2. Adenosine-A2A Anti-Inflammatory Signaling</h3>
+ <p>The pivotal 2025 multicenter RCT (PMC11914662, n=91, 36% pain reduction vs 10% standard care, 55% medication reduction) established adenosine-A2A receptor activation as PEMF's primary anti-inflammatory pathway. In CVI, peri-venous inflammation driven by activated leukocytes (neutrophils, macrophages) degrading the extracellular matrix is the central driver of lipodermatosclerosis and ulceration. Adenosine-A2A suppression of NF-κB and TNF-α directly interrupts this destructive cycle at the C4–C6 disease stages.</p>
 
-      <h3>3. Microvascular VEGF and Angiogenesis</h3>
-      <p>VEGF upregulation at 25–50 Hz stimulates capillary sprouting and pericyte recruitment in ischemic periwound tissue — the critical mechanism for chronic venous ulcer healing. The wound healing literature (PMID 28060214, Grade B evidence) demonstrates 30–40% faster epidermal closure rates in wounds receiving adjunct PEMF. In venous ulcers, where conventional compression achieves only 50–70% healing rates at 24 weeks and 40% recur within 12 months, this acceleration is clinically and economically significant.</p>
+ <h3>3. Microvascular VEGF and Angiogenesis</h3>
+ <p>VEGF upregulation at 25–50 Hz stimulates capillary sprouting and pericyte recruitment in ischemic periwound tissue — the critical mechanism for chronic venous ulcer healing. The wound healing literature (PMID 28060214, Grade B evidence) demonstrates 30–40% faster epidermal closure rates in wounds receiving adjunct PEMF. In venous ulcers, where conventional compression achieves only 50–70% healing rates at 24 weeks and 40% recur within 12 months, this acceleration is clinically and economically significant.</p>
 
-      <h3>4. Lymphatic Drainage Enhancement</h3>
-      <p>PEMF at 1–8 Hz modulates smooth muscle contractility in lymphatic collecting vessels, augmenting the spontaneous lymphatic contractions responsible for interstitial fluid clearance. This directly reduces the pitting edema (C3) and tissue stiffness (C4) that compression garments alone often fail to address adequately.</p>
+ <h3>4. Lymphatic Drainage Enhancement</h3>
+ <p>PEMF at 1–8 Hz modulates smooth muscle contractility in lymphatic collecting vessels, augmenting the spontaneous lymphatic contractions responsible for interstitial fluid clearance. This directly reduces the pitting edema (C3) and tissue stiffness (C4) that compression garments alone often fail to address adequately.</p>
 
-      <h2>Three-Phase Clinical Protocol</h2>
-      <div class="article-table-wrap">
-        <table class="article-table">
-          <thead>
-            <tr><th>Phase</th><th>Duration</th><th>Frequency Range</th><th>Coil Placement</th><th>Primary Target</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Phase 1 — Vascular Remodeling</td><td>Weeks 1–4 (3×/week)</td><td>1–8 Hz</td><td>Full lower extremity (bilateral)</td><td>Lymphatic drainage, eNOS, venodilation</td></tr>
-            <tr><td>Phase 2 — Anti-Inflammatory</td><td>Weeks 5–10 (2–3×/week)</td><td>8–25 Hz</td><td>Affected segments + peri-ulcer (C5/C6)</td><td>A2A signaling, NF-κB suppression, edema</td></tr>
-            <tr><td>Phase 3 — Maintenance</td><td>Monthly (1–2×/month)</td><td>10–25 Hz</td><td>Lower extremity bilateral</td><td>Recurrence prevention, venous tone</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p>Session duration: 30–40 minutes. PEMF is applied as an adjunct to standard compression therapy (20–30 mmHg graduated stockings), not as a replacement. In C6 (active ulcer) patients, PEMF coils are applied perilesionally, not directly over the open wound.</p>
+ <h2>Three-Phase Clinical Protocol</h2>
+ <div class="article-table-wrap">
+ <table class="article-table">
+ <thead>
+ <tr><th>Phase</th><th>Duration</th><th>Frequency Range</th><th>Coil Placement</th><th>Primary Target</th></tr>
+ </thead>
+ <tbody>
+ <tr><td>Phase 1 — Vascular Remodeling</td><td>Weeks 1–4 (3×/week)</td><td>1–8 Hz</td><td>Full lower extremity (bilateral)</td><td>Lymphatic drainage, eNOS, venodilation</td></tr>
+ <tr><td>Phase 2 — Anti-Inflammatory</td><td>Weeks 5–10 (2–3×/week)</td><td>8–25 Hz</td><td>Affected segments + peri-ulcer (C5/C6)</td><td>A2A signaling, NF-κB suppression, edema</td></tr>
+ <tr><td>Phase 3 — Maintenance</td><td>Monthly (1–2×/month)</td><td>10–25 Hz</td><td>Lower extremity bilateral</td><td>Recurrence prevention, venous tone</td></tr>
+ </tbody>
+ </table>
+ </div>
+ <p>Session duration: 30–40 minutes. PEMF is applied as an adjunct to standard compression therapy (20–30 mmHg graduated stockings), not as a replacement. In C6 (active ulcer) patients, PEMF coils are applied perilesionally, not directly over the open wound.</p>
 
-      <h2>PEMF vs Conventional Venous Treatments</h2>
-      <div class="article-table-wrap">
-        <table class="article-table">
-          <thead>
-            <tr><th>Treatment</th><th>Mechanism</th><th>Edema Reduction</th><th>Ulcer Healing</th><th>Recurrence Prevention</th><th>Side Effects</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Compression therapy (gold standard)</td><td>Mechanical venous compression</td><td>Moderate</td><td>50–70% at 24W</td><td>Moderate (compliance-dependent)</td><td>Skin maceration, patient non-compliance</td></tr>
-            <tr><td>Venotonics (daflon/horse chestnut)</td><td>Capillary wall strengthening</td><td>Mild</td><td>Adjunct only</td><td>Mild</td><td>GI upset</td></tr>
-            <tr><td>Sclerotherapy</td><td>Chemical vein ablation</td><td>C1–C2 only</td><td>Not indicated</td><td>Good for C1–C2</td><td>Pigmentation, DVT risk (rare)</td></tr>
-            <tr><td>Endovenous ablation (laser/RF)</td><td>Thermal vein closure</td><td>C2–C3</td><td>Not primary</td><td>Good</td><td>DVT, bruising, surgical risk</td></tr>
-            <tr><td>PEMF (adjunct)</td><td>eNOS/A2A/VEGF cellular</td><td>Moderate–Strong</td><td>30–40% faster</td><td>Good (via microvascular maintenance)</td><td>Very rare; device-related contraindications only</td></tr>
-          </tbody>
-        </table>
-      </div>
+ <h2>PEMF vs Conventional Venous Treatments</h2>
+ <div class="article-table-wrap">
+ <table class="article-table">
+ <thead>
+ <tr><th>Treatment</th><th>Mechanism</th><th>Edema Reduction</th><th>Ulcer Healing</th><th>Recurrence Prevention</th><th>Side Effects</th></tr>
+ </thead>
+ <tbody>
+ <tr><td>Compression therapy (gold standard)</td><td>Mechanical venous compression</td><td>Moderate</td><td>50–70% at 24W</td><td>Moderate (compliance-dependent)</td><td>Skin maceration, patient non-compliance</td></tr>
+ <tr><td>Venotonics (daflon/horse chestnut)</td><td>Capillary wall strengthening</td><td>Mild</td><td>Adjunct only</td><td>Mild</td><td>GI upset</td></tr>
+ <tr><td>Sclerotherapy</td><td>Chemical vein ablation</td><td>C1–C2 only</td><td>Not indicated</td><td>Good for C1–C2</td><td>Pigmentation, DVT risk (rare)</td></tr>
+ <tr><td>Endovenous ablation (laser/RF)</td><td>Thermal vein closure</td><td>C2–C3</td><td>Not primary</td><td>Good</td><td>DVT, bruising, surgical risk</td></tr>
+ <tr><td>PEMF (adjunct)</td><td>eNOS/A2A/VEGF cellular</td><td>Moderate–Strong</td><td>30–40% faster</td><td>Good (via microvascular maintenance)</td><td>Very rare; device-related contraindications only</td></tr>
+ </tbody>
+ </table>
+ </div>
 
-      <h2>Philippine Market Context</h2>
-      <p>CVI is chronically under-diagnosed in the Philippines despite a structural predisposition: tropical heat, a large standing-workforce population (retail, manufacturing, nursing, BPO call centers), and limited access to vascular surgery. Estimated prevalence data suggest 5–7 million Filipinos with symptomatic CVI (C2+) and 300,000–500,000 with active or recently healed venous ulcers (C5/C6). Yet fewer than 150 vascular surgeons serve the entire archipelago.</p>
-      <p>The economic gap is significant. Endovenous laser ablation costs ₱80,000–₱150,000 per limb — inaccessible for most patients. Sclerotherapy sessions cost ₱8,000–₱20,000 each and require multiple sessions. PEMF offers a ₱1,500–₱2,500 per session model that clinic owners can position as a chronic management tool for the C2–C4 segment — an ongoing monthly revenue stream rather than a one-time surgical event.</p>
-      <p>The BPO sector (1.3 million workers, predominantly female, 8–10 hour seated/standing shifts) represents a high-density B2B pipeline: corporate wellness contracts for CVI prevention and early C2–C3 management within the occupational health framework.</p>
+ <h2>Philippine Market Context</h2>
+ <p>CVI is chronically under-diagnosed in the Philippines despite a structural predisposition: tropical heat, a large standing-workforce population (retail, manufacturing, nursing, BPO call centers), and limited access to vascular surgery. Estimated prevalence data suggest 5–7 million Filipinos with symptomatic CVI (C2+) and 300,000–500,000 with active or recently healed venous ulcers (C5/C6). Yet fewer than 150 vascular surgeons serve the entire archipelago.</p>
+ <p>The economic gap is significant. Endovenous laser ablation costs ₱80,000–₱150,000 per limb — inaccessible for most patients. Sclerotherapy sessions cost ₱8,000–₱20,000 each and require multiple sessions. PEMF offers a ₱1,500–₱2,500 per session model that clinic owners can position as a chronic management tool for the C2–C4 segment — an ongoing monthly revenue stream rather than a one-time surgical event.</p>
+ <p>The BPO sector (1.3 million workers, predominantly female, 8–10 hour seated/standing shifts) represents a high-density B2B pipeline: corporate wellness contracts for CVI prevention and early C2–C3 management within the occupational health framework.</p>
 
-      <h2>Contraindications and Safety Considerations</h2>
-      <ul>
-        <li><strong>Absolute:</strong> Active deep vein thrombosis (DVT) in the target limb — PEMF-induced vasodilation could theoretically mobilize a non-adhered thrombus; confirm resolution before treating. Active pacemaker or implanted defibrillator. Active malignancy in the treatment field. Pregnancy.</li>
-        <li><strong>Relative:</strong> Cellulitis or active bacterial wound infection over the PEMF coil area (defer until infection controlled). Lymphangiosarcoma (rare). Non-ferrous titanium vascular stents are safe; confirm stent composition before treating over stented segments.</li>
-        <li><strong>Coil placement:</strong> In C6 (active venous ulcer), apply coils perilesionally (surrounding the wound margin) — not directly over open tissue.</li>
-        <li><strong>DVT history:</strong> Post-thrombotic syndrome patients should have current ultrasound confirming no acute thrombus before initiating PEMF.</li>
-      </ul>
+ <h2>Contraindications and Safety Considerations</h2>
+ <ul>
+ <li><strong>Absolute:</strong> Active deep vein thrombosis (DVT) in the target limb — PEMF-induced vasodilation could theoretically mobilize a non-adhered thrombus; confirm resolution before treating. Active pacemaker or implanted defibrillator. Active malignancy in the treatment field. Pregnancy.</li>
+ <li><strong>Relative:</strong> Cellulitis or active bacterial wound infection over the PEMF coil area (defer until infection controlled). Lymphangiosarcoma (rare). Non-ferrous titanium vascular stents are safe; confirm stent composition before treating over stented segments.</li>
+ <li><strong>Coil placement:</strong> In C6 (active venous ulcer), apply coils perilesionally (surrounding the wound margin) — not directly over open tissue.</li>
+ <li><strong>DVT history:</strong> Post-thrombotic syndrome patients should have current ultrasound confirming no acute thrombus before initiating PEMF.</li>
+ </ul>
 
-      <h2>Frequently Asked Questions</h2>
+ <h2>Frequently Asked Questions</h2>
 
-      <h3>Can PEMF replace compression stockings?</h3>
-      <p>No. Compression therapy remains the evidence-based first-line treatment for CVI at all CEAP stages. PEMF is an adjunct that addresses the cellular mechanisms — eNOS, adenosine-A2A, VEGF — that compression alone cannot reach. Combined protocols produce better outcomes than either alone.</p>
+ <h3>Can PEMF replace compression stockings?</h3>
+ <p>No. Compression therapy remains the evidence-based first-line treatment for CVI at all CEAP stages. PEMF is an adjunct that addresses the cellular mechanisms — eNOS, adenosine-A2A, VEGF — that compression alone cannot reach. Combined protocols produce better outcomes than either alone.</p>
 
-      <h3>How many sessions before patients notice improvement?</h3>
-      <p>Most C3 (edema) patients notice meaningful ankle circumference reduction within 4–6 sessions (2 weeks). C4–C5 patients with established skin changes typically require 8–12 sessions before structural improvement. C6 (active ulcer) patients should expect 12–20 sessions as part of a comprehensive wound management program.</p>
+ <h3>How many sessions before patients notice improvement?</h3>
+ <p>Most C3 (edema) patients notice meaningful ankle circumference reduction within 4–6 sessions (2 weeks). C4–C5 patients with established skin changes typically require 8–12 sessions before structural improvement. C6 (active ulcer) patients should expect 12–20 sessions as part of a comprehensive wound management program.</p>
 
-      <h3>Is PEMF safe for post-DVT patients?</h3>
-      <p>Yes, provided current duplex ultrasound has confirmed no active thrombus. Post-thrombotic syndrome is one of the best-matched indications for PEMF because it combines venous obstruction, valve reflux, and perivenous inflammation — all of which PEMF addresses through separate mechanisms.</p>
+ <h3>Is PEMF safe for post-DVT patients?</h3>
+ <p>Yes, provided current duplex ultrasound has confirmed no active thrombus. Post-thrombotic syndrome is one of the best-matched indications for PEMF because it combines venous obstruction, valve reflux, and perivenous inflammation — all of which PEMF addresses through separate mechanisms.</p>
 
-      <h3>What about varicose veins specifically — will PEMF close them?</h3>
-      <p>PEMF does not ablate or close varicose veins mechanically. It reduces the symptomatic burden (aching, heaviness, edema, nocturnal cramping) and slows disease progression in C2–C3 patients who are not surgical candidates or who are awaiting intervention. For definitive C2 varicose vein closure, sclerotherapy or endovenous ablation remains the standard.</p>
+ <h3>What about varicose veins specifically — will PEMF close them?</h3>
+ <p>PEMF does not ablate or close varicose veins mechanically. It reduces the symptomatic burden (aching, heaviness, edema, nocturnal cramping) and slows disease progression in C2–C3 patients who are not surgical candidates or who are awaiting intervention. For definitive C2 varicose vein closure, sclerotherapy or endovenous ablation remains the standard.</p>
 
-      <div class="article-cta">
-        <p>PainFree Philippines is expanding its vascular and peripheral circulatory protocol portfolio for clinic partners. Request the full investor brief to learn about equipment investment, treatment pricing, and projected ROI for this underserved indication.</p>
-        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
-      </div>
+ <div class="article-cta">
+ <p>PainFree Philippines is expanding its vascular and peripheral circulatory protocol portfolio for clinic partners. Request the full investor brief to learn about equipment investment, treatment pricing, and projected ROI for this underserved indication.</p>
+ <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+ </div>
 
-    </div>
-  </div>
+ </div>
+ </div>
 </section>
 
 <footer>
-  <div class="container">
-    <div class="footer-row">
-      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
-      <div class="footer-certs">
-        <span class="fcert">Regulatory clearance is model-specific &mdash; ask to see the current certificate for the model offered to you</span>
-      </div>
-      <nav class="footer-links">
-        <a href="technology.html">Technology</a>
-        <a href="letters.html">Medical Reviews</a>
-        <a href="testimonials.html">Testimonials</a>
-        <a href="articles.html">Articles</a>
-        <a href="index.html#inquire">Contact</a>
-      </nav>
-    </div>
-  </div>
+ <div class="container">
+ <div class="footer-row">
+ <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+ <div class="footer-certs">
+ <span class="fcert">Regulatory clearance is model-specific &mdash; ask to see the current certificate for the model offered to you</span>
+ </div>
+ <nav class="footer-links">
+ <a href="technology.html">Technology</a>
+ <a href="letters.html">Medical Reviews</a>
+ <a href="testimonials.html">Testimonials</a>
+ <a href="articles.html">Articles</a>
+ <a href="index.html#inquire">Contact</a>
+ </nav>
+ </div>
+ </div>
 </footer>
 
 <a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
-  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
-    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
-  </svg>
+ <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+ <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+ <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+ </svg>
 </a>
 
 <script>
-  const nav = document.getElementById('nav');
-  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
-  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
-  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+ const nav = document.getElementById('nav');
+ addEventListener('scroll', => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+ const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+ document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 </script>
 </body>
 </html>

@@ -1,453 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PEMF Effect on Erectile Dysfunction: Mechanism & Evidence | PainFree Philippines</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
-  <link rel="icon" href="favicon.ico" sizes="any"/>
-  <link rel="manifest" href="site.webmanifest"/>
-  <meta name="description" content="How PEMF improves erectile function through eNOS upregulation and nitric oxide production. Evidence review for Philippine men's health clinics serving the 8–12M Filipino ED population."/>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-WTJD6CF5ZC");</script>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --navy:     #06111F;
-      --navy-2:   #0B1C30;
-      --navy-3:   #122440;
-      --teal:     #00B4D8;
-      --teal-d:   #0096B7;
-      --gold:     #F59E0B;
-      --white:    #FFFFFF;
-      --off-white:#F7F9FC;
-      --light:    #EEF3F8;
-      --ink:      #0F1F30;
-      --ink-2:    #2D4257;
-      --muted:    #637083;
-      --border:   #D4DDE8;
-      --font: 'Inter', system-ui, -apple-system, sans-serif;
-      --r: 10px;
-    }
-    html { scroll-behavior: smooth; }
-    body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }
-    .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
-    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
-    .reveal.v { opacity: 1; transform: none; }
-    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; }
-    @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
-    #nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
-      padding: 14px 0;
-      background: rgba(6,17,31,.95);
-      backdrop-filter: blur(14px);
-      box-shadow: 0 1px 0 rgba(255,255,255,.06);
-      transition: padding .3s, background .3s;
-    }
-    #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }
-    .nav-row { display: flex; align-items: center; justify-content: space-between; }
-    .logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }
-    .logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }
-    .nav-links { display: flex; gap: 8px; list-style: none; }
-    .nav-links a {
-      display: inline-flex; align-items: center;
-      padding: 8px 18px; min-height: 38px;
-      color: rgba(255,255,255,.85); text-decoration: none;
-      font-size: .875rem; font-weight: 500;
-      border: 1px solid rgba(255,255,255,.15);
-      border-radius: 100px;
-      transition: background .2s, border-color .2s, color .2s;
-    }
-    .nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }
-    .nav-btn {
-      display: inline-flex; align-items: center; gap: 7px;
-      padding: 10px 22px; min-height: 44px;
-      background: var(--teal); color: #fff; border: none; border-radius: var(--r);
-      font-size: .875rem; font-weight: 700; text-decoration: none; cursor: pointer;
-      transition: background .2s, transform .2s;
-    }
-    .nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }
-    .hero {
-      min-height: 62vh;
-      background: var(--navy);
-      display: flex; align-items: center;
-      position: relative;
-      padding: 140px 0 80px;
-    }
-    .hero::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
-      pointer-events: none;
-    }
-    .hero-badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 6px 14px;
-      background: rgba(0,180,216,.12);
-      border: 1px solid rgba(0,180,216,.3);
-      border-radius: 100px;
-      font-size: .75rem; font-weight: 700; letter-spacing: .08em;
-      text-transform: uppercase; color: var(--teal);
-      margin-bottom: 28px;
-    }
-    .hero-badge::before {
-      content: ''; width: 6px; height: 6px;
-      background: var(--teal); border-radius: 50%;
-      animation: blink 2s infinite;
-    }
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }
-    .hero h1 {
-      font-size: clamp(2.4rem, 5vw, 4rem);
-      font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
-      color: #fff; margin-bottom: 22px;
-    }
-    .hero h1 em { font-style: normal; color: var(--teal); }
-    .hero-sub {
-      font-size: 1.1rem; color: rgba(255,255,255,.65);
-      max-width: 620px; line-height: 1.75;
-    }
-    .article-sec { background: var(--white); padding: 96px 0; }
-    .article-inner { max-width: 820px; margin: 0 auto; }
-    .article-breadcrumb { margin-bottom: 32px; }
-    .article-breadcrumb a { font-size: .875rem; color: var(--muted); text-decoration: none; transition: color .2s; }
-    .article-breadcrumb a:hover { color: var(--teal); }
-    .article-dateline { font-size: .82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing: .02em; }
-    .article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }
-    .article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }
-    .article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }
-    .article-inner ul { margin: 0 0 20px 24px; }
-    .article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }
-    .article-inner ol { margin: 0 0 20px 24px; }
-    .article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }
-    .article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }
-    .article-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
-    .article-table thead tr { background: var(--navy); color: #fff; }
-    .article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
-    .article-table tbody tr:nth-child(even) { background: #f7f9fc; }
-    .article-table tbody tr:nth-child(odd) { background: #fff; }
-    .article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
-    .article-table td:first-child { font-weight: 600; color: var(--ink); }
-    .article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }
-    .article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }
-    .btn-primary {
-      display: inline-flex; align-items: center; gap: 9px;
-      padding: 15px 30px; min-height: 52px;
-      background: var(--teal); color: #fff;
-      border: none; border-radius: var(--r);
-      font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
-      transition: background .2s, transform .2s, box-shadow .2s;
-    }
-    .btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }
-    .wa-float {
-      position: fixed; bottom: 28px; right: 28px; z-index: 300;
-      width: 56px; height: 56px;
-      background: #25D366; border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 4px 20px rgba(37,211,102,.5);
-      text-decoration: none;
-      transition: transform .2s, box-shadow .2s;
-    }
-    .wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
-    footer {
-      background: var(--navy);
-      border-top: 1px solid rgba(255,255,255,.06);
-      padding: 44px 0 32px;
-    }
-    .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
-    .footer-copy { font-size: .82rem; color: rgba(255,255,255,.3); }
-    .footer-certs { display: flex; gap: 10px; }
-    .fcert {
-      padding: 5px 11px;
-      background: rgba(0,180,216,.08);
-      border: 1px solid rgba(0,180,216,.15);
-      border-radius: 5px;
-      font-size: .72rem; font-weight: 700; color: var(--teal); letter-spacing: .06em;
-    }
-    .footer-links { display: flex; gap: 20px; }
-    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
-    .footer-links a:hover { color: rgba(255,255,255,.7); }
-    @media (max-width: 620px) {
-      .hero h1 { font-size: 2.2rem; }
-      .nav-links { display: none; }
-      .footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
-    }
-  </style>
+ <meta charset="UTF-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>PEMF Effect on Erectile Dysfunction: Mechanism & Evidence | PainFree Philippines</title>
+ <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+ <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
+ <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+ <link rel="icon" href="favicon.ico" sizes="any"/>
+ <link rel="manifest" href="site.webmanifest"/>
+ <meta name="description" content="How PEMF improves erectile function through eNOS upregulation and nitric oxide production. Evidence review for Philippine men's health clinics serving the 8–12M Filipino ED population."/>
+ <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" onload="this.rel='stylesheet'">
+ <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJD6CF5ZC"></script>
+ <script>window.dataLayer=window.dataLayer||[];function gtag{dataLayer.push(arguments);}gtag("js",new Date);gtag("config","G-WTJD6CF5ZC");</script>
+ <style>
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ :root {
+ --navy: #06111F;
+ --navy-2: #0B1C30;
+ --navy-3: #122440;
+ --teal: #00B4D8;
+ --teal-d: #0096B7;
+ --gold: #F59E0B;
+ --white: #FFFFFF;
+ --off-white:#F7F9FC;
+ --light: #EEF3F8;
+ --ink: #0F1F30;
+ --ink-2: #2D4257;
+ --muted: #637083;
+ --border: #D4DDE8;
+ --font: 'Inter', system-ui, -apple-system, sans-serif;
+ --r: 10px;
+ }
+ html { scroll-behavior: smooth; }
+ body { font-family: var(--font); font-size: 16px; line-height: 1.6; color: var(--ink); background: var(--white); overflow-x: hidden; }.container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }.reveal { opacity: 0; transform: translateY(24px); transition: opacity.55s ease, transform.55s ease; }.reveal.v { opacity: 1; transform: none; }.d1 { transition-delay:.1s; }.d2 { transition-delay:.2s; }.d3 { transition-delay:.3s; }
+ @media (prefers-reduced-motion: reduce) {.reveal { opacity:1; transform:none; transition:none; } }
+ #nav {
+ position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+ padding: 14px 0;
+ background: rgba(6,17,31,.95);
+ backdrop-filter: blur(14px);
+ box-shadow: 0 1px 0 rgba(255,255,255,.06);
+ transition: padding.3s, background.3s;
+ }
+ #nav.sc { background: rgba(6,17,31,.99); padding: 10px 0; }.nav-row { display: flex; align-items: center; justify-content: space-between; }.logo { display: flex; align-items: center; text-decoration: none; background: #fff; border-radius: 8px; padding: 5px 14px; flex-shrink: 0; }.logo-img { height: 36px; width: auto; max-width: 180px; object-fit: contain; display: block; }.nav-links { display: flex; gap: 8px; list-style: none; }.nav-links a {
+ display: inline-flex; align-items: center;
+ padding: 8px 18px; min-height: 38px;
+ color: rgba(255,255,255,.85); text-decoration: none;
+ font-size:.875rem; font-weight: 500;
+ border: 1px solid rgba(255,255,255,.15);
+ border-radius: 100px;
+ transition: background.2s, border-color.2s, color.2s;
+ }.nav-links a:hover { color: #fff; background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.35); }.nav-btn {
+ display: inline-flex; align-items: center; gap: 7px;
+ padding: 10px 22px; min-height: 44px;
+ background: var(--teal); color: #fff; border: none; border-radius: var(--r);
+ font-size:.875rem; font-weight: 700; text-decoration: none; cursor: pointer;
+ transition: background.2s, transform.2s;
+ }.nav-btn:hover { background: var(--teal-d); transform: translateY(-1px); }.hero {
+ min-height: 62vh;
+ background: var(--navy);
+ display: flex; align-items: center;
+ position: relative;
+ padding: 140px 0 80px;
+ }.hero::before {
+ content: '';
+ position: absolute; inset: 0;
+ background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(0,180,216,.12) 0%, transparent 65%);
+ pointer-events: none;
+ }.hero-badge {
+ display: inline-flex; align-items: center; gap: 8px;
+ padding: 6px 14px;
+ background: rgba(0,180,216,.12);
+ border: 1px solid rgba(0,180,216,.3);
+ border-radius: 100px;
+ font-size:.75rem; font-weight: 700; letter-spacing:.08em;
+ text-transform: uppercase; color: var(--teal);
+ margin-bottom: 28px;
+ }.hero-badge::before {
+ content: ''; width: 6px; height: 6px;
+ background: var(--teal); border-radius: 50%;
+ animation: blink 2s infinite;
+ }
+ @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.35} }.hero h1 {
+ font-size: clamp(2.4rem, 5vw, 4rem);
+ font-weight: 900; letter-spacing: -.035em; line-height: 1.08;
+ color: #fff; margin-bottom: 22px;
+ }.hero h1 em { font-style: normal; color: var(--teal); }.hero-sub {
+ font-size: 1.1rem; color: rgba(255,255,255,.65);
+ max-width: 620px; line-height: 1.75;
+ }.article-sec { background: var(--white); padding: 96px 0; }.article-inner { max-width: 820px; margin: 0 auto; }.article-breadcrumb { margin-bottom: 32px; }.article-breadcrumb a { font-size:.875rem; color: var(--muted); text-decoration: none; transition: color.2s; }.article-breadcrumb a:hover { color: var(--teal); }.article-dateline { font-size:.82rem; color: var(--muted); margin-bottom: 8px; font-weight: 500; letter-spacing:.02em; }.article-inner p { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 20px; }.article-inner h2 { font-size: 1.65rem; font-weight: 800; color: var(--ink); margin-top: 48px; margin-bottom: 16px; letter-spacing: -.02em; }.article-inner h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-top: 28px; margin-bottom: 10px; }.article-inner ul { margin: 0 0 20px 24px; }.article-inner ul li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 6px; }.article-inner ol { margin: 0 0 20px 24px; }.article-inner ol li { font-size: 1.05rem; line-height: 1.85; color: var(--ink-2); margin-bottom: 8px; }.article-table-wrap { overflow-x: auto; margin: 32px 0; border-radius: 10px; border: 1px solid var(--border); }.article-table { width: 100%; border-collapse: collapse; font-size:.9rem; }.article-table thead tr { background: var(--navy); color: #fff; }.article-table thead th { padding: 14px 16px; text-align: left; font-weight: 700; font-size:.82rem; letter-spacing:.04em; }.article-table tbody tr:nth-child(even) { background: #f7f9fc; }.article-table tbody tr:nth-child(odd) { background: #fff; }.article-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }.article-table td:first-child { font-weight: 600; color: var(--ink); }.article-cta { background: var(--off-white); border: 1px solid var(--border); border-radius: 14px; padding: 40px; margin-top: 56px; text-align: center; }.article-cta p { font-size: 1.05rem; color: var(--ink-2); margin-bottom: 24px; }.btn-primary {
+ display: inline-flex; align-items: center; gap: 9px;
+ padding: 15px 30px; min-height: 52px;
+ background: var(--teal); color: #fff;
+ border: none; border-radius: var(--r);
+ font-size: 1rem; font-weight: 700; text-decoration: none; cursor: pointer;
+ transition: background.2s, transform.2s, box-shadow.2s;
+ }.btn-primary:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,180,216,.35); }.wa-float {
+ position: fixed; bottom: 28px; right: 28px; z-index: 300;
+ width: 56px; height: 56px;
+ background: #25D366; border-radius: 50%;
+ display: flex; align-items: center; justify-content: center;
+ box-shadow: 0 4px 20px rgba(37,211,102,.5);
+ text-decoration: none;
+ transition: transform.2s, box-shadow.2s;
+ }.wa-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.65); }
+ footer {
+ background: var(--navy);
+ border-top: 1px solid rgba(255,255,255,.06);
+ padding: 44px 0 32px;
+ }.footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }.footer-copy { font-size:.82rem; color: rgba(255,255,255,.3); }.footer-certs { display: flex; gap: 10px; }.fcert {
+ padding: 5px 11px;
+ background: rgba(0,180,216,.08);
+ border: 1px solid rgba(0,180,216,.15);
+ border-radius: 5px;
+ font-size:.72rem; font-weight: 700; color: var(--teal); letter-spacing:.06em;
+ }.footer-links { display: flex; gap: 20px; }.footer-links a { font-size:.82rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color.2s; }.footer-links a:hover { color: rgba(255,255,255,.7); }
+ @media (max-width: 620px) {.hero h1 { font-size: 2.2rem; }.nav-links { display: none; }.footer-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+ }
+ </style>
 </head>
 <body>
 
 <!-- NAV -->
 <nav id="nav">
-  <div class="container">
-    <div class="nav-row">
-      <a href="index.html" class="logo">
-        <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
-      </a>
-      <ul class="nav-links">
-        <li><a href="technology.html">Technology</a></li>
-        <li><a href="letters.html">Medical Reviews</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
-        <li><a href="index.html#inquire">Contact</a></li>
-      </ul>
-      <a href="index.html#inquire" class="nav-btn">
-        Request Brief
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div>
-  </div>
+ <div class="container">
+ <div class="nav-row">
+ <a href="index.html" class="logo">
+ <img src="images/logo.jpg" alt="PainFree PEMF Technology" class="logo-img"/>
+ </a>
+ <ul class="nav-links">
+ <li><a href="technology.html">Technology</a></li>
+ <li><a href="letters.html">Medical Reviews</a></li>
+ <li><a href="testimonials.html">Testimonials</a></li>
+ <li><a href="articles.html" style="color:#fff;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)">Articles</a></li>
+ <li><a href="index.html#inquire">Contact</a></li>
+ </ul>
+ <a href="index.html#inquire" class="nav-btn">
+ Request Brief
+ <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+ </a>
+ </div>
+ </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="container">
-    <div class="hero-badge">Men's Health Protocol</div>
-    <h1>PEMF & Erectile Dysfunction:<br/><em>The Mechanism Explained.</em></h1>
-    <p class="hero-sub">PEMF upregulates eNOS and increases nitric oxide production — the same vasodilatory cascade targeted by PDE5 inhibitors, achieved non-pharmacologically. A research review for Philippine men's health clinics.</p>
-  </div>
+ <div class="container">
+ <div class="hero-badge">Men's Health Protocol</div>
+ <h1>PEMF & Erectile Dysfunction:<br/><em>The Mechanism Explained.</em></h1>
+ <p class="hero-sub">PEMF upregulates eNOS and increases nitric oxide production — the same vasodilatory cascade targeted by PDE5 inhibitors, achieved non-pharmacologically. A research review for Philippine men's health clinics.</p>
+ </div>
 </section>
 
 <!-- ARTICLE BODY -->
 <section class="article-sec">
-  <div class="container">
-    <div class="article-inner">
+ <div class="container">
+ <div class="article-inner">
 
-      <div class="article-breadcrumb">
-        <a href="articles.html">← Back to Articles</a>
-      </div>
+ <div class="article-breadcrumb">
+ <a href="articles.html">← Back to Articles</a>
+ </div>
 
-      <p class="article-dateline">June 2026 · 10 min read · Men's Health Protocol</p>
+ <p class="article-dateline">June 2026 · 10 min read · Men's Health Protocol</p>
 
-      <img src="https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="PEMF research for men's health and erectile dysfunction treatment"/>
+ <img src="https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?auto=compress&cs=tinysrgb&w=1200" style="width:100%;border-radius:12px;margin:32px 0;object-fit:cover;max-height:440px" alt="PEMF research for men's health and erectile dysfunction treatment"/>
 
-      <h2>The Scale of the Problem</h2>
-      <p>Erectile dysfunction (ED) affects an estimated 52% of men aged 40–70 worldwide (Massachusetts Male Aging Study). In the Philippines, where the male population aged 40–70 exceeds 10 million, this translates to approximately 5–6 million men with clinically significant ED — a vast majority undertreated due to stigma, access barriers, and the cost of branded PDE5 inhibitors.</p>
-      <p>ED is not merely a quality-of-life issue. It is an independent cardiovascular risk predictor: men with vasculogenic ED have a 2.5× elevated risk of major cardiovascular events within 5 years. The Philippines has a Type 2 diabetes prevalence of approximately 10% in adults — and diabetic men experience ED at 3–4× the rate of the general population, with an earlier age of onset and more severe endothelial dysfunction. This creates a large, high-need, chronically underserved patient segment.</p>
+ <h2>The Scale of the Problem</h2>
+ <p>Erectile dysfunction (ED) affects an estimated 52% of men aged 40–70 worldwide (Massachusetts Male Aging Study). In the Philippines, where the male population aged 40–70 exceeds 10 million, this translates to approximately 5–6 million men with clinically significant ED — a vast majority undertreated due to stigma, access barriers, and the cost of branded PDE5 inhibitors.</p>
+ <p>ED is not merely a quality-of-life issue. It is an independent cardiovascular risk predictor: men with vasculogenic ED have a 2.5× elevated risk of major cardiovascular events within 5 years. The Philippines has a Type 2 diabetes prevalence of approximately 10% in adults — and diabetic men experience ED at 3–4× the rate of the general population, with an earlier age of onset and more severe endothelial dysfunction. This creates a large, high-need, chronically underserved patient segment.</p>
 
-      <h2>The Vascular Biology of Erectile Function</h2>
-      <p>Erection is fundamentally a vascular event. Sexual arousal triggers the release of nitric oxide (NO) from cavernous nerve terminals and penile vascular endothelium. NO activates soluble guanylyl cyclase (sGC), producing cyclic guanosine monophosphate (cGMP), which drives smooth muscle relaxation in the corpora cavernosa and penile arterioles. The resulting vasodilation floods the sinusoidal spaces — compressing venous outflow and producing tumescence and rigidity.</p>
-      <p>In ED, this NO–cGMP cascade is impaired at multiple levels:</p>
-      <ul>
-        <li><strong>Endothelial dysfunction:</strong> Reduced eNOS activity and bioavailable NO (oxidative stress, diabetes, hypertension, dyslipidemia)</li>
-        <li><strong>Cavernous smooth muscle fibrosis:</strong> Collagen replacement of smooth muscle from chronic hypoxia, reducing compliance</li>
-        <li><strong>Neurogenic impairment:</strong> Diabetic autonomic neuropathy disrupts cavernous nerve NO signaling</li>
-        <li><strong>PDE5 overactivity:</strong> Phosphodiesterase-5 degrades cGMP faster than it is produced</li>
-      </ul>
-      <p>PDE5 inhibitors (sildenafil, tadalafil) address only the last mechanism — blocking cGMP degradation. They amplify a signal that is already inadequate, which is why they underperform in severe endothelial dysfunction, post-prostatectomy neuropathy, and diabetic ED where the primary signal (NO production) is severely diminished.</p>
+ <h2>The Vascular Biology of Erectile Function</h2>
+ <p>Erection is fundamentally a vascular event. Sexual arousal triggers the release of nitric oxide (NO) from cavernous nerve terminals and penile vascular endothelium. NO activates soluble guanylyl cyclase (sGC), producing cyclic guanosine monophosphate (cGMP), which drives smooth muscle relaxation in the corpora cavernosa and penile arterioles. The resulting vasodilation floods the sinusoidal spaces — compressing venous outflow and producing tumescence and rigidity.</p>
+ <p>In ED, this NO–cGMP cascade is impaired at multiple levels:</p>
+ <ul>
+ <li><strong>Endothelial dysfunction:</strong> Reduced eNOS activity and bioavailable NO (oxidative stress, diabetes, hypertension, dyslipidemia)</li>
+ <li><strong>Cavernous smooth muscle fibrosis:</strong> Collagen replacement of smooth muscle from chronic hypoxia, reducing compliance</li>
+ <li><strong>Neurogenic impairment:</strong> Diabetic autonomic neuropathy disrupts cavernous nerve NO signaling</li>
+ <li><strong>PDE5 overactivity:</strong> Phosphodiesterase-5 degrades cGMP faster than it is produced</li>
+ </ul>
+ <p>PDE5 inhibitors (sildenafil, tadalafil) address only the last mechanism — blocking cGMP degradation. They amplify a signal that is already inadequate, which is why they underperform in severe endothelial dysfunction, post-prostatectomy neuropathy, and diabetic ED where the primary signal (NO production) is severely diminished.</p>
 
-      <h2>The PEMF Mechanism in Erectile Dysfunction</h2>
-      <p>PEMF operates upstream of PDE5 inhibitors — at the NO production level itself. This is the molecular basis for why PEMF is particularly relevant to patient populations where PDE5 inhibitors fail:</p>
-      <ol>
-        <li><strong>eNOS upregulation:</strong> Pulsed electromagnetic fields activate the Akt/PKB signaling pathway, which phosphorylates and activates endothelial nitric oxide synthase (eNOS). This directly increases NO production from penile endothelial cells — the primary deficient signal in vasculogenic ED.</li>
-        <li><strong>Angiogenesis induction:</strong> PEMF upregulates vascular endothelial growth factor (VEGF) and hypoxia-inducible factor-1α (HIF-1α), promoting the formation of new cavernous microvasculature. Published data (PMC4959873) confirms PEMF-driven VEGF upregulation in vascular tissue. This structural neovascularization addresses the root cause of vasculogenic ED rather than compensating for it.</li>
-        <li><strong>Anti-fibrotic effect:</strong> By reducing TNF-α and IL-1β in the cavernous tissue (PubMed 19371845, systematic review of PEMF anti-inflammatory mechanisms), PEMF suppresses the fibrotic transformation of cavernous smooth muscle — the irreversible progression that makes late-stage vasculogenic ED refractory to all oral treatments.</li>
-        <li><strong>Neurotrophin support:</strong> PEMF has been shown to upregulate nerve growth factor (NGF) and brain-derived neurotrophic factor (BDNF) in neural tissue. In post-prostatectomy penile rehabilitation and diabetic neuropathic ED, cavernous nerve recovery is the rate-limiting factor — this mechanism addresses it directly.</li>
-      </ol>
+ <h2>The PEMF Mechanism in Erectile Dysfunction</h2>
+ <p>PEMF operates upstream of PDE5 inhibitors — at the NO production level itself. This is the molecular basis for why PEMF is particularly relevant to patient populations where PDE5 inhibitors fail:</p>
+ <ol>
+ <li><strong>eNOS upregulation:</strong> Pulsed electromagnetic fields activate the Akt/PKB signaling pathway, which phosphorylates and activates endothelial nitric oxide synthase (eNOS). This directly increases NO production from penile endothelial cells — the primary deficient signal in vasculogenic ED.</li>
+ <li><strong>Angiogenesis induction:</strong> PEMF upregulates vascular endothelial growth factor (VEGF) and hypoxia-inducible factor-1α (HIF-1α), promoting the formation of new cavernous microvasculature. This page previously cited published data for PEMF-driven VEGF upregulation in vascular tissue; that citation resolved to an unrelated paper and has been removed. Treat the VEGF pathway here as a hypothesis. This structural neovascularization addresses the root cause of vasculogenic ED rather than compensating for it.</li>
+ <li><strong>Anti-fibrotic effect:</strong> By reducing TNF-α and IL-1β in the cavernous tissue (PubMed 19371845, systematic review of PEMF anti-inflammatory mechanisms), PEMF suppresses the fibrotic transformation of cavernous smooth muscle — the irreversible progression that makes late-stage vasculogenic ED refractory to all oral treatments.</li>
+ <li><strong>Neurotrophin support:</strong> PEMF has been shown to upregulate nerve growth factor (NGF) and brain-derived neurotrophic factor (BDNF) in neural tissue. In post-prostatectomy penile rehabilitation and diabetic neuropathic ED, cavernous nerve recovery is the rate-limiting factor — this mechanism addresses it directly.</li>
+ </ol>
 
-      <h2>Clinical Evidence</h2>
-      <h3>Published PEMF Studies in ED</h3>
-      <p>Multiple clinical studies have examined PEMF in the context of vasculogenic and mixed-etiology ED:</p>
-      <ul>
-        <li>Giannì et al. (J Androl 2010, n=30): PEMF vs. sham in men with vasculogenic ED. Significant improvement in IIEF (International Index of Erectile Function) domain scores at 8 weeks. Effect maintained at 3-month follow-up.</li>
-        <li>Post-prostatectomy penile rehabilitation studies (n=30–60, multiple institutions): PEMF applied during post-RP recovery phase accelerates cavernous nerve recovery and reduces time to spontaneous erection return — analogous to the PMC11330404 surgical edema data (56.2ml vs. 23.6ml, 60% reduction in post-surgical swelling demonstrating PEMF's post-surgical tissue repair capacity).</li>
-        <li>Diabetic ED cohort data (multiple): In men with ED secondary to diabetic autonomic neuropathy, PEMF produces measurable IIEF improvement within 6–10 sessions — a population where sildenafil's responder rate drops to 40–50% versus 70–80% in non-diabetic men.</li>
-      </ul>
+ <h2>Clinical Evidence</h2>
+ <h3>Published PEMF Studies in ED</h3>
+ <p>Multiple clinical studies have examined PEMF in the context of vasculogenic and mixed-etiology ED:</p>
+ <ul>
+ <li>Giannì et al. (J Androl 2010, n=30): PEMF vs. sham in men with vasculogenic ED. Significant improvement in IIEF (International Index of Erectile Function) domain scores at 8 weeks. Effect maintained at 3-month follow-up.</li>
+ <li>Post-prostatectomy penile rehabilitation studies (n=30–60, multiple institutions): PEMF applied during post-RP recovery phase accelerates cavernous nerve recovery and reduces time to spontaneous erection return — analogous to the PMC11330404 surgical edema data (56.2ml vs. 23.6ml, 60% reduction in post-surgical swelling demonstrating PEMF's post-surgical tissue repair capacity).</li>
+ <li>Diabetic ED cohort data (multiple): In men with ED secondary to diabetic autonomic neuropathy, PEMF produces measurable IIEF improvement within 6–10 sessions — a population where sildenafil's responder rate drops to 40–50% versus 70–80% in non-diabetic men.</li>
+ </ul>
 
-      <h3>Mechanistic Evidence (Transferable from Published PEMF Literature)</h3>
-      <p>The NO–angiogenesis mechanism is robustly established outside of dedicated ED trials:</p>
-      <ul>
-        <li>PubMed 31394939: PEMF activates the NO/cGMP pathway in endothelial cells — the primary mechanism in penile vasculature.</li>
-        <li>PMC4959873: VEGF upregulation and angiogenesis promotion confirmed in PEMF-treated vascular tissue.</li>
-        <li>PubMed 19371845: Systematic review confirms PEMF-driven suppression of NF-κB, IL-1β, and TNF-α — the inflammatory mediators driving cavernous fibrosis.</li>
-      </ul>
+ <h3>Mechanistic Evidence (Transferable from Published PEMF Literature)</h3>
+ <p>The NO–angiogenesis mechanism is robustly established outside of dedicated ED trials:</p>
+ <ul>
+ <li>PubMed 31394939: PEMF activates the NO/cGMP pathway in endothelial cells — the primary mechanism in penile vasculature.</li>
+ <li> VEGF upregulation and angiogenesis in PEMF-treated vascular tissue.</li>
+ <li>PubMed 19371845: Systematic review confirms PEMF-driven suppression of NF-κB, IL-1β, and TNF-α — the inflammatory mediators driving cavernous fibrosis.</li>
+ </ul>
 
-      <h2>Clinical Protocol for ED</h2>
-      <div class="article-table-wrap">
-        <table class="article-table">
-          <thead>
-            <tr>
-              <th>Parameter</th>
-              <th>Vasculogenic ED</th>
-              <th>Diabetic/Neuropathic ED</th>
-              <th>Post-Prostatectomy Rehab</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Frequency</td>
-              <td>10–50 Hz</td>
-              <td>5–25 Hz</td>
-              <td>10–25 Hz</td>
-            </tr>
-            <tr>
-              <td>Intensity</td>
-              <td>5–30 mT</td>
-              <td>5–20 mT</td>
-              <td>5–15 mT</td>
-            </tr>
-            <tr>
-              <td>Coil placement</td>
-              <td>Perineal + pelvic</td>
-              <td>Perineal + lumbar (autonomic)</td>
-              <td>Perineal + lower pelvic</td>
-            </tr>
-            <tr>
-              <td>Session duration</td>
-              <td>30 min</td>
-              <td>30–40 min</td>
-              <td>30 min</td>
-            </tr>
-            <tr>
-              <td>Sessions per week</td>
-              <td>2–3×</td>
-              <td>2–3×</td>
-              <td>3× (early rehab phase)</td>
-            </tr>
-            <tr>
-              <td>Treatment course</td>
-              <td>8–12 sessions</td>
-              <td>12–16 sessions</td>
-              <td>20–24 sessions (12 weeks)</td>
-            </tr>
-            <tr>
-              <td>PDE5i combination</td>
-              <td>Compatible (additive)</td>
-              <td>Compatible</td>
-              <td>Standard of care combination</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+ <h2>Clinical Protocol for ED</h2>
+ <div class="article-table-wrap">
+ <table class="article-table">
+ <thead>
+ <tr>
+ <th>Parameter</th>
+ <th>Vasculogenic ED</th>
+ <th>Diabetic/Neuropathic ED</th>
+ <th>Post-Prostatectomy Rehab</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Frequency</td>
+ <td>10–50 Hz</td>
+ <td>5–25 Hz</td>
+ <td>10–25 Hz</td>
+ </tr>
+ <tr>
+ <td>Intensity</td>
+ <td>5–30 mT</td>
+ <td>5–20 mT</td>
+ <td>5–15 mT</td>
+ </tr>
+ <tr>
+ <td>Coil placement</td>
+ <td>Perineal + pelvic</td>
+ <td>Perineal + lumbar (autonomic)</td>
+ <td>Perineal + lower pelvic</td>
+ </tr>
+ <tr>
+ <td>Session duration</td>
+ <td>30 min</td>
+ <td>30–40 min</td>
+ <td>30 min</td>
+ </tr>
+ <tr>
+ <td>Sessions per week</td>
+ <td>2–3×</td>
+ <td>2–3×</td>
+ <td>3× (early rehab phase)</td>
+ </tr>
+ <tr>
+ <td>Treatment course</td>
+ <td>8–12 sessions</td>
+ <td>12–16 sessions</td>
+ <td>20–24 sessions (12 weeks)</td>
+ </tr>
+ <tr>
+ <td>PDE5i combination</td>
+ <td>Compatible (additive)</td>
+ <td>Compatible</td>
+ <td>Standard of care combination</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
 
-      <h2>PEMF vs. Conventional ED Treatments</h2>
-      <div class="article-table-wrap">
-        <table class="article-table">
-          <thead>
-            <tr>
-              <th>Treatment</th>
-              <th>Mechanism</th>
-              <th>Responder Rate (Vasculogenic)</th>
-              <th>Structural Repair</th>
-              <th>Neuropathic ED Efficacy</th>
-              <th>PH Cost</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>PEMF</td>
-              <td>eNOS ↑, NO ↑, angiogenesis, anti-fibrotic</td>
-              <td>~60–75%</td>
-              <td>Yes (VEGF-driven)</td>
-              <td>Moderate-High (neurotrophin)</td>
-              <td>₱1,500–₱2,500/session</td>
-            </tr>
-            <tr>
-              <td>Sildenafil (Viagra)</td>
-              <td>PDE5 inhibition → cGMP ↑</td>
-              <td>60–70%</td>
-              <td>No</td>
-              <td>Low (40–50% diabetic)</td>
-              <td>₱300–₱600/dose</td>
-            </tr>
-            <tr>
-              <td>Tadalafil (Cialis)</td>
-              <td>PDE5 inhibition → cGMP ↑</td>
-              <td>65–75%</td>
-              <td>No</td>
-              <td>Low (40–50% diabetic)</td>
-              <td>₱400–₱800/dose</td>
-            </tr>
-            <tr>
-              <td>Low-intensity ESWT</td>
-              <td>Shockwave angiogenesis, eNOS ↑</td>
-              <td>60–70%</td>
-              <td>Yes (similar VEGF mechanism)</td>
-              <td>Moderate</td>
-              <td>₱8,000–₱20,000/course</td>
-            </tr>
-            <tr>
-              <td>Intracavernous injection</td>
-              <td>Direct smooth muscle relaxation</td>
-              <td>85–90%</td>
-              <td>No</td>
-              <td>High</td>
-              <td>₱500–₱1,500/injection</td>
-            </tr>
-            <tr>
-              <td>Penile implant</td>
-              <td>Mechanical prosthesis</td>
-              <td>95%+ satisfaction</td>
-              <td>N/A (structural replacement)</td>
-              <td>High</td>
-              <td>₱250,000–₱500,000</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+ <h2>PEMF vs. Conventional ED Treatments</h2>
+ <div class="article-table-wrap">
+ <table class="article-table">
+ <thead>
+ <tr>
+ <th>Treatment</th>
+ <th>Mechanism</th>
+ <th>Responder Rate (Vasculogenic)</th>
+ <th>Structural Repair</th>
+ <th>Neuropathic ED Efficacy</th>
+ <th>PH Cost</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>PEMF</td>
+ <td>eNOS ↑, NO ↑, angiogenesis, anti-fibrotic</td>
+ <td>~60–75%</td>
+ <td>Yes (VEGF-driven)</td>
+ <td>Moderate-High (neurotrophin)</td>
+ <td>₱1,500–₱2,500/session</td>
+ </tr>
+ <tr>
+ <td>Sildenafil (Viagra)</td>
+ <td>PDE5 inhibition → cGMP ↑</td>
+ <td>60–70%</td>
+ <td>No</td>
+ <td>Low (40–50% diabetic)</td>
+ <td>₱300–₱600/dose</td>
+ </tr>
+ <tr>
+ <td>Tadalafil (Cialis)</td>
+ <td>PDE5 inhibition → cGMP ↑</td>
+ <td>65–75%</td>
+ <td>No</td>
+ <td>Low (40–50% diabetic)</td>
+ <td>₱400–₱800/dose</td>
+ </tr>
+ <tr>
+ <td>Low-intensity ESWT</td>
+ <td>Shockwave angiogenesis, eNOS ↑</td>
+ <td>60–70%</td>
+ <td>Yes (similar VEGF mechanism)</td>
+ <td>Moderate</td>
+ <td>₱8,000–₱20,000/course</td>
+ </tr>
+ <tr>
+ <td>Intracavernous injection</td>
+ <td>Direct smooth muscle relaxation</td>
+ <td>85–90%</td>
+ <td>No</td>
+ <td>High</td>
+ <td>₱500–₱1,500/injection</td>
+ </tr>
+ <tr>
+ <td>Penile implant</td>
+ <td>Mechanical prosthesis</td>
+ <td>95%+ satisfaction</td>
+ <td>N/A (structural replacement)</td>
+ <td>High</td>
+ <td>₱250,000–₱500,000</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
 
-      <h2>The Philippine Men's Health Market</h2>
-      <p>ED is among the most commercially underserved conditions in Philippine healthcare. The stigma barrier means most men self-treat with over-the-counter sildenafil analogues or unregulated supplements rather than seeking clinical evaluation. Urology consultation rates are low.</p>
-      <p>PEMF offers a clinically legitimate, privacy-preserving treatment modality: patients do not need to discuss their condition at a pharmacy counter, and treatment can be embedded within a general "wellness" or "men's health optimization" clinic visit. The mechanism's overlap with cardiovascular risk management (endothelial health, NO production) allows positioning beyond pure ED — as a men's cardiovascular and metabolic health protocol.</p>
-      <p>Key target segments: Type 2 diabetic men (prevalence ≈10% × 10M male adults 40–70 = 1M+ diabetic men, ED prevalence 3–4× general population), post-prostatectomy rehabilitation referrals (growing with PSA screening program expansion), and the general 40–60 vasculogenic ED demographic.</p>
-      <p>70+ Israeli clinics (population: 9M) operate this protocol — now expanding to the Philippines where the diabetes-ED intersection alone represents a larger absolute patient pool than in Israel.</p>
+ <h2>The Philippine Men's Health Market</h2>
+ <p>ED is among the most commercially underserved conditions in Philippine healthcare. The stigma barrier means most men self-treat with over-the-counter sildenafil analogues or unregulated supplements rather than seeking clinical evaluation. Urology consultation rates are low.</p>
+ <p>PEMF offers a clinically legitimate, privacy-preserving treatment modality: patients do not need to discuss their condition at a pharmacy counter, and treatment can be embedded within a general "wellness" or "men's health optimization" clinic visit. The mechanism's overlap with cardiovascular risk management (endothelial health, NO production) allows positioning beyond pure ED — as a men's cardiovascular and metabolic health protocol.</p>
+ <p>Key target segments: Type 2 diabetic men (prevalence ≈10% × 10M male adults 40–70 = 1M+ diabetic men, ED prevalence 3–4× general population), post-prostatectomy rehabilitation referrals (growing with PSA screening program expansion), and the general 40–60 vasculogenic ED demographic.</p>
+ <p>70+ Israeli clinics (population: 9M) operate this protocol — now expanding to the Philippines where the diabetes-ED intersection alone represents a larger absolute patient pool than in Israel.</p>
 
-      <h2>Contraindications</h2>
-      <p>Standard PEMF contraindications: active pacemaker, pregnancy (not applicable here), active epilepsy, active malignancy in treatment area (prostate cancer — requires oncology clearance before PEMF in pelvic region). Penile implants: most are MRI-compatible and PEMF-safe, but device-specific verification is required before treatment.</p>
+ <h2>Contraindications</h2>
+ <p>Standard PEMF contraindications: active pacemaker, pregnancy (not applicable here), active epilepsy, active malignancy in treatment area (prostate cancer — requires oncology clearance before PEMF in pelvic region). Penile implants: most are MRI-compatible and PEMF-safe, but device-specific verification is required before treatment.</p>
 
-      <h2>Frequently Asked Questions</h2>
-      <h3>Can PEMF be combined with PDE5 inhibitors?</h3>
-      <p>Yes — they are mechanistically complementary. PEMF increases NO production (upstream); PDE5 inhibitors reduce NO breakdown (downstream). Combined use is clinically rational and represents the standard approach in post-prostatectomy penile rehabilitation programs, where PDE5 inhibitors are already first-line.</p>
-      <h3>How quickly do patients see results?</h3>
-      <p>PEMF is not an on-demand treatment like PDE5 inhibitors. The neovascular and eNOS-upregulation mechanisms require 4–8 weeks of consistent treatment to produce measurable IIEF improvement. Patients should be counseled on the course-of-treatment timeline, not single-session expectations.</p>
-      <h3>Is PEMF effective for post-prostatectomy ED?</h3>
-      <p>Post-prostatectomy neuropathic ED represents the highest-value indication for PEMF in men's health — a population where PDE5 inhibitors underperform and penile implant is the only consistently effective alternative. PEMF's neurotrophin upregulation and eNOS pathway support cavernous nerve recovery in the critical 12–24 month post-RP window. Clinical trial NCT03339492 (UCSF) validates this application in the rotator cuff context; penile rehabilitation-specific trials use equivalent mechanisms.</p>
-      <h3>Does PEMF treat the root cause or manage symptoms?</h3>
-      <p>Unlike PDE5 inhibitors (which are purely symptomatic), PEMF addresses the structural biology of vasculogenic ED: endothelial dysfunction, cavernous microvasculature density, and smooth muscle fibrosis. This is why effects persist after treatment courses end — a meaningful clinical and commercial differentiator.</p>
+ <h2>Frequently Asked Questions</h2>
+ <h3>Can PEMF be combined with PDE5 inhibitors?</h3>
+ <p>Yes — they are mechanistically complementary. PEMF increases NO production (upstream); PDE5 inhibitors reduce NO breakdown (downstream). Combined use is clinically rational and represents the standard approach in post-prostatectomy penile rehabilitation programs, where PDE5 inhibitors are already first-line.</p>
+ <h3>How quickly do patients see results?</h3>
+ <p>PEMF is not an on-demand treatment like PDE5 inhibitors. The neovascular and eNOS-upregulation mechanisms require 4–8 weeks of consistent treatment to produce measurable IIEF improvement. Patients should be counseled on the course-of-treatment timeline, not single-session expectations.</p>
+ <h3>Is PEMF effective for post-prostatectomy ED?</h3>
+ <p>Post-prostatectomy neuropathic ED represents the highest-value indication for PEMF in men's health — a population where PDE5 inhibitors underperform and penile implant is the only consistently effective alternative. PEMF's neurotrophin upregulation and eNOS pathway support cavernous nerve recovery in the critical 12–24 month post-RP window. Clinical trial NCT03339492 (UCSF) validates this application in the rotator cuff context; penile rehabilitation-specific trials use equivalent mechanisms.</p>
+ <h3>Does PEMF treat the root cause or manage symptoms?</h3>
+ <p>Unlike PDE5 inhibitors (which are purely symptomatic), PEMF addresses the structural biology of vasculogenic ED: endothelial dysfunction, cavernous microvasculature density, and smooth muscle fibrosis. This is why effects persist after treatment courses end — a meaningful clinical and commercial differentiator.</p>
 
-      <div class="article-cta">
-        <p>Men's health is one of the highest-value PEMF clinic verticals in the Philippines. Request the investment brief to see the revenue model for a PEMF men's health protocol alongside standard pain management services.</p>
-        <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
-      </div>
+ <div class="article-cta">
+ <p>Men's health is one of the highest-value PEMF clinic verticals in the Philippines. Request the investment brief to see the revenue model for a PEMF men's health protocol alongside standard pain management services.</p>
+ <a href="index.html#inquire" class="btn-primary">Request Investment Brief →</a>
+ </div>
 
-    </div>
-  </div>
+ </div>
+ </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <div class="container">
-    <div class="footer-row">
-      <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
-      <div class="footer-certs">
-        <span class="fcert">Regulatory clearance is model-specific &mdash; ask to see the current certificate for the model offered to you</span>
-      </div>
-      <nav class="footer-links">
-        <a href="technology.html">Technology</a>
-        <a href="letters.html">Medical Reviews</a>
-        <a href="testimonials.html">Testimonials</a>
-        <a href="articles.html">Articles</a>
-        <a href="index.html#inquire">Contact</a>
-      </nav>
-    </div>
-  </div>
+ <div class="container">
+ <div class="footer-row">
+ <p class="footer-copy">&copy; 2026 PainFree Philippines. All rights reserved.</p>
+ <div class="footer-certs">
+ <span class="fcert">Regulatory clearance is model-specific &mdash; ask to see the current certificate for the model offered to you</span>
+ </div>
+ <nav class="footer-links">
+ <a href="technology.html">Technology</a>
+ <a href="letters.html">Medical Reviews</a>
+ <a href="testimonials.html">Testimonials</a>
+ <a href="articles.html">Articles</a>
+ <a href="index.html#inquire">Contact</a>
+ </nav>
+ </div>
+ </div>
 </footer>
 
 <!-- WhatsApp Float -->
 <a href="https://wa.me/639621811360" class="wa-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
-  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-    <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
-    <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
-  </svg>
+ <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+ <path d="M14 2C7.373 2 2 7.373 2 14c0 2.105.553 4.082 1.52 5.797L2 26l4.347-1.497A11.94 11.94 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="white"/>
+ <path d="M19.5 16.57c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.24-.58-.5-.5-.68-.51H9.3c-.2 0-.52.07-.79.37-.27.3-1.03 1.01-1.03 2.47s1.06 2.86 1.2 3.06c.15.2 2.07 3.17 5.03 4.44.7.3 1.25.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="#25D366"/>
+ </svg>
 </a>
 
 <script>
-  const nav = document.getElementById('nav');
-  addEventListener('scroll', () => nav.classList.toggle('sc', scrollY > 50), {passive:true});
-  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
-  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+ const nav = document.getElementById('nav');
+ addEventListener('scroll', => nav.classList.toggle('sc', scrollY > 50), {passive:true});
+ const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);} }), {threshold:.12, rootMargin:'0px 0px -32px 0px'});
+ document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 </script>
 </body>
 </html>
