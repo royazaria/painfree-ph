@@ -1961,6 +1961,13 @@
       "date": "2026-08-26",
       "note": "Phase-2 twin of Hebrew post 4724. Topic requested by Yaki 2026-08-25 (cosmeticians / face & neck / aesthetic scars & wounds). All 10 citations verified against PubMed E-utilities at write time incl. notice checks (none attached). Two claims were corrected post-publication after an adversarial re-check: the facial region has TWO studies (Menini 2016 negative; Till 1993 positive, different device class), and scars have one preclinical rat study (37369865), not zero evidence.",
       "il_post_id": 4724
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-oncology-patients-safety-contraindications-review/",
+      "ph_file": "article-pemf-oncology-safety.html",
+      "title_en": "Is PEMF Therapy Safe After Cancer? A 2026 Safety Review",
+      "date": "2026-08-31",
+      "tag": "Clinical Safety Review"
     }
   ],
   "untranslated_queue": [],
@@ -3003,7 +3010,16 @@
       "sweep_2": "PMID 17973597 = 'Miniature excitatory synaptic ion currents in the earthworm Lumbricus terrestris body wall muscles' (Physiol Res 2007), cited on 5 pages as a 13-RCT wound-healing meta-analysis with OR=2.83. The closure percentages attributed to it CONTRADICTED EACH OTHER between pages (57%/32% vs 61%/18%), which is the tell. Replaced everywhere with the real evidence: Cochrane 2015 pressure ulcers (PubMed 26334539, 2 RCTs n=60, no significant difference in complete healing) and Cochrane 2015 venous leg ulcers (PubMed 26134172, 3 RCTs n=94, could not be pooled, 'not clear' whether EMT affects healing). The whole 'Evidence: Diabetic Foot Ulcers' block on article-pemf-wound-healing.html was five fabricated statistics including a 94% AMPUTATION-AVOIDANCE RATE and was replaced in full.",
       "sweep_3": "Amputation positioning removed from three pages. article-pemf-peripheral-arterial-disease.html instructed operators to position PEMF as an 'amputation-avoidance protocol' for Stage IIb patients on vascular surgery waitlists, with a price comparison against bypass surgery. That is a substitution claim with no trial behind it and a patient acting on it can lose a limb. Replaced with an explicit instruction not to make the claim.",
       "files_corrected": 21
+    },
+    {
+      "date": "2026-08-31",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-oncology-safety.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 219
+  "translated_count": 220
 }
