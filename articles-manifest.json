@@ -1968,6 +1968,13 @@
       "title_en": "Is PEMF Therapy Safe After Cancer? A 2026 Safety Review",
       "date": "2026-08-31",
       "tag": "Clinical Safety Review"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-chronic-pelvic-pain-prostatitis-men-evidence/",
+      "ph_file": "article-pemf-chronic-pelvic-pain.html",
+      "title_en": "Chronic Pelvic Pain and Chronic Prostatitis in Men: Does Magnetic Therapy Work?",
+      "date": "2026-09-01",
+      "tag": "Clinical Evidence Review"
     }
   ],
   "untranslated_queue": [],
@@ -3019,7 +3026,16 @@
         "article-pemf-oncology-safety.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-09-01",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-chronic-pelvic-pain.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 220
+  "translated_count": 221
 }
