@@ -1975,6 +1975,13 @@
       "title_en": "Chronic Pelvic Pain and Chronic Prostatitis in Men: Does Magnetic Therapy Work?",
       "date": "2026-09-01",
       "tag": "Clinical Evidence Review"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-shockwave-erectile-function-combination-evidence/",
+      "ph_file": "article-pemf-shockwave-erectile-function.html",
+      "title_en": "Shockwave Therapy for Erectile Function — and Combined With PEMF: What the Evidence Shows",
+      "date": "2026-09-02",
+      "tag": "Clinical Evidence Review"
     }
   ],
   "untranslated_queue": [],
@@ -3035,7 +3042,19 @@
         "article-pemf-chronic-pelvic-pain.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-09-02",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-shockwave-erectile-function.html"
+      ],
+      "files_corrected": [
+        "article-pemf-chronic-pelvic-pain.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 221
+  "translated_count": 222
 }
