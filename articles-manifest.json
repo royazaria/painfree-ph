@@ -1982,6 +1982,13 @@
       "title_en": "Shockwave Therapy for Erectile Function — and Combined With PEMF: What the Evidence Shows",
       "date": "2026-09-02",
       "tag": "Clinical Evidence Review"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-combined-with-existing-treatment-added-value-evidence/",
+      "ph_file": "article-pemf-combined-with-existing-treatment.html",
+      "title_en": "Does Adding PEMF to a Treatment You Already Give Improve the Result?",
+      "date": "2026-09-04",
+      "tag": "Clinical Evidence Review"
     }
   ],
   "untranslated_queue": [],
@@ -3054,7 +3061,16 @@
         "article-pemf-chronic-pelvic-pain.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-09-04",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-combined-with-existing-treatment.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 222
+  "translated_count": 223
 }
