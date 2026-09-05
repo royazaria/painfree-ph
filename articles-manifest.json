@@ -1989,6 +1989,13 @@
       "title_en": "Does Adding PEMF to a Treatment You Already Give Improve the Result?",
       "date": "2026-09-04",
       "tag": "Clinical Evidence Review"
+    },
+    {
+      "il_url": "https://painfree.org.il/pemf-fibromyalgia-questionnaire-acr-criteria-outcome-measures/",
+      "ph_file": "article-pemf-fibromyalgia-questionnaire.html",
+      "title_en": "Which Fibromyalgia Questionnaire Should a Clinic Actually Use?",
+      "date": "2026-09-05",
+      "tag": "Clinical Measurement Guide"
     }
   ],
   "untranslated_queue": [],
@@ -3070,7 +3077,16 @@
         "article-pemf-combined-with-existing-treatment.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-09-05",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-fibromyalgia-questionnaire.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 223
+  "translated_count": 224
 }
