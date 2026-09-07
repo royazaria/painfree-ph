@@ -3086,6 +3086,18 @@
         "article-pemf-fibromyalgia-questionnaire.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-09-07",
+      "phase": 2,
+      "articles_translated": 0,
+      "articles_updated": 2,
+      "files_updated": [
+        "article-pemf-combined-with-existing-treatment.html",
+        "article-pemf-fibromyalgia-questionnaire.html"
+      ],
+      "note": "No new Hebrew article published (Yaki instructed 2026-09-06 to stop new articles and strengthen existing pages). Both twins re-synced to today's Hebrew edits: PubMed 38310424 (ESWT+PEMF, n=75) added to the combination page with its retrospective limitation stated, trial count 4->5; patient answer box and reframed PEMF FAQ added to the fibromyalgia questionnaire page. Null trial 29709070 retained.",
+      "untranslated_remaining": 0
     }
   ],
   "translated_count": 224
