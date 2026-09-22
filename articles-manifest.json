@@ -3106,6 +3106,16 @@
         "article-pemf-fibromyalgia-questionnaire.html"
       ],
       "note": "Yaki 2026-09-08 banned the deterrent hero sentence (\"not a substitute for medical assessment or for treatment you are already receiving\") on the Hebrew twin; mirrored here. The hero now leads with the FIQ 14% decision rule and a suitability-assessment CTA, and links down to the evidence section (new #evidence-split anchor) where the negative Multanen trial is still reported in full. The two other \"not a substitute\" lines on this page were left alone: one is the ACR self-report validity finding (27916278), the other is the \"when PEMF is not relevant\" boundary."
+    },
+    {
+      "date": "2026-09-22",
+      "phase": 2,
+      "articles_translated": 0,
+      "articles_updated": 1,
+      "files_updated": [
+        "article-pemf-cervicogenic-headache.html"
+      ],
+      "note": "Mirrored today's Hebrew edit to pemf-cervicogenic-headache-neck-origin-protocol: added a ranked 'What Actually Works for Cervicogenic Headache?' section (manual therapy > deep cervical flexor work > postural load > PEMF as adjunct > analgesics). Written because Eli's W38 report flagged that Perplexity does not cite us for 'what are the effective treatments for cervicogenic headache' — the page explained the condition and the PEMF mechanism but never answered that question in one extractable block. The existing honest limitation (no dedicated RCT in cervicogenic headache) was left in place in the Evidence section and referenced from the new one. untranslated_queue empty; no new translations warranted."
     }
   ],
   "translated_count": 224
