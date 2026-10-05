@@ -1,0 +1,56 @@
+# painfreeph.com gate (2026-10-04): no page may put PEMF in the add-on voice or leave it out of / last in a treatment
+# section (Yaki "תיקונים חשובים"; ledger L20/L21). Runs the same checker Jack runs locally (.github/ph-addon-check.js is
+# refreshed from seo-injections/lib/ph-addon-check.js by lib/ph-commit.js on every PH commit).
+#
+# Deploy: the `deploy` job publishes Pages ONLY after `check` passes, and only when the repository's Pages source is
+# "GitHub Actions" (Settings → Pages → Build and deployment → Source). While the source is still "Deploy from a branch"
+# (build_type legacy) GitHub publishes every push itself and this workflow can only report a red check.
+name: ph-addon-check
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Add-on voice + treatment-order check (full site, fixtures first)
+        run: node .github/ph-addon-check.js --dir . --quiet
+  mode:
+    needs: check
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    outputs:
+      build_type: ${{ steps.pages.outputs.build_type }}
+    steps:
+      - id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "build_type=$(gh api repos/${{ github.repository }}/pages --jq .build_type 2>/dev/null || echo unknown)" >> "$GITHUB_OUTPUT"
+  deploy:
+    needs: [check, mode]
+    if: needs.mode.outputs.build_type == 'workflow'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

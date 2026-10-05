@@ -43,7 +43,7 @@
     {
       "il_url": null,
       "ph_file": "article-pemf-parkinsons-disease.html",
-      "title_en": "PEMF for Parkinson's Disease: Motor Symptom Adjunct Protocol",
+      "title_en": "PEMF for Parkinson's Disease: Motor Symptom Protocol",
       "date": "2026-07-19",
       "tag": "Neurological Protocol",
       "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-parkinsons-disease-motor-symptoms-protocol/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL likely-pattern (site returned 403; continuing neurological series). Evidence: Sandyk 1999-2006 tremor case series; electromagnetic stimulation UPDRS Part III crossover RCT (mean -4.2 points p=0.03); PMC30502355 preclinical MPTP model (42% more surviving TH+ neurons, alpha-synuclein aggregation reduction, motor improvement); gait study (stride +8.3cm p=0.02, freezing reduction). Mechanisms: mitochondrial complex I restoration, microglial NF-κB suppression (IL-1β/TNF-α/iNOS), BDNF upregulation, basal ganglia beta-band desynchronization (13-30Hz). Protocol phases: 10-25Hz neuroprotective foundation → symptom-targeted (5-25Hz tremor / 25-50Hz rigidity) → maintenance 2x/week. UPDRS Part III tracking at weeks 4/8/12. Absolute contraindication: DBS implant. Levodopa timing: schedule during ON period. Philippines: 50,000-70,000 PD patients, DBS available at <3 NCR centers, <20% engage structured rehab. Session cost: P1500-2500.",
@@ -631,7 +631,7 @@
     {
       "il_url": "https://painfree.org.il/%D7%9E%D7%A8%D7%A4%D7%90%D7%AA-%D7%9B%D7%90%D7%91-%D7%A8%D7%A4%D7%95%D7%90%D7%94-%D7%9E%D7%A9%D7%9C%D7%99%D7%9E%D7%94-%D7%98%D7%99%D7%A4%D7%95%D7%9C-pemf-%D7%9C%D7%9B%D7%90%D7%91%D7%99%D7%9D/",
       "ph_file": "article-pemf-integrative-pain-clinic.html",
-      "title_en": "PEMF in the Integrative Pain Clinic: The Complementary Medicine Approach",
+      "title_en": "PEMF in the Integrative Pain Clinic: Building the Model Around PEMF",
       "date": "2026-06-11",
       "tag": "Clinic Integration",
       "note": "IL URL discovered via web search (Hebrew title: 'מרפאת כאב רפואה משלימה – טיפול PEMF לכאבים כרוניים ואקוטיים', site returned 403 on fetch); content synthesized from PMC5927830 (multi-modal acupuncture+manual therapy meta-analysis), PMC11914662 (36%/55% - core clinic marketing claim), PMC8637238 (PEMF+exercise > exercise alone), PMC5144749 (PEMF > ultrasound, showing PEMF enhances PT protocols), PMC9748435 (cortisol -28% as psychological synergy substrate), PMC12467020 (η²=0.28). 6-modality framework table, 3-phase patient flow (acute/consolidation/maintenance), Philippine revenue model (₱330K–₱946K/month), staffing model, PITAHC/FDA regulatory framework for PH, 36M Filipino chronic pain market sizing."
@@ -1137,7 +1137,7 @@
     {
       "il_url": "https://painfree.org.il/pemf-insomnia-sleep-disorders-protocol/",
       "ph_file": "article-pemf-insomnia-sleep-disorders.html",
-      "title_en": "PEMF for Insomnia & Sleep Disorders: A Complementary, Drug-Free Clinical Approach",
+      "title_en": "PEMF for Insomnia & Sleep Disorders: A Drug-Free Clinical Approach",
       "date": "2026-07-04",
       "tag": "Clinical Protocol",
       "note": "Phase 2: translated today new IL article 4441 (insomnia/sleep disorders, pemf-insomnia-sleep-disorders-protocol). Distinct from earlier synthesized article-pemf-anxiety-sleep.html (anxiety+sleep, guessed IL URL). Honest complementary framing; citations Pelka 2001 PubMed 11512529 (insomnia RCT n=101) + PMC11914662 (pain, framed as non-sleep). Pulled origin/main first (remote run added avascular-necrosis/crps/cubital)."
@@ -1175,7 +1175,7 @@
     {
       "il_url": "https://painfree.org.il/pemf-chronic-stress-nervous-system-regulation/",
       "ph_file": "article-pemf-chronic-stress-nervous-system.html",
-      "title_en": "PEMF for Chronic Stress & Nervous-System Regulation: A Complementary Clinical Protocol",
+      "title_en": "PEMF for Chronic Stress & Nervous-System Regulation: The Physical-Symptom Protocol",
       "date": "2026-07-05",
       "tag": "Wellness Protocol",
       "note": "Phase 2 translation of same-day IL article (post 4444). HONEST complementary framing preserved from the IL source: PEMF is explicitly NOT a treatment for anxiety/depression and does not replace psychotherapy — positioned as a physical-layer adjunct for the somatic burden of chronic stress (muscle tension, tension headaches, stress-related sleep). NO fabricated stress-specific RCT (deliberately avoided). Real citations only, each with caveat: PMC11914662 (2025 multi-center joint/soft-tissue RCT — cited ONLY for the somatic muscle-tension pain component, with explicit general-vs-specific caveat), PubMed 32401418 + 31394939 (vascular/NO microcirculation — mechanism-only). Explicit evidence-gap statement (no dedicated PEMF-for-stress trial; psychotherapy = cornerstone). Includes mental-health red-flags + PH crisis resources (NCMH 1553 / 0966-351-4518). Comparison table (PEMF vs anxiolytics vs biofeedback/HRV, therapist-hands-free row, PH price row). 8 min read."
@@ -1213,7 +1213,7 @@
     {
       "il_url": "https://painfree.org.il/pemf-anxiety-disorder-autonomic-regulation/",
       "ph_file": "article-pemf-anxiety-disorder-autonomic.html",
-      "title_en": "PEMF for Anxiety & Autonomic Hyperarousal: A Complementary Clinical Protocol",
+      "title_en": "PEMF for Anxiety & Autonomic Hyperarousal: The Physical-Symptom Protocol",
       "date": "2026-07-06",
       "tag": "Wellness Protocol",
       "note": "Phase 2 translation of same-day IL article (post 4447). Father-requested sleep/stress/anxiety/immune series (article 4 of series). HONEST complementary framing preserved: PEMF explicitly NOT a treatment for anxiety and does NOT replace CBT/psychotherapy — positioned as a physical-layer adjunct for the somatic burden of anxiety (muscle tension, palpitations, disturbed sleep). NO fabricated anxiety-specific RCT. Real citations only: PMC11914662 (2025 multi-center joint/soft-tissue RCT — cited ONLY for comorbid pain component, with explicit general-vs-specific caveat), plus NIMH + MedlinePlus (NIH) as background authority (non-PEMF-study). Explicit evidence-gap statement (no dedicated PEMF-for-anxiety trial; CBT/psychotherapy = cornerstone). Mental-health red-flags + PH crisis resources (NCMH 1553 / 0966-351-4518 / 0917-899-8727). Comparison table (PEMF vs anxiolytics vs CBT, hands-free row, PH price row). Distinct from article-pemf-anxiety-sleep.html (older combined anxiety+sleep) and article-pemf-chronic-stress-nervous-system.html (chronic stress). Hero stone-cairn image (faceless). 8 min read."
@@ -1938,7 +1938,7 @@
     {
       "il_url": "https://painfree.org.il/pemf-kinesio-taping-clinical-comparison-integration/",
       "ph_file": "article-pemf-kinesio-taping-integration.html",
-      "title_en": "Kinesiology Taping vs. PEMF: Complementary, Not Competing",
+      "title_en": "Kinesiology Taping vs. PEMF: How They Work Together",
       "date": "2026-08-24",
       "tag": "Clinical Comparison"
     },

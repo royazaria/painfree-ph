@@ -1,0 +1,25 @@
+#!/bin/sh
+# painfree-ph pre-commit — refuse any commit that puts PEMF in the add-on voice ("adjunct", "complementary",
+# "alongside the physiotherapy you already do", "not a replacement for physiotherapy", "the cornerstone is physio") or a
+# treatment section that lists every option except PEMF / puts PEMF last (Yaki 2026-10-04 "תיקונים חשובים";
+# Roy: "הכי חשוב שזה לא יקרה שוב"). Grades what the commit will contain: staged *.html + articles.html + index.html +
+# the staged articles-manifest.json (title_en). Fails closed: no checker or no node = no commit.
+# Active via:  git config core.hooksPath .githooks      (lib/ph-commit.js is the normal route; this catches a raw commit)
+top="$(git rev-parse --show-toplevel)"
+chk=""
+for c in "$PH_ADDON_CHECK" "$top/../SEO/seo injections/lib/ph-addon-check.js" "$top/.github/ph-addon-check.js"; do
+  if [ -n "$c" ] && [ -f "$c" ]; then chk="$c"; break; fi
+done
+if [ -z "$chk" ]; then
+  echo "pre-commit: ph-addon-check.js not found (seo-injections/lib or .github/) - refusing; nothing read is not a pass." >&2
+  exit 1
+fi
+if ! command -v node >/dev/null 2>&1; then
+  echo "pre-commit: node not found - refusing (the add-on check cannot run)." >&2
+  exit 1
+fi
+if ! node "$chk" --staged --quiet --dir "$top"; then
+  echo "pre-commit: REFUSED by ph-addon-check (flags above). Rewrite them in our voice: PEMF leads; the physiotherapy and exercises continue \"together with\" it (Jack/SKILL.md Step 8 section 8.2). Never --no-verify." >&2
+  exit 1
+fi
+exit 0
