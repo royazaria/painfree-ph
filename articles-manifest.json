@@ -1153,14 +1153,13 @@
       "il_url_verified": "2026-08-02"
     },
     {
-      "il_url": null,
+      "il_url": "https://painfree.org.il/pain-after-knee-replacement-surgery/",
       "ph_file": "article-pemf-knee-replacement-recovery.html",
       "title_en": "PEMF for Total Knee Arthroplasty Recovery: Post-Surgical Pain & Rehabilitation Protocol",
       "date": "2026-07-05",
       "tag": "Post-Surgical Protocol",
-      "note": "NO Hebrew twin exists. This English page was synthesised from PubMed/PMC literature by the retired cloud routine, not translated from an Israeli article; its previous il_url (\"https://painfree.org.il/pemf-total-knee-arthroplasty-tka-recovery-protocol/\") was a guessed slug returning 404 and has been removed rather than left pointing at a dead page. IL URL likely-pattern (site returned 403 on fetch). Distinct from article-pemf-post-surgical-recovery.html (multi-indication general). Specific TKA focus. Evidence: PMID 28060214 (post-surgical RCT: 36% vs 72% severe pain, 1.9x lower 24hr analgesic, 2.1x lower 7-day analgesic — c-section cohort, mechanisms identical to TKA), PMC11330404 (post-surgical swelling RCT n=30: 56.2ml vs 23.6ml volumetric reduction), PMID 32495506 (14 RCTs n=1,131 bone healing 79.7% vs 64.3% RR=1.22 — applied to osseointegration), PMC9110240 (11 RCTs n=614 knee OA pain SMD=0.71/stiffness SMD=1.34/function SMD=1.52 — pre-op prehabilitation application), PMC7298453 (joint replacements PEMF evidence). 3-phase protocol table (POD 1–14/weeks 3–8/weeks 9–16), 6-treatment comparison (PEMF vs standard physio/NSAIDs/cryotherapy/CPM with PH costs and hands-on-time row), pre-op prehabilitation window section. Philippines: 15–20%/yr TKA volume growth, private hospital expansion. 10 min read.",
-      "no_il_twin": true,
-      "il_url_verified": "2026-08-02"
+      "note": "Hebrew twin published 2026-10-07 (post 4991, same evidence: Adravanti 2014 / Moretti 2012).",
+      "il_url_verified": "2026-10-07"
     },
     {
       "il_url": null,
