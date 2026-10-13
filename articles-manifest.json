@@ -1995,6 +1995,15 @@
       "title_en": "Which Fibromyalgia Questionnaire Should a Clinic Actually Use?",
       "date": "2026-09-05",
       "tag": "Clinical Measurement Guide"
+    },
+    {
+      "il_url": "https://painfree.org.il/acute-low-back-pain-lumbago-back-spasm/",
+      "ph_file": "article-pemf-acute-low-back-pain-lumbago.html",
+      "title_en": "Acute Low Back Pain (Lumbago): What to Do When Your Back Locks Up — and How to Get Relief Fast",
+      "date": "2026-10-13",
+      "tag": "Back Pain Guide",
+      "il_url_verified": "2026-10-13",
+      "note": "English twin of IL post 4990 (same evidence: PubMed 35077249 / 30177406 / 37999784)."
     }
   ],
   "untranslated_queue": [],
@@ -3115,7 +3124,16 @@
         "article-pemf-cervicogenic-headache.html"
       ],
       "note": "Mirrored today's Hebrew edit to pemf-cervicogenic-headache-neck-origin-protocol: added a ranked 'What Actually Works for Cervicogenic Headache?' section (manual therapy > deep cervical flexor work > postural load > PEMF as adjunct > analgesics). Written because Eli's W38 report flagged that Perplexity does not cite us for 'what are the effective treatments for cervicogenic headache' — the page explained the condition and the PEMF mechanism but never answered that question in one extractable block. The existing honest limitation (no dedicated RCT in cervicogenic headache) was left in place in the Evidence section and referenced from the new one. untranslated_queue empty; no new translations warranted."
+    },
+    {
+      "date": "2026-10-13",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-acute-low-back-pain-lumbago.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 224
+  "translated_count": 225
 }
