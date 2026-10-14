@@ -2004,6 +2004,15 @@
       "tag": "Back Pain Guide",
       "il_url_verified": "2026-10-13",
       "note": "English twin of IL post 4990 (same evidence: PubMed 35077249 / 30177406 / 37999784)."
+    },
+    {
+      "il_url": "https://painfree.org.il/lower-back-pain-one-side-left-right/",
+      "ph_file": "article-pemf-lower-back-pain-one-side.html",
+      "title_en": "Lower Back Pain on One Side (Right or Left): What It Means and How to Ease It",
+      "date": "2026-10-14",
+      "tag": "Back Pain Guide",
+      "il_url_verified": "2026-10-14",
+      "note": "English twin of IL post 4998 (same evidence: PubMed 35077249 / 37999784 / 30177406)."
     }
   ],
   "untranslated_queue": [],
@@ -3133,7 +3142,16 @@
         "article-pemf-acute-low-back-pain-lumbago.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-10-14",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-lower-back-pain-one-side.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 225
+  "translated_count": 226
 }
