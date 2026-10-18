@@ -2022,6 +2022,15 @@
       "tag": "Back Pain Guide",
       "il_url_verified": "2026-10-15",
       "note": "English twin of IL post 5000 (same evidence: PubMed 35077249 / 37999784 / 30177406)."
+    },
+    {
+      "il_url": "https://painfree.org.il/back-pain-when-sitting/",
+      "ph_file": "article-pemf-back-pain-when-sitting.html",
+      "title_en": "Back Pain When Sitting: Why Your Lower Back Hurts in the Chair and How to Ease It",
+      "date": "2026-10-18",
+      "tag": "Back Pain Guide",
+      "il_url_verified": "2026-10-18",
+      "note": "English twin of IL post 5003 (same evidence: PubMed 35077249 / 37999784 / 30177406)."
     }
   ],
   "untranslated_queue": [],
@@ -3169,7 +3178,16 @@
         "article-pemf-back-pain-at-night.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-10-18",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-back-pain-when-sitting.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 227
+  "translated_count": 228
 }
