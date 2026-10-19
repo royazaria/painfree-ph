@@ -2031,6 +2031,15 @@
       "tag": "Back Pain Guide",
       "il_url_verified": "2026-10-18",
       "note": "English twin of IL post 5003 (same evidence: PubMed 35077249 / 37999784 / 30177406)."
+    },
+    {
+      "il_url": "https://painfree.org.il/back-pain-when-standing/",
+      "ph_file": "article-pemf-back-pain-when-standing.html",
+      "title_en": "Back Pain When Standing: Why Your Lower Back Hurts After Long Hours on Your Feet and How to Ease It",
+      "date": "2026-10-19",
+      "tag": "Back Pain Guide",
+      "il_url_verified": "2026-10-19",
+      "note": "English twin of IL post 5005 (same evidence: PubMed 35077249 / 37999784 / 30177406)."
     }
   ],
   "untranslated_queue": [],
@@ -3187,7 +3196,16 @@
         "article-pemf-back-pain-when-sitting.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-10-19",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-back-pain-when-standing.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 228
+  "translated_count": 229
 }
