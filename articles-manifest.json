@@ -2040,6 +2040,15 @@
       "tag": "Back Pain Guide",
       "il_url_verified": "2026-10-19",
       "note": "English twin of IL post 5005 (same evidence: PubMed 35077249 / 37999784 / 30177406)."
+    },
+    {
+      "il_url": "https://painfree.org.il/foot-pain/",
+      "ph_file": "article-pemf-foot-pain.html",
+      "title_en": "Foot Pain: What Causes Heel, Arch and Ankle Pain — and How to Ease It",
+      "date": "2026-10-20",
+      "tag": "Foot Pain Guide",
+      "il_url_verified": "2026-10-20",
+      "note": "English twin of IL post 5007 (foot hub; same evidence: PubMed 22297104 / 42708522 / 41716305 / 39534390 / 19577022)."
     }
   ],
   "untranslated_queue": [],
@@ -3205,7 +3214,16 @@
         "article-pemf-back-pain-when-standing.html"
       ],
       "untranslated_remaining": 0
+    },
+    {
+      "date": "2026-10-20",
+      "phase": 2,
+      "articles_translated": 1,
+      "files_created": [
+        "article-pemf-foot-pain.html"
+      ],
+      "untranslated_remaining": 0
     }
   ],
-  "translated_count": 229
+  "translated_count": 230
 }
